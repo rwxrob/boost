@@ -1,4 +1,4 @@
-# Outline and Register
+# Beginner Boost Content Outline (Register)
 
 Here is the [register] of all content current and planned for the Beginner
 Boost. Although the order is sometimes arbitrary (a by-product of
