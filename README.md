@@ -2,35 +2,41 @@
 
 ![WIP](https://img.shields.io/badge/status-wip-red.svg)
 
-Every May the 4th, we hold a *Beginner Boost* to push young (and old)
-Padawans off in the right technical direction lest they become
-overwhelmed by the dark side (which contrary to popular opinion isn't
-*just* "full stack" development). The world needs more skilled Jedi
-fighting the war for [open source] and [open knowledge] and we are hear
-to help.
+Every May the 4th, I hold a newly updated *Beginner Boost* to push young
+(and old) Padawans off in the right modern technical direction, lest
+they become overwhelmed by the dark side. The world needs more skilled
+terminal Jedi, and I'm here to help as best I can. It's my way of
+passing forward what others have done for me.
 
-[open source]: <https://duck.com/lite?kd=-1&kp=-1&q=open source> 
-[open knowledge]: <https://keg.sh>
+[SKILSTAK]: <https://skilstak.io>
 
 Below is the outline of current and planned content. This is a living
-document; it changes from one day to the next, you know, like software.
-Knowledge source is actually very similar to source code, which is why
-all this is on GitHub. You will probably want to *Watch* it to be
-notified of updates and changes. A *Star* would be nice as well. If you
-want to contribute open an *Issue* to discuss it.
+document; it changes from day to day --- even hour to hour --- like
+software. In fact, knowledge source is actually very similar to source
+code and works well in source management systems like Git and GitHub.
 
-## How We Do Things 
+> You may want to *Watch* this GitHub repo to be notified of updates and
+changes. A *Star* would be nice as well. If you want to contribute open
+an *Issue* to discuss it.
 
+## Before You Begin
+
+Here's stuff to know and understand before beginning. Consider this
+stuff carefully before you commit to participating.
+
+### How I Do Things
+
+1. I Swear A Lot. Don't Like It? Go Someplace Else.
 1. Cozy and Crazy Live Streams on Twitch
 1. Content Repo on GitHub to Follow
 1. Zettelkasten on Paper and GitHub, Zettelcasting on YouTube
-1. We Teach Ourselves "The Hard Way"
+1. I Push You to Learn "The Hard Way", No Shortcuts, No Pampering
 1. Naming Conventions
    1. Imperative Verbs for Tasks, Skills, Like a Job Posting
    1. Nouns for Concepts and Terms (Verb Would Be *Grok*)
    1. Sentences for Principles, Articles, Rants
 
-## Basic Prerequisites
+### Technical Prerequisites
 
 1. Speak and Write Basic English
 1. Do Basic Algebraic Functions
