@@ -143,6 +143,8 @@ Learn to Use the Linux Terminal
 1. Preserve Your Dotfiles on GitHub
 1. Create a Dotfiles Docker Image
 
+Create and Manage Knowledge Content
+
 1. Structure Data with YAML and JSON
 1. Query YAML and JSON with `yq` and `jq`
 1. Create and Publish Web Documents
@@ -162,31 +164,32 @@ Learn to Use the Linux Terminal
    1. Create and Parse Your Own Language
    1. Better Than Regular Expressions
 
-1. Code C for Understanding, Head First C
-1. Code POSIX Shell Scripts
-1. Code Python Applications
+Code C for Understanding
 
-1. Code Go Utilities and Services
+1. Head First C
+
+Code Python for Applications and Automation
+
+1. ?? 
+
+Code Go for Utilities and Services
 
 1. Code Go Templates
 
-1. Get Good to Gig
-   1. Stay Prescient
-   1. Use Twitter Productively
-   1. Follow Usenet News Groups
-   1. Use IRC 
+Get Good to Gig
 
-And later:
+1. The Prescient Technology Professional
+1. Use Twitter Productively
+1. Follow Usenet News Groups
+1. Use IRC 
 
+Create and Manage Docker Containers
 
-1. Create and Manage Docker Containers
+1. Code Dockerfiles
+
+Cloud-Native with Kubernetes
+
 1. Explore Kubernetes Locally with Kind
 1. Develop Cloud-Native Applications
 1. Deploy Kubernetes Applications with Helm
 1. Setup and Administer Kubernetes
-
-Each boost corresponds with an open credential (based on this content
-outline) that you can essentially give yourself. Or, you can ask others
-with experience in such roles for direct assessment and validation of
-your own assessment (but no tests, ever).
-
