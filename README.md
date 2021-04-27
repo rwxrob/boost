@@ -12,10 +12,12 @@ to help.
 [open source]: <https://duck.com/lite?kd=-1&kp=-1&q=open source> 
 [open knowledge]: <https://keg.sh>
 
-Here is the outline of all content current and planned for the Beginner
-Boost. Although the order is sometimes arbitrary (a by-product of
-flattening a graph structure), this is the order the content will be
-covered. Each should eventually have its own page and video.
+Below is the outline of current and planned content. This is a living
+document; it changes from one day to the next, you know, like software.
+Knowledge source is actually very similar to source code, which is why
+all this is on GitHub. You will probably want to *Watch* it to be
+notified of updates and changes. A *Star* would be nice as well. If you
+want to contribute open an *Issue* to discuss it.
 
 ## How We Do Things 
 
