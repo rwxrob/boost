@@ -1,9 +1,16 @@
-# Beginner Boost Content Outline
+# Beginner Boost
 
-Every May the 4th, we hold a *Beginner Boost* to push those just starting
-off in the right technical direction toward other pursuits be they
-personal or professional. The world needs more qualified technologists
-and we're here to help.
+![WIP](https://img.shields.io/badge/status-wip-red.svg)
+
+Every May the 4th, we hold a *Beginner Boost* to push young (and old)
+Padawans off in the right technical direction lest they become
+overwhelmed by the dark side (which contrary to popular opinion isn't
+*just* "full stack" development). The world needs more skilled Jedi
+fighting the war for [open source] and [open knowledge] and we are hear
+to help.
+
+[open source]: <https://duck.com/lite?kd=-1&kp=-1&q=open source> 
+[open knowledge]: <https://keg.sh>
 
 Here is the outline of all content current and planned for the Beginner
 Boost. Although the order is sometimes arbitrary (a by-product of
@@ -12,21 +19,24 @@ covered. Each should eventually have its own page and video.
 
 ## How We Do Things 
 
-1. Content on GitHub with Version, Follow to Keep Up
 1. Cozy and Crazy Live Streams on Twitch
-1. Zettel-Casting on YouTube with Playlists
-1. Just Enough to Let You Do It "The Hard Way"
-1. No One is Going to Fucking Teach You, Teach Yourself
+1. Content Repo on GitHub to Follow
+1. Zettelkasten on Paper and GitHub, Zettelcasting on YouTube
+1. We Teach Ourselves "The Hard Way"
+1. Naming Conventions
+   1. Imperative Verbs for Tasks, Skills, Like a Job Posting
+   1. Nouns for Concepts and Terms (Verb Would Be *Grok*)
+   1. Sentences for Principles, Articles, Rants
 
-## Fulfill Basic Prerequisites
+## Basic Prerequisites
 
-1. Own a Computer with Admin Access
-1. Search, Bookmark, and Browse the Web
-1. Type 30 WPM from Home Row
-1. Do Basic Algebraic Functions
 1. Speak and Write Basic English
-1. Understand Basic Network Concepts and Usage
+1. Do Basic Algebraic Functions
+1. Type 30 WPM from Home Row
+1. Own a Computer with Admin Access
 1. Manage Your Own Passwords Responsibly
+1. Search, Bookmark, and Browse the Web
+1. Understand Basic Network Concepts and Usage
 
 ## Setup Essential Services
 
@@ -38,6 +48,7 @@ covered. Each should eventually have its own page and video.
 
 ## Want to Learn
 
+1. Learn Code, Save the World
 1. Pedagogy of the Oppressed, Paulo Friere
 1. Drive, Daniel Pink 
 1. Out of Our Minds, Sir Ken Robinson
@@ -184,7 +195,7 @@ covered. Each should eventually have its own page and video.
 1. The Prescient Technology Professional
 1. Use Twitter Productively
 1. Follow Usenet News Groups
-1. Use IRC 
+1. Use IRC and WeeChat from Terminal
 
 ## Create and Manage Docker Containers
 
