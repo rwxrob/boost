@@ -2,13 +2,10 @@
 
 ![WIP](https://img.shields.io/badge/status-wip-red.svg)
 
-Every May the 4th, I hold a newly updated *Beginner Boost* to push young
-(and old) Padawans off in the right modern technical direction, lest
-they become overwhelmed by the dark side. The world needs more skilled
-terminal Jedi, and I'm here to help as best I can. It's my way of
-passing forward what others have done for me.
-
-[SKILSTAK]: <https://skilstak.io>
+The main purpose of *Beginner Boost* is to help you know what you don't know
+and where to go to learn it. Secondarily, we cover stuff that might not
+be covered at all or as well elsewhere. The Boost is a community affair,
+which is why you'll see the word "we" a lot.
 
 Below is the outline of current and planned content. This is a living
 document; it changes from day to day --- even hour to hour --- like
@@ -26,83 +23,79 @@ stuff carefully before you commit to participating.
 
 ### How I Do Things
 
-1. I Swear A Lot. Don't Like It? Go Someplace Else.
-1. Cozy and Crazy Live Streams on Twitch
-1. Content Repo on GitHub to Follow
-1. Zettelkasten on Paper and GitHub, Zettelcasting on YouTube
-1. I Push You to Learn "The Hard Way", No Shortcuts, No Pampering
-1. Naming Conventions
-   1. Imperative Verbs for Tasks, Skills, Like a Job Posting
-   1. Nouns for Concepts and Terms (Verb Would Be *Grok*)
-   1. Sentences for Principles, Articles, Rants
+1. Live Coding and Conversation on Twitch
+1. Zettelkasten on GitHub
+1. Zettelcasting on YouTube
+1. "The Hard Way", No Shortcuts, No Pampering
+1. [Naming Conventions](/zet/20210428185352)
 
 ### Technical Prerequisites
 
-1. Speak and Write Basic English
-1. Do Basic Algebraic Functions
-1. Type 30 WPM from Home Row
-1. Own a Computer with Admin Access
-1. Manage Your Own Passwords Responsibly
-1. Search, Bookmark, and Browse the Web
-1. Understand Basic Network Concepts and Usage
+1. Speak and Write Basic English ◔
+1. Do Basic Algebraic Functions ◔
+1. Type 30 WPM from Home Row ◔
+1. Own a Computer with Admin Access ◔
+1. Manage Your Own Passwords Responsibly ◑
+1. Search, Bookmark, and Browse the Web ◑
+1. Understand Basic Network Concepts and Usage ◕
 
 ## Setup Essential Services
 
-1. Pick an Email Provider (ProtonMail)
-1. Create a YouTube Account
-1. Create a Twitch Account
-1. Create GitHub Account
-1. Create Docker Account
+1. Pick an Email Provider (ProtonMail) ◔
+1. Create a YouTube Account ◔
+1. Create a Twitch Account ◔
+1. Create a GitHub Account ◔
+1. Create a Docker Account ◔
 
 ## Want to Learn
 
-1. Learn Code, Save the World
-1. Pedagogy of the Oppressed, Paulo Friere
-1. Drive, Daniel Pink 
-1. Out of Our Minds, Sir Ken Robinson
+1. Learn Code, Save the World ◑
+1. Pedagogy of the Oppressed, Paulo Friere ◑
+1. Drive, Daniel Pink ◑
+1. Out of Our Minds, Sir Ken Robinson ◑
 
 ## Learn How to Learn
 
-1. Why Don't Schools Teach Us How to Learn?
-1. Stop Overpaying for "Education"
-1. Stop Being Afraid, Teach Yourself, Don't Depend on Others
-1. The Scientific Method, Our Greatest Tool
-1. The RWX Method: Read, Write, Explore
-1. The *Real* Zettelkasten Method
-1. Take Notes in Pandoc Markdown
+1. Why Don't Schools Teach Us How to Learn? ◑
+1. Stop Overpaying for "Education" ◑
+1. Stop Being Afraid, Teach Yourself, Don't Depend on Others ◑
+1. The Scientific Method, Our Greatest Tool ◑
+1. The RWX Method: Research, Write, Experiment and Explore ◕
+1. The *Real* Zettelkasten Method ◕
+1. Take Notes in Pandoc Markdown ◑
 
 ## Understand Linux Essentials
 
-1. What's Linux? History of UNIX and GNU/Linux
-1. Do Macs Use Linux?
-1. Does Windows Use Linux?
-1. The UNIX Philosophy
-1. How Linux Architecture Works
-1. When and How Should I Install Linux?
+1. What's Linux? History of UNIX and GNU/Linux ◕
+1. Do Macs Use Linux? ◑
+1. Does Windows Use Linux? ◑
+1. The UNIX Philosophy ◑
+1. How Linux Architecture Works ◕
+1. When and How Should I Install Linux? ◑
 
 ## Install and Use a Local Terminal
 
-1. Install, Open, and Configure Modern Windows Terminal
-1. What About Windows WSL2?
+1. Install, Open, and Configure Modern Windows Terminal ◑
+1. What About Windows WSL2? ◑
    1. Pain to Install
    1. Doesn't Work with VPNs
    1. Dubious File Permissions Handling
    1. Not a *Real* Docker Container
    1. Controlled by Microsoft
-1. Should I Install Git-Bash on Windows?
-1. Can't I Just Use VSCode Terminal on Windows?
-1. Open and Configure a Mac Terminal
-1. Open and Configure a Linux Terminal 
-1. What About Alacritty?
+1. Should I Install Git-Bash on Windows? ◔ 
+1. Can't I Just Use VSCode Terminal on Windows? ◔
+1. Open and Configure a Mac Terminal ◔
+1. Open and Configure a Linux Terminal ◔
+1. What About Alacritty? ◔
 
 ## Learn to Use Containers
 
-1. What's a Container and Why Should You Care?
+1. What's a Container and Why Should You Care? ◑
 1. Install Docker
-   1. Install Docker on Windows
-   1. Install Docker on a Mac
-   1. Install Docker on Linux
-1. What's the Difference Between "Container" and "Image"?
+   1. Install Docker on Windows ◑
+   1. Install Docker on a Mac ◑
+   1. Install Docker on Linux ◑
+1. What's the Difference Between "Container" and "Image"? ◔
 1. Use Docker Basic Commands
    1. Docker Pull
    1. Docker Run
