@@ -57,9 +57,9 @@ an *Issue* to discuss it.
 
 ## Install and/or Use Terminal
 
-**Mac:** Open and Configure a Mac Terminal
-**Windows:** Install and Configure Modern Windows Terminal
-**Linux:** Open and Configure a Linux Terminal
+**Mac:** Open and Configure a Mac Terminal  
+**Windows:** Install and Configure Modern Windows Terminal  
+**Linux:** Open and Configure a Linux Terminal  
 
 1. Should I install Git-Bash on Windows?
 1. Can't I just use VSCode on Windows?
