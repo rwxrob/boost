@@ -10,9 +10,7 @@ software].
 
 > 🌟 You may want to *Watch* this GitHub repo to be notified of updates and
 changes. A *Star* would be nice as well. If you want to contribute open
-an *Issue* to discuss it. 
->
-> Also, much of the content will be drawn from my
+an *Issue* to discuss it. Much of the content will be drawn from my
 [personal Zettelkasten repo] and my [learning labs] (which you might
 also want to watch for changes, but they are not always Boost related).
 
