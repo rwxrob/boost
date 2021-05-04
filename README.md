@@ -12,42 +12,22 @@ software].
 changes. A *Star* would be nice as well. If you want to contribute open
 an *Issue* to discuss it.
 
-## Before You Begin
+## Who is the Beginner Boost for?
 
-Here's stuff to know and understand before beginning. Consider this
-stuff carefully before you commit to participating.
+1. Absolute Beginners in Who Meet the [Prerequisites](20210427021329)
+1. Those With Tough Enough Skin to Learn [My Way]
+1. Technologists Missing the [Fundamentals](20210504205245)
+1. Anyone Learning [Linux, Containers, and Coding](20210427021330)
 
-### How I Do Things
-
-1. Live Coding and Conversation on Twitch
-1. Zettelkasten on GitHub
-1. Zettelcasting on YouTube
-1. "The Hard Way", No Shortcuts, No Pampering
-
-### Technical Prerequisites
-
-1. Speak and Write Basic English
-1. Do Basic Algebraic Functions
-1. Type 30 WPM from Home Row
-1. Own a Computer with Admin Access
-1. Manage Your Own Passwords Responsibly
-1. Search, Bookmark, and Browse the Web
-1. Understand Basic Network Concepts and Usage
+[My Way]: <https://github.com/rwxrob/zet/tree/main/20210504214117>
 
 ## Setup Essential Services
 
 1. Pick an Email Provider (ProtonMail)
 1. Create a YouTube Account
-1. Create a Twitch Account
+1. Create a Twitch Account (Or Not)
 1. Create a GitHub Account
 1. Create a Docker Account
-
-## Want to Learn
-
-1. Learn Code, Save the World
-1. Pedagogy of the Oppressed, Paulo Friere
-1. Drive, Daniel Pink
-1. Out of Our Minds, Sir Ken Robinson
 
 ## Learn How to Learn
 
@@ -55,7 +35,7 @@ stuff carefully before you commit to participating.
 1. Stop Overpaying for "Education"
 1. Stop Being Afraid, Teach Yourself, Don't Depend on Others
 1. Become an Autodidact
-1. How I Learned to Learn, Quick Stories from Rob's Past
+1. How I Learned to Learn, Quick Stories from My Learning Past
 1. Role of Imagination and Creativity When Learning
 1. The Scientific Method, Our Greatest Learning Tool
 1. The RWX Method, Refining the Scientific Method
@@ -75,20 +55,15 @@ stuff carefully before you commit to participating.
 1. How Linux Architecture Works
 1. When and How Should I Install Linux?
 
-## Install and Use a Local Terminal
+## Install and/or Use Terminal
 
-1. Install, Open, and Configure Modern Windows Terminal
-1. What About Windows WSL2?
-   1. Pain to Install
-   1. Doesn't Work with VPNs
-   1. Dubious File Permissions Handling
-   1. Not a *Real* Docker Container
-   1. Controlled by Microsoft
-1. Should I Install Git-Bash on Windows?
-1. Can't I Just Use VSCode Terminal on Windows?
-1. Open and Configure a Mac Terminal
-1. Open and Configure a Linux Terminal
-1. What About Alacritty?
+**Mac:** Open and Configure a Mac Terminal
+**Windows:** Install and Configure Modern Windows Terminal
+**Linux:** Open and Configure a Linux Terminal
+
+1. Should I install Git-Bash on Windows?
+1. Can't I just use VSCode on Windows?
+1. What about Alacritty or ...?
 
 ## Learn to Use Containers
 
