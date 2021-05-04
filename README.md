@@ -18,6 +18,7 @@ changes. A *Star* would be nice as well. If you want to contribute open
 an *Issue* to discuss it. Much of the content will be drawn from my
 [personal Zettelkasten repo] and my [learning labs] (which you might
 also want to watch for changes, but they are not always Boost related).
+You can also help fund this project by clicking *Sponsor*. Thanks.
 
 [personal Zettelkasten repo]: <https://github.com/rwxrob/zet>
 [learning labs]: <https://github.com/rwxrob/lab>
