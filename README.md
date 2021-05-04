@@ -3,7 +3,7 @@
 ![WIP](https://img.shields.io/badge/status-wip-red.svg)
 
 Every [May the 4th] I hold a free series of live-recorded *Beginner
-Boost* sessions on Twitch and YouTube that runs through the end of July
+Boost* sessions on Twitch and YouTube that run through the end of July
 (or so). Below is the outline of current and planned content. This is a
 living document; it changes from day to day --- even hour to hour ---
 [like software].
