@@ -2,10 +2,13 @@
 
 ![WIP](https://img.shields.io/badge/status-wip-red.svg)
 
-Below is the outline of current and planned content. This is a living
-document; it changes from day to day --- even hour to hour --- [like
-software].
+Every [May the 4th] I hold a free series of live-recorded *Beginner
+Boost* sessions on Twitch and YouTube that runs through the end of July
+(or so). Below is the outline of current and planned content. This is a
+living document; it changes from day to day --- even hour to hour ---
+[like software].
 
+[May the 4th]: 20210503061604
 [like software]: <https://github.com/rwxrob/zet/search?q=knowledge%20as%20source>
 
 > 🌟 You may want to *Watch* this GitHub repo to be notified of updates and
