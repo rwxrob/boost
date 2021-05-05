@@ -23,22 +23,13 @@ You can also help fund this project by clicking *Sponsor*. Thanks.
 [personal Zettelkasten repo]: <https://github.com/rwxrob/zet>
 [learning labs]: <https://github.com/rwxrob/lab>
 
-## Who is the Beginner Boost for?
+## Day 0
 
-1. Absolute Beginners Who Meet the [Prerequisites](20210427021329)
-1. Those With Tough Enough Skin to Learn [My Way]
-1. Technologists Missing the [Fundamentals](20210504205245)
-1. Anyone Learning [Linux, Containers, and Coding](20210427021330)
+1. [Beginner Boost, Day 0, Logistics](20210505025834)
+1. [Who is the Beginner Boost for?](20210505031231)
+1. [Setup Essential Services](https://github.com/rwxrob/zet/tree/main/20210505023938)
 
-[My Way]: <https://github.com/rwxrob/zet/tree/main/20210504213727>
-
-## Setup Essential Services
-
-1. Pick an Email Provider (ProtonMail)
-1. Create a YouTube Account
-1. Create a Twitch Account (Or Not)
-1. Create a GitHub Account
-1. Create a Docker Account
+## Day 1
 
 ## Learn How to Learn
 
