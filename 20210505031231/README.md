@@ -7,6 +7,3 @@
 
 [My Way]: <https://github.com/rwxrob/zet/tree/main/20210504213727>
 
-[Setup Essential
-Services](https://github.com/rwxrob/zet/tree/main/20210505023938)
-
