@@ -1,5 +1,7 @@
 # Before You Begin, Technical Prerequisites
 
+[[YouTube Video]](https://youtu.be/fAp2PzSAFkY)
+
 Here's stuff to know and understand before beginning. Consider this
 stuff carefully before you commit to participating.
 
