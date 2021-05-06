@@ -23,32 +23,37 @@ You can also help fund this project by clicking *Sponsor*. Thanks.
 [personal Zettelkasten repo]: <https://github.com/rwxrob/zet>
 [learning labs]: <https://github.com/rwxrob/lab>
 
-## Day 0
+## Day 0, Get Set Up, May the 4th Be With You
 
 1. [Beginner Boost, Day 0, Logistics](20210505025834)
 1. [Who is the Beginner Boost for?](20210505031231)
-1. [Setup Essential Services](https://github.com/rwxrob/zet/tree/main/20210505023938)
+1. [Setup Essential Services][services]
 
-## Day 1
+[services]: <https://github.com/rwxrob/zet/tree/main/20210505023938>
 
-## Learn How to Learn
+## Day 1, Get Motivated to Learn ¡Viva la Revolución!
 
-1. Why Don't Schools Teach Us How to Learn?
-1. Stop Overpaying for "Education"
-1. Stop Being Afraid, Teach Yourself, Don't Depend on Others
-1. Become an Autodidact
-1. How I Learned to Learn, Quick Stories from My Learning Past
-1. Role of Imagination and Creativity When Learning
-1. The Scientific Method, Our Greatest Learning Tool
+1. [Problems with Traditional Education][prob]
+1. [Help Others Learn, A Social Responsibility][social]
+1. [Become an Autodidact][autodidact]
+1. [Tribute to Aaron Swartz][aaron]
+
+[prob]: <https://github.com/rwxrob/zet/tree/main/20210506155713>
+[social]: <https://github.com/rwxrob/zet/tree/main/20210506160012>
+[autodidact]: <https://github.com/rwxrob/zet/tree/main/20210506163935>
+[aaron]: <https://github.com/rwxrob/zet/tree/main/20210506164209>
+
+## Day 2, The Scientific Method, Our Greatest Learning Tool
+
 1. The RWX Method, Refining the Scientific Method
-   1. Read, Research, Reach Out, Repeat
-   1. Write Who, What (If), When, Where, Why, and How
-   1. Explore, Experiment, and Exercise
-      1. Fail Faster
-1. Zettelkasten (Slips in a Box) Knowledge Management
+1. Read, Research, Reach Out, Repeat
+1. Write Who, What (If), When, Where, Why, and How
+1. Explore, Experiment, and Exercise
+1. Fail Faster, Fail Better, Fail Often
+1. Zettelkasten (Slips in a Box) Knowledge Management System
 1. Capture Thoughts as Markdown, The Syntax of Knowledge Source
 
-## Understand Linux Essentials
+## Day 3, Understand Linux Approach
 
 1. What's Linux? History of UNIX and GNU/Linux
 1. Do Macs Use Linux?
@@ -57,7 +62,7 @@ You can also help fund this project by clicking *Sponsor*. Thanks.
 1. How Linux Architecture Works
 1. When and How Should I Install Linux?
 
-## Install and/or Use Terminal
+## Day 4, Get on the Terminal
 
 **Mac:** Open and Configure a Mac Terminal  
 **Windows:** Install and Configure Modern Windows Terminal  
