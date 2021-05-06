@@ -27,6 +27,7 @@ You can also help fund this project by clicking *Sponsor*. Thanks.
 
 [[Raw Twitch VOD (will expire in 60 days)]](https://www.twitch.tv/videos/1011305195)
 
+1. [What is the purpose of Beginner Boost?](20210504161937)
 1. [Beginner Boost, Day 0, Logistics](20210505025834)
 1. [Who is the Beginner Boost for?](20210505031231)
 1. [Setup Essential Services][services]
