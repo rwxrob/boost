@@ -25,6 +25,8 @@ You can also help fund this project by clicking *Sponsor*. Thanks.
 
 ## Day 0, Get Set Up, May the 4th Be With You
 
+[[Raw Twitch VOD]](https://www.twitch.tv/videos/1011305195) (will expire)
+
 1. [Beginner Boost, Day 0, Logistics](20210505025834)
 1. [Who is the Beginner Boost for?](20210505031231)
 1. [Setup Essential Services][services]
@@ -32,6 +34,8 @@ You can also help fund this project by clicking *Sponsor*. Thanks.
 [services]: <https://github.com/rwxrob/zet/tree/main/20210505023938>
 
 ## Day 1, Get Motivated to Learn ¡Viva la Revolución!
+
+[[Raw Twitch VOD]](https://www.twitch.tv/videos/1012499963) (will expire)
 
 1. [Problems with Traditional Education][prob]
 1. [Help Others Learn, A Social Responsibility][social]
