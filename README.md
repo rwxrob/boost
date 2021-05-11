@@ -25,7 +25,7 @@ You can also help fund this project by clicking *Sponsor*. Thanks.
 
 ## Day 0, Get Set Up, May the 4th Be With You
 
-[[Raw Twitch VOD (will expire in 60 days)]](https://www.twitch.tv/videos/1011305195)
+[[Full Live-Recorded Video]](https://youtu.be/UkE2KMsVzjQ)
 
 1. [What is the purpose of Beginner Boost?](20210504161937)
 1. [Beginner Boost, Day 0, Logistics](20210505025834)
@@ -36,7 +36,7 @@ You can also help fund this project by clicking *Sponsor*. Thanks.
 
 ## Day 1, Get Motivated to Learn ¡Viva la Revolución!
 
-[[Raw Twitch VOD (will expire in 60 days)]](https://www.twitch.tv/videos/1012499963)
+[[Full Live-Recorded Video]](https://youtu.be/U7BNE-AKLeI)
 
 1. [Problems with Traditional Education][prob]
 1. [Help Others Learn, A Social Responsibility][social]
@@ -50,54 +50,71 @@ You can also help fund this project by clicking *Sponsor*. Thanks.
 
 ## Day 2, The Scientific Method, Our Greatest Learning Tool
 
+[[Full Live-Recorded Video]](https://youtu.be/mlecHo2p7aU)
+
+1. What did you learn about the Scientific Method?
 1. The RWX Method, Refining the Scientific Method
-1. Read, Research, Reach Out, Repeat
-1. Write Who, What (If), When, Where, Why, and How
-1. Explore, Experiment, and Exercise
+   1. Read, Research, Reach Out, Repeat
+   1. Write Who, What (If), When, Where, Why, and How
+   1. Execute, Explore, Experiment, and Exercise
 1. Fail Faster, Fail Better, Fail Often
+1. Meritocracy in the Workplace
 1. Zettelkasten (Slips in a Box) Knowledge Management System
 1. Capture Thoughts as Markdown, The Syntax of Knowledge Source
 
 ## Day 3, Understand Linux Approach
 
+[[Full Live-Recorded Video]](https://youtu.be/8myY7Ydf64g)
+
 1. What's Linux? History of UNIX and GNU/Linux
 1. Do Macs Use Linux?
 1. Does Windows Use Linux?
 1. The UNIX Philosophy
-1. How Linux Architecture Works
+1. How Does Linux Work?
 1. When and How Should I Install Linux?
 
 ## Day 4, Get on the Terminal
+
+[[Full Live-Recorded Video]](https://youtu.be/GlpSi2LW4_Y)
 
 **Mac:** Open and Configure a Mac Terminal  
 **Windows:** Install and Configure Modern Windows Terminal  
 **Linux:** Open and Configure a Linux Terminal  
 
+1. What's the Difference Between TUI and CLI?
+1. Terminal Emulators Replaced Teletype Machines
+1. The Terminal is Different Than Command Line Shell
 1. Should I install Git-Bash on Windows?
+1. What about Alacritty/Kitty or ...?
+1. My Favorite Theme: GruvBox
 1. Can't I just use VSCode on Windows?
-1. What about Alacritty or ...?
+1. Why not just use Vim plugins with VSCode?
+1. What about WSL2 on Windows?
 
-## Learn to Use Containers
+## Day 5, Learn to Use Containers
 
 1. What's a Container and Why Should You Care?
 1. Install Docker
    1. Install Docker on Windows
    1. Install Docker on a Mac
    1. Install Docker on Linux
-1. What's the Difference Between "Container" and "Image"?
+1. The Difference Between "Container" and "Image"?
+1. Kubernetes is the New Operating System
+1. Containers are the New Programs
+1. Run Your First Linux Container
+   1. `docker run -it ubuntu`
+1. Linux Distro Matters Less in Container World
 1. Use Docker Basic Commands
-   1. Docker Pull
-   1. Docker Run
-   1. Docker Start
-   1. Docker Attach
-   1. Docker Stop
-   1. Docker Remove
-1. Pull, Run, Use, and Manage a Linux Work Container
-   1. `docker run -it -name work -h work debian`
+   1. Use Docker Pull
+   1. Use Docker Run
+   1. Use Docker Start
+   1. Use Docker Attach
+   1. Use Docker Stop
+   1. Use Docker Remove
+1. Don't Worry About Dockerfile and Compose (For Now)
 
-## Learn to Use the Linux Terminal
+## Learn to Use Linux from Terminal Command Line
 
-1. What's the Difference Between TUI and CLI?
 1. History and Value of Command Line Interfaces
 1. Use Bash, Don't Play the Shell Game (For Now)
 1. Navigate the Bash Command Line Interface
