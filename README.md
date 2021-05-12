@@ -91,18 +91,22 @@ You can also help fund this project by clicking *Sponsor*. Thanks.
 1. Why not just use Vim plugins with VSCode?
 1. What about WSL2 on Windows?
 
-## Day 5, Learn to Use Containers
+## Day 5, Learn About Containers and Get Docker
 
 1. What's a Container and Why Should You Care?
+   1. The Difference Between "Container" and "Image"?
+   1. Kubernetes is the New Operating System
+   1. Containers are the New Programs
 1. Install Docker
    1. Install Docker on Windows
+      1. Why do I still need WSL2?
    1. Install Docker on a Mac
    1. Install Docker on Linux
-1. The Difference Between "Container" and "Image"?
-1. Kubernetes is the New Operating System
-1. Containers are the New Programs
+
+## Day 6, Run Linux Inside a Container
+
 1. Run Your First Linux Container
-   1. `docker run -it ubuntu`
+   1. `docker run -it --rm ubuntu`
 1. Linux Distro Matters Less in Container World
 1. Use Docker Basic Commands
    1. Use Docker Pull
@@ -115,8 +119,6 @@ You can also help fund this project by clicking *Sponsor*. Thanks.
 
 ## Learn to Use Linux from Terminal Command Line
 
-1. History and Value of Command Line Interfaces
-1. Use Bash, Don't Play the Shell Game (For Now)
 1. Navigate the Bash Command Line Interface
    1. Use Bash Tab Completion
    1. Use the `man` Command
@@ -129,6 +131,11 @@ You can also help fund this project by clicking *Sponsor*. Thanks.
    1. Use `apt install`
    1. Use `apt remove`
 1. Create, Move, Rename, and Remove Files
+
+1. History and Value of Command Line Interfaces
+1. Use Bash, Don't Play the Shell Game (For Now)
+
+
 1. Edit Text Files with Vim
    1. Why Vim and Not NeoVim/Emacs/Nano/VSCode?
    1. Restore Esc Key to Its Original Keyboard Home
