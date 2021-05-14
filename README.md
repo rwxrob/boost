@@ -97,6 +97,7 @@ You can also help fund this project by clicking *Sponsor*. Thanks.
    1. The Difference Between "Container" and "Image"?
    1. Kubernetes is the New Operating System
    1. Containers are the New Programs
+
 1. Install Docker
    1. Install Docker on Windows
       1. Why do I still need WSL2?
@@ -105,18 +106,19 @@ You can also help fund this project by clicking *Sponsor*. Thanks.
 
 ## Day 6: Run Linux Inside a Container
 
-1. Run Your First Linux Container
-   1. Linux Distro Matters Less in Container World
-      1. `docker run -it --rm ubuntu`
-      1. `docker run -it --rm fedora`
-      1. `docker run -it --rm archlinux`
-      1. `docker run -it --rm opensuse`
-      1. `docker run -it --rm nixos/nix`
-      1. `docker run -it --rm kalilinux/kali-rolling`
-      1. `docker run -it --rm blackarch/blackarch`
+1. Linux Distro Matters Less in Container World
+   1. `docker run -it --rm ubuntu`
+   1. `docker run -it --rm fedora`
+   1. `docker run -it --rm archlinux`
+   1. `docker run -it --rm opensuse`
+   1. `docker run -it --rm nixos/nix`
+   1. `docker run -it --rm kalilinux/kali-rolling`
+   1. `docker run -it --rm blackarch/blackarch`
+
 1. Run Rob's Workspace Linux Container
    1. `docker run -it --rm rwxrob/workspace`
-   1. Workspace Means *Not* Optimized
+   1. Workspace Means *Not* Optimized (3GB)
+
 1. Use Docker Basic Commands
    1. Use Docker Pull
    1. Use Docker Run
@@ -124,40 +126,90 @@ You can also help fund this project by clicking *Sponsor*. Thanks.
    1. Use Docker Attach and Detach `Ctrl-pq`
    1. Use Docker Stop
    1. Use Docker Remove
+
 1. Don't Worry About Dockerfile and Compose (For Now)
 
 ## Day 7: Start Using the Linux Terminal Command Line
 
 1. Book (free): The Linux Command Line, William Shotts
-1. History and Value of Command Line Interfaces
+
+1. The Command Line, Fastest Human-Computer Interface
+
 1. Every Command Line Entered is a Line of Shell Code
+
 1. Use Bash, Don't Play the Shell Game (For Now)
    1. Interactive Shell is Not Same as Shell Scripting
    1. Why Bash and Not Zsh, Fish, or Whatever?
    1. Use Consistent Supported Bash Tab Completion
 
-1. Get Your Bearings on the Command Line
-   1. Understand the Prompt
-   1. `Ctrl-c` to Interrupt Stuff
-   1. `Ctrl-s`/`Ctrl-q` to Suspend/Unsuspend Terminal
-   1. Use `reset` to Fix Terminal
+1. Understand the Parts of the Command Prompt
+   1. Username
+   1. Host
+   1. Interesting Origin of Email Addresses
+   1. Current Directory
+   1. Git Branch
+   1. Long Versus Short Prompts
+
+1. Navigate Your Command History Efficiently
+   1. Use Up and Down Arrow Keys (For Now)
+   1. Use Initial Spaces to Stop Adding to History
+   1. Use Backslash to Disable Command Overrides (`\top`)
+   1. Use Hashtag to Make One Line Comment Notes
+   1. Don't Learn More for Now (Learn `set -o vi` Later)
+
+1. Send Special Terminal Escapes
+   1. Remember, a Terminal is Just a Teletype Emulator
+   1. `Ctrl-c` to Send Interrupt Signal (*Not* Copy)
+   1. `Ctrl-[` to Send Exact Same as `Esc` Key
+   1. `Ctrl-s`/`Ctrl-q` to Buffer and Suspend/Unsuspend
+      1. "Help! My Terminal is Frozen!"
+   1. `Ctrl-z` to Background Current Process (Not Quit)
+   1. `Ctrl-d` to Send EOF (End of File)
+   1. `Ctrl-v`, `Ctrl-x` Do Nothing From Shell
+   1. Silencing the Terminal Bell
+
+1. Cut and Paste from Host Operating System
+   1. Depends on Terminal
+   1. First Ever Mouse Had Three-Button, Middle Was Paste
+   1. Windows Right Click to Paste
+   1. `Ctrl-x|c|v` Don't *Usually* Work (And Shouldn't)
+
+1. Learn Useful and Essential Beginning User Commands
+   1. Use `reset` to Fix Bork Terminal
+   1. Use `clear` to Clear Screen (and Alternatives)
    1. Use `watch` to Repeat Things and See Output
+   1. Use `type` to See Command Type and If Exists
    1. Use `man` Command to Get Help
    1. Use `less`/`more` for Paging Output
    1. Use `ls` Command to List Files and Directories
    1. Use `pwd` Command to Show Working Directory
    1. Use `cd` Command to Change Directories
-   1. Use `clear` to Clear Screen (and Alternatives)
+      1. Use `cd foo` to Change Into `foo` Child Directory
+      1. Use `cd ..` to Change Into Parent Directory
+      1. Use `cd -` to Toggle Change to Last Directory
+      1. Use `cd ~` (or Just `cd`) to Change to Home Directory
+      1. Don't Fall for Silly `cd` Replacements (Use `CDPATH`)
    1. Use `cal` to View Calendar
    1. Use `date` to View Dates and Times
-   1. Use `bc` to Do Math
-   1. Use `ps -aef | more` and/or `top` to See Running Processes
+      1. Use `date -u +%Y%m%d%H%M%S` to Get ISO Second
+      1. Use `date -d 'last week'` to Exact Time Last Week
+   1. Use `bc` to Do Floating Point Math
+      1. Don't Forget To Set Scale (`scale=2`)
+   1. Use `top` to See Running Processes
+      1. Often Replaced with `htop`
 
-## Day 8:
+## Day 8: Basic Linux System Administration
 
-(need to cover suspend from day 7)
+(need to cover history and other stuff missed/added to day 7)
 
-1. Working with Files and Directories from Linux Command Line
+1. Manage Software Packages from Command Line
+   1. Which Package Manager Should I Use?
+   1. Use `apt update`
+   1. Use `apt search`
+   1. Use `apt install`
+   1. Use `apt remove`
+
+1. Working with Files and Directories from Command Line
    1. Understand the Linux File System
    1. "I do not think that word means what you think it means."
    1. Use `mkdir` to Make a New Directory
@@ -170,50 +222,47 @@ You can also help fund this project by clicking *Sponsor*. Thanks.
       1. What is the difference between hard and soft link?
       1. Used `ln` for Multicall Executables (BusyBox)
 
-1. History
-1. View and Edit Files Without a Text Editor
-   1. Use `man` Command to Get Help
-   1. Understand *Basic* UNIX Pipes and Redirection
-      1. Use `|` Pipe Operator
-      1. Use `>` Write File Redirect Operator
-      1. Use `>>` Append to File Redirect Operator
-      1. Use `<` File Input Redirect Operator
-      1. Use `<<` "Here" Document Operator
-      1. `Ctrl-D` to Send *End of File*
-      1. But Wait, There's More
-      1. Understand Standard Input, Output, and Error
-   1. Use `echo` to Print Stuff
-   1. Use `cat` to View or Concatenate Stuff
-      1. Never `cat` to a Pipe!
 1. Find Stuff In and Out of Files
    1. Use `grep` to Find Lines of a File
    1. Use `find` to Find Anything
-   1. Use `file` 
-   1. Use `type` 
-   1. Use `which` 
-1. There's So Much More
-   1. Use `ssh` to Make Secure Remote Connections
-   1. Use `scp` to Copy Remote Files Securely
-   1. Use `sftp` When You *Must* Use FTP
+   1. Use `file` to See What Details About File
+   1. Use `which` to See Where Command File Lives
 
-## Day 8: Basic Linux System Administration
+1. Understand *Basic* UNIX Pipes and Redirection
+   1. Understand Standard Input, Output, and Error
+   1. Use `|` Pipe Operator
+      1. Use `ps -aef | more`
+   1. Use `>` Write File Redirect Operator
+   1. Use `>>` Append to File Redirect Operator
+   1. Use `<` File Input Redirect Operator
+   1. Use `<<` "Here" Document Operator
+   1. But Wait, There's More
+      1. `mkfifo`
+      1. `>|`
+   1. Use `echo` to Print Stuff
+   1. Use `cat` to View or Concatenate Stuff
+      1. Never `cat` to a Pipe!
 
 1. Create and Manage Users and Groups
    1. Use `adduser` and `useradd` to Create User
+
 1. Understand UNIX File and Directory Ownership and Permissions
    1. Use `chmod` to Change Permissions
    1. Use `chown` to Change Owner (and Group)
    1. Use `chgrp` to Change Group
-1. Manage Software Packages from Command Line
-   1. Which Package Manager Should I Use?
-   1. Use `apt update`
-   1. Use `apt search`
-   1. Use `apt install`
-   1. Use `apt remove`
 
-## Day 9: Edit Files *Simply* with Raw Vi and Vim
+1. Understand Jobs, Processes, Signals, and Backgrounding
+   1. `Ctrl-z` to Background Running Process
+      1. Use `jobs` to See All Background Processes
+      1. Use `fg` to Bring Background Job Forward
+   1. Use ` &` to Start Program in Background
+   1. Use `pgrep`, `ps`, `/proc` to See Processes
+   1. Use `kill`,`pkill` to Send a Signal
+   1. Don't Bother with `nohup` (Use `docker`, `screen`/`tmux`)
 
-1. Why Vim and Not NeoVim/Emacs/Nano/VSCode?
+## Day 8: Edit Files with Vi First, Then Vim
+
+1. Why Vi/m and Not NeoVim/Emacs/Nano/VSCode?
 1. Restore Esc Key to Its Original Keyboard Home
 1. Do the Vim Tutorial (`vimtutor`)
 1. Appreciate the Difference Between Vi and Vim
@@ -223,6 +272,13 @@ You can also help fund this project by clicking *Sponsor*. Thanks.
 1. Extend Vim with Plug for Syntax and Specifics
 1. Don't Use Vim Pane Splitting (Use TMUX Instead)
 1. Set Vi Mode in Shell (`set -o vi`)
+
+## Day 9: Basic System Network Administration
+
+1. Use Secure Shell for Remote Access and File Transfer
+   1. Use `ssh` to Make Secure Remote Connections
+   1. Use `scp` to Copy Remote Files Securely
+   1. Use `sftp` When You *Must* Use FTP
 
 ## Day 10: Manage Screen and State with Screen and TMUX
 
