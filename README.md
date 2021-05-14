@@ -135,17 +135,29 @@ You can also help fund this project by clicking *Sponsor*. Thanks.
    1. Interactive Shell is Not Same as Shell Scripting
    1. Why Bash and Not Zsh, Fish, or Whatever?
    1. Use Consistent Supported Bash Tab Completion
-1. Get Your Bearings and Recognize Value of CLI
+
+1. Get Your Bearings on the Command Line
+   1. Understand the Prompt
+   1. `Ctrl-c` to Interrupt Stuff
+   1. `Ctrl-s`/`Ctrl-q` to Suspend/Unsuspend Terminal
+   1. Use `reset` to Fix Terminal
+   1. Use `watch` to Repeat Things and See Output
    1. Use `man` Command to Get Help
+   1. Use `less`/`more` for Paging Output
    1. Use `ls` Command to List Files and Directories
-   1. Use `cd` Command to Change Directories
    1. Use `pwd` Command to Show Working Directory
+   1. Use `cd` Command to Change Directories
    1. Use `clear` to Clear Screen (and Alternatives)
    1. Use `cal` to View Calendar
    1. Use `date` to View Dates and Times
    1. Use `bc` to Do Math
-   1. Use `ps` and/or `top` to See Running Processes
-1. Create, Move, Rename, Remove, and Link to Stuff
+   1. Use `ps -aef | more` and/or `top` to See Running Processes
+
+## Day 8:
+
+(need to cover suspend from day 7)
+
+1. Working with Files and Directories from Linux Command Line
    1. Understand the Linux File System
    1. "I do not think that word means what you think it means."
    1. Use `mkdir` to Make a New Directory
@@ -157,13 +169,17 @@ You can also help fund this project by clicking *Sponsor*. Thanks.
    1. Use `ln` to Link to a File or Directory
       1. What is the difference between hard and soft link?
       1. Used `ln` for Multicall Executables (BusyBox)
+
+1. History
 1. View and Edit Files Without a Text Editor
+   1. Use `man` Command to Get Help
    1. Understand *Basic* UNIX Pipes and Redirection
       1. Use `|` Pipe Operator
       1. Use `>` Write File Redirect Operator
       1. Use `>>` Append to File Redirect Operator
       1. Use `<` File Input Redirect Operator
       1. Use `<<` "Here" Document Operator
+      1. `Ctrl-D` to Send *End of File*
       1. But Wait, There's More
       1. Understand Standard Input, Output, and Error
    1. Use `echo` to Print Stuff
@@ -172,6 +188,9 @@ You can also help fund this project by clicking *Sponsor*. Thanks.
 1. Find Stuff In and Out of Files
    1. Use `grep` to Find Lines of a File
    1. Use `find` to Find Anything
+   1. Use `file` 
+   1. Use `type` 
+   1. Use `which` 
 1. There's So Much More
    1. Use `ssh` to Make Secure Remote Connections
    1. Use `scp` to Copy Remote Files Securely
