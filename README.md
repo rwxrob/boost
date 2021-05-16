@@ -144,7 +144,7 @@ You can also help fund this project by clicking *Sponsor*. Thanks.
 
 1. Understand the Parts of the Command Prompt
    1. Username
-   1. Host
+   1. Hostname
    1. Interesting Origin of Email Addresses
    1. Current Directory
    1. Git Branch
@@ -153,7 +153,6 @@ You can also help fund this project by clicking *Sponsor*. Thanks.
 1. Navigate Your Command History Efficiently
    1. Use Up and Down Arrow Keys (For Now)
    1. Use Initial Spaces to Stop Adding to History
-   1. Use Backslash to Disable Command Overrides (`\top`)
    1. Use Hashtag to Make One Line Comment Notes
    1. Don't Learn More for Now (Learn `set -o vi` Later)
 
@@ -165,7 +164,7 @@ You can also help fund this project by clicking *Sponsor*. Thanks.
       1. "Help! My Terminal is Frozen!"
    1. `Ctrl-z` to Background Current Process (Not Quit)
    1. `Ctrl-d` to Send EOF (End of File)
-   1. `Ctrl-v`, `Ctrl-x` Do Nothing From Shell
+   1. `Ctrl-v`, `Ctrl-x` Do Nothing (From Shell)
    1. Silencing the Terminal Bell
 
 1. Cut and Paste from Host Operating System
@@ -195,19 +194,29 @@ You can also help fund this project by clicking *Sponsor*. Thanks.
       1. Use `date -d 'last week'` to Exact Time Last Week
    1. Use `bc` to Do Floating Point Math
       1. Don't Forget To Set Scale (`scale=2`)
+      1. Use Semicolons for Same Line
    1. Use `top` to See Running Processes
       1. Often Replaced with `htop`
 
 ## Day 8: Basic Linux System Administration
 
-(need to cover history and other stuff missed/added to day 7)
+1. Create and Name a Workspace Container
+   1. `docker run -it --name boost -h boost ubuntu`
+   1. Difference Between Detach and Exit
+      1. Detach with `Ctrl-pq`
+      1. Exit with `exit`
+
+1. Understand Container States and Storage
 
 1. Manage Software Packages from Command Line
+   1. But First, Let's `unminimize`
    1. Which Package Manager Should I Use?
    1. Use `apt update`
    1. Use `apt search`
    1. Use `apt install`
    1. Use `apt remove`
+
+## Day 9: 
 
 1. Working with Files and Directories from Command Line
    1. Understand the Linux File System
@@ -300,6 +309,11 @@ You can also help fund this project by clicking *Sponsor*. Thanks.
 ## Day 12: Your Commands *Are* Code, *Basic* Shell Scripting (Part I)
 
 1. Learn Basic POSIX Shell Scripting (It's Not Hard)
+1. Understand the `PATH`
+   1. Use Backslash to Disable Command Overrides (`\top`)
+   1. `which`
+   1. `type`
+
 
 ## Day 13: *Basic* Shell Scripting (Part II)
 
