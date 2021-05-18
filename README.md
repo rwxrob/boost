@@ -132,16 +132,12 @@ You can also help fund this project by clicking *Sponsor*. Thanks.
 ## Day 7: Start Using the Linux Terminal Command Line
 
 1. Book (free): The Linux Command Line, William Shotts
-
 1. The Command Line, Fastest Human-Computer Interface
-
 1. Every Command Line Entered is a Line of Shell Code
-
 1. Use Bash, Don't Play the Shell Game (For Now)
    1. Interactive Shell is Not Same as Shell Scripting
    1. Why Bash and Not Zsh, Fish, or Whatever?
    1. Use Consistent Supported Bash Tab Completion
-
 1. Understand the Parts of the Command Prompt
    1. Username
    1. Hostname
@@ -149,13 +145,11 @@ You can also help fund this project by clicking *Sponsor*. Thanks.
    1. Current Directory
    1. Git Branch
    1. Long Versus Short Prompts
-
 1. Navigate Your Command History Efficiently
    1. Use Up and Down Arrow Keys (For Now)
    1. Use Initial Spaces to Stop Adding to History
    1. Use Hashtag to Make One Line Comment Notes
    1. Don't Learn More for Now (Learn `set -o vi` Later)
-
 1. Send Special Terminal Escapes
    1. Remember, a Terminal is Just a Teletype Emulator
    1. `Ctrl-c` to Send Interrupt Signal (*Not* Copy)
@@ -166,21 +160,20 @@ You can also help fund this project by clicking *Sponsor*. Thanks.
    1. `Ctrl-d` to Send EOF (End of File)
    1. `Ctrl-v`, `Ctrl-x` Do Nothing (From Shell)
    1. Silencing the Terminal Bell
-
 1. Cut and Paste from Host Operating System
    1. Depends on Terminal
    1. First Ever Mouse Had Three-Button, Middle Was Paste
    1. Windows Right Click to Paste
    1. `Ctrl-x|c|v` Don't *Usually* Work (And Shouldn't)
-
 1. Learn Useful and Essential Beginning User Commands
    1. Use `reset` to Fix Bork Terminal
    1. Use `clear` to Clear Screen (and Alternatives)
    1. Use `watch` to Repeat Things and See Output
-   1. Use `type` to See Command Type and If Exists
    1. Use `man` Command to Get Help
    1. Use `less`/`more` for Paging Output
    1. Use `ls` Command to List Files and Directories
+   1. Use `type` to See What Type of Thing It Is
+   1. Use `which` to See Where Command Lives
    1. Use `pwd` Command to Show Working Directory
    1. Use `cd` Command to Change Directories
       1. Use `cd foo` to Change Into `foo` Child Directory
@@ -198,78 +191,82 @@ You can also help fund this project by clicking *Sponsor*. Thanks.
    1. Use `top` to See Running Processes
       1. Often Replaced with `htop`
 
-## Day 8: Basic Linux System Administration
+## Day 8: Build Up Up Container with Software
 
 1. Create and Name a Workspace Container
    1. `docker run -it --name boost -h boost ubuntu`
    1. Difference Between Detach and Exit
       1. Detach with `Ctrl-pq`
       1. Exit with `exit`
-
 1. Understand Container States and Storage
-
 1. Manage Software Packages from Command Line
-   1. But First, Let's `unminimize`
-   1. Which Package Manager Should I Use?
+   1. Restoring Documentation and More with `unminimize`
+   1. Understand Linux Package Management
    1. Use `apt update`
    1. Use `apt search`
    1. Use `apt install`
    1. Use `apt remove`
 
-## Day 9: 
+## Day 9: Work with File System from Command Line
 
-1. Working with Files and Directories from Command Line
-   1. Understand the Linux File System
-   1. "I do not think that word means what you think it means."
-   1. Use `mkdir` to Make a New Directory
-   1. Use `rmdir` to Remove an Empty Directory
-   1. Use `touch` to Make a New File (or Update Timestamp)
-   1. Use `mv` to Move or Rename a File or Directory
-   1. Use `cp` to Copy a File or Directory
-   1. Use `rm` to Remove a File or Directory
-   1. Use `ln` to Link to a File or Directory
-      1. What is the difference between hard and soft link?
-      1. Used `ln` for Multicall Executables (BusyBox)
+1. [OverTheWire], Fun Hacker Practice
+1. Understand the Linux File System
+1. Use `mkdir` to Make a New Directory
+1. Use `rmdir` to Remove an Empty Directory
+1. Use `touch` to Make a New File (or Update Timestamp)
+1. Use `mv` to Move or Rename a File or Directory
+1. Use `cp` to Copy a File or Directory
+1. Use `rm` to Remove a File or Directory
+1. Use `ln` to Link to a File or Directory
+   1. What is the difference between hard and soft link?
+   1. Used `ln` for Multicall Executables (BusyBox)
+1. Use `file` to See What Details About File
+1. Use `stat` to See Exhaustive Details About File
+1. Use `cat` to Display Lines of a File, First to Last
+1. Use `tac` to Display Lines of a File, Last to First
+1. User `head` to Display Number of Lines at Top
+1. User `tail` to Display Number of Lines at Bottom
+1. Use `grep` to Find Lines of a File
+1. Use `uniq` to Find Unique Lines
+1. Use `sort` to Sort Lines
+   1. Use `wc` to Count Lines, Words, Bytes, and Runes
 
-1. Find Stuff In and Out of Files
-   1. Use `grep` to Find Lines of a File
-   1. Use `find` to Find Anything
-   1. Use `file` to See What Details About File
-   1. Use `which` to See Where Command File Lives
+[OverTheWire]: <https://overthewire.org/wargames/bandit/>
 
-1. Understand *Basic* UNIX Pipes and Redirection
-   1. Understand Standard Input, Output, and Error
-   1. Use `|` Pipe Operator
-      1. Use `ps -aef | more`
-   1. Use `>` Write File Redirect Operator
-   1. Use `>>` Append to File Redirect Operator
-   1. Use `<` File Input Redirect Operator
-   1. Use `<<` "Here" Document Operator
-   1. But Wait, There's More
-      1. `mkfifo`
-      1. `>|`
-   1. Use `echo` to Print Stuff
-   1. Use `cat` to View or Concatenate Stuff
-      1. Never `cat` to a Pipe!
+## Day 10: Understand Pipes, Sockets, and Redirection
+
+1. Use `echo` to Print Stuff
+1. Use `rev` to Reverse Something
+1. Understand Standard Input, Output, and Error
+1. Use `|` Pipe Operator
+   1. Use `ps -aef | more`
+1. Use `>` Write File Redirect Operator
+1. Use `>|` to Force Overwrite File
+1. Use `>>` Append to File Redirect Operator
+1. Use `<` File Input Redirect Operator
+1. Use `<<` "Here" Document Operator
+1. Use `mkfifo` to Create a FIFO Pipe
+
+## Day 11: Manage Users, Groups, and Permissions 
 
 1. Create and Manage Users and Groups
    1. Use `adduser` and `useradd` to Create User
-
 1. Understand UNIX File and Directory Ownership and Permissions
    1. Use `chmod` to Change Permissions
    1. Use `chown` to Change Owner (and Group)
    1. Use `chgrp` to Change Group
 
-1. Understand Jobs, Processes, Signals, and Backgrounding
-   1. `Ctrl-z` to Background Running Process
-      1. Use `jobs` to See All Background Processes
-      1. Use `fg` to Bring Background Job Forward
-   1. Use ` &` to Start Program in Background
-   1. Use `pgrep`, `ps`, `/proc` to See Processes
-   1. Use `kill`,`pkill` to Send a Signal
-   1. Don't Bother with `nohup` (Use `docker`, `screen`/`tmux`)
+## Day 12: Manage Jobs, Processes, and Signals
 
-## Day 8: Edit Files with Vi First, Then Vim
+1. `Ctrl-z` to Background Running Process
+   1. Use `jobs` to See All Background Processes
+   1. Use `fg` to Bring Background Job Forward
+1. Use ` &` to Start Program in Background
+1. Use `pgrep`, `ps`, `/proc` to See Processes
+1. Use `kill`,`pkill` to Send a Signal
+1. Don't Bother with `nohup` (Use `docker`, `screen`/`tmux`)
+
+## Day 13: Edit Files with Vi (Then Vim)
 
 1. Why Vi/m and Not NeoVim/Emacs/Nano/VSCode?
 1. Restore Esc Key to Its Original Keyboard Home
@@ -282,14 +279,26 @@ You can also help fund this project by clicking *Sponsor*. Thanks.
 1. Don't Use Vim Pane Splitting (Use TMUX Instead)
 1. Set Vi Mode in Shell (`set -o vi`)
 
-## Day 9: Basic System Network Administration
+## Day 14: Basic Networking and Remote Access
 
+1. How Does the Internet Work?
+   1. Short History of the Internet
+   1. Nerds 2.0.1, Glory of the Geeks
+   1. Use `ip`/`ifconfig` to See IP Information
+      1. BTW, It's `ipconfig` on Windows
+   1. Use `dig`/`nslookup` to Lookup Domain Names
+   1. Use `ping` to Explore Hosts (But Don't Depend On)
+   1. Use `netstat -tupl` to See Local Network Stuff
+   1. Use `nmap` to Scan for Hosts and Ports
 1. Use Secure Shell for Remote Access and File Transfer
+   1. Setting Up Secure Shell on Local System
+      1. Use `ssh-keygen -t ed25519`
    1. Use `ssh` to Make Secure Remote Connections
    1. Use `scp` to Copy Remote Files Securely
    1. Use `sftp` When You *Must* Use FTP
+1. Use `rsync` for Customized Backups
 
-## Day 10: Manage Screen and State with Screen and TMUX
+## Day 15: Manage Screen and State with Screen and TMUX
 
 1. Any Window Manager Will Do
 1. Screen, the One that Started It All
@@ -299,6 +308,7 @@ You can also help fund this project by clicking *Sponsor*. Thanks.
 
 ## Day 11: Use Terminal for Fastest Possible Web Research
 
+1. Leverage the Power of `find`
 1. Why Browse the Web from the Terminal?
 1. Pick a Terminal Web Browser for You
 1. Use and Configure `w3m` Text Web Browser
