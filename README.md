@@ -185,7 +185,7 @@ You can also help fund this project by clicking *Sponsor*. Thanks.
    1. Use `date` to View Dates and Times
       1. Use `date -u +%Y%m%d%H%M%S` to Get ISO Second
       1. Use `date -d 'last week'` to Exact Time Last Week
-   1. Use `bc` to Do Floating Point Math
+   1. Use `bc` for Floating Point Precision Math Calculations
       1. Don't Forget To Set Scale (`scale=2`)
       1. Use Semicolons for Same Line
    1. Use `top` to See Running Processes
@@ -233,41 +233,112 @@ You can also help fund this project by clicking *Sponsor*. Thanks.
 
 [OverTheWire]: <https://overthewire.org/wargames/bandit/>
 
-## Day 10: Understand Pipes, Sockets, and Redirection
+## Day 10: Understand Streams, Pipes, and Redirection
 
 1. Understand Standard Output and Error
    1. Use `echo` and `printf` to Print Stuff
-   1. Use `>` Write File Redirect Operator
-      1. Use `find /` with Redirection
-   1. Use `>>` Append to File Redirect Operator
-   1. Use `>|` to Force Overwrite File
-   1. Use `tee` to Save and Pipe
+      1. Difference Between `echo` and `printf`
+      1. Never Use `print` (for Printers)
+   1. Use `>` File Redirect Operator
+      1. Fix `find` Command Errors with Redirection 
+   1. Use `>>` File Append Operator
+   1. Use `>|` Force File Overwrite Operator
 
 1. Understand Pipes and Pipeline
-   1. Go Watch Ken Thompson Describe UNIX Idea
-   1. Use `|` Pipe Operator
-      1. Use `ps -aef | more`
-   1. Hidden Power of Pipelines in All Things
-   1. Use `xargs` to Transform Output Into Arguments
+   1. Use `|` Pipe Operator to Connect Out with In
+   1. Power of Pipelines and Shell Integration
+      1. Watch Ken Thompson Describe UNIX Pipes
+      1. Pipes are at the Core of UNIX Philosophy
+      1. Use Shell and Pipes from Within Applications
+   1. Transform and Filter Lines
+      1. Use `nl` to Number Lines
+      1. Use `rev` to Reverse Line
+      1. Use `tee` to Pipe *and* Redirect Lines
+      1. Use `echo` for Arguments and `cat` for Lines
+      1. Use `xargs` to Transform Lines Into Arguments
+      1. Use `cut` to Remove Stuff from Lines of Stream
+      1. Use `tr` to Translate Stuff in Lines of Stream
+      1. Use `sed` to Edit Lines of Stream (Streamed `ed`)
+      1. Use `jq` to Select from JSON Input
+      1. Use `yq` to Select from YAML Input
 
 1. Get Standard Input Into Your Programs
-   1. Not As Fun Until You Know How to Code
+   1. Input Most Useful After You Know How to Code
    1. Use `<` File Input Redirect Operator
-   1. Use `<<` "Here" Document Operator
-   1. Don't Mix Up Arguments (`echo`) and Input (`cat`)
+      1. Always Use `<` Instead of `cat foo | ...`
+   1. Use `<<` Here Document Operator
    1. Use `read` to Read Input
+      1. Combine `printf` and `read` to Create Prompts
+      1. Always Use `-r` and Understand Why
+      1. Use `for` or `while` with Read for Line Loops
+   1. Use `curl` to Read Input from Internet
+      1. Usually Combined with `jq` or `yq`
 
-## Day 11: Manage Users, Groups, and Permissions 
+## Day 11: Edit Files with Vi (Then Vim)
+
+1. Why Vi/m and Not NeoVim/Emacs/Nano/VSCode?
+1. Restore Esc Key to Its Original Keyboard Home
+1. Do the Vim Tutorial (`vimtutor`), But Beware
+1. Appreciate the Difference Between `vi` and `vim`
+1. Start with Defaults and *Zero* Configuration
+   1. Complex `.vimrc` is *Not* for Beginners
+   1. Eventually, Learn a Little Vimscript
+1. Extend Vim With the Shell, Not Plugins (At First)
+1. Extend Vim with `Plug` for Syntax and Specifics
+1. Avoid Vim Pane Splitting (Use TMUX Instead)
+1. Use `set -o vi` for Efficient Shell History Handling
+
+## Day 12: Manage Users, Groups, and Permissions 
 
 1. Create and Manage Users and Groups
    1. Use `adduser` and `useradd` to Create User
+   1. Use `usermod` to Modify User Settings
+   1. Use `groupmod` to Modify User Settings
+   1. Use `passwd` to Change Passwords
 1. Understand UNIX File and Directory Ownership and Permissions
+   1. Use `ls -l` to See Permissions
+   1. Use `stat` to See Even More About File
+   1. Read, Write, and Execute Permission
+      1. On Files
+      1. On Directories
+1. Modify Ownership and Permissions
    1. Use `chmod` to Change Permissions
    1. Use `chown` to Change Owner (and Group)
    1. Use `chgrp` to Change Group
+1. Know About Setuid, Setgid, and Such, But Don't Use 
 
-## Day 12: Manage Jobs, Processes, and Signals
+## Day 13: Commands *Are* Code, Start POSIX Shell Scripting 
 
+1. You're Already Coding, Every Command *is* Code
+   1. Commands are Really Just Functions with Arguments
+1. POSIX Shell is a Universal Command Interpreter
+   1. Shell Started as Bourne Shell, Now Ash and Dash
+   1. Korn Shell Led to Bash and Zsh Interpreters
+   1. Awk, Perl, Python, Ruby, Node Also Shell Scripting
+1. Create First POSIX Shell Script 
+   1. Come Up with a Few Commands to Run
+   1. Put Those Commands in a File
+      1. Use History and `echo '...' >>` to Save Typing
+   1. Use `sh` Interpreter to Run Commands in File
+      1. Use `bash` to Run Same Commands
+      1. Use `perl` to Attempt Run and Note Errors
+   1. Use `chmod +x` to Make File Executable
+   1. Add `#!/bin/sh` Shebang Line to Specify Interpreter
+      1. Assumes Current Shell Interpreter When No Shebang
+   1. Use `shellcheck` to Be Sure It's POSIX
+1. Difference Between *Running* and *Sourcing* Scripts
+   1. Use `.` or `source` to Source a Script
+   1. Some Stuff Can't Be Done Any Other Way
+      1. Change Current Working Directory
+      1. Modify Current Environment
+1. Put Executables in Your `PATH` to Run From Anywhere
+   1. Use `which` to See Which Executable Wins
+      1. Understand Difference Between `which` and `type`
+
+## Day 14: Manage Jobs, Processes, and Signals
+
+1. A Running Program is a *Process*
+1. A Backgrounded Program a *Job*
 1. `Ctrl-z` to Background Running Process
    1. Use `jobs` to See All Background Processes
    1. Use `fg` to Bring Background Job Forward
@@ -275,32 +346,47 @@ You can also help fund this project by clicking *Sponsor*. Thanks.
 1. Use `pgrep`, `ps`, `/proc` to See Processes
 1. Use `kill`,`pkill` to Send a Signal
 1. Don't Bother with `nohup` (Use `docker`, `screen`/`tmux`)
+1. Use `crontab` to Schedule Jobs
 
-## Day 13: Edit Files with Vi (Then Vim)
+----
 
-1. Why Vi/m and Not NeoVim/Emacs/Nano/VSCode?
-1. Restore Esc Key to Its Original Keyboard Home
-1. Do the Vim Tutorial (`vimtutor`)
-1. Appreciate the Difference Between Vi and Vim
-1. Start with a Solid and Safe Vim Configuration (`.vimrc`)
-   1. Complex `.vimrc` Coverage is *Not* for Beginners
-1. Extend Vim as God Intended (With the Shell)
-1. Extend Vim with Plug for Syntax and Specifics
-1. Don't Use Vim Pane Splitting (Use TMUX Instead)
-1. Set Vi Mode in Shell (`set -o vi`)
+*Note that stuff below this line is still being worked out based on what
+we have covered so far. Stuff above is baked a little more but still
+always in flux. This is all very organic (and always has been).*
 
-## Day 14: Your Commands *Are* Code, *Basic* Shell Scripting (Part I)
-1. Learn Basic POSIX Shell Scripting (It's Not Hard)
-1. Understand the `PATH`
-   1. Use Backslash to Disable Command Overrides (`\top`)
-   1. `which`
-   1. `type`
+## Day 15: More POSIX Shell Scripting Basics
 
-Customize
+1. Commands *are* Functions with Arguments and Return Values
+   1. Understand UNIX Return Values
+   1. Distinguish Return Value from Output
+1. Difference Between Subroutines, Procedures, and Functions
+1. Variables Save State
+   1. Use `=` With No Surrounding Spaces to Assign Variable
+   1. Like Putting Something Into Box or on List
+   1. All Variables are Global in POSIX Shell
+   1. Variables Contain Data of Different Types
+      1. All Types are Ultimately the Same Binary Bits
+1. Conditions and Altering Flow Based on State
+   1. Use `set -e` to Exit on Any Error
+1. What About Object-Oriented Programming?
 
-Cron
+## Day 15: Customize Your Interactive Shell
 
-## Day 14: Basic Networking and Remote Access
+1. We Call Them "Dotfiles" For a Reason
+1. What Are All These Files?
+1. Edit `~/.profile` to Point to `~/.bashrc`
+1. Customize Bash (`.bashrc`,`.profile`)
+   1. Customize Your Bash Command Prompt
+   1. Colorize Your Pager and `man` Pages
+   1. Prefer Commands Over Aliases (Cuz Subprocs)
+1. Use `alias` to Add Interactive Shell Aliases
+   1. Avoid Abusing Aliases, Commands are Better
+1. Exporting Functions
+1. Use `eval` to Source Other Code Inline
+   1. The Case For and Against
+1. Use Backslash to Disable Aliases and Functions
+
+## Day 16: Basic Networking and Remote Access
 
 1. How Does the Internet Work?
    1. Short History of the Internet
@@ -318,6 +404,15 @@ Cron
    1. Use `scp` to Copy Remote Files Securely
    1. Use `sftp` When You *Must* Use FTP
 1. Use `rsync` for Customized Backups
+
+## Day 17: Get On Git and GitHub
+
+1. Minimal Secure Shell Setup
+1. See What's Listening with `netstat -tulpn` and `nmap`
+1. Setup Git and GitHub CLI
+1. Preserve Your Dotfiles on GitHub
+1. Create a Dotfiles Docker Image
+
 
 ## Day 15: Manage Screen and State with Screen and TMUX
 
@@ -338,27 +433,7 @@ Cron
 1. Use `curl` to Fetch Files and More
 
 
-
-## Day 13: *Basic* Shell Scripting (Part II)
-
-## Day 14: *Basic* Shell Scripting (Part III)
-
 1. Write Your Own Embedded Bash Tab Completion
-
-## Day 15: Customize Your Interactive Shell
-
-1. Customize Bash (`.bashrc`,`.profile`)
-   1. Customize Your Bash Command Prompt
-   1. Colorize Your Pager and `man` Pages
-   1. Prefer Commands Over Aliases (Cuz Subprocs)
-
-## Day 14: Get On Git and GitHub
-
-1. Minimal Secure Shell Setup
-1. See What's Listening with `netstat -tulpn` and `nmap`
-1. Setup Git and GitHub CLI
-1. Preserve Your Dotfiles on GitHub
-1. Create a Dotfiles Docker Image
 
 ## Day 15: Create and Manage Knowledge Content
 
