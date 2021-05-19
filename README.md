@@ -235,17 +235,27 @@ You can also help fund this project by clicking *Sponsor*. Thanks.
 
 ## Day 10: Understand Pipes, Sockets, and Redirection
 
-1. Use `echo` to Print Stuff
-1. Use `rev` to Reverse Something
-1. Understand Standard Input, Output, and Error
-1. Use `|` Pipe Operator
-   1. Use `ps -aef | more`
-1. Use `>` Write File Redirect Operator
-1. Use `>|` to Force Overwrite File
-1. Use `>>` Append to File Redirect Operator
-1. Use `<` File Input Redirect Operator
-1. Use `<<` "Here" Document Operator
-1. Use `mkfifo` to Create a FIFO Pipe
+1. Understand Standard Output and Error
+   1. Use `echo` and `printf` to Print Stuff
+   1. Use `>` Write File Redirect Operator
+      1. Use `find /` with Redirection
+   1. Use `>>` Append to File Redirect Operator
+   1. Use `>|` to Force Overwrite File
+   1. Use `tee` to Save and Pipe
+
+1. Understand Pipes and Pipeline
+   1. Go Watch Ken Thompson Describe UNIX Idea
+   1. Use `|` Pipe Operator
+      1. Use `ps -aef | more`
+   1. Hidden Power of Pipelines in All Things
+   1. Use `xargs` to Transform Output Into Arguments
+
+1. Get Standard Input Into Your Programs
+   1. Not As Fun Until You Know How to Code
+   1. Use `<` File Input Redirect Operator
+   1. Use `<<` "Here" Document Operator
+   1. Don't Mix Up Arguments (`echo`) and Input (`cat`)
+   1. Use `read` to Read Input
 
 ## Day 11: Manage Users, Groups, and Permissions 
 
@@ -278,6 +288,17 @@ You can also help fund this project by clicking *Sponsor*. Thanks.
 1. Extend Vim with Plug for Syntax and Specifics
 1. Don't Use Vim Pane Splitting (Use TMUX Instead)
 1. Set Vi Mode in Shell (`set -o vi`)
+
+## Day 14: Your Commands *Are* Code, *Basic* Shell Scripting (Part I)
+1. Learn Basic POSIX Shell Scripting (It's Not Hard)
+1. Understand the `PATH`
+   1. Use Backslash to Disable Command Overrides (`\top`)
+   1. `which`
+   1. `type`
+
+Customize
+
+Cron
 
 ## Day 14: Basic Networking and Remote Access
 
@@ -316,13 +337,6 @@ You can also help fund this project by clicking *Sponsor*. Thanks.
 1. Turn Shell History Into Search History
 1. Use `curl` to Fetch Files and More
 
-## Day 12: Your Commands *Are* Code, *Basic* Shell Scripting (Part I)
-
-1. Learn Basic POSIX Shell Scripting (It's Not Hard)
-1. Understand the `PATH`
-   1. Use Backslash to Disable Command Overrides (`\top`)
-   1. `which`
-   1. `type`
 
 
 ## Day 13: *Basic* Shell Scripting (Part II)
