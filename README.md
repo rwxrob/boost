@@ -97,7 +97,6 @@ You can also help fund this project by clicking *Sponsor*. Thanks.
    1. The Difference Between "Container" and "Image"?
    1. Kubernetes is the New Operating System
    1. Containers are the New Programs
-
 1. Install Docker
    1. Install Docker on Windows
       1. Why do I still need WSL2?
@@ -114,11 +113,9 @@ You can also help fund this project by clicking *Sponsor*. Thanks.
    1. `docker run -it --rm nixos/nix`
    1. `docker run -it --rm kalilinux/kali-rolling`
    1. `docker run -it --rm blackarch/blackarch`
-
 1. Run Rob's Workspace Linux Container
    1. `docker run -it --rm rwxrob/workspace`
    1. Workspace Means *Not* Optimized (3GB)
-
 1. Use Docker Basic Commands
    1. Use Docker Pull
    1. Use Docker Run
@@ -191,7 +188,7 @@ You can also help fund this project by clicking *Sponsor*. Thanks.
    1. Use `top` to See Running Processes
       1. Often Replaced with `htop`
 
-## Day 8: Build Up Up Container with Software
+## Day 8: Build Up Container with Software
 
 1. Create and Name a Workspace Container
    1. `docker run -it --name boost -h boost ubuntu`
@@ -361,7 +358,6 @@ You can also help fund this project by clicking *Sponsor*. Thanks.
 1. Know What *POSIX* Means
 1. Know What *Script* Means
 1. Use `shellcheck` Throughout to Ensure POSIX
-
 1. Functions Group Commands
    1. Know What a *Function* Is
    1. Know What an *Argument* Is
@@ -388,7 +384,6 @@ You can also help fund this project by clicking *Sponsor*. Thanks.
       1. Know What *Side Effects* Are
       1. Know What *Functional Programming* Is
       1. Separate Functions from *Procedure* "Functions"
-
 1. Variables Save State
    1. Use `=` With No Surrounding Spaces to Assign Variable
    1. Like Putting Something Into Box or on List
@@ -400,7 +395,6 @@ You can also help fund this project by clicking *Sponsor*. Thanks.
       1. All Types are Ultimately the Same Binary Bits
    1. Usually Wrap Shell Variables in Quotes (`"$foo"`)
    1. Use `${}` to Disambiguate
-
 1. Conditions Alter Flow
    1. Use `test` to Check Condition
    1. Avoid Problematic `[]` to Check Conditions
@@ -409,11 +403,9 @@ You can also help fund this project by clicking *Sponsor*. Thanks.
    1. Use `case` to Branch Multiple Conditions
    1. Use `set -e` to Add *Exit on Any Error* Condition
    1. Know and Use *Short-Circuit Logic*
-
 1. Loops Repeat Commands Until Condition Met
    1. Use `break` to Break Out of Any Loop
    1. Use `continue` to Start Next Iteration Early
-
 1. Signals Communicate Between Programs
    1. Know What *Interprocess Communication (IPC)* Is
    1. Signals are Just One IPC Method
