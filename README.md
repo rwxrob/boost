@@ -276,25 +276,38 @@ You can also help fund this project by clicking *Sponsor*. Thanks.
 
 ## Day 11: Edit Files with Vi (Then Vim)
 
+1. Vi ("Visual Mode") History and Legacy
 1. Why Vi/m and Not NeoVim/Emacs/Nano/VSCode?
-1. Restore Esc Key to Its Original Keyboard Home
-1. Do the Vim Tutorial (`vimtutor`), But Beware
 1. Appreciate the Difference Between `vi` and `vim`
+1. Restore `Esc` Key to Its Original Keyboard Home
+1. Use `Ctrl-[` Instead of `Esc` Key (Never `Ctrl-x|z`)
+1. Do the Vim Tutorial (`vimtutor`), But Beware
+1. Other Recommended Learning Resources
+   1. <https://openvim.com>
+   1. <http://vimgenius.com> (no `s`)
+   1. Vim Adventures is Strongly Discouraged
 1. Start with Defaults and *Zero* Configuration
    1. Complex `.vimrc` is *Not* for Beginners
+   1. Customizing `.vimrc` Requires Scripting Skills
    1. Eventually, Learn a Little Vimscript
-1. Extend Vim With the Shell, Not Plugins (At First)
-1. Extend Vim with `Plug` for Syntax and Specifics
 1. Avoid Vim Pane Splitting (Use TMUX Instead)
-1. Use `set -o vi` for Efficient Shell History Handling
 
 ## Day 12: Manage Users, Groups, and Permissions 
 
+1. How Much About User Stuff Do I Need to Know?
 1. Create and Manage Users and Groups
    1. Use `adduser` and `useradd` to Create User
+   1. Use `deluser` and `userdel` to Delete User
    1. Use `usermod` to Modify User Settings
+   1. Use `addgroup` and `groupadd` to Create Group 
+   1. Use `delgroup` and `groupdel` to Delete Group 
    1. Use `groupmod` to Modify User Settings
    1. Use `passwd` to Change Passwords
+   1. Know the Files Involved
+      1. `/etc/passwd`
+      1. `/etc/shadow`
+      1. `/etc/group`
+   1. Use `who`,`w`,`whoami`,`who am i`,`last` to See Users
 1. Understand UNIX File and Directory Ownership and Permissions
    1. Use `ls -l` to See Permissions
    1. Use `stat` to See Even More About File
@@ -307,7 +320,7 @@ You can also help fund this project by clicking *Sponsor*. Thanks.
    1. Use `chgrp` to Change Group
 1. Know About Setuid, Setgid, and Such, But Don't Use 
 
-## Day 13: Commands *Are* Code, Start POSIX Shell Scripting 
+## Day 13: Commands *Are* Code, Creating Shell Scripts
 
 1. You're Already Coding, Every Command *is* Code
    1. Commands are Really Just Functions with Arguments
@@ -315,173 +328,97 @@ You can also help fund this project by clicking *Sponsor*. Thanks.
    1. Shell Started as Bourne Shell, Now Ash and Dash
    1. Korn Shell Led to Bash and Zsh Interpreters
    1. Awk, Perl, Python, Ruby, Node Also Shell Scripting
-1. Create First POSIX Shell Script 
-   1. Come Up with a Few Commands to Run
-   1. Put Those Commands in a File
-      1. Use History and `echo '...' >>` to Save Typing
+1. Create First Script 
+   1. Create a File Containing Some Commands
+   1. Know What *Interpreted* Means
    1. Use `sh` Interpreter to Run Commands in File
-      1. Use `bash` to Run Same Commands
-      1. Use `perl` to Attempt Run and Note Errors
+   1. Use `bash` Interpreter to Run Same Commands
+   1. Use `perl` to Attempt Same and Note Errors
    1. Use `chmod +x` to Make File Executable
    1. Add `#!/bin/sh` Shebang Line to Specify Interpreter
-      1. Assumes Current Shell Interpreter When No Shebang
-   1. Use `shellcheck` to Be Sure It's POSIX
 1. Difference Between *Running* and *Sourcing* Scripts
-   1. Use `.` or `source` to Source a Script
+   1. Use Dot (`.`) or `source` to Source a Script
+   1. Most Stuff Should Be in Script (Subprocesses)
    1. Some Stuff Can't Be Done Any Other Way
       1. Change Current Working Directory
       1. Modify Current Environment
 1. Put Executables in Your `PATH` to Run From Anywhere
    1. Use `which` to See Which Executable Wins
-      1. Understand Difference Between `which` and `type`
-
-## Day 14: Manage Jobs, Processes, and Signals
-
-1. A Running Program is a *Process*
-1. A Backgrounded Program a *Job*
-1. `Ctrl-z` to Background Running Process
+   1. Understand Difference Between `which` and `type`
+1. Manage Jobs and Processes
+   1. A Running Program is a *Process*
+   1. A Backgrounded Program a *Job*
+   1. `Ctrl-z` to Background Running Process
    1. Use `jobs` to See All Background Processes
    1. Use `fg` to Bring Background Job Forward
-1. Use ` &` to Start Program in Background
-1. Use `pgrep`, `ps`, `/proc` to See Processes
-1. Use `kill`,`pkill` to Send a Signal
-1. Don't Bother with `nohup` (Use `docker`, `screen`/`tmux`)
-1. Use `crontab` to Schedule Jobs
+   1. Use ` &` to Start Program in Background
+   1. Use `pgrep`, `ps`, `/proc` to See Processes
+   1. Use `crontab` to Schedule Jobs
 
-----
+## Day 14: Basic POSIX Shell Script Syntax
 
-*Note that stuff below this line is still being worked out based on what
-we have covered so far. Stuff above is baked a little more but still
-always in flux. This is all very organic (and always has been).*
+1. Know What *Syntax* Means
+1. Know What *POSIX* Means
+1. Know What *Script* Means
+1. Use `shellcheck` Throughout to Ensure POSIX
 
-## Day 15: More POSIX Shell Scripting Basics
-
-1. Commands *are* Functions with Arguments and Return Values
-   1. Understand UNIX Return Values
+1. Functions Group Commands
+   1. Know What a *Function* Is
+   1. Know What an *Argument* Is
+   1. Know What a *Return Value* Is
+   1. Commands *are* Functions
+   1. Functions *are* Commands
+   1. Use `foo () {}` to Create a Function
+   1. Know What a *Block* Is
+   1. Functions Have Arguments
+      1. Arguments Do *Not* Go in `()`
+      1. Use `$1` for First Argument (And So On) 
+   1. Functions Have Return Values
+      1. Understand UNIX Return Values
+      1. Function Return Values Same as Commands
    1. Distinguish Return Value from Output
-1. Difference Between Subroutines, Procedures, and Functions
+   1. Use `return` to Set Return Value
+      1. Sometime Omitting `return` is Fine
+   1. Use `set -e` to Exit Program if *Anything* Fails
+   1. Use `exit` to Exit Program Immediately
+   1. Write Clean Functions
+      1. Some Functions are Not Functions At All 
+      1. Know What a *Subroutine* or *Procedure* Is
+      1. Know How *True* Function Differs from Procedure
+      1. Know What *Side Effects* Are
+      1. Know What *Functional Programming* Is
+      1. Separate Functions from *Procedure* "Functions"
+
 1. Variables Save State
    1. Use `=` With No Surrounding Spaces to Assign Variable
    1. Like Putting Something Into Box or on List
+   1. Know What *Scope* Means
+   1. Know What *Global* and *Local* Mean
    1. All Variables are Global in POSIX Shell
+   1. Know What *Type* Means When Programming
    1. Variables Contain Data of Different Types
       1. All Types are Ultimately the Same Binary Bits
-1. Conditions and Altering Flow Based on State
-   1. Use `set -e` to Exit on Any Error
-1. What About Object-Oriented Programming?
+   1. Usually Wrap Shell Variables in Quotes (`"$foo"`)
+   1. Use `${}` to Disambiguate
 
-## Day 15: Customize Your Interactive Shell
+1. Conditions Alter Flow
+   1. Use `test` to Check Condition
+   1. Avoid Problematic `[]` to Check Conditions
+   1. Use `if` to Group Commands If True
+   1. Avoid `else` Whenever Possible
+   1. Use `case` to Branch Multiple Conditions
+   1. Use `set -e` to Add *Exit on Any Error* Condition
+   1. Know and Use *Short-Circuit Logic*
 
-1. We Call Them "Dotfiles" For a Reason
-1. What Are All These Files?
-1. Edit `~/.profile` to Point to `~/.bashrc`
-1. Customize Bash (`.bashrc`,`.profile`)
-   1. Customize Your Bash Command Prompt
-   1. Colorize Your Pager and `man` Pages
-   1. Prefer Commands Over Aliases (Cuz Subprocs)
-1. Use `alias` to Add Interactive Shell Aliases
-   1. Avoid Abusing Aliases, Commands are Better
-1. Exporting Functions
-1. Use `eval` to Source Other Code Inline
-   1. The Case For and Against
-1. Use Backslash to Disable Aliases and Functions
+1. Loops Repeat Commands Until Condition Met
+   1. Use `break` to Break Out of Any Loop
+   1. Use `continue` to Start Next Iteration Early
 
-## Day 16: Basic Networking and Remote Access
+1. Signals Communicate Between Programs
+   1. Know What *Interprocess Communication (IPC)* Is
+   1. Signals are Just One IPC Method
+   1. Use `kill`, `pkill` to Send a Signal
+   1. Use `trap` to Handle a Signal
+   1. Don't Bother with `nohup` (Use `docker`, `screen`/`tmux`)
 
-1. How Does the Internet Work?
-   1. Short History of the Internet
-   1. Nerds 2.0.1, Glory of the Geeks
-   1. Use `ip`/`ifconfig` to See IP Information
-      1. BTW, It's `ipconfig` on Windows
-   1. Use `dig`/`nslookup` to Lookup Domain Names
-   1. Use `ping` to Explore Hosts (But Don't Depend On)
-   1. Use `netstat -tupl` to See Local Network Stuff
-   1. Use `nmap` to Scan for Hosts and Ports
-1. Use Secure Shell for Remote Access and File Transfer
-   1. Setting Up Secure Shell on Local System
-      1. Use `ssh-keygen -t ed25519`
-   1. Use `ssh` to Make Secure Remote Connections
-   1. Use `scp` to Copy Remote Files Securely
-   1. Use `sftp` When You *Must* Use FTP
-1. Use `rsync` for Customized Backups
-
-## Day 17: Get On Git and GitHub
-
-1. Minimal Secure Shell Setup
-1. See What's Listening with `netstat -tulpn` and `nmap`
-1. Setup Git and GitHub CLI
-1. Preserve Your Dotfiles on GitHub
-1. Create a Dotfiles Docker Image
-
-
-## Day 15: Manage Screen and State with Screen and TMUX
-
-1. Any Window Manager Will Do
-1. Screen, the One that Started It All
-1. TMUX, a Modern Multiplexer
-1. Cut and Paste with TMUX Buffers
-1. Customize and Extend TMUX (`.tmuxrc`)
-
-## Day 11: Use Terminal for Fastest Possible Web Research
-
-1. Leverage the Power of `find`
-1. Why Browse the Web from the Terminal?
-1. Pick a Terminal Web Browser for You
-1. Use and Configure `w3m` Text Web Browser
-1. Use and Configure `lynx` Text Web Browser
-1. Turn Shell History Into Search History
-1. Use `curl` to Fetch Files and More
-
-
-1. Write Your Own Embedded Bash Tab Completion
-
-## Day 15: Create and Manage Knowledge Content
-
-1. Structure Data with YAML and JSON
-1. Query YAML and JSON with `yq` and `jq`
-1. Create and Publish Web Documents
-   1. Write Basic Pandoc Markdown
-   1. Code a Static Site Generator in 10 Lines of Bash
-   1. Host Web Content on GitHub and Netlify for Free
-   1. Code Basic HTML
-   1. Code Basic CSS
-   1. Code Basic (DOM) JavaScript
-1. KEG, The Knowledge Exchange Grid
-   1. What is KEG and Why Should I Care?
-   1. Capture Knowledge with `kn`
-   1. Share Knowledge with `keg`
-1. PEGN, Parsing Expression Grammar Notation
-   1. Everything's a Grammar
-   1. PEGN AST, Consistent Abstract Syntax Tree Notation
-   1. Create and Parse Your Own Language
-   1. Better Than Regular Expressions
-
-## Code C for Understanding
-
-1. Head First C
-
-## Code Python for Applications and Automation
-
-1. ??
-
-## Code Go for Utilities and Services
-
-1. Code Go Templates
-
-## Get Good to Gig
-
-1. The Prescient Technology Professional
-1. Use Twitter Productively
-1. Follow Usenet News Groups
-1. Use IRC and WeeChat from Terminal
-
-## Create and Manage Docker Containers
-
-1. Code Dockerfiles
-
-## Cloud-Native with Kubernetes
-
-1. Explore Kubernetes Locally with Kind
-1. Develop Cloud-Native Applications
-1. Deploy Kubernetes Applications with Helm
-1. Setup and Administer Kubernetes
+*More to come (boost is at least 100 days)...*
