@@ -240,7 +240,6 @@ You can also help fund this project by clicking *Sponsor*. Thanks.
       1. Fix `find` Command Errors with Redirection 
    1. Use `>>` File Append Operator
    1. Use `>|` Force File Overwrite Operator
-
 1. Understand Pipes and Pipeline
    1. Use `|` Pipe Operator to Connect Out with In
    1. Power of Pipelines and Shell Integration
@@ -258,7 +257,6 @@ You can also help fund this project by clicking *Sponsor*. Thanks.
       1. Use `sed` to Edit Lines of Stream (Streamed `ed`)
       1. Use `jq` to Select from JSON Input
       1. Use `yq` to Select from YAML Input
-
 1. Get Standard Input Into Your Programs
    1. Input Most Useful After You Know How to Code
    1. Use `<` File Input Redirect Operator
