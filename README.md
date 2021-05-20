@@ -289,7 +289,7 @@ You can also help fund this project by clicking *Sponsor*. Thanks.
 
 ## Day 12: Manage Users, Groups, and Permissions 
 
-1. How Much About User Stuff Do I Need to Know?
+1. How Much User Stuff Do I Need to Know?
 1. Create and Manage Users and Groups
    1. Use `adduser` and `useradd` to Create User
    1. Use `deluser` and `userdel` to Delete User
