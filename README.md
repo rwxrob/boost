@@ -350,11 +350,12 @@ You can also help fund this project by clicking *Sponsor*. Thanks.
    1. Use `pgrep`, `ps`, `/proc` to See Processes
    1. Use `crontab` to Schedule Jobs
 
-## Day 14: Basic POSIX Shell Script Syntax
+## Day 14: POSIX Shell Programming Syntax
 
 1. Know What *Syntax* Means
 1. Know What *POSIX* Means
 1. Know What *Script* Means
+1. Know What *Program* and *Programming* Mean
 1. Use `shellcheck` Throughout to Ensure POSIX
 1. Functions Group Commands
    1. Know What a *Function* Is
@@ -410,5 +411,7 @@ You can also help fund this project by clicking *Sponsor*. Thanks.
    1. Use `kill`, `pkill` to Send a Signal
    1. Use `trap` to Handle a Signal
    1. Don't Bother with `nohup` (Use `docker`, `screen`/`tmux`)
+1. Some Fun Challenges to Get You Started
+   1. <https://rwx.gg/lang/cha>
 
 *More to come (boost is at least 100 days)...*
