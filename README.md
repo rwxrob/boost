@@ -93,6 +93,8 @@ You can also help fund this project by clicking *Sponsor*. Thanks.
 
 ## Day 5: Learn About Containers and Get Docker
 
+[[Full Live-Recorded Video]](https://youtu.be/YcBIUOSOAeg)
+
 1. What's a Container and Why Should You Care?
    1. The Difference Between "Container" and "Image"?
    1. Kubernetes is the New Operating System
@@ -104,6 +106,9 @@ You can also help fund this project by clicking *Sponsor*. Thanks.
    1. Install Docker on Linux
 
 ## Day 6: Run Linux Inside a Container
+
+[[Full Live-Recorded Video]](https://youtu.be/_jJWOgZwBBs)
+
 
 1. Linux Distro Matters Less in Container World
    1. `docker run -it --rm ubuntu`
@@ -127,6 +132,8 @@ You can also help fund this project by clicking *Sponsor*. Thanks.
 1. Don't Worry About Dockerfile and Compose (For Now)
 
 ## Day 7: Start Using the Linux Terminal Command Line
+
+[[Full Live-Recorded Video]](https://youtu.be/EBtWx5m7pds)
 
 1. Book (free): The Linux Command Line, William Shotts
 1. The Command Line, Fastest Human-Computer Interface
@@ -190,6 +197,8 @@ You can also help fund this project by clicking *Sponsor*. Thanks.
 
 ## Day 8: Build Up Container with Software
 
+[[Full Live-Recorded Video]](https://youtu.be/6EDT-Vc4PCY)
+
 1. Create and Name a Workspace Container
    1. `docker run -it --name boost -h boost ubuntu`
    1. Difference Between Detach and Exit
@@ -205,6 +214,8 @@ You can also help fund this project by clicking *Sponsor*. Thanks.
    1. Use `apt remove`
 
 ## Day 9: Work with File System from Command Line
+
+[[Full Live-Recorded Video]](https://youtu.be/eZV14xpFAlA)
 
 1. [OverTheWire], Fun Hacker Practice
 1. Understand the Linux File System
@@ -231,6 +242,8 @@ You can also help fund this project by clicking *Sponsor*. Thanks.
 [OverTheWire]: <https://overthewire.org/wargames/bandit/>
 
 ## Day 10: Understand Streams, Pipes, and Redirection
+
+[[Full Live-Recorded Video]](https://youtu.be/rhknj8h0zU8)
 
 1. Understand Standard Output and Error
    1. Use `echo` and `printf` to Print Stuff
@@ -270,6 +283,8 @@ You can also help fund this project by clicking *Sponsor*. Thanks.
       1. Usually Combined with `jq` or `yq`
 
 ## Day 11: Edit Files with Vi (Then Vim)
+
+[[Full Live-Recorded Video]](https://youtu.be/RJ3EVB5-Emw)
 
 1. Vi ("Visual Mode") History and Legacy
 1. Why Vi/m and Not NeoVim/Emacs/Nano/VSCode?
