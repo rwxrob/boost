@@ -109,7 +109,6 @@ You can also help fund this project by clicking *Sponsor*. Thanks.
 
 [[Full Live-Recorded Video]](https://youtu.be/_jJWOgZwBBs)
 
-
 1. Linux Distro Matters Less in Container World
    1. `docker run -it --rm ubuntu`
    1. `docker run -it --rm fedora`
