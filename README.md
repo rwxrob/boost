@@ -41,7 +41,7 @@ You can also help fund this project by clicking *Sponsor*. Thanks.
    1. Those Willing to Learn [My Way]
    1. Technologists Missing the [Fundamentals](/20210504205245)
    1. Anyone Learning [Linux, Containers, and Coding](/20210427021330)
-   [My Way]: <https://github.com/rwxrob/zet/tree/main/20210504213727>
+[[My Way]]: <https://github.com/rwxrob/zet/tree/main/20210504213727>
 1. [Setup Essential Services][ytessential]
    1. Pick an Email Provider (ProtonMail)
    1. Create a YouTube Account
