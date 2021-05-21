@@ -27,22 +27,63 @@ You can also help fund this project by clicking *Sponsor*. Thanks.
 
 [[Full Live-Recorded Video]](https://youtu.be/UkE2KMsVzjQ)
 
-1. [What is the purpose of Beginner Boost?](20210504161937)
-1. [Beginner Boost, Day 0, Logistics](20210505025834)
-1. [Who is the Beginner Boost for?](20210505031231)
-1. [Setup Essential Services][services]
 
-[services]: <https://github.com/rwxrob/zet/tree/main/20210505023938>
+1. [What is the purpose of Beginner Boost?](20210504161937)
+   1. The main purpose of Beginner Boost is to help you know what you don't know and where to go to learn it. Secondarily, we cover stuff that might not be covered at all or as well elsewhere.
+1. [Beginner Boost, Day 0, Logistics](20210505025834)
+   1. Weekdays from 7-9pm, live on Twitch
+   1. Most recent videos (highlights) to Twitch VODs and Twitter
+   1. 24 hour delay on YouTube videos
+   1. Optionally, use ! to Twitch chat so doesn't appear on video
+   1. Contact information on <https://github.com/rwxrob>
+1. [Who is the Beginner Boost for?](20210505031231)
+   1. Absolute Beginners Who Meet the [Prerequisites](/20210427021329)
+   1. Those Willing to Learn [My Way]
+   1. Technologists Missing the [Fundamentals](/20210504205245)
+   1. Anyone Learning [Linux, Containers, and Coding](/20210427021330)
+   [My Way]: <https://github.com/rwxrob/zet/tree/main/20210504213727>
+1. [Setup Essential Services][ytessential]
+   1. Pick an Email Provider (ProtonMail)
+   1. Create a YouTube Account
+   1. Create a Twitch Account (Or Not)
+   1. Create a GitHub Account
+   1. Create a Docker Account
+
+[ytessential] : <https://youtu.be/AOSCmQ14uec>
 
 ## Day 1: Get Motivated to Learn ¡Viva la Revolución!
 
 [[Full Live-Recorded Video]](https://youtu.be/U7BNE-AKLeI)
 
 1. [Problems with Traditional Education][prob]
+   1. They Killed Socrates for Getting People to Ask Questions
+   1. Pink Floyd: "We Don't Need No Education"
+   1. Paulo Freire: "Oppression Starts in the Home"
+   1. Sir Ken Robinson: "Creativity is Beaten Out of Us"
+   1. Paulo Freire: "Banker Style" Education Doesn't Work
+   1. Why Don't Schools Teach Us How to Learn?
+   1. Stop Overpaying for "Education"
+   1. Help Others Learn, It's Our Social Responsibility
 1. [Help Others Learn, A Social Responsibility][social]
+   1. Dangers of Scarcity Mentality
+   1. Don't Hoard Knowledge, Give It Away, Everyone Wins
+   1. It's Not Someone Else's Job
+   1. Set an Example
 1. [Become an Autodidact][autodidact]
+   1. Stop Being Afraid, Teach Yourself, Don't Depend on Others
+   1. How I Learned to Learn, Quick Stories from My Learning Past
+   1. Role of Imagination and Creativity When Learning
 1. [Tribute to Aaron Swartz][aaron]
+   1. Everything I do regarding the spread of learning and knowledge is
+dedicated to the life and mission of Aaron Swartz. Were he here today
+he'd likely be doing something along the same lines. He'd probably have
+already created his version of KEG. I have dreams of spending an
+afternoon sipping beverages and conversing with him and Lawrence Lessig
+about changing the world, more. Aaron is one of those few for whom the
+trite phrase "too good for this world" really applies. I hope everyone
+will watch [The Internet's Own Boy][aaron] to understand why.
 
+[aaron]: <https://www.youtube.com/results?search_query=internet%27s+own+boy>
 [prob]: <https://github.com/rwxrob/zet/tree/main/20210506155713>
 [social]: <https://github.com/rwxrob/zet/tree/main/20210506160012>
 [autodidact]: <https://github.com/rwxrob/zet/tree/main/20210506163935>
