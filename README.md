@@ -166,7 +166,7 @@ You can also help fund this project by clicking *Sponsor*. Thanks.
    1. Use `reset` to Fix Bork Terminal
    1. Use `clear` to Clear Screen (and Alternatives)
    1. Use `watch` to Repeat Things and See Output
-   1. Use `man` Command to Get Help
+   1. Use `man`/`help`/`info` Commands to Get Help
    1. Use `less`/`more` for Paging Output
    1. Use `ls` Command to List Files and Directories
    1. Use `type` to See What Type of Thing It Is
@@ -292,6 +292,7 @@ You can also help fund this project by clicking *Sponsor*. Thanks.
 1. How Much User Stuff Do I Need to Know?
 1. Create and Manage Users and Groups
    1. Use `adduser` and `useradd` to Create User
+   1. Use `su - <user>` to "Login" as User
    1. Use `deluser` and `userdel` to Delete User
    1. Use `usermod` to Modify User Settings
    1. Use `addgroup` and `groupadd` to Create Group 
@@ -302,6 +303,14 @@ You can also help fund this project by clicking *Sponsor*. Thanks.
       1. `/etc/passwd`
       1. `/etc/shadow`
       1. `/etc/group`
+   1. Use `id` to Get the User and Group Information
+   1. Use `login` to Login
+      1. Does Not Register as Logged in User
+   1. Use `su - <user>` to Simulate a Login as Root
+   1. Understand `root` Access
+      1. Use `sudo` to Grant `root` (SuperUser) Access
+      1. Use `sudo su -` to Get Root Shell
+      1. use `doas -s` to Do Something As Root
    1. Use `who`,`w`,`whoami`,`who am i`,`last` to See Users
 1. Understand UNIX File and Directory Ownership and Permissions
    1. Use `ls -l` to See Permissions
