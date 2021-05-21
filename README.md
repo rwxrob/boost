@@ -31,7 +31,7 @@ You can also help fund this project by clicking *Sponsor*. Thanks.
 1. [What is the purpose of Beginner Boost?](20210504161937)
    1. The main purpose of Beginner Boost is to help you know what you don't know and where to go to learn it. Secondarily, we cover stuff that might not be covered at all or as well elsewhere.
 1. [Beginner Boost, Day 0, Logistics](20210505025834)
-   1. Weekdays from 7-9pm, live on Twitch
+   1. Weekdays from 7-8:30pm, live on Twitch
    1. Most recent videos (highlights) to Twitch VODs and Twitter
    1. 24 hour delay on YouTube videos
    1. Optionally, use ! to Twitch chat so doesn't appear on video
@@ -41,15 +41,15 @@ You can also help fund this project by clicking *Sponsor*. Thanks.
    1. Those Willing to Learn [My Way]
    1. Technologists Missing the [Fundamentals](/20210504205245)
    1. Anyone Learning [Linux, Containers, and Coding](/20210427021330)
-   1. [[My Way]](https://github.com/rwxrob/zet/tree/main/20210504213727)
-1. [Setup Essential Services][ytessential]
+1. [Setup Essential Services][Essentials]
    1. Pick an Email Provider (ProtonMail)
    1. Create a YouTube Account
    1. Create a Twitch Account (Or Not)
    1. Create a GitHub Account
    1. Create a Docker Account
 
-[ytessential] : <https://youtu.be/AOSCmQ14uec>
+[Essentials]: <https://youtu.be/AOSCmQ14uec>
+[My Way]: <https://github.com/rwxrob/zet/tree/main/20210504213727>
 
 ## Day 1: Get Motivated to Learn ¡Viva la Revolución!
 
