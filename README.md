@@ -23,9 +23,9 @@ You can also help fund this project by clicking *Sponsor*. Thanks.
 [personal Zettelkasten repo]: <https://github.com/rwxrob/zet>
 [learning labs]: <https://github.com/rwxrob/lab>
 
-## Day 0: Get Set Up, May the 4th Be With You
+## Day 0: Get Set Up, May the 4th Be With You {day0}
 
-[[Full Live-Recorded Video]](https://youtu.be/UkE2KMsVzjQ)
+[📺 Unedited Video](https://youtu.be/UkE2KMsVzjQ)
 
 1. [What is the purpose of Beginner Boost?](20210504161937)
 1. [Beginner Boost, Day 0, Logistics](20210505025834)
@@ -324,7 +324,7 @@ You can also help fund this project by clicking *Sponsor*. Thanks.
    1. Use `chgrp` to Change Group
 1. Know About Setuid, Setgid, and Such, But Don't Use 
 
-## Day 13: Commands *Are* Code, Creating Shell Scripts
+## Day 13: Scripts are Just Text Files with Commands
 
 1. You're Already Coding, Every Command *is* Code
    1. Commands are Really Just Functions with Arguments
@@ -335,6 +335,7 @@ You can also help fund this project by clicking *Sponsor*. Thanks.
 1. Create First Script 
    1. Create a File Containing Some Commands
    1. Know What *Interpreted* Means
+   1. Know What *Syntax* Means
    1. Use `sh` Interpreter to Run Commands in File
    1. Use `bash` Interpreter to Run Same Commands
    1. Use `perl` to Attempt Same and Note Errors
@@ -365,7 +366,6 @@ You can also help fund this project by clicking *Sponsor*. Thanks.
 
 ## Day 14: POSIX Shell Programming Syntax
 
-1. Know What *Syntax* Means
 1. Know What *POSIX* Means
 1. Know What *Script* Means
 1. Know What *Program* and *Programming* Mean
