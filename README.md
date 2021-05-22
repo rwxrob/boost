@@ -338,8 +338,10 @@ You can also help fund this project by clicking *Sponsor*. Thanks.
    1. Use `sh` Interpreter to Run Commands in File
    1. Use `bash` Interpreter to Run Same Commands
    1. Use `perl` to Attempt Same and Note Errors
+   1. Use `python3` to Attempt Same and Note Errors
    1. Use `chmod +x` to Make File Executable
    1. Add `#!/bin/sh` Shebang Line to Specify Interpreter
+   1. What's Up with `/usr/bin/env`?
 1. Difference Between *Running* and *Sourcing* Scripts
    1. Use Dot (`.`) or `source` to Source a Script
    1. Most Stuff Should Be in Script (Subprocesses)
@@ -349,6 +351,7 @@ You can also help fund this project by clicking *Sponsor*. Thanks.
 1. Put Executables in Your `PATH` to Run From Anywhere
    1. Use `which` to See Which Executable Wins
    1. Understand Difference Between `which` and `type`
+   1. Never Put `./` in Your Path
 1. Manage Jobs and Processes
    1. A Running Program is a *Process*
    1. A Backgrounded Program a *Job*
@@ -356,8 +359,9 @@ You can also help fund this project by clicking *Sponsor*. Thanks.
    1. Use `jobs` to See All Background Processes
    1. Use `fg` to Bring Background Job Forward
    1. Use ` &` to Start Program in Background
-   1. Use `pgrep`, `ps`, `/proc` to See Processes
-   1. Use `crontab` to Schedule Jobs
+   1. Use `pgrep`, `pkill`, `kill`, `ps`, `/proc` to See Processes
+   1. Use `crontab` to Schedule Jobs in the Background
+      1. Editing Your `crontab` is Not Really Beginner
 
 ## Day 14: POSIX Shell Programming Syntax
 
