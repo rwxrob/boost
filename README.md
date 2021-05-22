@@ -377,7 +377,7 @@ You can also help fund this project by clicking *Sponsor*. Thanks.
    1. `Ctrl-z` to Background Running Process
    1. Use `jobs` to See All Background Processes
    1. Use `fg` to Bring Background Job Forward
-   1. Use ` &` to Start Program in Background
+   1. Use `&` and `nohup` to Start and Keep Program in Background
    1. Use `pgrep`, `pkill`, `kill`, `ps`, `/proc` to See Processes
    1. Use `crontab` to Schedule Jobs in the Background
       1. Editing Your `crontab` is Not Really Beginner
@@ -441,8 +441,14 @@ You can also help fund this project by clicking *Sponsor*. Thanks.
    1. Signals are Just One IPC Method
    1. Use `kill`, `pkill` to Send a Signal
    1. Use `trap` to Handle a Signal
-   1. Don't Bother with `nohup` (Use `docker`, `screen`/`tmux`)
 1. Some Fun Challenges to Get You Started
    1. <https://rwx.gg/lang/cha>
 
-*More to come (boost is at least 100 days)...*
+*More to come (boost is at least 100 days) including ...*
+
+* Create Minimal Web Sites Using Simple, Standard Tech
+* Code in C for Understanding Modern Computers
+* Code Perl for Practical Prototyping
+* Code Go for Building Big Stuff
+* Code Python for Math, ML, and Automation
+* Know the Problem, Peril, and Practicality of Paradigms
