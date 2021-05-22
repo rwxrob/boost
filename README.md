@@ -34,9 +34,9 @@ You can also help fund this project by clicking *Sponsor*. Thanks.
 
 [services]: <https://github.com/rwxrob/zet/tree/main/20210505023938>
 
-## Day 1: Get Motivated to Learn ¡Viva la Revolución!
+## <a id=day1> Day 1: Get Motivated to Learn ¡Viva la Revolución!
 
-[[Full Live-Recorded Video]](https://youtu.be/U7BNE-AKLeI)
+[📺 Unedited Video](https://youtu.be/U7BNE-AKLeI)
 
 1. [Problems with Traditional Education][prob]
 1. [Help Others Learn, A Social Responsibility][social]
@@ -48,9 +48,9 @@ You can also help fund this project by clicking *Sponsor*. Thanks.
 [autodidact]: <https://github.com/rwxrob/zet/tree/main/20210506163935>
 [aaron]: <https://github.com/rwxrob/zet/tree/main/20210506164209>
 
-## Day 2: The Scientific Method, Our Greatest Learning Tool
+## <a id=day2> Day 2: The Scientific Method, Our Greatest Learning Tool
 
-[[Full Live-Recorded Video]](https://youtu.be/mlecHo2p7aU)
+[📺 Unedited Video](https://youtu.be/mlecHo2p7aU)
 
 1. What did you learn about the Scientific Method?
 1. The RWX Method, Refining the Scientific Method
@@ -62,9 +62,9 @@ You can also help fund this project by clicking *Sponsor*. Thanks.
 1. Zettelkasten (Slips in a Box) Knowledge Management System
 1. Capture Thoughts as Markdown, The Syntax of Knowledge Source
 
-## Day 3: Understand Linux Approach
+## <a id=day3> Day 3: Understand Linux Approach
 
-[[Full Live-Recorded Video]](https://youtu.be/8myY7Ydf64g)
+[📺 Unedited Video](https://youtu.be/8myY7Ydf64g)
 
 1. What's Linux? History of UNIX and GNU/Linux
 1. Do Macs Use Linux?
@@ -73,9 +73,9 @@ You can also help fund this project by clicking *Sponsor*. Thanks.
 1. How Does Linux Work?
 1. When and How Should I Install Linux?
 
-## Day 4: Get on the Terminal
+## <a id=day4> Day 4: Get on the Terminal
 
-[[Full Live-Recorded Video]](https://youtu.be/GlpSi2LW4_Y)
+[📺 Unedited Video](https://youtu.be/GlpSi2LW4_Y)
 
 **Mac:** Open and Configure a Mac Terminal  
 **Windows:** Install and Configure Modern Windows Terminal  
@@ -91,7 +91,9 @@ You can also help fund this project by clicking *Sponsor*. Thanks.
 1. Why not just use Vim plugins with VSCode?
 1. What about WSL2 on Windows?
 
-## Day 5: Learn About Containers and Get Docker
+## <a id=day5> Day 5: Learn About Containers and Get Docker
+
+[📺 Unedited Video](https://youtu.be/GlpSi2LW4_Y)
 
 1. What's a Container and Why Should You Care?
    1. The Difference Between "Container" and "Image"?
@@ -103,7 +105,9 @@ You can also help fund this project by clicking *Sponsor*. Thanks.
    1. Install Docker on a Mac
    1. Install Docker on Linux
 
-## Day 6: Run Linux Inside a Container
+## <a id=day6> Day 6: Run Linux Inside a Container
+
+[📺 Unedited Video](https://youtu.be/_jJWOgZwBBs)
 
 1. Linux Distro Matters Less in Container World
    1. `docker run -it --rm ubuntu`
@@ -126,7 +130,9 @@ You can also help fund this project by clicking *Sponsor*. Thanks.
 
 1. Don't Worry About Dockerfile and Compose (For Now)
 
-## Day 7: Start Using the Linux Terminal Command Line
+## <a id=day7> Day 7: Start Using the Linux Terminal Command Line
+
+[📺 Unedited Video](https://youtu.be/EBtWx5m7pds)
 
 1. Book (free): The Linux Command Line, William Shotts
 1. The Command Line, Fastest Human-Computer Interface
@@ -188,7 +194,9 @@ You can also help fund this project by clicking *Sponsor*. Thanks.
    1. Use `top` to See Running Processes
       1. Often Replaced with `htop`
 
-## Day 8: Build Up Container with Software
+## <a id=day8> Day 8: Build Up Container with Software
+
+[📺 Unedited Video](https://youtu.be/6EDT-Vc4PCY)
 
 1. Create and Name a Workspace Container
    1. `docker run -it --name boost -h boost ubuntu`
@@ -204,7 +212,9 @@ You can also help fund this project by clicking *Sponsor*. Thanks.
    1. Use `apt install`
    1. Use `apt remove`
 
-## Day 9: Work with File System from Command Line
+## <a id=day9> Day 9: Work with File System from Command Line
+
+[📺 Unedited Video](https://youtu.be/eZV14xpFAlA)
 
 1. [OverTheWire], Fun Hacker Practice
 1. Understand the Linux File System
@@ -230,7 +240,9 @@ You can also help fund this project by clicking *Sponsor*. Thanks.
 
 [OverTheWire]: <https://overthewire.org/wargames/bandit/>
 
-## Day 10: Understand Streams, Pipes, and Redirection
+## <a id=day10> Day 10: Understand Streams, Pipes, and Redirection
+
+[📺 Unedited Video](https://youtu.be/rhknj8h0zU8)
 
 1. Understand Standard Output and Error
    1. Use `echo` and `printf` to Print Stuff
@@ -269,7 +281,9 @@ You can also help fund this project by clicking *Sponsor*. Thanks.
    1. Use `curl` to Read Input from Internet
       1. Usually Combined with `jq` or `yq`
 
-## Day 11: Edit Files with Vi (Then Vim)
+## <a id=day11> Day 11: Edit Files with Vi (Then Vim)
+
+[📺 Unedited Video](https://youtu.be/RJ3EVB5-Emw)
 
 1. Vi ("Visual Mode") History and Legacy
 1. Why Vi/m and Not NeoVim/Emacs/Nano/VSCode?
@@ -287,7 +301,9 @@ You can also help fund this project by clicking *Sponsor*. Thanks.
    1. Eventually, Learn a Little Vimscript
 1. Avoid Vim Pane Splitting (Use TMUX Instead)
 
-## Day 12: Manage Users, Groups, and Permissions 
+## <a id=day12> Day 12: Manage Users, Groups, and Permissions 
+
+[📺 Unedited Video](https://youtu.be/TNdI8fNvP5k)
 
 1. How Much User Stuff Do I Need to Know?
 1. Create and Manage Users and Groups
@@ -324,7 +340,9 @@ You can also help fund this project by clicking *Sponsor*. Thanks.
    1. Use `chgrp` to Change Group
 1. Know About Setuid, Setgid, and Such, But Don't Use 
 
-## Day 13: Scripts are Just Text Files with Commands
+## <a id=day13> Day 13: Scripts are Just Text Files with Commands
+
+[📺 Unedited Video](https://youtu.be/72OmbZiyKsc)
 
 1. You're Already Coding, Every Command *is* Code
    1. Commands are Really Just Functions with Arguments
@@ -364,7 +382,7 @@ You can also help fund this project by clicking *Sponsor*. Thanks.
    1. Use `crontab` to Schedule Jobs in the Background
       1. Editing Your `crontab` is Not Really Beginner
 
-## Day 14: POSIX Shell Programming Syntax
+## <a id=day14> Day 14: POSIX Shell Programming Syntax
 
 1. Know What *POSIX* Means
 1. Know What *Script* Means
