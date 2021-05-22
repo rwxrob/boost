@@ -23,7 +23,7 @@ You can also help fund this project by clicking *Sponsor*. Thanks.
 [personal Zettelkasten repo]: <https://github.com/rwxrob/zet>
 [learning labs]: <https://github.com/rwxrob/lab>
 
-## Day 0: Get Set Up, May the 4th Be With You {day0}
+## Day 0: Get Set Up, May the 4th Be With You <a id=day0>
 
 [📺 Unedited Video](https://youtu.be/UkE2KMsVzjQ)
 
