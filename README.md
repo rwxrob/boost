@@ -360,7 +360,11 @@ You can also help fund this project by clicking *Sponsor*. Thanks.
    1. Use `python3` to Attempt Same and Note Errors
    1. Use `chmod +x` to Make File Executable
    1. Add `#!/bin/sh` Shebang Line to Specify Interpreter
+      1. Even If Others Work, Use to Communicate to Others
+      1. Sets Vi/m Syntax So Suffix Not Needed
    1. What's Up with `/usr/bin/env`?
+   1. Use `set -e` to Exit Program if *Anything* Fails
+   1. Use `set -x` When Needed for Debug Tracing
 1. Difference Between *Running* and *Sourcing* Scripts
    1. Use Dot (`.`) or `source` to Source a Script
    1. Most Stuff Should Be in Script (Subprocesses)
@@ -382,65 +386,108 @@ You can also help fund this project by clicking *Sponsor*. Thanks.
    1. Use `crontab` to Schedule Jobs in the Background
       1. Editing Your `crontab` is Not Really Beginner
 
-## <a id=day14> Day 14: POSIX Shell Programming Syntax
+## <a id=day14> Day 14: Start POSIX Shell Scripting, Functions
 
-1. Know What *POSIX* Means
+[📺 Unedited Video](https://youtu.be/zRNwt1y3lr4)
+
+1. Get and Use `shellcheck` Throughout to Ensure POSIX
+1. Know What *POSIX* Means [POSIX Standard]
 1. Know What *Script* Means
 1. Know What *Program* and *Programming* Mean
-1. Use `shellcheck` Throughout to Ensure POSIX
-1. Functions Group Commands
-   1. Know What a *Function* Is
-   1. Know What an *Argument* Is
-   1. Know What a *Return Value* Is
-   1. Commands *are* Functions
-   1. Functions *are* Commands
-   1. Use `foo () {}` to Create a Function
-   1. Know What a *Block* Is
-   1. Functions Have Arguments
-      1. Arguments Do *Not* Go in `()`
-      1. Use `$1` for First Argument (And So On) 
-   1. Functions Have Return Values
-      1. Understand UNIX Return Values
-      1. Function Return Values Same as Commands
-   1. Distinguish Return Value from Output
-   1. Use `return` to Set Return Value
-      1. Sometime Omitting `return` is Fine
-   1. Use `set -e` to Exit Program if *Anything* Fails
-   1. Use `exit` to Exit Program Immediately
-   1. Write Clean Functions
-      1. Some Functions are Not Functions At All 
-      1. Know What a *Subroutine* or *Procedure* Is
-      1. Know How *True* Function Differs from Procedure
-      1. Know What *Side Effects* Are
-      1. Know What *Functional Programming* Is
-      1. Separate Functions from *Procedure* "Functions"
-1. Variables Save State
-   1. Use `=` With No Surrounding Spaces to Assign Variable
+1. All Existence Consists of Objects and Actions
+   1. Events: Acting and Reacting
+   1. States: Mutable, Immutable, Persistent, Dynamic, Static
+1. On Programming Humans ...
+   1. Routines, Procedures, and Commands in the Real World
+   1. What About *Algorithms*?
+1. It All Started with Math, Know Why Linear Algebra Matters
+   1. `f(x,y) = 3x + 2y + 3`
+      1. `x`,`y` are *Parameters*
+      1. `=`, `+` are *Operators*
+      1. `3x`, `2y`, `3` are *Operands*
+      1. Function Parameter Variables Receive Argument Values
+      1. "This functions *returns* the value ..."
+      1. Same in JS: `let z = (x,y) => 3*x + 2*y +3`
+1. *True* Functions are *Not* Procedures
+   1. What About *Subroutines*?
+   1. What About *Methods*?
+   1. What About *Operations*?
+   1. What About *Commands*?
+   1. Even If Language Allows, Group Code Into Either
+   1. Know Advantages of One Over the Other
+   1. Know What *Functional Programming* Is
+   1. Know What *Side Effects* Are
+1. Shell Functions Are *Not* Functions, They Are Subroutines
+1. Use Action Verb When Naming
+1. Use `foo() {}` to Create a Subroutine (Function)
+
+[POSIX Standard]: <http://31.42.184.140/main/2328000/032a6956a51f4d1dd5c91aa161eee03a/IEEE%20%26%20The%20Open%20Group%20-%20IEEE%20Std%201003.1-2017%20%28aka%20POSIX%29%20%282017%29.pdf>
+
+## <a id=day15> Day 15: State, Types, Variables, Constants, and Scope [20210525230802]
+
+1. Variables Save Data as State
+1. Types Declare How to View State Data
+   1. Same Data, Different Type
+   1. Binary (Base 2, Ones and Zeros, Digital)
+   1. Number 
+   1. Symbol or Letter
+   1. String
+   1. Bit Field 
+   1. POSIX Shell Only Has Strings and Integers
+   1. Use Strings for Everything
+1. Function Parameter Variables Receive Argument Values
    1. Like Putting Something Into Box or on List
+1. Use `=` to Declare and Assign Variable
+   1. No Spaces Around Operator (`=`)
+1. Use `$foo` to Use Variable After Assigned
+1. *Always* Wrap with Double Quotes (`"$foo"`)
+1. Use `"${foo}bar"` to Disambiguate
+1. Don't Forget to Check with `shellcheck`
+1. Use `bc` When Numbers and Math are Actually Needed
+1. Understand *Scope* and Considerations
    1. Know What *Scope* Means
-   1. Know What *Global* and *Local* Mean
-   1. All Variables are Global in POSIX Shell
-   1. Know What *Type* Means When Programming
-   1. Variables Contain Data of Different Types
-      1. All Types are Ultimately the Same Binary Bits
-   1. Usually Wrap Shell Variables in Quotes (`"$foo"`)
-   1. Use `${}` to Disambiguate
+   1. Know What a *Block* Is
+   1. Know What *Global* Means
+   1. Know What *Local* Means
+1. All Variables are Global in POSIX Shell
+
+## <a id=day16> Day 16: Function and Command Communication
+
+1. *Calling* to Communicate
+   1. Know What to *Call* a Function or Subroutine Means
+   1. Arguments Contain Incoming Communication
+   1. Return Values Produce Outbound Communication
+1. Arguments Passed as Special Parameter Variables: `$1`, ...
+   1. No Parameters Between Parens `()`
+   1. Unlike Most Other Languages
+   1. Special Name of Executable Variable: `$0`
+1. Shell Functions Only Return Integers
+   1. Use `return` to Set Return Value
+   1. Sometime Omitting `return` is Fine
+   1. Return Values are *Not* Output
+   1. Using Output with `$(foo)` to Cheat and "Return" Strings
+1. Use `exit` to Return Value for Program Itself
+1. Know What *Inter-Process Communication (IPC)* is and Methods
+1. Signals Communicate Between Programs
+   1. Signals are Just One IPC Method
+   1. Use `kill`, `pkill` to Send a Signal
+   1. Use `trap` to Handle a Signal
+
+## <a id=day17> Day 17: Flow, Conditions, Logic, and Looping
+
 1. Conditions Alter Flow
    1. Use `test` to Check Condition
    1. Avoid Problematic `[]` to Check Conditions
    1. Use `if` to Group Commands If True
    1. Avoid `else` Whenever Possible
    1. Use `case` to Branch Multiple Conditions
-   1. Use `set -e` to Add *Exit on Any Error* Condition
    1. Know and Use *Short-Circuit Logic*
 1. Loops Repeat Commands Until Condition Met
    1. Use `break` to Break Out of Any Loop
    1. Use `continue` to Start Next Iteration Early
-1. Signals Communicate Between Programs
-   1. Know What *Interprocess Communication (IPC)* Is
-   1. Signals are Just One IPC Method
-   1. Use `kill`, `pkill` to Send a Signal
-   1. Use `trap` to Handle a Signal
+
+## <a id=day18> Day 18: Shell Exploring, Experimenting, and Exercising
+
 1. Some Fun Challenges to Get You Started
    1. <https://rwx.gg/lang/cha>
 
