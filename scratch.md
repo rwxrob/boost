@@ -1,6 +1,8 @@
 *This file contains stuff that needs to make it into the README.md file
 eventually.*
 
+## <a id=day18> Day 18: Shell Exploring, Experimenting, and Exercising
+
 1. What About ...?
    1. Know What *Object-Oriented* Programming Is
       1. Know What *True* OOP Is

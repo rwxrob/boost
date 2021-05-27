@@ -266,9 +266,9 @@ You can also help fund this project by clicking *Sponsor*. Thanks.
       1. Use `xargs` to Transform Lines Into Arguments
       1. Use `cut` to Remove Stuff from Lines of Stream
       1. Use `tr` to Translate Stuff in Lines of Stream
-      1. Use `sed` to Edit Lines of Stream (Streamed `ed`)
-      1. Use `jq` to Select from JSON Input
-      1. Use `yq` to Select from YAML Input
+      1. Use `sed` to Edit Lines of Stream (Streamed `ed`) (More Later)
+      1. Use `jq` to Select from JSON Input (More Later)
+      1. Use `yq` to Select from YAML Input (More Later)
 1. Get Standard Input Into Your Programs
    1. Input Most Useful After You Know How to Code
    1. Use `<` File Input Redirect Operator
@@ -340,7 +340,7 @@ You can also help fund this project by clicking *Sponsor*. Thanks.
    1. Use `chgrp` to Change Group
 1. Know About Setuid, Setgid, and Such, But Don't Use 
 
-## <a id=day13> Day 13: Scripts are Just Text Files with Commands
+## <a id=day13> Day 13: Scripts are Just Terminal Commands in a File
 
 [📺 Unedited Video](https://youtu.be/72OmbZiyKsc)
 
@@ -394,9 +394,8 @@ You can also help fund this project by clicking *Sponsor*. Thanks.
 1. Know What *POSIX* Means [POSIX Standard]
 1. Know What *Script* Means
 1. Know What *Program* and *Programming* Mean
-1. All Existence Consists of Objects and Actions
-   1. Events: Acting and Reacting
-   1. States: Mutable, Immutable, Persistent, Dynamic, Static
+1. A Universe of Stateful, Composable Objects with Actions, Interacting
+   1. Not Specifically Talking About OOP, Much Bigger
 1. On Programming Humans ...
    1. Routines, Procedures, and Commands in the Real World
    1. What About *Algorithms*?
@@ -423,8 +422,11 @@ You can also help fund this project by clicking *Sponsor*. Thanks.
 
 [POSIX Standard]: <http://31.42.184.140/main/2328000/032a6956a51f4d1dd5c91aa161eee03a/IEEE%20%26%20The%20Open%20Group%20-%20IEEE%20Std%201003.1-2017%20%28aka%20POSIX%29%20%282017%29.pdf>
 
-## <a id=day15> Day 15: State, Types, Variables, Constants, and Scope [20210525230802]
+## <a id=day15> Day 15: State, Data Types, Variables, and Constants
 
+[📺 Unedited Video](https://youtu.be/yHdUh6-qZw8)
+
+1. All Objects Have States: Mutable, Immutable, Persistent, Dynamic, Static
 1. Variables Save Data as State
 1. Types Declare How to View State Data
    1. Same Data, Different Type
@@ -457,21 +459,21 @@ You can also help fund this project by clicking *Sponsor*. Thanks.
    1. Know What to *Call* a Function or Subroutine Means
    1. Arguments Contain Incoming Communication
    1. Return Values Produce Outbound Communication
+   1. Calls Must Come After Declarations
 1. Arguments Passed as Special Parameter Variables: `$1`, ...
    1. No Parameters Between Parens `()`
    1. Unlike Most Other Languages
-   1. Special Name of Executable Variable: `$0`
+1. Use `$0` to Get Name/Path of Executable Script
+1. Use `$#` to Get the Total Number of Arguments Passed
+1. Use `"$@"` for `"first" "second" "third"`
+1. Use `"$*"` for `"first second third"`
 1. Shell Functions Only Return Integers
-   1. Use `return` to Set Return Value
-   1. Sometime Omitting `return` is Fine
+   1. Use `return [RVALUE]` to Set Return Value
+   1. Omitting `return` is Fine
    1. Return Values are *Not* Output
-   1. Using Output with `$(foo)` to Cheat and "Return" Strings
-1. Use `exit` to Return Value for Program Itself
-1. Know What *Inter-Process Communication (IPC)* is and Methods
-1. Signals Communicate Between Programs
-   1. Signals are Just One IPC Method
-   1. Use `kill`, `pkill` to Send a Signal
-   1. Use `trap` to Handle a Signal
+   1. Use `echo`/`printf` and `$(foo)` to "Return" Strings
+1. Use `$?` for Last Return Value
+1. Use `exit [RVALUE]` to Return Value for Program Itself
 
 ## <a id=day17> Day 17: Flow, Conditions, Logic, and Looping
 
@@ -486,10 +488,55 @@ You can also help fund this project by clicking *Sponsor*. Thanks.
    1. Use `break` to Break Out of Any Loop
    1. Use `continue` to Start Next Iteration Early
 
-## <a id=day18> Day 18: Shell Exploring, Experimenting, and Exercising
+## <a id=day18> Day 18: Signals, Events, and Inter-Process Communication
 
-1. Some Fun Challenges to Get You Started
-   1. <https://rwx.gg/lang/cha>
+1. Know What *Inter-Process Communication (IPC)* is and Methods
+1. Signals Communicate Between Programs
+   1. Signals are Just One IPC Method
+   1. Use `kill`, `pkill` to Send a Signal
+   1. Use `trap` to Handle a Signal
+1. Conclusion of POSIX Shell Scripting Material
+   1. Other Resources
+   1. Some Fun Challenges to Get You Started
+      1. <https://rwx.gg/lang/cha>
+
+## <a id=day19> Day 19: Dealing with Data, In a Structured Way
+
+Coming ...
+
+*Remember purpose of Boost is not to cover in depth, but to give a sense
+of what you need to know and why. Mastering these topics (SQL, for
+example) could take several months alone, writing your own language
+grammar in PEGN, a year or more*
+
+1. Delimited (WS, Tab, Bar, CSV, Properties)
+1. Universal JSON Standard and YAML Superset
+1. Regular Expressions (BRE, PCRE)
+1. Structured Query Language (SQL)
+1. Parsing Expression Grammar Notation (PEGN)
+
+## <a id=day20> Day 20: Delimited Data (Space, Tab, Bar, CSV, Properties)
+
+Coming ...
+
+## <a id=day21> Day 21: JSON Universal Standard and YAML Superset
+
+Coming ...
+
+## <a id=day22> Day 22: Regular Expressions (BRE, PCRE)
+
+Coming ...
+
+## <a id=day23> Day 23: Structured Query Language (SQL)
+
+Coming ...
+
+## <a id=day24> Day 24: Parsing Expression Grammar Notation (PEGN)
+
+Coming ...
+
+
+----
 
 *More to come (boost is at least 100 days) including ...*
 
