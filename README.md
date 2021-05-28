@@ -119,7 +119,7 @@ You can also help fund this project by clicking *Sponsor*. Thanks.
    1. `docker run -it --rm blackarch/blackarch`
 1. Run Rob's Workspace Linux Container
    1. `docker run -it --rm rwxrob/workspace`
-   1. Workspace Means *Not* Optimized (3GB)
+   1. Workspace Means *Not* Small (1.3GB)
 1. Use Docker Basic Commands
    1. Use Docker Pull
    1. Use Docker Run
@@ -127,14 +127,12 @@ You can also help fund this project by clicking *Sponsor*. Thanks.
    1. Use Docker Attach and Detach `Ctrl-pq`
    1. Use Docker Stop
    1. Use Docker Remove
-
 1. Don't Worry About Dockerfile and Compose (For Now)
 
 ## <a id=day7> Day 7: Start Using the Linux Terminal Command Line
 
 [📺 Unedited Video](https://youtu.be/EBtWx5m7pds)
 
-1. Book (free): The Linux Command Line, William Shotts
 1. The Command Line, Fastest Human-Computer Interface
 1. Every Command Line Entered is a Line of Shell Code
 1. Use Bash, Don't Play the Shell Game (For Now)
@@ -284,6 +282,10 @@ You can also help fund this project by clicking *Sponsor*. Thanks.
 ## <a id=day11> Day 11: Edit Files with Vi (Then Vim)
 
 [📺 Unedited Video](https://youtu.be/RJ3EVB5-Emw)
+
+*Please note that I mistakenly say `Ctrl-C` many times in this video
+where I actually mean `Ctrl-[`. See if you can catch all the times I get
+it wrong. It will be a good way to learn from my mistake.*
 
 1. Vi ("Visual Mode") History and Legacy
 1. Why Vi/m and Not NeoVim/Emacs/Nano/VSCode?
@@ -455,6 +457,8 @@ You can also help fund this project by clicking *Sponsor*. Thanks.
 
 ## <a id=day16> Day 16: Function and Command Communication
 
+[📺 Unedited Video](https://youtu.be/Gv-39gfhKR8)
+
 1. *Calling* to Communicate
    1. Know What to *Call* a Function or Subroutine Means
    1. Arguments Contain Incoming Communication
@@ -467,6 +471,7 @@ You can also help fund this project by clicking *Sponsor*. Thanks.
 1. Use `$#` to Get the Total Number of Arguments Passed
 1. Use `"$@"` for `"first" "second" "third"`
 1. Use `"$*"` for `"first second third"`
+1. Reminder About Necessity of Quoting (`"foo"`) Everything
 1. Shell Functions Only Return Integers
    1. Use `return [RVALUE]` to Set Return Value
    1. Omitting `return` is Fine
@@ -475,26 +480,40 @@ You can also help fund this project by clicking *Sponsor*. Thanks.
 1. Use `$?` for Last Return Value
 1. Use `exit [RVALUE]` to Return Value for Program Itself
 
-## <a id=day17> Day 17: Flow, Conditions, Logic, and Looping
+## <a id=day17> Day 17: Flow, Conditions, and Logic
+
+[📺 Unedited Video](https://youtu.be/Nvsae1lVPwY)
 
 1. Conditions Alter Flow
-   1. Use `test` to Check Condition
+   1. Use `test` to Check Condition (Read `test` Man Page)
+      1. Remember, `test` Not Needed for Single Command
+   1. Use `&&` and `||` to Create *Compound Conditions*
+   1. Know and Use *Short-Circuit Logic*
+      1. Use `test` to Keep it Clear to Read
+      1. Use `&&` to Join (not `||`)
+   1. Use `set -e` to Assert Every Line or Exit
+      1. Use `|| true` to Make Assertion Optional
    1. Avoid Problematic `[]` to Check Conditions
    1. Use `if` to Group Commands If True
-   1. Avoid `else` Whenever Possible
+   1. Avoid `else` Whenever Possible, Return Early Instead
    1. Use `case` to Branch Multiple Conditions
-   1. Know and Use *Short-Circuit Logic*
+
+## <a id=day18> Day 18: Loops, Signals, and Events
+
 1. Loops Repeat Commands Until Condition Met
+   1. Use `while` to Repeat While Condition True
+   1. Use `while true` for Infinite Loops
+   1. Use `until` to Repeat Until Condition True
+   1. Use `for` to Repeat for Sequence or Number of Items
+      1. Use `seq` Instead of Bash `{1..10}` Notation
    1. Use `break` to Break Out of Any Loop
    1. Use `continue` to Start Next Iteration Early
-
-## <a id=day18> Day 18: Signals, Events, and Inter-Process Communication
-
 1. Know What *Inter-Process Communication (IPC)* is and Methods
 1. Signals Communicate Between Programs
    1. Signals are Just One IPC Method
    1. Use `kill`, `pkill` to Send a Signal
    1. Use `trap` to Handle a Signal
+1. Use Loops, `nohup`, and `&` to Create Daemons
 1. Conclusion of POSIX Shell Scripting Material
    1. Other Resources
    1. Some Fun Challenges to Get You Started
@@ -511,6 +530,7 @@ grammar in PEGN, a year or more*
 
 1. Delimited (WS, Tab, Bar, CSV, Properties)
 1. Universal JSON Standard and YAML Superset
+1. What About TOML? (I Made the Logo, BTW)
 1. Regular Expressions (BRE, PCRE)
 1. Structured Query Language (SQL)
 1. Parsing Expression Grammar Notation (PEGN)
