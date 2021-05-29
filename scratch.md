@@ -14,11 +14,6 @@ eventually.*
 
 *Add these to customize shell day:*
 
-1. Extend Vim With the Shell, Not Plugins (At First)
-1. Extend Vim with `Plug` for Syntax and Specifics
-1. Add `set -o vi` to `.bashrc`
-
-
 ## Day 15: Customize Your Interactive Shell
 
 1. We Call Them "Dotfiles" For a Reason
@@ -86,8 +81,6 @@ eventually.*
 
 ## Day 15: Create and Manage Knowledge Content
 
-1. Structure Data with YAML and JSON
-1. Query YAML and JSON with `yq` and `jq`
 1. Create and Publish Web Documents
    1. Write Basic Pandoc Markdown
    1. Code a Static Site Generator in 10 Lines of Bash

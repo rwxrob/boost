@@ -23,6 +23,8 @@ You can also help fund this project by clicking *Sponsor*. Thanks.
 [personal Zettelkasten repo]: <https://github.com/rwxrob/zet>
 [learning labs]: <https://github.com/rwxrob/lab>
 
+# But First ...
+
 ## <a id=day0> Day 0: Get Set Up, May the 4th Be With You
 
 [📺 Unedited Video](https://youtu.be/UkE2KMsVzjQ)
@@ -61,6 +63,8 @@ You can also help fund this project by clicking *Sponsor*. Thanks.
 1. Meritocracy in the Workplace
 1. Zettelkasten (Slips in a Box) Knowledge Management System
 1. Capture Thoughts as Markdown, The Syntax of Knowledge Source
+
+# Get on a Docker Linux Container Terminal
 
 ## <a id=day3> Day 3: Understand Linux Approach
 
@@ -129,6 +133,8 @@ You can also help fund this project by clicking *Sponsor*. Thanks.
    1. Use Docker Remove
 1. Don't Worry About Dockerfile and Compose (For Now)
 
+# Survive the Linux Command Line (For Now)
+
 ## <a id=day7> Day 7: Start Using the Linux Terminal Command Line
 
 [📺 Unedited Video](https://youtu.be/EBtWx5m7pds)
@@ -192,7 +198,7 @@ You can also help fund this project by clicking *Sponsor*. Thanks.
    1. Use `top` to See Running Processes
       1. Often Replaced with `htop`
 
-## <a id=day8> Day 8: Build Up Container with Software
+## <a id=day8> Day 8: Install Software from Package Manager
 
 [📺 Unedited Video](https://youtu.be/6EDT-Vc4PCY)
 
@@ -279,7 +285,7 @@ You can also help fund this project by clicking *Sponsor*. Thanks.
    1. Use `curl` to Read Input from Internet
       1. Usually Combined with `jq` or `yq`
 
-## <a id=day11> Day 11: Edit Files with Vi (Then Vim)
+## <a id=day11> Day 11: Edit Files with Basic Vi (Then Vim)
 
 [📺 Unedited Video](https://youtu.be/RJ3EVB5-Emw)
 
@@ -300,7 +306,7 @@ it wrong. It will be a good way to learn from my mistake.*
 1. Start with Defaults and *Zero* Configuration
    1. Complex `.vimrc` is *Not* for Beginners
    1. Customizing `.vimrc` Requires Scripting Skills
-   1. Eventually, Learn a Little Vimscript
+   1. Eventually, Learn a Little Vimscript (Not Lua)
 1. Avoid Vim Pane Splitting (Use TMUX Instead)
 
 ## <a id=day12> Day 12: Manage Users, Groups, and Permissions 
@@ -341,6 +347,8 @@ it wrong. It will be a good way to learn from my mistake.*
    1. Use `chown` to Change Owner (and Group)
    1. Use `chgrp` to Change Group
 1. Know About Setuid, Setgid, and Such, But Don't Use 
+
+# Start Scripting in POSIX Shell
 
 ## <a id=day13> Day 13: Scripts are Just Terminal Commands in a File
 
@@ -388,7 +396,8 @@ it wrong. It will be a good way to learn from my mistake.*
    1. Use `crontab` to Schedule Jobs in the Background
       1. Editing Your `crontab` is Not Really Beginner
 
-## <a id=day14> Day 14: Start POSIX Shell Scripting, Functions
+
+## <a id=day14> Day 14: Functions, Procedures, Operations, Methods
 
 [📺 Unedited Video](https://youtu.be/zRNwt1y3lr4)
 
@@ -490,7 +499,7 @@ it wrong. It will be a good way to learn from my mistake.*
    1. Use `&&` and `||` to Create *Compound Conditions*
    1. Know and Use *Short-Circuit Logic*
       1. Use `test` to Keep it Clear to Read
-      1. Use `&&` to Join (not `||`)
+      1. Use `&&` to Join (Not `||`)
    1. Use `set -e` to Assert Every Line or Exit
       1. Use `|| true` to Make Assertion Optional
    1. Avoid Problematic `[]` to Check Conditions
@@ -500,6 +509,9 @@ it wrong. It will be a good way to learn from my mistake.*
 
 ## <a id=day18> Day 18: Loops, Signals, and Events
 
+1. Power of Loops on the Command Line
+   1. Iterating Over Ranges and Items
+   1. Creating Small Monitors and Services
 1. Loops Repeat Commands Until Condition Met
    1. Use `while` to Repeat While Condition True
    1. Use `while true` for Infinite Loops
@@ -514,44 +526,57 @@ it wrong. It will be a good way to learn from my mistake.*
    1. Use `kill`, `pkill` to Send a Signal
    1. Use `trap` to Handle a Signal
 1. Use Loops, `nohup`, and `&` to Create Daemons
-1. Conclusion of POSIX Shell Scripting Material
+1. Always Use `exec` to Exit a Program When Needed
+   1. Hands Off All Resources, Including Signal Handling
+1. Conclusion of POSIX Shell Scripting
    1. Other Resources
+   1. What's Next?
    1. Some Fun Challenges to Get You Started
       1. <https://rwx.gg/lang/cha>
 
-## <a id=day19> Day 19: Dealing with Data, In a Structured Way
-
-Coming ...
+# Deal with Data, In a Structured Way
 
 *Remember purpose of Boost is not to cover in depth, but to give a sense
 of what you need to know and why. Mastering these topics (SQL, for
 example) could take several months alone, writing your own language
 grammar in PEGN, a year or more*
 
+## <a id=day19> Day 19: Understand the Need for Structured Data
+
 1. Delimited (WS, Tab, Bar, CSV, Properties)
-1. Universal JSON Standard and YAML Superset
-1. What About TOML? (I Made the Logo, BTW)
-1. Regular Expressions (BRE, PCRE)
+1. Universal JSON, YAML, and JSON-Schema
+1. INI and TOML (I Made the Logo, BTW)
+1. Globbing and Regular Expressions (BRE, PCRE)
 1. Structured Query Language (SQL)
-1. Parsing Expression Grammar Notation (PEGN)
+1. ABNF, EBNF, PEG, and PEGN Specification Languages
+
+Other important ones to know:
+
+1. gRPC and ProtoBuf
+1. Hashicorp Configuration Language
+1. XML
 
 ## <a id=day20> Day 20: Delimited Data (Space, Tab, Bar, CSV, Properties)
 
 Coming ...
 
-## <a id=day21> Day 21: JSON Universal Standard and YAML Superset
+## <a id=day21> Day 21: Universal JSON, YAML, JSON-Schema
 
 Coming ...
 
-## <a id=day22> Day 22: Regular Expressions (BRE, PCRE)
+## <a id=day23> Day 23: INI and TOML (I Made the Logo, BTW)
 
 Coming ...
 
-## <a id=day23> Day 23: Structured Query Language (SQL)
+## <a id=day24> Day 24: Globbing Regular Expressions (BRE, PCRE)
 
 Coming ...
 
-## <a id=day24> Day 24: Parsing Expression Grammar Notation (PEGN)
+## <a id=day25> Day 25: Structured Query Language (SQL)
+
+Coming ...
+
+## <a id=day26> Day 26: ABNF, EBNF, PEG, and PEGN Specification Languages
 
 Coming ...
 
