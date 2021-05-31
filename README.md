@@ -393,9 +393,9 @@ it wrong. It will be a good way to learn from my mistake.*
    1. Use `fg` to Bring Background Job Forward
    1. Use `&` and `nohup` to Start and Keep Program in Background
    1. Use `pgrep`, `pkill`, `kill`, `ps`, `/proc` to See Processes
+   1. Use `nice` to Change Priority of Process
    1. Use `crontab` to Schedule Jobs in the Background
       1. Editing Your `crontab` is Not Really Beginner
-
 
 ## <a id=day14> Day 14: Functions, Procedures, Operations, Methods
 
