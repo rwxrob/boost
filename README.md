@@ -546,12 +546,13 @@ it wrong. It will be a good way to learn from my mistake.*
 1. Use `exec` to Exit a Program When Possible
    1. Hands Off All Resources, Including Signal Handling
 
-## <a id=day19> Day 19: ANSI Color Escapes, Ideas to Keep You Coding
+## <a id=day19> Day 19: ANSI Escapes, Color, Gotchas, What's Next?
 
-1. Know When to Use Color and When to Not
 1. Know What ANSI Escapes are and Which to Use 
    1. Use `\e[H\e[2J` to Clear the Screen
+   1. Use ... for Color
    1. Learn the Rest as Needed (It's Very Addicting)
+1. Know When to Use Color and When to Not
 1. Conclusion of POSIX Shell Scripting
    1. What's Next for Shell Coding
    1. Learn POSIX Parameter Expansion

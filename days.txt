@@ -24,13 +24,7 @@ Start Scripting in POSIX Shell
   Function and Command Communication
   Flow, Conditions, and Logic
   Loops, Signals, and Events
-
-Write Perl Scripts When POSIX Shell Isn't Enough
-  Why (Our Beloved) Bash Just Isn't Enough
-
-Write Python Scripts When Perl Isn't Enough
-
-Write Go Utilities When Python Isn't Enough
+  ANSI Escapes, Color, Gotchas, What’s Next?
 
 Deal with Data, In a Structured Way
   Understand the Need for Structured Data
