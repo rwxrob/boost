@@ -223,6 +223,7 @@ You can also help fund this project by clicking *Sponsor*. Thanks.
 1. [OverTheWire], Fun Hacker Practice
 1. Understand the Linux File System
 1. Use `mkdir` to Make a New Directory
+1. Use `mktemp` to Make a New File or Directory
 1. Use `rmdir` to Remove an Empty Directory
 1. Use `touch` to Make a New File (or Update Timestamp)
 1. Use `mv` to Move or Rename a File or Directory
@@ -494,45 +495,78 @@ it wrong. It will be a good way to learn from my mistake.*
 [📺 Unedited Video](https://youtu.be/Nvsae1lVPwY)
 
 1. Conditions Alter Flow
-   1. Use `test` to Check Condition (Read `test` Man Page)
-      1. Remember, `test` Not Needed for Single Command
-   1. Use `&&` and `||` to Create *Compound Conditions*
-   1. Know and Use *Short-Circuit Logic*
-      1. Use `test` to Keep it Clear to Read
-      1. Use `&&` to Join (Not `||`)
-   1. Use `set -e` to Assert Every Line or Exit
-      1. Use `|| true` to Make Assertion Optional
-   1. Avoid Problematic `[]` to Check Conditions
-   1. Use `if` to Group Commands If True
-   1. Avoid `else` Whenever Possible, Return Early Instead
-   1. Use `case` to Branch Multiple Conditions
+1. Use `test` to Check Condition (Read `test` Man Page)
+   1. Remember, `test` Not Needed for Single Command
+1. Use `&&` and `||` to Create *Compound Conditions*
+1. Use Range Notation (like `20 < i < 100`)
+1. Know and Use *Short-Circuit Logic*
+   1. Use `test` to Keep it Clear to Read
+   1. Use `&&` to Join (Not `||`)
+1. Use `set -e` to Assert Every Line or Exit
+   1. Use `|| true` to Make Assertion Optional
+1. Avoid Problematic `[]` to Check Conditions
+1. Use `if` to Group Commands If True
+1. Avoid `else` Whenever Possible, Return Early Instead
+1. Use `case` to Branch Multiple Conditions
 
 ## <a id=day18> Day 18: Loops, Signals, and Events
 
 1. Power of Loops on the Command Line
+   1. Use `watch` for Simple Repetition
    1. Iterating Over Ranges and Items
    1. Creating Small Monitors and Services
 1. Loops Repeat Commands Until Condition Met
    1. Use `while` to Repeat While Condition True
    1. Use `while true` for Infinite Loops
+   1. Use `sleep` to Lessen Impact to System
    1. Use `until` to Repeat Until Condition True
+   1. Avoid Loops That Require Math in POSIX Shell
+      1. But If Needed, Remember, Integer Only
+   1. Understand "Init", "Check", "Change"
+      1. Arithmetic `for` Loops are Not POSIX
+      1. Can Be Done with `while` in POSIX
    1. Use `for` to Repeat for Sequence or Number of Items
       1. Use `seq` Instead of Bash `{1..10}` Notation
    1. Use `break` to Break Out of Any Loop
    1. Use `continue` to Start Next Iteration Early
+1. Unexpected Benefits of Loops for Editing
 1. Know What *Inter-Process Communication (IPC)* is and Methods
-1. Signals Communicate Between Programs
    1. Signals are Just One IPC Method
+1. Signals Communicate Between Programs
    1. Use `kill`, `pkill` to Send a Signal
+      1. Use `Ctrl-C` from Within Process to Send Interrupt
+      1. Use `kill` to Send Terminate
+      1. Use `kill -1` to Send Hangup (Reread Config)
+      1. Use `kill -9` to Send Kill When Not Responding
+      1. No Need to Learn Others (For Now)
    1. Use `trap` to Handle a Signal
-1. Use Loops, `nohup`, and `&` to Create Daemons
-1. Always Use `exec` to Exit a Program When Needed
+1. Use Loops, `nohup`, and `&` to Create *Daemons*
+   1. Judicious Use of `&` Can Improve Concurrent Tasks
+   1. Better to Use `screen` or `tmux` (More Later)
+1. Use `exec` to Exit a Program When Possible
    1. Hands Off All Resources, Including Signal Handling
+
+## <a id=day19> Day 19: ANSI Color Escapes, Ideas to Keep You Coding
+
+1. Know When to Use Color and When to Not
+1. Know What ANSI Escapes are and Which to Use 
+   1. Use `\e[H\e[2J` to Clear the Screen
+   1. Learn the Rest as Needed (It's Very Addicting)
 1. Conclusion of POSIX Shell Scripting
-   1. Other Resources
-   1. What's Next?
-   1. Some Fun Challenges to Get You Started
-      1. <https://rwx.gg/lang/cha>
+   1. What's Next for Shell Coding
+   1. Learn POSIX Parameter Expansion
+   1. You Just Don't Need `awk`, Ever
+   1. Sometimes You Need `sed` to Remain POSIX Compliant
+   1. Don't Use `expr`, It's Deprecated
+   1. POSIX -> Perl -> Python / CmdBox Go (Not Shell, But Still)
+   1. Learn Bash *After* Coding a Lot of POSIX First
+      1. Bash is Fine, When You Have It
+      1. It is Very Difficult to Keep Bashisms Out of Your Head
+   1. Node and Deno If You Must Have JavaScript
+   1. Ruby is Great, But Legacy
+1. Some Fun Challenges to Get You Started
+   1. <https://rwx.gg/lang/cha>
+1. Other Resources
 
 # Deal with Data, In a Structured Way
 
@@ -541,7 +575,7 @@ of what you need to know and why. Mastering these topics (SQL, for
 example) could take several months alone, writing your own language
 grammar in PEGN, a year or more*
 
-## <a id=day19> Day 19: Understand the Need for Structured Data
+## <a id=day20> Day 20: Understand the Need for Structured Data
 
 1. Delimited (WS, Tab, Bar, CSV, Properties)
 1. Universal JSON, YAML, and JSON-Schema
@@ -556,11 +590,11 @@ Other important ones to know:
 1. Hashicorp Configuration Language
 1. XML
 
-## <a id=day20> Day 20: Delimited Data (Space, Tab, Bar, CSV, Properties)
+## <a id=day21> Day 21: Delimited Data (Space, Tab, Bar, CSV, Properties)
 
 Coming ...
 
-## <a id=day21> Day 21: Universal JSON, YAML, JSON-Schema
+## <a id=day22> Day 22: Universal JSON, YAML, JSON-Schema
 
 Coming ...
 
