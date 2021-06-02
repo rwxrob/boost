@@ -548,13 +548,18 @@ it wrong. It will be a good way to learn from my mistake.*
 
 ## <a id=day19> Day 19: ANSI Escapes, Color, Gotchas, What's Next?
 
+1. All Modern Terminals Have `ncurses`
+1. Use `reset` When You Break Your Terminal
 1. Know What ANSI Escapes are and Which to Use 
    1. Use `\e[H\e[2J` to Clear the Screen
    1. Use ... for Color
    1. Learn the Rest as Needed (It's Very Addicting)
 1. Know When to Use Color and When to Not
+1. Stick with 16 System Palette Colors When Scripting
+1. Avoid Temptation to Create Color Libraries (in Shell)
 1. Conclusion of POSIX Shell Scripting
    1. What's Next for Shell Coding
+   1. Learn Bash `RANDOM` for Fun
    1. Learn POSIX Parameter Expansion
    1. You Just Don't Need `awk`, Ever
    1. Sometimes You Need `sed` to Remain POSIX Compliant
@@ -562,9 +567,14 @@ it wrong. It will be a good way to learn from my mistake.*
    1. POSIX -> Perl -> Python / CmdBox Go (Not Shell, But Still)
    1. Learn Bash *After* Coding a Lot of POSIX First
       1. Bash is Fine, When You Have It
+      1. Much Better Parameter Expansion
+      1. Safe Double Bracket Conditions
+      1. Regular Expression Support (Never Use `sed`)
+      1. Use `select` for Instant Interactive Menus
+      1. Read Google Bash Style Guidelines
       1. It is Very Difficult to Keep Bashisms Out of Your Head
    1. Node and Deno If You Must Have JavaScript
-   1. Ruby is Great, But Legacy
+   1. Ruby is Great as Well (If You Need It)
 1. Some Fun Challenges to Get You Started
    1. <https://rwx.gg/lang/cha>
 1. Other Resources
