@@ -548,15 +548,28 @@ it wrong. It will be a good way to learn from my mistake.*
 
 ## <a id=day19> Day 19: ANSI Escapes, Color, Gotchas, What's Next?
 
-1. All Modern Terminals Have `ncurses`
-1. Use `reset` When You Break Your Terminal
-1. Know What ANSI Escapes are and Which to Use 
-   1. Use `\e[H\e[2J` to Clear the Screen
-   1. Use ... for Color
-   1. Learn the Rest as Needed (It's Very Addicting)
+1. Happy Pride Month!
+1. Don't Fear Color, All Modern Terminals Have Support
 1. Know When to Use Color and When to Not
-1. Stick with 16 System Palette Colors When Scripting
-1. Avoid Temptation to Create Color Libraries (in Shell)
+   1. Use `test -t 1` to Detect Terminal Output
+   1. Use `reset` When You Break Your Interactive Terminal
+1. Know What ANSI Escapes are, Which to Use, and How to Lookup
+1. Use `printf` Because Escapes `\e` Properly
+   1. Avoid `echo -e` Which is Not POSIX
+1. Prefer 16 Terminal Theme Colors for Compatibility
+   1. Use `\e[30m`-`\e[37m` for Terminal Theme Colors
+   1. Use `\e[1;30m`-`\e[1;38m` for "Bright/Bold" Variations
+   1. Add 10 for Background Colors
+   1. Use `\e[H\e[2J` to Clear the Screen
+   1. Use `\e[0m` to Reset Color
+   1. Avoid Dependencies from Sourcing Color Libraries
+      1. Write a [`termcolors`] Script, Run from Vim
+1. Use Specific Colors When Needed
+   1. Understand These are *Never* Relative to Terminal Theme
+   1. Set `TERM` to `xterm-256colors` (or Whatever)
+   1. Use `\e[38;5;Nm` for "Hundreds" of Colors ( 0 <= N <= 255)
+   1. Use `\e[38;2;R;G;Bm` for "Millions" of Colors ( 0 <= R,G,B <= 255)
+
 1. Conclusion of POSIX Shell Scripting
    1. What's Next for Shell Coding
    1. Learn Bash `RANDOM` for Fun
@@ -564,7 +577,7 @@ it wrong. It will be a good way to learn from my mistake.*
    1. You Just Don't Need `awk`, Ever
    1. Sometimes You Need `sed` to Remain POSIX Compliant
    1. Don't Use `expr`, It's Deprecated
-   1. POSIX -> Perl -> Python / CmdBox Go (Not Shell, But Still)
+   1. POSIX -> Bash / Perl -> Python / CmdBox Go (Not Shell, But Still)
    1. Learn Bash *After* Coding a Lot of POSIX First
       1. Bash is Fine, When You Have It
       1. Much Better Parameter Expansion
@@ -578,6 +591,8 @@ it wrong. It will be a good way to learn from my mistake.*
 1. Some Fun Challenges to Get You Started
    1. <https://rwx.gg/lang/cha>
 1. Other Resources
+
+[`termcolors`]: <https://raw.githubusercontent.com/rwxrob/dot/main/scripts/termcolors>
 
 # Deal with Data, In a Structured Way
 
