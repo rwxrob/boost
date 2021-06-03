@@ -51,6 +51,7 @@ Know How Networks Work and Use Remote Resources
   Learn Essential Network Utilities
 
 Manage Your Code and Knowledge with Git and GitHub
+  Understand Git, Git Hosting Services, and GitOps
   Create and Share a Dotfiles Repo
   Create and Share a Workspace Container
   Use GitHub with Profile Repo (Instead of LinkedIn)
