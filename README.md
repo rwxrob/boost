@@ -393,6 +393,8 @@ it wrong. It will be a good way to learn from my mistake.*
    1. Use `jobs` to See All Background Processes
    1. Use `fg` to Bring Background Job Forward
    1. Use `&` and `nohup` to Start and Keep Program in Background
+   1. use `()` to Combine Into Single Process (Subshell)
+      1. Know `$$` Still Refers to Parent
    1. Use `pgrep`, `pkill`, `kill`, `ps`, `/proc` to See Processes
    1. Use `nice` to Change Priority of Process
    1. Use `crontab` to Schedule Jobs in the Background
@@ -603,6 +605,8 @@ grammar in PEGN, a year or more*
 
 ## <a id=day20> Day 20: Understand the Need for Structured Data
 
+1. What is Data?
+1. Evolution of Data Utilization
 1. Delimited (WS, Tab, Bar, CSV, Properties)
 1. Universal JSON, YAML, and JSON-Schema
 1. INI and TOML (I Made the Logo, BTW)
@@ -613,7 +617,9 @@ grammar in PEGN, a year or more*
 Other important ones to know:
 
 1. gRPC and ProtoBuf
-1. Hashicorp Configuration Language
+1. Hashicorp Configuration Language (HCL)
+1. Markdown
+1. HTML
 1. XML
 
 ## <a id=day21> Day 21: Delimited Data (Space, Tab, Bar, CSV, Properties)
