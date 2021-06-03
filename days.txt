@@ -52,11 +52,10 @@ Know How Networks Work and Use Remote Resources
 
 Manage Your Code and Knowledge with Git and GitHub
   Create and Share a Dotfiles Repo
+  Create and Share a Workspace Container
   Use GitHub with Profile Repo (Instead of LinkedIn)
   Create and Manage Searchable Zettelkasten Repos
   Setup GitHub Sponsorships
-
-Create a Workspace Container on GitHub and Docker Hub
 
 Create and Manage Knowledge Content (Including Web)
   Web is Just One Source of Information (And Often Not Best)
