@@ -555,7 +555,7 @@ it wrong. It will be a good way to learn from my mistake.*
 1. Know When to Use Color and When to Not
    1. Use `test -t 1` to Detect Terminal Output
    1. Use `reset` When You Break Your Interactive Terminal
-1. Know What ANSI Escapes are, Which to Use, and How to Lookup
+1. Know What *ANSI Escapes* are, Which to Use, and How to Lookup
 1. Use `printf` Because Escapes `\e` Properly
    1. Avoid `echo -e` Which is Not POSIX
 1. Prefer 16 Terminal Theme Colors for Compatibility
@@ -607,7 +607,7 @@ grammar in PEGN, a year or more*
 
 1. What is Data?
 1. Evolution of Data Utilization
-1. Delimited (WS, Tab, Bar, CSV, Properties)
+1. Delimited (WS, Tab, Bar, Paths, CSV)
 1. Universal JSON, YAML, and JSON-Schema
 1. INI and TOML (I Made the Logo, BTW)
 1. Globbing and Regular Expressions (BRE, PCRE)
@@ -622,13 +622,32 @@ Other important ones to know:
 1. HTML
 1. XML
 
-## <a id=day21> Day 21: Delimited Data (Space, Tab, Bar, CSV, Properties)
+## <a id=day21> Day 21: Delimited Data (Space, Tab, Bar, Paths, CSV)
 
-Coming ...
+1. Describe Differences Between Delimited Data Formats
+1. Name Common Applications and Uses of Delimited Data
+1. Know the Different Forms of *White Space* 
+1. Know the Difference Between `PATH` and File Path 
+1. Use Parameter Expansion to Get Prefix and Suffix
+1. Use `cut` To Get At Stuff In The Middle (But Careful, Not Greedy)
+1. Use `awk` If You Really Want (But You Don't Need It)
+1. Use `tr` or `sed` to Change the Delimiter or "Squeeze" (Spaces, etc.)
+1. Understand Input Field Separator (IFS) (Maybe use `()`)
+1. Understand the Problems with CSV (Not the Source Manager)
 
 ## <a id=day22> Day 22: Universal JSON, YAML, JSON-Schema
 
-Coming ...
+1. What is JSON and Why Does it Matter?
+   1. JSON is for Parsing, Not People
+   1. "Should I Use JSON5?" HELL NO!
+1. What is YAML and Why Does it Matter?
+   1. YAML is for People and Programming
+1. Know the Definition of *Schema*
+1. Know the Definition of *Domain Model*
+1. Use `jq`/`yq` to Parse and Output JSON/YAML Data
+   1. Install `jq` with `sudo apt install jq`
+   1. Install `yq` However
+   1. Always Surround Query in Single Quotes
 
 ## <a id=day23> Day 23: INI and TOML (I Made the Logo, BTW)
 
