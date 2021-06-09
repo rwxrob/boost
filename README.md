@@ -607,20 +607,21 @@ grammar in PEGN, a year or more*
 
 1. What is Data?
 1. Evolution of Data Utilization
-1. Delimited (WS, Tab, Bar, Paths, CSV)
-1. Universal JSON, YAML, and JSON-Schema
-1. INI and TOML (I Made the Logo, BTW)
-1. Globbing and Regular Expressions (BRE, PCRE)
-1. Structured Query Language (SQL)
-1. ABNF, EBNF, PEG, and PEGN Specification Languages
+1. Delimited Data (WS, Tab, Bar, Paths, CSV)
+1. Universal JSON, YAML, and JSON-Schema Data
+1. Pattern Matching (Globbing, Globstar)
+1. Regular Expressions (BRE, PCRE)
 
-Other important ones to know:
+Other important structured data formats to know:
 
-1. gRPC and ProtoBuf
-1. Hashicorp Configuration Language (HCL)
-1. Markdown
-1. HTML
-1. XML
+* gRPC and ProtoBuf
+* Hashicorp Configuration Language (HCL)
+* ABNF, EBNF, PEG, and PEGN Specification Languages
+* Structured Query Language (SQL)
+* Markdown
+* INI and TOML
+* HTML
+* XML
 
 ## <a id=day21> Day 21: Delimited Data (Space, Tab, Bar, Paths, CSV)
 
@@ -649,22 +650,65 @@ Other important ones to know:
    1. Install `yq` However
    1. Always Surround Query in Single Quotes
 
-## <a id=day23> Day 23: INI and TOML (I Made the Logo, BTW)
+## <a id=day23> Day 23: Pattern Matching (Globbing, Globstar)
 
-Coming ...
+1. Use `shopt` to Activate Pattern Matching in Bash Shell
+1. Use `*` to Match Zero or More of Anything
+1. Use `**/` to Descend Into All Directories as Well
+1. Use `?` to Match Exactly One of Anything
+1. Use `{foo,bar}` to Match `foo` or `bar`
+1. Use `[a-c]` to Match `a`, `b`, or `c` (Like `{a,b,c}`)
+1. Use `[^a-c]` Match *Anything But* `a`,`b`, or `c`
+1. Use `[^.]*` to Match All Non-Hidden Files
+1. Skip POSIX Character Classes (For Now)
+1. Know the Limitations of Globbing
+   1. Glob on the Command Line, But Avoid in Scripts
+   1. Extended Globbing (`**`, etc.) is Not POSIX
+   1. Can Expand Past Maximum Command Line Length
+      1. Consider `find` Instead When Needed
+   1. Know When a Regex Is Better
+1. Learning Resources
+   1. Use Globbing for Static Site Generator ([20210327130106])
 
-## <a id=day24> Day 24: Globbing Regular Expressions (BRE, PCRE)
+[20210327130106]: <https://youtu.be/Efk2M77naFU>
 
-Coming ...
+## <a id=day24> Day 24: Regular Expressions (BRE, PCRE)
 
-## <a id=day25> Day 25: Structured Query Language (SQL)
-
-Coming ...
-
-## <a id=day26> Day 26: ABNF, EBNF, PEG, and PEGN Specification Languages
-
-Coming ...
-
+1. Know What a *Regular Expression* (REGX) Is
+1. Know Regex is for Matching *And* Parsing
+1. Use `[[ =~ ]]` in Bash When Needed and Available
+1. Use `sed` if You Must
+   1. Basic Regular Expressions (BRE) Only
+   1. Just Don't Clutter Brain with BRE
+1. Use Perl Regex Whenever Possible
+   1. Perl Set the Standard for Modern Regex (PCRE)
+   1. Use `\s` to Match White Non-Whitespace Class
+   1. Use `\S` to Match White Whitespace Class
+   1. Often `\s` and `\S` is All That's Needed
+   1. Use `\w` for Word Character Class
+      1. Remember `_` is Considered AlphaNumeric
+   1. Use `\b` to Match Word Boundary
+   1. Use `\p{}` to Match Unicode Properties
+   1. Use `[]` to Match Non-Standard Classes
+1. POSIX Character Classes Less Relevant in Unicode World
+   1. The `[:lower:]` is Not Same as `Ll`
+1. Use Alternatives When Possible and Necessary
+   1. Parameter Expansion
+   1. Substring Matches
+1. Know Advantages of Regex Over Other Parsing Methods
+   1. Powerful
+   1. Succinct
+   1. Universal
+1. Know Limitations of Regex Versus Other Parsing Methods
+   1. Some Grammars Cannot Be Represented
+   1. Often Unnecessary Overhead
+      1. Cognitive
+      1. Technical
+1. Learning Resources
+   1. <https://alf.nu/RegexGolf>
+   1. <https://regex101.com/>
+   1. <https://regexr.com>
+   1. <https://xkcd.com/1313>
 
 ----
 
