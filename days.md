@@ -28,20 +28,35 @@ Start Scripting in POSIX Shell
 
 Deal with Data, In a Structured Way
   Understand the Need for Structured Data
-  Delimited Data (Space, Tab, Bar, CSV, Properties)
-  Universal JSON, YAML, JSON-Schema
-  INI and TOML (I Made the Logo, BTW)
-  Globbing Regular Expressions (BRE, PCRE)
-  Structured Query Language (SQL)
-  ABNF, EBNF, PEG, and PEGN Specification Languages
+  Delimited Data (WS, Tab, Bar, Paths, CSV)
+  Universal JSON, YAML, and JSON-Schema Data
+  Pattern Matching (Globbing, Globstar)
+  Match and Parse with Regular Expressions
 
-*Now* We Can Configure and Customize
-  Customize Interactive Bash Shell and Prompt
-    Add `set -o vi` to `.bashrc`
-  Customize Vi and Vim
-    Extend Vim With the Shell, Not Plugins (At First)
-    Extend Vim with `Plug` for Syntax and Specifics
+Terminal Customization Overview (It Never Ends)
+
+Customize Interactive Bash Shell
+  Set Bash Options, Variables, and History Settings
+  Colorize Pager and Directories
+  Customize Bash Shell Prompt
+  Use Aliases Properly
+  Know When to Export a Bash Function
+  Understand Bash Tab Completion
+  Source Shell Dependencies Safely and Efficiently
+  Managing Bash Shell Paths (`PATH`, `CDPATH`)
   Start Your Own Scripts Collection
+
+Customize Vi and Vim
+  The UNIX Way: Vi/m is Just an Extension of Your Shell
+  Proven Designs for Portable Vi/Vim Customization
+  Focus on Vi/m Filter Scripts
+  Start a Snippets Collection
+  Use Real Resources Instead of "Intellisense"
+  To Complete or Not to Complete, Tab is the Question
+  Use Plugins Judiciously and Automatically
+  Overview of Vimscript (Preferred for Customization)
+  Integrate Shell Into Vim Configuration
+  Know Specifically Why NeoVim is So Bad
 
 Know How Networks Work and Use Remote Resources
   Understand How the Internet Works
@@ -53,7 +68,7 @@ Know How Networks Work and Use Remote Resources
 Manage Your Code and Knowledge with Git and GitHub
   Understand Git, Git Hosting Services, and GitOps
   Create and Share a Dotfiles Repo
-  Create and Share a Workspace Container
+  Create and Share a Workspace Container (Dockerfile)
   Use GitHub with Profile Repo (Instead of LinkedIn)
   Create and Manage Searchable Zettelkasten Repos
   Setup GitHub Sponsorships

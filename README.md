@@ -60,6 +60,7 @@ You can also help fund this project by clicking *Sponsor*. Thanks.
    1. Write Who, What (If), When, Where, Why, and How
    1. Execute, Explore, Experiment, and Exercise
 1. Fail Faster, Fail Better, Fail Often
+1. Personal Progressive Enhancement, Layer Your Learning
 1. Meritocracy in the Workplace
 1. Zettelkasten (Slips in a Box) Knowledge Management System
 1. Capture Thoughts as Markdown, The Syntax of Knowledge Source
@@ -712,6 +713,32 @@ Other important structured data formats to know:
    1. <https://regex101.com/>
    1. <https://regexr.com>
    1. <https://xkcd.com/1313>
+
+## <a id=day25> Day 25: Terminal Shell Customization Overview
+
+1. Use Hidden Files and Directories
+1. No Place Like Home
+1. <https://freedesktop.org>
+   1. [XDG Specification]
+1. Bash Interactive Shell
+   1. `/etc/skel`
+   1. `.bashrc`
+   1. `.bash_profile`
+   1. `.profile`
+   1. Scripts Collection
+1. Vim Configuration
+   1. `.vimrc`/`.exrc`
+   1. `.vim`
+   1. `.vimplugins`
+   1. Snippets
+1. TMUX
+1. Directory Colors
+1. Use Symbolic Links to Centralize
+1. It *Never* Ends
+
+[XDG Specification]: <https://specifications.freedesktop.org/basedir-spec/basedir-spec-latest.html>
+
+More ...
 
 ----
 
