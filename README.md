@@ -610,7 +610,7 @@ grammar in PEGN, a year or more*
 1. Delimited Data (WS, Tab, Bar, Paths, CSV)
 1. Universal JSON, YAML, and JSON-Schema Data
 1. Pattern Matching (Globbing, Globstar)
-1. Regular Expressions (BRE, PCRE)
+1. Matching and Parsing with Regular Expressions
 
 Other important structured data formats to know:
 
@@ -636,7 +636,7 @@ Other important structured data formats to know:
 1. Understand Input Field Separator (IFS) (Maybe use `()`)
 1. Understand the Problems with CSV (Not the Source Manager)
 
-## <a id=day22> Day 22: Universal JSON, YAML, JSON-Schema
+## <a id=day22> Day 22: Universal JSON, YAML, JSON-Schema Data
 
 1. What is JSON and Why Does it Matter?
    1. JSON is for Parsing, Not People
@@ -672,12 +672,15 @@ Other important structured data formats to know:
 
 [20210327130106]: <https://youtu.be/Efk2M77naFU>
 
-## <a id=day24> Day 24: Regular Expressions (BRE, PCRE)
+## <a id=day24> Day 24: Match and Parse with Regular Expressions
 
-1. Know What a *Regular Expression* (REGX) Is
+1. Know What a *Regular Expression* (Regex) Is
 1. Know Regex is for Matching *And* Parsing
-1. Use `[[ =~ ]]` in Bash When Needed and Available
-1. Use `sed` if You Must
+1. Use `Deny` Then `Allow` Approach with Regex Validation
+   1. Basis of Perl Taint (`-T`)
+1. *Never* Use the Deprecated `expr` for Anything
+1. Use `[[ =~ ]]` / `[[ != ]]` in Bash When Needed and Available
+1. Use `sed` or `grep` if You Must
    1. Basic Regular Expressions (BRE) Only
    1. Just Don't Clutter Brain with BRE
 1. Use Perl Regex Whenever Possible
