@@ -405,7 +405,7 @@ it wrong. It will be a good way to learn from my mistake.*
 
 ## <a id=day14> Day 14: Functions, Procedures, Operations, Methods
 
-[📺 Unedited Video](https://youtu.be/zRNwt1y3lr4?list=PLrK9UeDMcQLre1yPasCnuKvWvyXKzmKhW)
+[📺 Unedited Video](https://youtu.be/mgeKcAPuK7c?list=PLrK9UeDMcQLre1yPasCnuKvWvyXKzmKhW)
 
 1. Get and Use `shellcheck` Throughout to Ensure POSIX
 1. Know What *POSIX* Means [POSIX Standard]
