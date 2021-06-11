@@ -27,7 +27,7 @@ You can also help fund this project by clicking *Sponsor*. Thanks.
 
 ## <a id=day0> Day 0: Get Set Up, May the 4th Be With You
 
-[📺 Unedited Video](https://youtu.be/UkE2KMsVzjQ)
+[📺 Unedited Video](https://youtu.be/UkE2KMsVzjQ?list=PLrK9UeDMcQLre1yPasCnuKvWvyXKzmKhW)
 
 1. [What is the purpose of Beginner Boost?](20210504161937)
 1. [Beginner Boost, Day 0, Logistics](20210505025834)
@@ -38,7 +38,7 @@ You can also help fund this project by clicking *Sponsor*. Thanks.
 
 ## <a id=day1> Day 1: Get Motivated to Learn ¡Viva la Revolución!
 
-[📺 Unedited Video](https://youtu.be/U7BNE-AKLeI)
+[📺 Unedited Video](https://youtu.be/U7BNE-AKLeI?list=PLrK9UeDMcQLre1yPasCnuKvWvyXKzmKhW)
 
 1. [Problems with Traditional Education][prob]
 1. [Help Others Learn, A Social Responsibility][social]
@@ -52,7 +52,7 @@ You can also help fund this project by clicking *Sponsor*. Thanks.
 
 ## <a id=day2> Day 2: The Scientific Method, Our Greatest Learning Tool
 
-[📺 Unedited Video](https://youtu.be/mlecHo2p7aU)
+[📺 Unedited Video](https://youtu.be/mlecHo2p7aU?list=PLrK9UeDMcQLre1yPasCnuKvWvyXKzmKhW)
 
 1. What did you learn about the Scientific Method?
 1. The RWX Method, Refining the Scientific Method
@@ -69,7 +69,7 @@ You can also help fund this project by clicking *Sponsor*. Thanks.
 
 ## <a id=day3> Day 3: Understand Linux Approach
 
-[📺 Unedited Video](https://youtu.be/8myY7Ydf64g)
+[📺 Unedited Video](https://youtu.be/8myY7Ydf64g?list=PLrK9UeDMcQLre1yPasCnuKvWvyXKzmKhW)
 
 1. What's Linux? History of UNIX and GNU/Linux
 1. Do Macs Use Linux?
@@ -80,7 +80,7 @@ You can also help fund this project by clicking *Sponsor*. Thanks.
 
 ## <a id=day4> Day 4: Get on the Terminal
 
-[📺 Unedited Video](https://youtu.be/GlpSi2LW4_Y)
+[📺 Unedited Video](https://youtu.be/GlpSi2LW4_Y?list=PLrK9UeDMcQLre1yPasCnuKvWvyXKzmKhW)
 
 **Mac:** Open and Configure a Mac Terminal  
 **Windows:** Install and Configure Modern Windows Terminal  
@@ -98,7 +98,7 @@ You can also help fund this project by clicking *Sponsor*. Thanks.
 
 ## <a id=day5> Day 5: Learn About Containers and Get Docker
 
-[📺 Unedited Video](https://youtu.be/GlpSi2LW4_Y)
+[📺 Unedited Video](https://youtu.be/GlpSi2LW4_Y?list=PLrK9UeDMcQLre1yPasCnuKvWvyXKzmKhW)
 
 1. What's a Container and Why Should You Care?
    1. The Difference Between "Container" and "Image"?
@@ -112,7 +112,7 @@ You can also help fund this project by clicking *Sponsor*. Thanks.
 
 ## <a id=day6> Day 6: Run Linux Inside a Container
 
-[📺 Unedited Video](https://youtu.be/_jJWOgZwBBs)
+[📺 Unedited Video](https://youtu.be/_jJWOgZwBBs?list=PLrK9UeDMcQLre1yPasCnuKvWvyXKzmKhW)
 
 1. Linux Distro Matters Less in Container World
    1. `docker run -it --rm ubuntu`
@@ -138,7 +138,7 @@ You can also help fund this project by clicking *Sponsor*. Thanks.
 
 ## <a id=day7> Day 7: Start Using the Linux Terminal Command Line
 
-[📺 Unedited Video](https://youtu.be/EBtWx5m7pds)
+[📺 Unedited Video](https://youtu.be/EBtWx5m7pds?list=PLrK9UeDMcQLre1yPasCnuKvWvyXKzmKhW)
 
 1. The Command Line, Fastest Human-Computer Interface
 1. Every Command Line Entered is a Line of Shell Code
@@ -201,7 +201,7 @@ You can also help fund this project by clicking *Sponsor*. Thanks.
 
 ## <a id=day8> Day 8: Install Software from Package Manager
 
-[📺 Unedited Video](https://youtu.be/6EDT-Vc4PCY)
+[📺 Unedited Video](https://youtu.be/6EDT-Vc4PCY?list=PLrK9UeDMcQLre1yPasCnuKvWvyXKzmKhW)
 
 1. Create and Name a Workspace Container
    1. `docker run -it --name boost -h boost ubuntu`
@@ -221,7 +221,7 @@ You can also help fund this project by clicking *Sponsor*. Thanks.
 
 ## <a id=day9> Day 9: Work with File System from Command Line
 
-[📺 Unedited Video](https://youtu.be/eZV14xpFAlA)
+[📺 Unedited Video](https://youtu.be/eZV14xpFAlA?list=PLrK9UeDMcQLre1yPasCnuKvWvyXKzmKhW)
 
 1. [OverTheWire], Fun Hacker Practice
 1. Understand the Linux File System
@@ -250,7 +250,7 @@ You can also help fund this project by clicking *Sponsor*. Thanks.
 
 ## <a id=day10> Day 10: Understand Streams, Pipes, and Redirection
 
-[📺 Unedited Video](https://youtu.be/rhknj8h0zU8)
+[📺 Unedited Video](https://youtu.be/rhknj8h0zU8?list=PLrK9UeDMcQLre1yPasCnuKvWvyXKzmKhW)
 
 1. Understand Standard Output and Error
    1. Use `echo` and `printf` to Print Stuff
@@ -291,7 +291,7 @@ You can also help fund this project by clicking *Sponsor*. Thanks.
 
 ## <a id=day11> Day 11: Edit Files with Basic Vi (Then Vim)
 
-[📺 Unedited Video](https://youtu.be/RJ3EVB5-Emw)
+[📺 Unedited Video](https://youtu.be/RJ3EVB5-Emw?list=PLrK9UeDMcQLre1yPasCnuKvWvyXKzmKhW)
 
 *Please note that I mistakenly say `Ctrl-C` many times in this video
 where I actually mean `Ctrl-[`. See if you can catch all the times I get
@@ -315,7 +315,7 @@ it wrong. It will be a good way to learn from my mistake.*
 
 ## <a id=day12> Day 12: Manage Users, Groups, and Permissions 
 
-[📺 Unedited Video](https://youtu.be/TNdI8fNvP5k)
+[📺 Unedited Video](https://youtu.be/TNdI8fNvP5k?list=PLrK9UeDMcQLre1yPasCnuKvWvyXKzmKhW)
 
 1. How Much User Stuff Do I Need to Know?
 1. Create and Manage Users and Groups
@@ -356,7 +356,7 @@ it wrong. It will be a good way to learn from my mistake.*
 
 ## <a id=day13> Day 13: Scripts are Just Terminal Commands in a File
 
-[📺 Unedited Video](https://youtu.be/72OmbZiyKsc)
+[📺 Unedited Video](https://youtu.be/72OmbZiyKsc?list=PLrK9UeDMcQLre1yPasCnuKvWvyXKzmKhW)
 
 1. You're Already Coding, Every Command *is* Code
    1. Commands are Really Just Functions with Arguments
@@ -405,7 +405,7 @@ it wrong. It will be a good way to learn from my mistake.*
 
 ## <a id=day14> Day 14: Functions, Procedures, Operations, Methods
 
-[📺 Unedited Video](https://youtu.be/zRNwt1y3lr4)
+[📺 Unedited Video](https://youtu.be/zRNwt1y3lr4?list=PLrK9UeDMcQLre1yPasCnuKvWvyXKzmKhW)
 
 1. Get and Use `shellcheck` Throughout to Ensure POSIX
 1. Know What *POSIX* Means [POSIX Standard]
@@ -441,7 +441,7 @@ it wrong. It will be a good way to learn from my mistake.*
 
 ## <a id=day15> Day 15: State, Data Types, Variables, and Constants
 
-[📺 Unedited Video](https://youtu.be/yHdUh6-qZw8)
+[📺 Unedited Video](https://youtu.be/yHdUh6-qZw8?list=PLrK9UeDMcQLre1yPasCnuKvWvyXKzmKhW)
 
 1. All Objects Have States: Mutable, Immutable, Persistent, Dynamic, Static
 1. Variables Save Data as State
@@ -472,7 +472,7 @@ it wrong. It will be a good way to learn from my mistake.*
 
 ## <a id=day16> Day 16: Function and Command Communication
 
-[📺 Unedited Video](https://youtu.be/Gv-39gfhKR8)
+[📺 Unedited Video](https://youtu.be/Gv-39gfhKR8?list=PLrK9UeDMcQLre1yPasCnuKvWvyXKzmKhW)
 
 1. *Calling* to Communicate
    1. Know What to *Call* a Function or Subroutine Means
@@ -497,7 +497,7 @@ it wrong. It will be a good way to learn from my mistake.*
 
 ## <a id=day17> Day 17: Flow, Conditions, and Logic
 
-[📺 Unedited Video](https://youtu.be/Nvsae1lVPwY)
+[📺 Unedited Video](https://youtu.be/Nvsae1lVPwY?list=PLrK9UeDMcQLre1yPasCnuKvWvyXKzmKhW)
 
 1. Conditions Alter Flow
 1. Use `test` to Check Condition (Read `test` Man Page)
@@ -515,6 +515,8 @@ it wrong. It will be a good way to learn from my mistake.*
 1. Use `case` to Branch Multiple Conditions
 
 ## <a id=day18> Day 18: Loops, Signals, and Events
+
+[📺 Unedited Video](https://youtu.be/_NJi33h_Obk?list=PLrK9UeDMcQLre1yPasCnuKvWvyXKzmKhW)
 
 1. Power of Loops on the Command Line
    1. Use `watch` for Simple Repetition
@@ -552,6 +554,8 @@ it wrong. It will be a good way to learn from my mistake.*
    1. Hands Off All Resources, Including Signal Handling
 
 ## <a id=day19> Day 19: ANSI Escapes, Color, Gotchas, What's Next?
+
+[📺 Unedited Video](https://youtu.be/VGbFGlUoa7I?list=PLrK9UeDMcQLre1yPasCnuKvWvyXKzmKhW)
 
 1. Happy Pride Month!
 1. Don't Fear Color, All Modern Terminals Have Support
@@ -608,6 +612,8 @@ grammar in PEGN, a year or more*
 
 ## <a id=day20> Day 20: Understand the Need for Structured Data
 
+[📺 Unedited Video](https://youtu.be/rckWMl7MG2Y?list=PLrK9UeDMcQLre1yPasCnuKvWvyXKzmKhW)
+
 1. What is Data?
 1. Evolution of Data Utilization
 1. Delimited Data (WS, Tab, Bar, Paths, CSV)
@@ -628,6 +634,8 @@ Other important structured data formats to know:
 
 ## <a id=day21> Day 21: Delimited Data (Space, Tab, Bar, Paths, CSV)
 
+[📺 Unedited Video](https://youtu.be/XueMgR7Im40?list=PLrK9UeDMcQLre1yPasCnuKvWvyXKzmKhW)
+
 1. Describe Differences Between Delimited Data Formats
 1. Name Common Applications and Uses of Delimited Data
 1. Know the Different Forms of *White Space* 
@@ -640,6 +648,8 @@ Other important structured data formats to know:
 1. Understand the Problems with CSV (Not the Source Manager)
 
 ## <a id=day22> Day 22: Universal JSON, YAML, JSON-Schema Data
+
+[📺 Unedited Video](https://youtu.be/3addpYgC3CU?list=PLrK9UeDMcQLre1yPasCnuKvWvyXKzmKhW)
 
 1. What is JSON and Why Does it Matter?
    1. JSON is for Parsing, Not People
@@ -654,6 +664,8 @@ Other important structured data formats to know:
    1. Always Surround Query in Single Quotes
 
 ## <a id=day23> Day 23: Pattern Matching (Globbing, Globstar)
+
+[📺 Unedited Video](https://youtu.be/PUAFYaUSzIE?list=PLrK9UeDMcQLre1yPasCnuKvWvyXKzmKhW)
 
 1. Use `shopt` to Activate Pattern Matching in Bash Shell
 1. Use `*` to Match Zero or More of Anything
@@ -676,6 +688,8 @@ Other important structured data formats to know:
 [20210327130106]: <https://youtu.be/Efk2M77naFU>
 
 ## <a id=day24> Day 24: Match and Parse with Regular Expressions
+
+[📺 Unedited Video](https://youtu.be/vCTg-EqKvEk?list=PLrK9UeDMcQLre1yPasCnuKvWvyXKzmKhW)
 
 1. Know What a *Regular Expression* (Regex) Is
 1. Know Regex is for Matching *And* Parsing
@@ -720,6 +734,8 @@ Other important structured data formats to know:
 
 ## <a id=day25> Day 25: Don't Blow Up, Contain Your Customizations
 
+[📺 Unedited Video](https://youtu.be/rTLGsG7cs6U?list=PLrK9UeDMcQLre1yPasCnuKvWvyXKzmKhW)
+
 1. Review Why Containers are Best for Learning
    1. Shell Configurations are Riskier Than Most 
    1. Explore and Experiment Without Fear
@@ -728,7 +744,7 @@ Other important structured data formats to know:
    1. It's Perfectly Fine to Persist a Container While Learning
    1. Eventually Push to GitHub as Backup
 1. Start with a Fresh Ubuntu Container
-   1. Review Day [6](#day6),[7](#day7),[8](day8)
+   1. Review Day [6](#day6),[7](#day7),[8](#day8)
 1. Create a New User (See [Day 12](#day12))
 1. Understand `/etc/skel` and Why It Matters
 1. Understand What *Hidden* Means
