@@ -338,7 +338,10 @@ it wrong. It will be a good way to learn from my mistake.*
    1. Understand `root` Access
       1. Use `sudo` to Grant `root` (SuperUser) Access
       1. Use `sudo su -` to Get Root Shell
-      1. use `doas -s` to Do Something As Root
+      1. Use `doas -s` to Do Something As Root
+      1. Know `you ALL=(ALL:ALL) NOPASSWD:ALL` in `/etc/sudoers`
+         1. Acceptable for Learning and in Some Containers
+         1. Usually A Really Bad Idea Everywhere Else
    1. Use `who`,`w`,`whoami`,`who am i`,`last` to See Users
 1. Understand UNIX File and Directory Ownership and Permissions
    1. Use `ls -l` to See Permissions
