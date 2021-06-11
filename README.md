@@ -98,7 +98,7 @@ You can also help fund this project by clicking *Sponsor*. Thanks.
 
 ## <a id=day5> Day 5: Learn About Containers and Get Docker
 
-[📺 Unedited Video](https://youtu.be/GlpSi2LW4_Y?list=PLrK9UeDMcQLre1yPasCnuKvWvyXKzmKhW)
+[📺 Unedited Video](https://youtu.be/YcBIUOSOAeg?list=PLrK9UeDMcQLre1yPasCnuKvWvyXKzmKhW)
 
 1. What's a Container and Why Should You Care?
    1. The Difference Between "Container" and "Image"?
