@@ -205,6 +205,7 @@ You can also help fund this project by clicking *Sponsor*. Thanks.
 
 1. Create and Name a Workspace Container
    1. `docker run -it --name boost -h boost ubuntu`
+      1. No Need to Mount Volumes, Will Push to GitHub Later
    1. Difference Between Detach and Exit
       1. Detach with `Ctrl-pq`
       1. Exit with `exit`
@@ -213,6 +214,7 @@ You can also help fund this project by clicking *Sponsor*. Thanks.
    1. Restoring Documentation and More with `unminimize`
    1. Understand Linux Package Management
    1. Use `apt update`
+   1. Use `apt upgrade`
    1. Use `apt search`
    1. Use `apt install`
    1. Use `apt remove`
@@ -714,27 +716,27 @@ Other important structured data formats to know:
    1. <https://regexr.com>
    1. <https://xkcd.com/1313>
 
-## <a id=day25> Day 25: Terminal Shell Customization Overview
+# *Now* We Can Customize
 
-1. Use Hidden Files and Directories
-1. No Place Like Home
-1. <https://freedesktop.org>
-   1. [XDG Specification]
-1. Bash Interactive Shell
-   1. `/etc/skel`
-   1. `.bashrc`
-   1. `.bash_profile`
-   1. `.profile`
-   1. Scripts Collection
-1. Vim Configuration
-   1. `.vimrc`/`.exrc`
-   1. `.vim`
-   1. `.vimplugins`
-   1. Snippets
-1. TMUX
-1. Directory Colors
-1. Use Symbolic Links to Centralize
-1. It *Never* Ends
+## <a id=day25> Day 25: Don't Blow Up, Contain Your Customizations
+
+1. Review Why Containers are Best for Learning
+   1. Shell Configurations are Riskier Than Most 
+   1. Explore and Experiment Without Fear
+   1. Don't Worry Amount Mounting Volumes (For Now)
+   1. Containers are Persistent (Until Deleted)
+   1. It's Perfectly Fine to Persist a Container While Learning
+   1. Eventually Push to GitHub as Backup
+1. Start with a Fresh Ubuntu Container
+   1. Review Day [6](#day6),[7](#day7),[8](day8)
+1. Create a New User (See [Day 12](#day12))
+1. Understand `/etc/skel` and Why It Matters
+1. Understand What *Hidden* Means
+1. Understand What *FreeDesktop* is About
+   1. <https://freedesktop.org>
+   1. Learn the [XDG Specification]
+   1. Use `~/.local/bin` Instead of `~/bin`
+   1. Use `~/.config/foo` Instead of `~/.foo`
 
 [XDG Specification]: <https://specifications.freedesktop.org/basedir-spec/basedir-spec-latest.html>
 

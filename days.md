@@ -33,7 +33,7 @@ Deal with Data, In a Structured Way
   Pattern Matching (Globbing, Globstar)
   Match and Parse with Regular Expressions
 
-Terminal Customization Overview (It Never Ends)
+*Now* We Can Customize
 
 Customize Interactive Bash Shell
   Set Bash Options, Variables, and History Settings
