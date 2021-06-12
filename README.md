@@ -621,6 +621,7 @@ grammar in PEGN, a year or more*
 1. Evolution of Data Utilization
 1. Delimited Data (WS, Tab, Bar, Paths, CSV)
 1. Universal JSON, YAML, and JSON-Schema Data
+1. Could TOML Be the Future?
 1. Pattern Matching (Globbing, Globstar)
 1. Matching and Parsing with Regular Expressions
 
@@ -759,7 +760,31 @@ Other important structured data formats to know:
 
 [XDG Specification]: <https://specifications.freedesktop.org/basedir-spec/basedir-spec-latest.html>
 
-More ...
+## <a id=day26> Day 26: Set Bash Options, Variables, and History Settings
+
+[📺 Unedited Video](https://youtu.be/3kEBhmMnk6M?list=PLrK9UeDMcQLre1yPasCnuKvWvyXKzmKhW)
+
+1. Connect to Your Saved Boost Container
+   1. `docker start -a boost`
+1. Use `su - me` to Become Me (Or Whatever)
+   1. Know Difference Between `su` and `su -`
+1. Install `vim`, `less`, `sudo`
+1. Add `me` to `/etc/sudoers` with `visudo`
+   1. `me ALL=(ALL:ALL) NOPASSWD:ALL` (For Now)
+1. *Never* Mess with Dotfiles from Installers
+1. Don't Worry About `~/.bash_history` and `~/.viminfo`
+1. Delete `~/.profile` (Not Used)
+1. Delete `~/.bash_logout` (You Know Better)
+1. Delete `~/.bashrc` (New One Coming)
+1. Use `case` and `$-` to Detect Interactive Shell
+1. Export `TERM`, `EDITOR`, `VISUAL` Variables
+1. Export `TERM`, `EDITOR`, `VISUAL` Variables
+1. Add `lessfile` / `lesspipe` Code
+1. Add `HISTCONTROL`, `HISTSIZE`, `HISTFILESIZE`
+1. Set `histappend` Shell Option
+1. Set Vi History Editing Mode `set -o vi`
+   1. "Emacs" Mode is the Default (And Really Bad)
+1. Add Your First Alias `alias c=clear`
 
 ----
 

@@ -94,9 +94,16 @@ Learn C to Understand How Computers and Languages Work
   Most OSes and Other Languages Were First Written in C
   Only Language Closer to Hardware is Assembly
 
+Perl
+  Learn to Think Like Programmer
+
+Python
+  C Stub in Python
+
 Code Go for Utilities, Services, and Cloud-Native
   Know Meaning of "Cloud", "Cloud-Native", "Serverless", and "DevOps"
   Learn Go 1.16+ (And Nothing Else)
+
 
 Get Good to Gig
   Employment is About Trust
