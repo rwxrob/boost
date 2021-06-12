@@ -784,7 +784,7 @@ Other important structured data formats to know:
 1. Set `histappend` Shell Option
 1. Set Vi History Editing Mode `set -o vi`
    1. "Emacs" Mode is the Default (And Really Bad)
-1. Add Your First Alias `alias c=clear`
+1. Add Your First Alias `alias c='printf "\e[H\e[2J"'`
 
 ----
 
