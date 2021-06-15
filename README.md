@@ -786,6 +786,25 @@ Other important structured data formats to know:
    1. "Emacs" Mode is the Default (And Really Bad)
 1. Add Your First Alias `alias c='printf "\e[H\e[2J"'`
 
+## <a id=day27> Day 27: Colorize Pager, Files, Directories (ls)
+
+[📺 Unedited Video](https://youtu.be/a8zeMPEC0HA?list=PLrK9UeDMcQLre1yPasCnuKvWvyXKzmKhW)
+
+1. Reconnect to Your Boost Container
+1. Add Terminal Escapes to Special Variables for `LESS`
+   1. Remember, Use `reset` if Your Terminal Messes Up
+   1. Do *Not* Use `MANPAGER` Color Method (Too New)
+1. Add Directory Colors with `dircolor`
+   1. Use `command -v dircolors` to Check If Have It
+   1. Use `eval $(dircolors -b)` to set `LS_COLORS`
+   1. Set `alias ls='ls -h --color=auto'`
+   1. Add Custom `~/.config/ls/dircolors` 
+      1. Use `mkdir -p ~/.config/ls` to Make Directory
+      1. Get One From Net with `curl` (Install `curl` if Needed)
+   1. Use `test -r ~/.config/ls/dircolors` to Check for File
+   1. Use `eval $(dircolors -b ~/.config/ls/dircolors)`
+   1. Customise to Personal Style
+
 ----
 
 *More to come (boost is at least 100 days) including ...*
