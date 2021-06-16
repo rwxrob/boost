@@ -805,6 +805,26 @@ Other important structured data formats to know:
    1. Use `eval $(dircolors -b ~/.config/ls/dircolors)`
    1. Customise to Personal Style
 
+## <a id=day28> Beginner Boost, Day 28: Customize Bash Shell Prompt
+
+[📺 Unedited Video](https://youtu.be/iR3zh3lau5g?list=PLrK9UeDMcQLre1yPasCnuKvWvyXKzmKhW)
+
+1. Reconnect to Your Boost Container
+1. Just Say No to "Oh-My-Zsh" and Such
+1. Understand the Science Behind Prompts
+   1. Older: Smaller Prompts Focus on What's Important
+   1. Newer: I Have Too Much to Communicate
+   1. Pay Attention, Don't Be Me (Story: Shutdown Company Mail Server)
+1. Review What is Actually Useful to Have in Prompt
+1. Build Up Gradually from Command Line First
+1. Change `PS1` to Alter Prompt
+   1. Know Difference Between Single and Double Quotes
+1. Read `man bash` (Use `/prompting` to Find)
+1. Use `PROMPT_COMMAND` to Run Function for Each Command
+1. Alter `PS1` from `PROMPT_COMMAND` Code for Creativity
+1. Use ANSI Escapes for Color (See Day 19)
+   1. Use `\[`/`\]` to Keep Spacing Correct
+
 ----
 
 *More to come (boost is at least 100 days) including ...*
