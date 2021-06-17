@@ -39,11 +39,9 @@ Customize Interactive Bash Shell
   Set Bash Options, Variables, and History Settings
   Colorize Pager and Directories
   Customize Bash Shell Prompt
-  Use Aliases Properly
-  Know When to Export a Bash Function
-  Understand Bash Tab Completion
-  Source Shell Dependencies Safely and Efficiently
-  Managing Bash Shell Paths (`PATH`, `CDPATH`)
+  Use Aliases and Exported Bash Functions
+  Use Tab Completion, Sourcing, and `CDPATH`
+  Manage Bash Shell Executable `PATH`
   Start Your Own Scripts Collection
 
 Customize Vi and Vim
