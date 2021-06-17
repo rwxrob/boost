@@ -825,6 +825,26 @@ Other important structured data formats to know:
 1. Use ANSI Escapes for Color (See Day 19)
    1. Use `\[`/`\]` to Keep Spacing Correct
 
+## <a id=day29> Beginner Boost, Day 29: Use Aliases and Exported Bash Functions
+
+[📺 Unedited Video](https://youtu.be/whlraJbk92E?list=PLrK9UeDMcQLre1yPasCnuKvWvyXKzmKhW)
+
+1. Know What an *Alias* Is
+   1. Use `alias` to Create Aliases
+   1. Affect Current Interactive Shell
+   1. Aliases Do *Not* Propagate to Subprocs
+   1. Aliases Cannot Be Exported
+1. Know What an *Export Function* Is
+   1. Use `foo(){} && export -f foo` to Export Functions
+   1. Affect Current Interactive Shell
+   1. Functions Do *Not* Propagate to Subprocs Unless Exported
+   1. Exported Functions Affect Bash Subshells (Not Subprocs)
+1. Use `shopt expand_aliases` to Ensure Active
+1. Know When to Use a Alias vs Function
+1. Just Know About "ShellShock"
+1. Remember, Scripts are Almost Always Better
+   1. Only Reason Not is When Changing Current Interactive Shell
+
 ----
 
 *More to come (boost is at least 100 days) including ...*
