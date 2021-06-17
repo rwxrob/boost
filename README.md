@@ -845,6 +845,9 @@ Other important structured data formats to know:
 1. Remember, Scripts are Almost Always Better
    1. Only Reason Not is When Changing Current Interactive Shell
 
+## <a id=day30> Beginner Boost, Day 30: Use Tab Completion, Sourcing, and `CDPATH`
+
+
 ----
 
 *More to come (boost is at least 100 days) including ...*
