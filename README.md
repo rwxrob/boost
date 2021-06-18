@@ -528,7 +528,7 @@ it wrong. It will be a good way to learn from my mistake.*
 
 [📺 Unedited Video](https://youtu.be/mgeKcAPuK7c?list=PLrK9UeDMcQLre1yPasCnuKvWvyXKzmKhW)
 
-1. Get and Use `shellcheck` Throughout to Ensure POSIX
+1. Install and Use `shellcheck` Throughout to Ensure POSIX
 1. Know What *POSIX* Means [POSIX Standard]
 1. Know What *Script* Means
 1. Know What *Program* and *Programming* Mean
