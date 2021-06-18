@@ -23,7 +23,124 @@ You can also help fund this project by clicking *Sponsor*. Thanks.
 [personal Zettelkasten repo]: <https://github.com/rwxrob/zet>
 [learning labs]: <https://github.com/rwxrob/lab>
 
-# But First ...
+## Outline
+
+* Before We Begin
+   * Set Up, May the 4th Be With You
+   * Motivated to Learn ¡Viva la Revolución!
+   * Scientific Method, Our Greatest Learning Tool
+* Get a Docker Linux Container Terminal
+   * Linux Approach
+   * Get on a Mac, Windows, or Linux Terminal
+   * Learn About Containers and Get Docker
+   * Run Linux Inside a Container
+* Survive the Linux Command Line (For Now)
+   * Start Using the Linux Terminal Command Line
+   * Install Software from Package Manager
+   * Work with File System from Command Line
+   * Understand Streams, Pipes, and Redirection
+   * Edit Files with Basic Vi (Then Vim)
+   * Manage Users, Groups, and Permissions 
+* Start Scripting in POSIX Shell
+   * Scripts are Just Terminal Commands in a File
+   * Functions, Procedures, Operations, Methods
+   * State, Data Types, Variables, and Constants
+   * Function and Command Communication
+   * Flow, Conditions, and Logic
+   * Loops, Signals, and Events
+   * ANSI Escapes, Color, Gotchas, What's Next?
+* Deal with Data, In a Structured Way
+   * Understand the Need for Structured Data
+   * Delimited Data (Space, Tab, Bar, Paths, CSV)
+   * Universal JSON, YAML, JSON-Schema Data
+   * Pattern Matching (Globbing, Globstar)
+   * Match and Parse with Regular Expressions
+* Customize Interactive Bash Shell
+   * Don't Blow Up, Contain Your Customizations
+   * Set Bash Options, Variables, and History Settings
+   * Colorize Pager, Files, Directories (ls)
+   * Customize Bash Shell Prompt
+   * Use Aliases and Exported Bash Functions
+   * Tab Completion and Sourcing
+   * Manage Bash Shell Executable `PATH` and `CDPATH`
+   * Start Your Own Scripts Collection
+* Customize Vi and Vim
+   * Vi/m is a Shell-Centric Text Editor, Not an IDE
+   * Proven Designs for Portable Vi/m Customization
+   * Focus on Vi/m Filter Scripts
+   * Start a Snippets Collection
+   * Use Real Resources Instead of "Intellisense"
+   * To Complete or Not to Complete, Tab is the Question
+   * Use Plugins Judiciously and Automatically
+   * Overview of Vimscript (Preferred for Customization)
+   * Integrate Shell Into Vim Configuration
+   * Know Specifically Why NeoVim is So Bad
+* Know How Networks Work and Use Remote Resources
+  * Understand How the Internet Works
+  * Understand How the Web Works
+  * Setup and Use Secure Shell (`ssh`,`scp`)
+  * Setup and Use GNU Privacy Gaurd (`gpg`)
+  * Learn Essential Network Utilities
+* Manage Your Code and Knowledge with Git and GitHub
+  * Understand Git, Git Hosting Services, and GitOps
+  * Create and Share a Dotfiles Repo
+  * Create and Share a Workspace Container (Dockerfile)
+  * Use GitHub with Profile Repo (Instead of LinkedIn)
+  * Create and Manage Searchable Zettelkasten Repos
+  * Setup GitHub Sponsorships
+* Make Best Use of Terminal Multiplexers
+  * Learn Screen, Still Most Ubiquitous
+  * Learn TMUX with Default Settings
+  * Customize TMUX Configuration
+  * Extend TMUX with Shell (Not Plugins)
+  * Integrate TMUX Into Shell Scripts
+* Use Terminal for Fastest Possible Research
+  * Use `w3m` When Available and Know Why
+  * Use `lynx`, World's Fastest, Safest Web Browser
+  * Integrate Terminal Browsing Into Shell
+* Learn Web Dev to Create and Manage Knowledge Content
+  * Web is Just One Source of Information (And Often Not Best)
+  * Write Basic Markdown and Process with Pandoc
+  * Learn Main Parts of Hypertext Markup Language (HTML)
+  * Learn Just Enough Cascading Style Sheets (CSS)
+  * Learn Modern Vanilla JavaScript (And Keep JS in Web Browser)
+  * Know the Document Object Model (DOM)
+* Learn C to Understand How Computers and Languages Work
+  * Most OSes and Other Languages Were First Written in C
+  * Only Language Closer to Hardware is Assembly
+  * More ...
+* Learn Perl for Rapid Prototyping and Powerful One-Liners
+  * More ...
+* Learn Python for Math, ML, C-Stubbing, and Automation
+  * More ...
+* Learn Go for Utilities, Services, Cloud-Native, and Enterprise
+  * Know Meaning of "Cloud", "Cloud-Native", "Serverless", and "DevOps"
+  * Learn Go 1.17+ (And Nothing Else)
+  * More ...
+* Understand the Preponderance of Programming Paradigms
+  * Know What *Imperative* Programming Is
+  * Know What *Procedural* Programming Is
+  * Know What *Functional* Programming Is
+  * Know What *Object-Oriented* Programming Is (and Is Not) 
+  * Know What *Data-Oriented* Programming Is
+* Install and Run Linux as Your Desktop Workstation
+  * More ...
+* Get Good to Gig
+  * Employment is About Trust
+  * Why (Or Why Not) Certify?
+  * Know Where You Want to Be in Five Years
+  * Research Specific Companies That Appeal to You
+  * Sharpen and Target Your GitHub Portfolio
+  * Automate Your CV/Resume as a PDF from YAML
+  * Plan Your Personal and Professional Learning
+  * Make and Keep Connections
+  * Land a Job You Enjoy Enough to Keep
+  * Don't Let Your Job Define You
+  * Share What You Know, Pay It Forward
+
+----
+
+# Before We Begin
 
 ## <a id=day0> Day 0: Get Set Up, May the 4th Be With You
 
@@ -31,9 +148,11 @@ You can also help fund this project by clicking *Sponsor*. Thanks.
 
 1. [What is the purpose of Beginner Boost?](20210504161937)
 1. [Beginner Boost, Day 0, Logistics](20210505025834)
+   1. Ask Questions in `#ama` in [Discord] During Week
 1. [Who is the Beginner Boost for?](20210505031231)
 1. [Setup Essential Services][services]
 
+[Discord]: <https://discord.gg/svqNZQ9mjY>
 [services]: <https://github.com/rwxrob/zet/tree/main/20210505023938>
 
 ## <a id=day1> Day 1: Get Motivated to Learn ¡Viva la Revolución!
@@ -733,7 +852,7 @@ Other important structured data formats to know:
    1. <https://regexr.com>
    1. <https://xkcd.com/1313>
 
-# *Now* We Can Customize
+# Customize Bash Interactive Shell
 
 ## <a id=day25> Day 25: Don't Blow Up, Contain Your Customizations
 
@@ -838,6 +957,7 @@ Other important structured data formats to know:
    1. Affect Current Interactive Shell
    1. Functions Do *Not* Propagate to Subprocs Unless Exported
    1. Exported Functions Affect Bash Subshells (Not Subprocs)
+1. Use Initial Backslash (\) to Disable Aliases/Functions
 1. Use `shopt expand_aliases` to Ensure Active
 1. Know When to Use a Alias vs Function
 1. Know About "ShellShock" and How It Happened

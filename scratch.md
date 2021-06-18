@@ -1,35 +1,6 @@
 *This file contains stuff that needs to make it into the README.md file
 eventually.*
 
-## <a id=day18> Day 18: Shell Exploring, Experimenting, and Exercising
-
-1. What About ...?
-   1. Know What *Object-Oriented* Programming Is
-      1. Know What *True* OOP Is
-      1. Know What *Class-Based* OOP Is
-   1. Know What *Functional* Programming Is
-   1. Know What *Procedural* Programming Is
-   1. Know What *Imperative* Programming Is
-   1. Know What *Data-Oriented* Programming Is
-
-*Add these to customize shell day:*
-
-## Day 15: Customize Your Interactive Shell
-
-1. We Call Them "Dotfiles" For a Reason
-1. What Are All These Files?
-1. Edit `~/.profile` to Point to `~/.bashrc`
-1. Customize Bash (`.bashrc`,`.profile`)
-   1. Customize Your Bash Command Prompt
-   1. Colorize Your Pager and `man` Pages
-   1. Prefer Commands Over Aliases (Cuz Subprocs)
-1. Use `alias` to Add Interactive Shell Aliases
-   1. Avoid Abusing Aliases, Commands are Better
-1. Exporting Functions
-1. Use `eval` to Source Other Code Inline
-   1. The Case For and Against
-1. Use Backslash to Disable Aliases and Functions
-
 ## Day 16: Basic Networking and Remote Access
 
 1. How Does the Internet Work?
