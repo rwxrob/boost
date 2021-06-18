@@ -3,9 +3,9 @@ But First ...
   Get Motivated to Learn ¡Viva la Revolución!
   The Scientific Method, Our Greatest Learning Tool
 
-Get on a Docker Linux Container Terminal
+Get a Docker Linux Container Terminal
   Understand Linux Approach
-  Get on the Terminal
+  Get on a Windows, Mac, or Linux Terminal
   Learn About Containers and Get Docker
   Run Linux Inside a Container
 
@@ -40,8 +40,8 @@ Customize Interactive Bash Shell
   Colorize Pager and Directories
   Customize Bash Shell Prompt
   Use Aliases and Exported Bash Functions
-  Use Tab Completion, Sourcing, and `CDPATH`
-  Manage Bash Shell Executable `PATH`
+  Tab Completion and Sourcing
+  Manage Bash Shell Executable `PATH` and `CDPATH`
   Start Your Own Scripts Collection
 
 Customize Vi and Vim

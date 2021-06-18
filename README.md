@@ -65,7 +65,7 @@ You can also help fund this project by clicking *Sponsor*. Thanks.
 1. Zettelkasten (Slips in a Box) Knowledge Management System
 1. Capture Thoughts as Markdown, The Syntax of Knowledge Source
 
-# Get on a Docker Linux Container Terminal
+# Get a Docker Linux Container Terminal
 
 ## <a id=day3> Day 3: Understand Linux Approach
 
@@ -78,23 +78,22 @@ You can also help fund this project by clicking *Sponsor*. Thanks.
 1. How Does Linux Work?
 1. When and How Should I Install Linux?
 
-## <a id=day4> Day 4: Get on the Terminal
+## <a id=day4> Day 4: Get on a Mac, Windows, or Linux Terminal
 
 [📺 Unedited Video](https://youtu.be/GlpSi2LW4_Y?list=PLrK9UeDMcQLre1yPasCnuKvWvyXKzmKhW)
 
-**Mac:** Open and Configure a Mac Terminal  
-**Windows:** Install and Configure Modern Windows Terminal  
-**Linux:** Open and Configure a Linux Terminal  
-
+1. Know What a *Terminal* Is
+   1. Terminal Emulators Replaced Teletype Machines
+1. Know Why Humans are Generally Faster on Terminal
 1. What's the Difference Between TUI and CLI?
-1. Terminal Emulators Replaced Teletype Machines
-1. The Terminal is Different Than Command Line Shell
-1. Should I install Git-Bash on Windows?
 1. What about Alacritty/Kitty or ...?
-1. My Favorite Theme: GruvBox
-1. Can't I just use VSCode on Windows?
-1. Why not just use Vim plugins with VSCode?
-1. What about WSL2 on Windows?
+1. If Mac or Linux:
+   1. Open and Configure a Terminal  
+1. If Windows:
+   1. Install and Configure Modern Windows Terminal  
+   1. Install WSL2
+   1. Can't I Just Use VSCode on Windows?
+1. Consider a Good Theme, Like GruvBox or Solarized
 
 ## <a id=day5> Day 5: Learn About Containers and Get Docker
 
@@ -841,12 +840,28 @@ Other important structured data formats to know:
    1. Exported Functions Affect Bash Subshells (Not Subprocs)
 1. Use `shopt expand_aliases` to Ensure Active
 1. Know When to Use a Alias vs Function
-1. Just Know About "ShellShock"
+1. Know About "ShellShock" and How It Happened
 1. Remember, Scripts are Almost Always Better
-   1. Only Reason Not is When Changing Current Interactive Shell
+   1. Except When Changing Current Interactive Shell
 
-## <a id=day30> Beginner Boost, Day 30: Use Tab Completion, Sourcing, and `CDPATH`
+## <a id=day30> Beginner Boost, Day 30: Tab Completion and Sourcing
 
+[📺 Unedited Video](https://youtu.be/il6nnouiF34?list=PLrK9UeDMcQLre1yPasCnuKvWvyXKzmKhW)
+
+1. Know What *Tab Completion* Is
+1. Use `<TAB>` to Page Through All Possible Commands 
+   1. Major Examples Include `git`, `pandoc`, `docker`, `kubectl`
+1. Use `complete` to View All Completion Rules
+1. Use `complete -C foo foo` to Build Completion Into Script
+1. Copy Completion Rule to Make Shortcut (`docker` -> `d`)
+1. Understand *Completion Mode* vs *Regular Mode* Execution
+   1. Check for `COMP_LINE` Environment Variable
+   1. Print Completion Possibilities One Per Line
+   1. Works for Any Language
+1. Use Completion Helper Libraries When Possible
+   1. Shun Go `Cobra` as a Disease (14k Lines for `kubectl`)
+   1. Consider `compgen` to Create Complete Shell
+   1. Consider Go CmdTab (When Finished)
 
 ----
 
