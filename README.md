@@ -79,7 +79,7 @@ You can also help fund this project by clicking *Sponsor*. Thanks.
   * Understand How the Internet Works
   * Understand How the Web Works
   * Setup and Use Secure Shell (`ssh`,`scp`)
-  * Setup and Use GNU Privacy Gaurd (`gpg`)
+  * Setup and Use GNU Privacy Guard (`gpg`)
   * Learn Essential Network Utilities
 * Manage Your Code and Knowledge with Git and GitHub
   * Understand Git, Git Hosting Services, and GitOps
@@ -982,6 +982,18 @@ Other important structured data formats to know:
    1. Shun Go `Cobra` as a Disease (14k Lines for `kubectl`)
    1. Consider `compgen` to Create Complete Shell
    1. Consider Go CmdTab (When Finished)
+
+## <a id=day31> Beginner Boost, Day 31: Manage Bash Shell Executable `PATH` and `CDPATH`
+
+1. Make *Sure* You are Attached to Container
+1. Create `~/.local/bin/` Directory for Executables
+1. Add `export PATH=$HOME/.local/bin:$PATH` to Test
+1. Try `unset PATH` ***FROM CONTAINER*** as Experiment
+1. Remember `/usr/bin/vi ~/.bashrc` to Fix Things
+1. Use `printf "${PATH//:/\\n}"` for Pretty `path`
+1. Add `pathappend` and `pathprepend` for PATH Management
+1. Never Put `./` in Your `PATH`
+1. Always Put `./` in Your `CDPATH` (If You Have One)
 
 ----
 
