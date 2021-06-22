@@ -40,8 +40,8 @@ You can also help fund this project by clicking *Sponsor*. Thanks.
    * Work with File System from Command Line
    * Understand Streams, Pipes, and Redirection
    * Edit Files with Basic Vi (Then Vim)
-   * Manage Users, Groups, and Permissions 
-* Start Scripting in POSIX Shell
+   * Manage Users, Groups, and Permissions
+* Start Scripting in POSIX Shell (Not Bash, Yet)
    * Scripts are Just Terminal Commands in a File
    * Functions, Procedures, Operations, Methods
    * State, Data Types, Variables, and Constants
@@ -63,7 +63,7 @@ You can also help fund this project by clicking *Sponsor*. Thanks.
    * Use Aliases and Exported Bash Functions
    * Tab Completion and Sourcing
    * Manage Bash Shell Executable `PATH` and `CDPATH`
-   * Start Your Own Scripts Collection
+   * Master Bash and Start Scripts Collection
 * Customize Vi and Vim
    * Vi/m is a Shell-Centric Text Editor, Not an IDE
    * Proven Designs for Portable Vi/m Customization
@@ -994,6 +994,18 @@ Other important structured data formats to know:
 1. Add `pathappend` and `pathprepend` for PATH Management
 1. Never Put `./` in Your `PATH`
 1. Always Put `./` in Your `CDPATH` (If You Have One)
+
+## <a id=day32> Beginner Boost, Day 32: Master Bash and Start Scripts Collection
+
+1. Now That You Know POSIX and Some Bash, Learn the Rest
+   1. Read and Explore `man bash`
+   1. Read and Explore [Google Shell Scripting Guidelines]
+1. Start in `~/.local/bin` for Now
+1. Start with Simple One-Liners
+   1. Experiment Using from Vi/m
+1. More ...
+
+[Google Shell Scripting Guidelines]: <https://google.github.io/styleguide/shellguide.html>
 
 ----
 
