@@ -51,92 +51,102 @@ You can also help fund this project by clicking *Sponsor*. Thanks.
    * ANSI Escapes, Color, Gotchas, What's Next?
 * Deal with Data, In a Structured Way
    * Understand the Need for Structured Data
-   * Delimited Data (Space, Tab, Bar, Paths, CSV)
-   * Universal JSON, YAML, JSON-Schema Data
-   * Pattern Matching (Globbing, Globstar)
-   * Match and Parse with Regular Expressions
+   * Use Delimited Data (Space, Tab, Bar, Paths, CSV)
+   * Use JSON, YAML, JSON-Schema Data
+   * Use Bash Pattern Matching (Globbing, Globstar)
+   * Use Minimal Regular Expressions (BRE, ERE, PCRE)
 * Customize Interactive Bash Shell
-   * Don't Blow Up, Contain Your Customizations
+   * Don't Blow Up, Contain and Test Customizations
    * Set Bash Options, Variables, and History Settings
-   * Colorize Pager, Files, Directories (ls)
+   * Colorize Pager and Listed Files and Directories
    * Customize Bash Shell Prompt
    * Use Aliases and Exported Bash Functions
-   * Tab Completion and Sourcing
-   * Manage Bash Shell Executable `PATH` and `CDPATH`
-   * Master Bash and Start Scripts Collection
-* Customize Vi and Vim
-   * Vi/m is a Shell-Centric Text Editor, Not an IDE
-   * Proven Designs for Portable Vi/m Customization
-   * Focus on Vi/m Filter Scripts
-   * Start a Snippets Collection
-   * Use Real Resources Instead of "Intellisense"
-   * To Complete or Not to Complete, Tab is the Question
-   * Use Plugins Judiciously and Automatically
-   * Overview of Vimscript (Preferred for Customization)
+   * Use Tab Completion and Source Scripts Responsibly
+   * Manage Bash Shell `PATH` and `CDPATH`
+   * Code in Bash and Start Scripts Collection
+* Customize Vi and Vim, Progressively
+   * Explain and Follow the Rule of Progressive Enhancement
+   * Know Why Vi/m is a Text Editor and Shell Extension, Not an IDE
+   * Maintain a Portable Vi/m Configuration
+   * Create and Prefer Vi/m Filter Scripts to Plugins
+   * Create Snippets Tool to Manage Own Collection
+   * Prefer Real Resources Over "Intellisense"
+   * Use Plugins Judiciously and Progressively
+   * Understand Vim Events and Code Basic Vimscript
    * Integrate Shell Into Vim Configuration
-   * Know Specifically Why NeoVim is So Bad
-* Know How Networks Work and Use Remote Resources
-  * Understand How the Internet Works
-  * Understand How the Web Works
+   * Explain Why NeoVim is Bad for Most Use Cases
+* Explain How Networks Work and Use Remote Resources
+  * Explain How the Internet Works
+  * Explain How the Web Works
   * Setup and Use Secure Shell (`ssh`,`scp`)
   * Setup and Use GNU Privacy Guard (`gpg`)
-  * Learn Essential Network Utilities
-* Manage Your Code and Knowledge with Git and GitHub
-  * Understand Git, Git Hosting Services, and GitOps
-  * Create and Share a Dotfiles Repo
-  * Create and Share a Workspace Container (Dockerfile)
-  * Use GitHub with Profile Repo (Instead of LinkedIn)
-  * Create and Manage Searchable Zettelkasten Repos
-  * Setup GitHub Sponsorships
-* Make Best Use of Terminal Multiplexers
-  * Learn Screen, Still Most Ubiquitous
-  * Learn TMUX with Default Settings
-  * Customize TMUX Configuration
-  * Extend TMUX with Shell (Not Plugins)
-  * Integrate TMUX Into Shell Scripts
-* Use Terminal for Fastest Possible Research
+  * Use Essential Network Commands and Utilities
+* Manage Source Code and Knowledge with Git and GitHub
+  * Use Essential Git Commands and Git Workflow
+  * Know Git Hosting Services and Use GitHub Regularly
+  * Keep a Professional Portfolio on GitHub
+  * Maintain a Dotfiles Repo on GitHub
+  * Use Git and GitHub for Knowledge Management (Zettelkasten)
+  * Become a GitHub Sponsor and Be Sponsored
+* Use Terminal Multiplexers Regularly and Effectively
+  * Use Screen on Any System Since 1986
+  * Use TMUX Defaults and Customize to Be Screen Compatible
+  * Prefer to Extend TMUX with Shell Over Plugins
+  * Script TMUX from Shell Scripts
+  * Use TMUX from Within Another TMUX Session
+* Use Terminal for Just-in-Time Research
   * Use `w3m` When Available and Know Why
-  * Use `lynx`, World's Fastest, Safest Web Browser
-  * Integrate Terminal Browsing Into Shell
-* Learn Web Dev to Create and Manage Knowledge Content
-  * Web is Just One Source of Information (And Often Not Best)
-  * Write Basic Markdown and Process with Pandoc
-  * Learn Main Parts of Hypertext Markup Language (HTML)
-  * Learn Just Enough Cascading Style Sheets (CSS)
-  * Learn Modern Vanilla JavaScript (And Keep JS in Web Browser)
-  * Know the Document Object Model (DOM)
-* Learn C to Understand How Computers and Languages Work
-  * Most OSes and Other Languages Were First Written in C
-  * Only Language Closer to Hardware is Assembly
-  * More ...
-* Learn Perl for Rapid Prototyping and Powerful One-Liners
-  * More ...
-* Learn Python for Math, ML, C-Stubbing, and Automation
-  * More ...
-* Learn Go for Utilities, Services, Cloud-Native, and Enterprise
-  * Know Meaning of "Cloud", "Cloud-Native", "Serverless", and "DevOps"
-  * Learn Go 1.17+ (And Nothing Else)
-  * More ...
-* Understand the Preponderance of Programming Paradigms
-  * Know What *Imperative* Programming Is
-  * Know What *Procedural* Programming Is
-  * Know What *Functional* Programming Is
-  * Know What *Object-Oriented* Programming Is (and Is Not) 
-  * Know What *Data-Oriented* Programming Is
+  * Configure and Use `lynx` and Know Why
+  * Integrate Web Browsing and Bookmarking Into Shell Command Line
+* Create and Manage Containers
+  * Explain Containers, Cloud, Cloud-Native, Orchestration, and DevOps
+  * Master Docker Fully, Optimize Dockerfiles for Different Goals
+  * Create and Share a Workspace Container (Dockerfile)
+  * Understand the Cloud-Native, Container Orchestration Landscape
+  * Use Kubernetes for Basic Container Management
+  * Test and Run Kubernetes Locally with Kind
 * Install and Run Linux as Your Desktop Workstation
   * More ...
 * Get Good to Gig
-  * Employment is About Trust
-  * Why (Or Why Not) Certify?
-  * Know Where You Want to Be in Five Years
-  * Research Specific Companies That Appeal to You
+  * Understand the Possible Career Paths in Tech
+  * Work with Others Often in a Team Setting
+  * Explain the Fundamentals and Intent of the Agile Process
+  * Explain Why Employment is About Trust
+  * Know Why (Or Why Not) to Certify?
+  * Have a Five Year Plan
+  * Research Specific Target Companies 
   * Sharpen and Target Your GitHub Portfolio
-  * Automate Your CV/Resume as a PDF from YAML
-  * Plan Your Personal and Professional Learning
+  * Automate CV/Resume as a PDF from YAML
+  * Manage Personal and Professional Learning
   * Make and Keep Connections
   * Land a Job You Enjoy Enough to Keep
   * Don't Let Your Job Define You
   * Share What You Know, Pay It Forward
+* Become a Life-Long Polyglot Programmer (Not a One-Trick Pony)
+  * Explain *Imperative* Programming
+  * Explain *Procedural* Programming
+  * Explain *Functional* Programming
+  * Explain *Object-Oriented* Programming
+  * Explain *Data-Oriented* Programming
+  * Explain *Event-Driven* Programming
+  * Learn Web and PWA for Web Sites and Apps
+  * Learn C to Understand How Computers and Languages Work
+  * Learn Perl for Rapid Prototyping and Powerful One-Liners
+  * Learn Python for Math, Science, Automation, and Machine Learning
+  * Learn Go for Modern Scalable Systems and Services Development
+  * Learn Java for Native Mobile Apps
+  * Learn Swift for Native iPhone Apps (If You Must)
+  * Learn C++ for Large, Highly Performant Projects
+  * Learn C# for Indy Game and Simulation Development
+  * Learn SQL to Talk to Databases
+  * Learn Erlang/Elixir for Fastest Possible Concurrency
+  * Learn Haskell for Parsing Grammars and Pandoc
+  * Learn Assembly and C for Programming Devices
+  * Learn Brain-F Because It's F\*\*\*ing Cool
+  * Learn COBOL to Get Rich Quick (And Don't Care What People Think)
+  * Learn FORTRAN 'Cuz Maths
+  * Learn Ada to Work for the Military and Blow Things Up
+  * Learn Why Rust Really Isn't Worth Learning, But What the Hell
 
 ----
 
@@ -1007,13 +1017,3 @@ Other important structured data formats to know:
 
 [Google Shell Scripting Guidelines]: <https://google.github.io/styleguide/shellguide.html>
 
-----
-
-*More to come (boost is at least 100 days) including ...*
-
-* Create Minimal Web Sites Using Simple, Standard Tech
-* Code in C for Understanding Modern Computers
-* Code Perl for Practical Prototyping
-* Code Go for Building Big Stuff
-* Code Python for Math, ML, and Automation
-* Know the Problem, Peril, and Practicality of Paradigms
