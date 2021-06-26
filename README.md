@@ -65,9 +65,13 @@ You can also help fund this project by clicking *Sponsor*. Thanks.
    * Manage Bash Shell `PATH` and `CDPATH`
    * Code in Bash and Start Scripts Collection
 * Customize Vi and Vim, Progressively
+
    * Explain and Follow the Rule of Progressive Enhancement
    * Know Why Vi/m is a Text Editor and Shell Extension, Not an IDE
+
+   * It All Started with `ed`/`ex`
    * Maintain a Portable Vi/m Configuration
+
    * Create and Prefer Vi/m Filter Scripts to Plugins
    * Create Snippets Tool to Manage Own Collection
    * Prefer Real Resources Over "Intellisense"
@@ -119,6 +123,10 @@ You can also help fund this project by clicking *Sponsor*. Thanks.
   * Automate CV/Resume as a PDF from YAML
   * Manage Personal and Professional Learning
   * Make and Keep Connections
+  * Keep Current
+    * Newsletters to Subsciptions
+    * Create Lists on Twitter 
+    * Identify Worthy Podcasts
   * Land a Job You Enjoy Enough to Keep
   * Don't Let Your Job Define You
   * Share What You Know, Pay It Forward
@@ -1005,15 +1013,48 @@ Other important structured data formats to know:
 1. Never Put `./` in Your `PATH`
 1. Always Put `./` in Your `CDPATH` (If You Have One)
 
-## <a id=day32> Beginner Boost, Day 32: Master Bash and Start Scripts Collection
+## <a id=day32> Beginner Boost, Day 32: Code in Bash and Keep Scripts Collection
 
+1. Learn POSIX First *Then* Bash
+1. Example of Utility Script `lynxa`
+1. Use `shellcheck` and Just Don't Worry About It
+1. The Quick Hit and Attraction of Script Creation
+1. Use Progressive Enhancement, Least Possible Tech First
+1. Always Read Every Line of Any Script You Put In Your Scripts Directory
+1. Don't Just Add Things You Don't Understand
+1. Consider Comparing to Checksums (Man In the Middle)
+1. Create a `~/.local/bin` for Now
+1. Consider Creating a `SCRIPTS` Environment Variable
+  1. Add `alias scripts='cd $SCRIPTS'`
+1. Put Your Script in Directory
+1. Create Shortcut Commands and Functions to Use
+   1. `newx`
 1. Now That You Know POSIX and Some Bash, Learn the Rest
    1. Read and Explore `man bash`
    1. Read and Explore [Google Shell Scripting Guidelines]
-1. Start in `~/.local/bin` for Now
+     1. Personal Opinions About
+        1. Disagree with Over Commenting
+        1. Disagree with Unnecessary Curlies `${SOME}`
+        1. Agree Strongly With If over 500 lines use something else.
 1. Start with Simple One-Liners
    1. Experiment Using from Vi/m
-1. More ...
 
 [Google Shell Scripting Guidelines]: <https://google.github.io/styleguide/shellguide.html>
+
+## <a id=day32> Beginner Boost, Day 32: Start with Ex/Vi Configuration
+
+1. Install `vim` Into Boost Container
+1. Install `nvi` Into Boost Container (Not `nvim`)
+1. Know the History of `ed`, `ex`, `vi`, `vim`, `nvi`, and `nvim`
+1. Use `:viusage` to Show How to Use `vi`
+1. Use `set all` and `man nvi` for List of Configurable Settings
+1. Know Which [Settings][visettings] Work with `vi`, `nvi`, and `vim`
+1. Put `vi`/`nvi` Configuration Settings in `~/.exrc` (For Now)
+1. Use `set number` to Enable Line Numbers
+1. Use `set mode` to Show `INSERT` When Inserting
+1. Use `set ruler` to Show Position in File
+1. Use `set tabstop=2` for 2-Space Tab
+1. Use `set autowrite` to Save When Editing Multiple on Switch
+
+[visettings] <http://users.softlab.ntua.gr/~sivann/books/Unix%20Hints%20+%20Hacks/here/19270116.htm>
 
