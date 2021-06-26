@@ -1037,7 +1037,7 @@ Other important structured data formats to know:
 
 [Google Shell Scripting Guidelines]: <https://google.github.io/styleguide/shellguide.html>
 
-## <a id=day32> Beginner Boost, Day 32: Start with Ex/Vi Configuration
+## <a id=day33> Beginner Boost, Day 33: Start with Ex/Vi Configuration
 
 1. Install `vim` Into Boost Container
 1. Install `nvi` Into Boost Container (Not `nvim`)
@@ -1052,5 +1052,5 @@ Other important structured data formats to know:
 1. Use `set tabstop=2` for 2-Space Tab
 1. Use `set autowrite` to Save When Editing Multiple on Switch
 
-[visettings] <http://users.softlab.ntua.gr/~sivann/books/Unix%20Hints%20+%20Hacks/here/19270116.htm>
+[visettings]: <http://users.softlab.ntua.gr/~sivann/books/Unix%20Hints%20+%20Hacks/here/19270116.htm>
 
