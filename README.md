@@ -65,25 +65,21 @@ You can also help fund this project by clicking *Sponsor*. Thanks.
    * Manage Bash Shell `PATH` and `CDPATH`
    * Code in Bash and Start Scripts Collection
 * Customize Vi and Vim, Progressively
-
-   * Explain and Follow the Rule of Progressive Enhancement
-   * Know Why Vi/m is a Text Editor and Shell Extension, Not an IDE
-
-   * It All Started with `ed`/`ex`
-   * Maintain a Portable Vi/m Configuration
-
-   * Create and Prefer Vi/m Filter Scripts to Plugins
-   * Create Snippets Tool to Manage Own Collection
-   * Prefer Real Resources Over "Intellisense"
-   * Use Plugins Judiciously and Progressively
-   * Understand Vim Events and Code Basic Vimscript
+   * Start with Ex/Vi Configuration (`~/.exrc`)
+   * Migrate to Vim in Vi Compatibility Mode (`~/.vimrc`)
+   * Add Separate Vim Specific Configuration (`~/.vimrc`)
+   * Use Basic Vimscript Code (Variables, Conditions, Functions)
+   * Use Basic Vimscript Concepts (Events, Maps, Types, Highlights)
    * Integrate Shell Into Vim Configuration
+   * Create and Prefer Vi/m Filter Scripts Over Plugins
+   * Keep a Snippets Collection and Code `snip` Tool in Bash
+   * Use Key Plugins Judiciously and Progressively
    * Explain Why NeoVim is Bad for Most Use Cases
-* Explain How Networks Work and Use Remote Resources
+* Explain How Networks Work and Work Remotely
   * Explain How the Internet Works
   * Explain How the Web Works
-  * Setup and Use Secure Shell (`ssh`,`scp`)
-  * Setup and Use GNU Privacy Guard (`gpg`)
+  * Use Secure Shell (`ssh`,`scp`)
+  * Use GNU Privacy Guard (`gpg`)
   * Use Essential Network Commands and Utilities
 * Manage Source Code and Knowledge with Git and GitHub
   * Use Essential Git Commands and Git Workflow
