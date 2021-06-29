@@ -999,6 +999,8 @@ Other important structured data formats to know:
 
 ## <a id=day31> Beginner Boost, Day 31: Manage Bash Shell Executable `PATH` and `CDPATH`
 
+[📺 Unedited Video](https://youtu.be/pOr7Wt72INo?list=PLrK9UeDMcQLre1yPasCnuKvWvyXKzmKhW)
+
 1. Make *Sure* You are Attached to Container
 1. Create `~/.local/bin/` Directory for Executables
 1. Add `export PATH=$HOME/.local/bin:$PATH` to Test
@@ -1010,6 +1012,8 @@ Other important structured data formats to know:
 1. Always Put `./` in Your `CDPATH` (If You Have One)
 
 ## <a id=day32> Beginner Boost, Day 32: Code in Bash and Keep Scripts Collection
+
+[📺 Unedited Video](https://youtu.be/mHdmHvoTLto?list=PLrK9UeDMcQLre1yPasCnuKvWvyXKzmKhW)
 
 1. Learn POSIX First *Then* Bash
 1. Example of Utility Script `lynxa`
@@ -1039,6 +1043,8 @@ Other important structured data formats to know:
 
 ## <a id=day33> Beginner Boost, Day 33: Start with Ex/Vi Configuration
 
+[📺 Unedited Video](https://youtu.be/ZXUb1T-KTsM?list=PLrK9UeDMcQLre1yPasCnuKvWvyXKzmKhW)
+
 1. Install `vim` Into Boost Container
 1. Install `nvi` Into Boost Container (Not `nvim`)
 1. Know the History of `ed`, `ex`, `vi`, `vim`, `nvi`, and `nvim`
@@ -1053,4 +1059,19 @@ Other important structured data formats to know:
 1. Use `set autowrite` to Save When Editing Multiple on Switch
 
 [visettings]: <http://users.softlab.ntua.gr/~sivann/books/Unix%20Hints%20+%20Hacks/here/19270116.htm>
+
+## <a id=day34> Beginner Boost, Day 34: Migrate Vi/Ex to Vim
+
+[📺 Unedited Video](https://youtu.be/AxQ4EMWaH6o?list=PLrK9UeDMcQLre1yPasCnuKvWvyXKzmKhW)
+
+1. Move or Copy `~/.exrc` to `~/.vimrc`
+1. Use `set nocompatible` to Start with Vi Compatibility
+   1. Vim in Compatibility Mode is *Not* `vi` Compatible
+   1. Always Use `nvi`, or `vi` or Original to Check Compatibility
+1. Add `set expandtab` to Replace Tabs with Space
+1. Add `set softtabstop=2` to Sync Tab Settings
+1. Add `set smarttab` to Sync Tab Settings
+1. Add `set shiftwidth=2` to Set Angle Bracket Shifting
+1. Add `set smartindent` to Work with `autoindent`
+1. Use `:set paste` When Pasting Text Copied with Mouse
 
