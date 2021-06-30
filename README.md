@@ -66,8 +66,7 @@ You can also help fund this project by clicking *Sponsor*. Thanks.
    * Code in Bash and Start Scripts Collection
 * Customize Vi and Vim, Progressively
    * Start with Ex/Vi Configuration (`~/.exrc`)
-   * Migrate to Vim in Vi Compatibility Mode (`~/.vimrc`)
-   * Add Separate Vim Specific Configuration (`~/.vimrc`)
+   * Migrate from Ex/Vi to Vim 
    * Use Basic Vimscript Code (Variables, Conditions, Functions)
    * Use Basic Vimscript Concepts (Events, Maps, Types, Highlights)
    * Integrate Shell Into Vim Configuration
@@ -97,6 +96,7 @@ You can also help fund this project by clicking *Sponsor*. Thanks.
 * Use Terminal for Just-in-Time Research
   * Use `w3m` When Available and Know Why
   * Configure and Use `lynx` and Know Why
+  * Setting System Filetypes with Mailcap
   * Integrate Web Browsing and Bookmarking Into Shell Command Line
 * Create and Manage Containers
   * Explain Containers, Cloud, Cloud-Native, Orchestration, and DevOps
@@ -1075,3 +1075,25 @@ Other important structured data formats to know:
 1. Add `set smartindent` to Work with `autoindent`
 1. Use `:set paste` When Pasting Text Copied with Mouse
 
+## <a id=day35> Beginner Boost, Day 35: Vimscript (echo, messages, let, if, function, commands)
+
+[📺 Unedited Video](https://youtu.be/px74GhBAG9I?list=PLrK9UeDMcQLre1yPasCnuKvWvyXKzmKhW)
+
+1. Know What *Vimscript* is and Why to Use It
+   1. Harder to Grok Because `.vimrc` Compatible
+   1. Modify an Existing Plugin
+   1. Add Minor Modifications to Your `.vimrc`
+1. Use `echo`/`echom` to Send Messages
+1. Use `:messages` to Former Error Messages
+1. Use `set` for Options
+1. Use `let` for Variables
+1. Use `if`/`elseif`/`endif` for Conditions  
+1. Use `fu[nction]`/`endf[unction]` for Functions
+   1. Use `:echom YourFun()` to Test and See Return Values
+   1. Must Start with Uppercase
+1. Use `command` to Define Ex Commands
+   1. Example: `com! Greet call Greet()`
+   1. Must Start with Uppercase
+1. Know Where to Learn More Vimscript
+   1. <https://learnvimscriptthehardway.stevelosh.com/>
+   1. Mastering Vim, O'Reilly
