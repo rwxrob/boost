@@ -69,7 +69,6 @@ You can also help fund this project by clicking *Sponsor*. Thanks.
    * Migrate from Ex/Vi to Vim 
    * Use Basic Vimscript Code (Variables, Conditions, Functions)
    * Use Basic Vimscript Concepts (Events, Maps, Types, Highlights)
-   * Integrate Shell Into Vim Configuration
    * Create and Prefer Vi/m Filter Scripts Over Plugins
    * Keep a Snippets Collection and Code `snip` Tool in Bash
    * Use Key Plugins Judiciously and Progressively
@@ -436,6 +435,7 @@ it wrong. It will be a good way to learn from my mistake.*
 1. Use `Ctrl-[` Instead of `Esc` Key (Never `Ctrl-x|z`)
 1. Do the Vim Tutorial (`vimtutor`), But Beware
 1. Other Recommended Learning Resources
+   1. `:viusage`
    1. <https://openvim.com>
    1. <http://vimgenius.com> (no `s`)
    1. Vim Adventures is Strongly Discouraged
@@ -1083,6 +1083,10 @@ Other important structured data formats to know:
    1. Harder to Grok Because `.vimrc` Compatible
    1. Modify an Existing Plugin
    1. Add Minor Modifications to Your `.vimrc`
+1. Know Where to Learn More Vimscript
+   1. Use Self-Documentation: `:viusage`, `:help`, `:set all`
+   1. <https://learnvimscriptthehardway.stevelosh.com/>
+   1. Mastering Vim, O'Reilly
 1. Use `echo`/`echom` to Send Messages
 1. Use `:messages` to Former Error Messages
 1. Use `set` for Options
@@ -1094,6 +1098,23 @@ Other important structured data formats to know:
 1. Use `command` to Define Ex Commands
    1. Example: `com! Greet call Greet()`
    1. Must Start with Uppercase
-1. Know Where to Learn More Vimscript
-   1. <https://learnvimscriptthehardway.stevelosh.com/>
-   1. Mastering Vim, O'Reilly
+
+## <a id=day36> Beginner Boost, Day 36: Vimscript (highlight, filetype, autocmd, map)
+
+1. Have `export TERM=xterm-256color` in Your `~/.bashrc`
+1. Use `:highlight` to See and Set Color Groups
+1. Use `synstack` in Function and Command to See Groups of Existing 
+1. Use `au[tocmd]` to Map Events to Functions and Highlighting
+1. Use `map`, `nmap` to Map Keystrokes
+1. Use `hi` to Set Default, Use `au FileType * hi` to Override
+1. Know How Much to Tweak and When to Stop
+   1. Keep `.vimrc` Portable and in Single File
+1. Don't Use Visual, Use Shell Script Filters Instead
+
+## <a id=day37> Beginner Boost, Day 37: Prefer Shell Scripts Over Plugins in Vim
+
+[📺 Unedited Video](https://youtu.be/2o3URIxG3Zs?list=PLrK9UeDMcQLre1yPasCnuKvWvyXKzmKhW)
+
+1. What is the UNIX Philosophy and what does it have to do with Vim?
+1. Examples of Shell Integration
+1. Code a `toemoji` Shell Script Vim Filter
