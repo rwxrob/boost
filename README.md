@@ -69,10 +69,9 @@ You can also help fund this project by clicking *Sponsor*. Thanks.
    * Migrate from Ex/Vi to Vim 
    * Use Basic Vimscript Code (Variables, Conditions, Functions)
    * Use Basic Vimscript Concepts (Events, Maps, Types, Highlights)
-   * Create and Prefer Vi/m Filter Scripts Over Plugins
-   * Keep a Snippets Collection and Code `snip` Tool in Bash
+   * Prefer Shell Scripts Over Plugins in Vim
+   * Code a `snip` Tool in Bash for Vim and More
    * Use Key Plugins Judiciously and Progressively
-   * Explain Why NeoVim is Bad for Most Use Cases
 * Explain How Networks Work and Work Remotely
   * Explain How the Internet Works
   * Explain How the Web Works
@@ -1118,3 +1117,24 @@ Other important structured data formats to know:
 1. What is the UNIX Philosophy and what does it have to do with Vim?
 1. Examples of Shell Integration
 1. Code a `toemoji` Shell Script Vim Filter
+
+## <a id=day38> Beginner Boost, Day 38: Code a `snip` Tool in Bash for Vim and More
+
+[📺 Unedited Video](https://youtu.be/P0XHOSHM2SU?list=PLrK9UeDMcQLre1yPasCnuKvWvyXKzmKhW)
+
+1. Create a `snippets` Directory
+1. Set `SNIPPETS` to Point to `snippets` Directory in `~/.bashrc`
+1. Create `snippets` Alias to `cd $SNIPPETS`
+1. Create a New Bash Script Called `snip`
+   1. Check for SNIPPETS Environment Variable or Exit
+   1. Create a `snip` Function That Take One Parameter: `name`
+   1. Join Argument `name` with `$SNIPPETS` for File
+   1. Load the File Into Variable `buf`
+   1. Print `buf` to Standard Output
+1. Add Template Parameters to `snip`
+   1. Update `snip` to Use All Extra Arguments as Values
+   1. Replace `{1}`,`{2}`, ... with Values for Printing
+   1. Recursively Call `snip` Rather than Rewrite
+1. Add Template Parameters from Lines of Input
+   1. Update `snip` to Assume Arguments are as Input lines
+   1. Do the Same at Previous
