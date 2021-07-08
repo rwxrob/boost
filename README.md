@@ -23,6 +23,75 @@ You can also help fund this project by clicking *Sponsor*. Thanks.
 [personal Zettelkasten repo]: <https://github.com/rwxrob/zet>
 [learning labs]: <https://github.com/rwxrob/lab>
 
+## How Long Will It Take?
+
+The Boost is about 128 days of about an hour of video for each plus 2
+hours of optional AMA on Fridays. For each hour of video, most will need
+to spend at least an hour (usually more) working and experimenting on
+their own to learn the material. That's 256 hours *minimum* without AMA,
+320 with it.
+
+There are only four days of Boost per week, Monday through Thursday with
+Fridays being two hours of AMA. That's 32 weeks, about 8 months, more
+than half a year, just for the Boost content, and this is just the
+*beginner* stuff.
+
+Consider that things like the freeCodeCamp Web "certification" require
+2400+ hours of time on projects and such *just for web development*.
+(And I just cannot endorse any part of freeCodeCamp having witnessed it
+fail for dozens in a way that gave them a false sense of having learned
+it only to be shot down by reality.)
+
+Malcolm Gladwell has suggested it takes 10,000 hours or doing something
+to truly master it. Many have objectively shot down this conclusion, but
+it certainly will take more than 300 hours.
+
+In other words, this stuff takes time. There is no shortcut. Anyone
+saying differently is lying to you (probably to get your money). If you
+want to speed things up increase the number of hours you invest in
+learning per week, by adding 10 hours on the weekend you can cut the
+time for the Boost in half. It all depends on you.
+
+## You Get *Way* More Than You Pay For
+
+If you wondering what this training is worth, I've taken hundreds
+through it at the rate of \$50/hour (about \$6400 although I had many
+technical professionals tell me I could easily have charged \$100/hour
+since it was one-on-one) with many getting in to colleges, elite science
+boarding schools, and junior engineering jobs starting with \$100k
+salaries. In every case these people put in the time --- a lot of time
+--- almost entirely on their own --- to achieve these goals. You can do it
+too, but you have to want it. 
+
+This content is all yours for free now and always will be free (except
+the ads). Please don't take it for granted just because it is free. Ask
+someone who knows. This kind of content isn't out there anyplace else.
+In fact, it's become obvious that this content is influencing other
+streamers and YouTubers usually without them acknowledging it, which is
+fine so long as the learning is getting done. 
+
+Some flashy, shallow content creators have even criticized free sources
+of learning like mine saying, "You get what you pay for" putting down
+free learning, while pushing their own overpriced "curriculum", and
+their corporate sponsors plastered all over their neon walls and tee
+shirts. These unfortunate individuals just haven't learned how the
+[sharing economy] works (probably because they are so busy working on
+their social media marketing instead of learning and adding *real*
+value). You know better. I work full-time so that I don't have to charge
+you for a paywall in American dollars, plus it keeps me current so I can
+pass on what's *actually* happening at work onto you.
+
+[sharing economy]: <https://youtu.be/QX3M8Ka9vUA>
+
+If you want to help, above all, spread the word, learn this stuff and
+then do something the world *really* needs with your new skills and
+knowledge. Pay it forward. 
+
+If you insist on helping me financially, consider sponsoring me for as
+little as [\$2/month on GitHub](https://github.com/sponsors/rwxrob)
+where you will get a cool badge that shows you are sponsoring free and
+open source content.
+
 ## Outline
 
 * Before We Begin
@@ -69,62 +138,57 @@ You can also help fund this project by clicking *Sponsor*. Thanks.
    * Migrate from Ex/Vi to Vim 
    * Use Basic Vimscript Code (Variables, Conditions, Functions)
    * Use Basic Vimscript Concepts (Events, Maps, Types, Highlights)
-   * Prefer Shell Scripts Over Plugins in Vim
-   * Code a `snip` Tool in Bash for Vim and More
+   * Prefer Shell Scripts Over Plugins in Vim (`toemoji`)
+   * Code a Snippets Tool in Bash for Vim (`snip`)
+   * Add Custom Tab Completion to Any Bash Script
    * Use Key Plugins Judiciously and Progressively
-* Explain How Networks Work and Work Remotely
+* Explain How Networks Work and Use to Work Remotely
   * Explain How the Internet Works
   * Explain How the Web Works
+  * Connect to Work with a VPN 
   * Use Secure Shell (`ssh`,`scp`)
   * Use GNU Privacy Guard (`gpg`)
   * Use Essential Network Commands and Utilities
+  * Use Wireshark to See How Networks Work
 * Manage Source Code and Knowledge with Git and GitHub
   * Use Essential Git Commands and Git Workflow
-  * Know Git Hosting Services and Use GitHub Regularly
+  * Compare Git Hosting Services and Use GitHub Regularly
   * Keep a Professional Portfolio on GitHub
-  * Maintain a Dotfiles Repo on GitHub
-  * Use Git and GitHub for Knowledge Management (Zettelkasten)
+  * Maintain a Dotfiles Repo on GitHub (dot)
+  * Use GitHub for Knowledge Management (Zettelkasten, zet)
   * Become a GitHub Sponsor and Be Sponsored
 * Use Terminal Multiplexers Regularly and Effectively
   * Use Screen on Any System Since 1986
-  * Use TMUX Defaults and Customize to Be Screen Compatible
-  * Prefer to Extend TMUX with Shell Over Plugins
-  * Script TMUX from Shell Scripts
+  * Learn TMUX Defaults But Customize to Be Like Screen
+  * Prefer Shell Over Plugins to Extend TMUX
+  * Add a Pomodoro Timer to TMUX (`cmdbox-pomo`)
   * Use TMUX from Within Another TMUX Session
 * Use Terminal for Just-in-Time Research
   * Use `w3m` When Available and Know Why
   * Configure and Use `lynx` and Know Why
-  * Setting System Filetypes with Mailcap
+  * Set System File Types with Mailcap
   * Integrate Web Browsing and Bookmarking Into Shell Command Line
+* Create and Maintain Minimal Document-Oriented Web Sites
+  * Know Markdown (CommonMark, GFM, Pandoc) and Pandoc
+  * Understand the Document Object Model (DOM)
+  * Know Where to Lookup Web Specifications
+  * Know Enough HTML to Understand Converted Markdown
+  * Know Enough CSS to Layout and Style a Page
+  * Know Enough Vanilla JavaScript to Manipulate the DOM
+  * Practice Progressive Design and Know Why Some Sites Suck
 * Create and Manage Containers
   * Explain Containers, Cloud, Cloud-Native, Orchestration, and DevOps
   * Master Docker Fully, Optimize Dockerfiles for Different Goals
   * Create and Share a Workspace Container (Dockerfile)
-  * Understand the Cloud-Native, Container Orchestration Landscape
+  * Understand Cloud-Native, Container Orchestration Landscape
   * Use Kubernetes for Basic Container Management
   * Test and Run Kubernetes Locally with Kind
 * Install and Run Linux as Your Desktop Workstation
-  * More ...
-* Get Good to Gig
-  * Understand the Possible Career Paths in Tech
-  * Work with Others Often in a Team Setting
-  * Explain the Fundamentals and Intent of the Agile Process
-  * Explain Why Employment is About Trust
-  * Know Why (Or Why Not) to Certify?
-  * Have a Five Year Plan
-  * Research Specific Target Companies 
-  * Sharpen and Target Your GitHub Portfolio
-  * Automate CV/Resume as a PDF from YAML
-  * Manage Personal and Professional Learning
-  * Make and Keep Connections
-  * Keep Current
-    * Newsletters to Subsciptions
-    * Create Lists on Twitter 
-    * Identify Worthy Podcasts
-  * Land a Job You Enjoy Enough to Keep
-  * Don't Let Your Job Define You
-  * Share What You Know, Pay It Forward
-* Become a Life-Long Polyglot Programmer (Not a One-Trick Pony)
+  * Pick a Linux Distribution That Suits *You*
+  * Know How to Download Linux Image and Write to USB Drive
+  * Install Linux from USB Drive
+  * Configure Desktop to Your Liking
+* Be a Polyglot Programming Unicorn, Not a One-Trick Pony
   * Explain *Imperative* Programming
   * Explain *Procedural* Programming
   * Explain *Functional* Programming
@@ -149,6 +213,26 @@ You can also help fund this project by clicking *Sponsor*. Thanks.
   * Learn FORTRAN 'Cuz Maths
   * Learn Ada to Work for the Military and Blow Things Up
   * Learn Why Rust Really Isn't Worth Learning, But What the Hell
+* Get Good to Gig
+  * Understand the Possible Career Paths in Tech
+  * Work with Others Often in a Team Setting
+  * Explain the Fundamentals and Intent of the Agile Process
+  * Explain Why Employment is About Trust
+  * Know Why (Or Why Not) to Certify?
+  * Have a Five Year Plan
+  * Research Specific Target Companies 
+  * Sharpen and Target Your GitHub Portfolio
+  * Automate CV/Resume as a PDF from YAML
+  * Manage Personal and Professional Learning
+  * Make and Keep Connections
+  * Keep Current
+    * Newsletters to Subsciptions
+    * Create Lists on Twitter 
+    * Identify Worthy Podcasts
+  * Land a Job You Enjoy Enough to Keep
+  * Don't Let Your Job Define You
+  * Share What You Know, Pay It Forward
+
 
 ----
 
@@ -845,6 +929,7 @@ Other important structured data formats to know:
    1. Use `\b` to Match Word Boundary
    1. Use `\p{}` to Match Unicode Properties
    1. Use `[]` to Match Non-Standard Classes
+1. Learn Extended Regular Expressions Because UNIX Uses It
 1. POSIX Character Classes Less Relevant in Unicode World
    1. The `[:lower:]` is Not Same as `Ll`
 1. Use Alternatives When Possible and Necessary
@@ -1110,7 +1195,7 @@ Other important structured data formats to know:
    1. Keep `.vimrc` Portable and in Single File
 1. Don't Use Visual, Use Shell Script Filters Instead
 
-## <a id=day37> Beginner Boost, Day 37: Prefer Shell Scripts Over Plugins in Vim
+## <a id=day37> Beginner Boost, Day 37: Prefer Shell Scripts Over Plugins in Vim (toemoji)
 
 [📺 Unedited Video](https://youtu.be/2o3URIxG3Zs?list=PLrK9UeDMcQLre1yPasCnuKvWvyXKzmKhW)
 
@@ -1118,7 +1203,7 @@ Other important structured data formats to know:
 1. Examples of Shell Integration
 1. Code a `toemoji` Shell Script Vim Filter
 
-## <a id=day38> Beginner Boost, Day 38: Code a `snip` Tool in Bash for Vim and More
+## <a id=day38> Beginner Boost, Day 38: Code a Snippets Tool in Bash for Vim (snip)
 
 [📺 Unedited Video](https://youtu.be/P0XHOSHM2SU?list=PLrK9UeDMcQLre1yPasCnuKvWvyXKzmKhW)
 
@@ -1138,3 +1223,6 @@ Other important structured data formats to know:
 1. Add Template Parameters from Lines of Input
    1. Update `snip` to Assume Arguments are as Input lines
    1. Do the Same at Previous
+
+
+
