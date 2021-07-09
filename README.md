@@ -1224,5 +1224,23 @@ Other important structured data formats to know:
    1. Update `snip` to Assume Arguments are as Input lines
    1. Do the Same at Previous
 
+## <a id=day39> Beginner Boost, Day 39: Add Custom Tab Completion to Any Bash Script
 
+[📺 Unedited Video](https://youtu.be/Ih903YwCKTc?list=PLrK9UeDMcQLre1yPasCnuKvWvyXKzmKhW)
 
+[Snippet from
+Video](https://raw.githubusercontent.com/rwxrob/dot/main/snippets/sh/compc)
+
+1. Bash Really is the Best First Language
+1. Create a New Script in Your Scripts Directory
+1. Find *Programmable Completion* in the Bash `man` Page
+1. Read About `complete -C foo foo` and What It Does
+1. Check for the `COMP_LINE` Environment Variable
+1. Create an Array of Commands That Will Be Functions
+1. Loop and Echo Commands Starting With *Second* Argument 
+1. Force Lowercase for Case Insensitive (If You Want)
+1. Exit if in Completion Mode, Rest is Regular Mode
+1. Add Commands with Underscore Prefix
+1. Loop Commands and Delegate if Match
+1. Add to Snippets Collection
+1. Ideas for Ways to Improve
