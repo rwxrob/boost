@@ -141,7 +141,7 @@ open source content.
    * Prefer Shell Scripts Over Plugins in Vim (`toemoji`)
    * Code a Snippets Tool in Bash for Vim (`snip`)
    * Add Custom Tab Completion to Any Bash Script
-   * Use Key Plugins Judiciously and Progressively
+   * Use Key Plugins Judiciously
 * Explain How Networks Work and Use to Work Remotely
   * Explain How the Internet Works
   * Explain How the Web Works
@@ -1244,3 +1244,19 @@ Video](https://raw.githubusercontent.com/rwxrob/dot/main/snippets/sh/compc)
 1. Loop Commands and Delegate if Match
 1. Add to Snippets Collection
 1. Ideas for Ways to Improve
+
+## <a id=day40> Beginner Boost, Day 40: Use Key Vim Plugins Judiciously
+
+[📺 Unedited Video](https://youtu.be/pxTeezSVstQ?list=PLrK9UeDMcQLre1yPasCnuKvWvyXKzmKhW)
+
+1. What Does Judiciously Mean?
+1. Priority on Portability
+1. Why is Plug So Awesome?
+1. What About the Builtin Plugin Manager?
+1. What About Language Server Protocol (LSP)?
+1. I Don't Like Code Completion
+1. Find the Ones You Like and Share
+1. I Don't Like Graphic Plugins
+1. What About NerdTree?
+1. The Toolbox Analogy, Pretend Your Space is Limited
+
