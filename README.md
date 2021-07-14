@@ -142,9 +142,8 @@ open source content.
    * Code a Snippets Tool in Bash for Vim (`snip`)
    * Add Custom Tab Completion to Any Bash Script
    * Use Key Plugins Judiciously
-* Explain How Networks Work and Use to Work Remotely
-  * Explain How the Internet Works
-  * Explain How the Web Works
+* Explain How Networks Work Enough to Use and Configure Them
+  * Explain How the Interweb Works
   * Connect to Work with a VPN 
   * Use Secure Shell (`ssh`,`scp`)
   * Use GNU Privacy Guard (`gpg`)
@@ -1260,3 +1259,23 @@ Video](https://raw.githubusercontent.com/rwxrob/dot/main/snippets/sh/compc)
 1. What About NerdTree?
 1. The Toolbox Analogy, Pretend Your Space is Limited
 
+# Know How Networks Work Enough to Use and Configure Them
+
+## <a id=day41> Beginner Boost, Day 41: Explain How the Interwebz Works
+
+[📺 Unedited Video](https://youtu.be/A-coiMZYF1g?list=PLrK9UeDMcQLre1yPasCnuKvWvyXKzmKhW)
+
+1.  Welcome to Day One of Networking Week
+2.  What is the Internet and where did it come from?
+    1.  Go Watch “Nerds 2.0.1: A Brief History of the Internet”
+3.  Ordering a Package (Packet) Analogy
+4.  Why learn networking? What jobs are in networking?
+    1.  Network and Infrastructure Engineering
+    2.  Cloud and Cloud-Native
+    3.  Networking Security / Pentesting / Hacking
+    4.  Software Engineering and Architecture
+    5.  Basically, Every Technical Career Involving a Network
+5.  Ways to learn networking?
+    1.  Build Your Own Virtual or Real Lab
+    2.  Use a Lab at School
+    3.  Read TCP/IP Illustrated (or Something Similar)
