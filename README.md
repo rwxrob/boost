@@ -142,11 +142,11 @@ open source content.
    * Code a Snippets Tool in Bash for Vim (`snip`)
    * Add Custom Tab Completion to Any Bash Script
    * Use Key Plugins Judiciously
-* Explain How Networks Work Enough to Use and Configure Them
-  * Explain How the Interweb Works
-  * Connect to Work with a VPN 
-  * Use Secure Shell (`ssh`,`scp`)
-  * Use GNU Privacy Guard (`gpg`)
+* Know How Networks Work Enough to Use and Configure Them
+  * Know How the Interwebz Works
+  * Know What Clients and Servers Do
+  * Use Secure Shell for Remote Access
+  * Use GNU Privacy Guard for Signing and More
   * Use Essential Network Commands and Utilities
   * Use Wireshark to See How Networks Work
 * Manage Source Code and Knowledge with Git and GitHub
@@ -1261,7 +1261,7 @@ Video](https://raw.githubusercontent.com/rwxrob/dot/main/snippets/sh/compc)
 
 # Know How Networks Work Enough to Use and Configure Them
 
-## <a id=day41> Beginner Boost, Day 41: Explain How the Interwebz Works
+## <a id=day41> Beginner Boost, Day 41: Know How the Interwebz Works
 
 [📺 Unedited Video](https://youtu.be/A-coiMZYF1g?list=PLrK9UeDMcQLre1yPasCnuKvWvyXKzmKhW)
 
@@ -1279,3 +1279,26 @@ Video](https://raw.githubusercontent.com/rwxrob/dot/main/snippets/sh/compc)
     1.  Build Your Own Virtual or Real Lab
     2.  Use a Lab at School
     3.  Read TCP/IP Illustrated (or Something Similar)
+
+## <a id=day42> Beginner Boost, Day 42: Know What Clients and Servers Do
+
+[📺 Unedited Video](https://youtu.be/rTP1ME43vCM?list=PLrK9UeDMcQLre1yPasCnuKvWvyXKzmKhW)
+
+1.  Know the Seven Layers of Networking
+    1.  Physical Layer: Cat 5/6, Fiber
+    2.  Data-Link Layer: Ethernet
+    3.  Network Layer: IP
+    4.  Transport: TCP, UDP
+    5.  Session: gRPC
+    6.  Presentation Layer: Translation, Compression
+    7.  Application Layer: HTTP, SMTP, TLS, RTMP
+2.  Know what a Network Topology Is
+3.  Watch Web Requests with Web Browser
+4.  Use curl to Deal Directly with Client Requests
+5.  Create a Client/Server “Backdoor” App with Netcat
+    1.  Start a New Docker Container with Port 6868 Exposed
+    2.  Install netcat
+    3.  Use netcat -l -p 6868 to Start a Server
+    4.  Open a New Terminal and Connect to 6868 with nc localhost 6868
+        1.  “There’s No Place Like 127.0.0.1”
+
