@@ -5,5 +5,5 @@
 
 ## RWX Learning Method
 
-* [Untitled](rwx-learning-method/untitled.md)
+* [New Chapter](rwx-learning-method/untitled.md)
 
