@@ -19,7 +19,7 @@ This is the way.
 
 ## Legal
 
-Copyright (c) 2021 Robert S. Muhlestein <mailto:rob@rwx.gg> 
+Copyright (c) 2021 Robert S. Muhlestein <rob@rwx.gg>   
 Content released under the [Creative Commons (BY-NC-ND)](LICENSE)  
 Code released under the [Apache 2.0](LICENSE2)
 
