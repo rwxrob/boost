@@ -1,7 +1,7 @@
 # Table of contents
 
 * [Linux Terminal Beginner Boost](README.md)
-* [Untitled](untitled.md)
+* [Another Top Page](untitled.md)
 
 ## RWX Learning Method
 
