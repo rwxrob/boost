@@ -24,7 +24,8 @@ tech asset: your computer running Linux in a container. There’s no
 “teaching” going on here, just learning. We will cover what to learn and
 some suggestions about where and how to learn it. The rest is up to you
 and the community here to support you, as it should be. Some call this
-“the hard way,” but really it’s the only way.
+“the hard way,” but really it’s the only way. Learning happens in the
+lab, not the lecture hall.
 
 ## Legal
 
