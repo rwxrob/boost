@@ -26,11 +26,7 @@ Code released under the [Apache 2.0](LICENSE2)
 Contributors and project participants implicitly accept the 
 [Developer Certificate of Authenticity (DCO)](DCO).
 
-"Beginner Boost" and "Boost" are legal trademarks of Robert S.
-Muhlestein but can be used freely to refer to the this project
-<https://github.com/rwxrob/boost> without limitation. To avoid potential
-developer confusion, intentionally using these trademarks to refer to
-other projects --- free or proprietary --- is prohibited.
+“Beginner Boost” and “Boost” are legal trademarks of Robert S. Muhlestein but can be used freely to refer to the this project https://github.com/rwxrob/boost without limitation. To avoid potential developer confusion, intentionally using these trademarks to refer to other projects — free or proprietary — is prohibited.
 
 The reason for "no derivatives" CC requirement is to preserve the
 consistency of opinions throughout the content since attribution is
