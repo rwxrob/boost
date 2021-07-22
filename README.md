@@ -17,6 +17,15 @@ This is the way.
 
 *Old Boost content is [here](https://github.com/rwxrob/boost/tree/old-20210722).*
 
+## Purpose
+
+The purpose of the Boost is to help you learn to use your most powerful
+tech asset: your computer running Linux in a container. There’s no
+“teaching” going on here, just learning. We will cover what to learn and
+some suggestions about where and how to learn it. The rest is up to you
+and the community here to support you, as it should be. Some call this
+“the hard way,” but really it’s the only way.
+
 ## Legal
 
 Copyright (c) 2021 Robert S. Muhlestein <rob@rwx.gg>   
