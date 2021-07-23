@@ -2,7 +2,7 @@
 
 Get started right. Become a shell native. Here’s what we’ll learn:
 
-0. RWX Learning Method
+0. [RWX Learning Method]
 1. Docker for Developers
 2. Leveraging Linux Containers
 3. Linux Bash Command Line
