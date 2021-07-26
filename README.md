@@ -1,5 +1,9 @@
 # Linux Terminal Beginner Boost
 
+*Old Boost content is
+[here](https://github.com/rwxrob/boost/tree/old-20210722) while I work
+on this new organization that is free from any schedule (days).*
+
 ![WIP](https://img.shields.io/badge/status-wip-red.svg)
 
 Get started right. Become a shell native. Here’s what we’ll learn:
@@ -17,7 +21,6 @@ Get started right. Become a shell native. Here’s what we’ll learn:
 
 This is the way.
 
-*Old Boost content is [here](https://github.com/rwxrob/boost/tree/old-20210722).*
 
 ## Purpose
 
