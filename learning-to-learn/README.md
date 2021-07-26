@@ -7,7 +7,9 @@
    1. Mr. Lundquist 
    1. Harold, Mel, Devin, and Bob
    1. Joey "You could always use Linux"
-   1. Aaron Swartz 
+   1. Indirectly
+      1. TJ Holowaychuk
+      1. Aaron Swartz
 1. Overcoming Fear and Oppression, in Learning and Life
    1. "Traditional" Education has Failed
        1. Controlled by Greed, Profit, and Power
