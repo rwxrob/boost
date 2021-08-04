@@ -13,11 +13,12 @@ daily, sometimes hourly.
 1.  Use Docker Desktop and Containers
 2.  [Live and Code in the Linux Terminal][terminal]
 3.  Create Terminal Apps Quickly in Go
-4.  Deploy and Maintain Infrastructure
-5.  Create Docker Container Images
-6.  Create Kubernetes Applications
+4.  Create Docker Container Images
+5.  Create Kubernetes Applications
+6.  Deploy and Maintain Infrastructure
 7.  Administer Kubernetes Clusters
 8.  Create Progressive Web Apps
+9.  Leverage Google Cloud Platform
 
 [terminal]: <https://github.com/rwxrob/linux-terminal-native>
 
