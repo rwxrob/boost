@@ -12,19 +12,21 @@ Be warned, this stuff changes daily, sometimes hourly. I'm in the middle
 or creating new content while exploring a new writing method. Follow
 these specific zettels if you want to monitor my progress:
 
-* [20210830025609](/20210830025609/) Beginner Boost: Before You Begin
-* [20210830003232](/20210830003232/) Beginner Boost: Start Here
-* [20210830040933](/20210830040933/) Latest Boost Writing Method: Zettelkasten CYOA
+* [20210830025609](https://github.com/rwxrob/zet/tree/main/20210830025609) Beginner Boost: Before You Begin
+* [20210830003232](https://github.com/rwxrob/zet/tree/main/20210830003232) Beginner Boost: Start Here
+* [20210830040933](https://github.com/rwxrob/zet/tree/main/20210830040933) Latest Boost Writing Method: Zettelkasten CYOA
 
 ## Related
 
-* [20210720045215](/20210720045215/) Dropping Almost All Web Training from Boost
-* [20210720234230](/20210720234230/) Specifically Scheduled Boost Times Always Fail
-* [20210721021756](/20210721021756/) Q: Are the Boost videos not going up on YouTube anymore?
-* [20210721023239](/20210721023239/) Q: Will the boost topic schedule stay the same?
-* [20210722153018](/20210722153018/) Finally, Only the Terminal Essentials in Boost
-* [20210804221955](/20210804221955/) Q: Should I do 2020 boost first or just 2021?
-* [20210809232046](/20210809232046/) Q: What are the chances of a Beginner Boost book?
+* [20210718164932](https://github.com/rwxrob/zet/tree/main/20210718164932) Boost Badges Make Easier Learning Adventures
+* [20210720042800](https://github.com/rwxrob/zet/tree/main/20210720042800) Does Linux Beginner Boost Include mDNS?
+* [20210720045215](https://github.com/rwxrob/zet/tree/main/20210720045215) Dropping Almost All Web Training from Boost
+* [20210720234230](https://github.com/rwxrob/zet/tree/main/20210720234230) Specifically Scheduled Boost Times Always Fail
+* [20210721021756](https://github.com/rwxrob/zet/tree/main/20210721021756) Q: Are the Boost videos not going up on YouTube anymore?
+* [20210721023239](https://github.com/rwxrob/zet/tree/main/20210721023239) Q: Will the boost topic schedule stay the same?
+* [20210722153018](https://github.com/rwxrob/zet/tree/main/20210722153018) Finally, Only the Terminal Essentials in Boost
+* [20210804221955](https://github.com/rwxrob/zet/tree/main/20210804221955) Q: Should I do 2020 boost first or just 2021?
+* [20210809232046](https://github.com/rwxrob/zet/tree/main/20210809232046) Q: What are the chances of a Beginner Boost book?
 
 ## Older Stuff
 
