@@ -4,14 +4,11 @@
 [here](https://github.com/rwxrob/boost/tree/old-20210722) while I work
 on this new organization that is free from any schedule (days).*
 
-Beginner boosts are meant to give you a push toward your own
-self-directed learning goals. They are my highly opinionated answer to
-the frequently asked question, "What should I learn?" 
-
 Be warned, this stuff changes daily, sometimes hourly. I'm in the middle
 or creating new content while exploring a new writing method. Follow
 these specific zettels if you want to monitor my progress:
 
+* [20210830121618](https://github.com/rwxrob/zet/tree/main/20210830121618) What is a Beginner Boost?
 * [20210830025609](https://github.com/rwxrob/zet/tree/main/20210830025609) Beginner Boost: Before You Begin
 * [20210830003232](https://github.com/rwxrob/zet/tree/main/20210830003232) Beginner Boost: Start Here
 * [20210830040933](https://github.com/rwxrob/zet/tree/main/20210830040933) Latest Boost Writing Method: Zettelkasten CYOA
