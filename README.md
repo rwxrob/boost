@@ -8,25 +8,53 @@ Beginner boosts are meant to give you a push toward your own
 self-directed learning goals. They are my highly opinionated answer to
 the frequently asked question, "What should I learn?" 
 
-Be warned, this stuff changes daily, sometimes hourly.
+Be warned, this stuff changes daily, sometimes hourly. I'm in the middle
+or creating new content while exploring a new writing method. Follow
+these specific zettels if you want to monitor my progress:
 
-0.  Learn Like a Hacker
-1.  Contain the Crazy with Docker
+* [20210830025609](/20210830025609/) Beginner Boost: Before You Begin
+* [20210830003232](/20210830003232/) Beginner Boost: Start Here
+* [20210830040933](/20210830040933/) Latest Boost Writing Method: Zettelkasten CYOA
+
+## Related
+
+* [20210720045215](/20210720045215/) Dropping Almost All Web Training from Boost
+* [20210720234230](/20210720234230/) Specifically Scheduled Boost Times Always Fail
+* [20210721021756](/20210721021756/) Q: Are the Boost videos not going up on YouTube anymore?
+* [20210721023239](/20210721023239/) Q: Will the boost topic schedule stay the same?
+* [20210722153018](/20210722153018/) Finally, Only the Terminal Essentials in Boost
+* [20210804221955](/20210804221955/) Q: Should I do 2020 boost first or just 2021?
+* [20210809232046](/20210809232046/) Q: What are the chances of a Beginner Boost book?
+
+## Older Stuff
+
+The following was what I had here before I embarked on creating the
+written content using the Zettelkasten CYOA method.
+
+0.  Contain the Crazy with Docker
 2.  [Peace, Love, and Linux Terminal][terminal]
-3.  Become Badass with Bash
-4.  Can I Has Internetz?
-5.  Go Big with Golang
+    0. Thou Shalt Follow UNIX Philosophy
+    1. Navigate Linux Bash Command Line
+    2. Edit Text with `ed`/`ex`/`vi`/`vim`
+    3. Code Basic `bash` Filters for Structured Data
+    4. Multiplex with `screen` and `tmux`
+    5. Get Answers with `man` and `lynx`/`w3m`
+    6. Configure and Customize
+    7. Manage Source with `git`, `gh` (GitHub)
+0.  Learn Like a Hacker
+3.  Can I Has Internetz?
+4.  Become Bada\$\$ with Bash
+5.  Go Big with Go
 6.  Get Good to Gig
 
 [terminal]: <https://github.com/rwxrob/linux-terminal-native>
 
 My boosts are definitely flavored for hacking and infrastructure
-operations (what dumb-ass "full stack" web morons --- Torvaldz refuses
-to call them "developers" --- have decided to call "back end").  For
-example, we study web languages and protocols, not so much to make
-shitty GUI web apps, but to understand how then work and
-why learning the bash Linux shell allows us to *dominate* them. We do
-learn, however, to make minimal doc sites for notes and such.
+operations (including "cloud-native"). For example, we study web
+languages and protocols, not so much to make GUI web apps, but to
+understand how then work and why learning the bash Linux shell allows us
+to *dominate* them. We do learn, however, to make minimal doc sites for
+notes and such.
 
 I personally would also like to add the following (once and when I learn
 them):
@@ -41,40 +69,13 @@ them):
 Some don't like my opinions, answers, and attitude. That's fine. But
 *my* forums and material are not a place for dissent. When learning a
 martial art you start with a particular style or school and stick with
-it a while before deciding to go your own way. There are lots of skills
+it before deciding to go your own way. There are lots of skills
 and concepts that intertwine to provide the overall value. For example,
-Vim + Bash + TMUX *must* be used together (in my style). Evaluating any
-one of them alone would be wrong.
-
-No one if forcing you follow these boosts and content. That is your
-choice, but if you *do* choose to do so, I require you stick with it
-long enough to make an educated decision when you decide to deviate from
-it after you have learned it. You can leave anytime, of course.
-
-The biggest reason for this is because it has become painfully obvious
-that people simply do not understand the most important concept upon
-which *all* of this is built: the UNIX philosophy.
-
-I have spent thousands of hours on this content and have demonstrated I
-am willing to change when provided with new *substantial* information. I
-*will* change my methods and content when better ways are revealed *with
-which I agree*. Disagreement is fine. Just don't confuse anyone in any
-of *my* forums by suggesting --- again, in *my* forums --- to use things
-that I have openly recommended against. For example, recommending any of
-the following *to any beginner* in my Twitch channel or YouTube comments
---- even in trolling jest --- will get your banned without appeal:
-
-* Neo-fucking-Vim
-* Arch Linux
-* Zsh
-* EMACS
-* Rust
-* Docker Swarm
-* Docker Compose
-* Podman
-* Minikube
-
-You've been warned.
+Ed/Vim + Bash + TMUX *must* be used together. Evaluating any one of them
+alone would be wrong. No one is forcing you follow these boosts and
+content. That is your choice, but if you *do* choose to do so, I require
+you stick with it long enough to make an educated decision. You can
+leave anytime, of course.
 
 Please do not misunderstand, we want people to become autodidacts and
 select their own path. We just don't want to confuse them early on
@@ -82,17 +83,6 @@ either. When it becomes unclear what my suggestion is --- because so many
 are opposed to it and voicing it in *my* forums --- I get really annoyed
 is all. It wastes the limited volunteer time I have to expend on this
 effort.
-
-There is nothing wrong with stating what you use and why when directly
-asked. But, again, if it is my forum please state my position first,
-then yours.
-
-I encourage people to reach out to people individually, using your own
-communications channels and forums to make those dissenting opinions,
-which I encourage. It is also okay to disagree in my forum by first
-clearly stating my position on it first and *why* you disagree. I just
-*hate* wasting time when beginners get confused by 20 different opinions
-in *my* forum.
 
 ## Legal
 
