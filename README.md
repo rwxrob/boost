@@ -8,9 +8,8 @@ Be warned, this stuff changes daily, sometimes hourly. I'm in the middle
 or creating new content while exploring a new writing method. Follow
 these specific zettels if you want to monitor my progress:
 
-* [20210830121618](https://github.com/rwxrob/zet/tree/main/20210830121618) What is a Beginner Boost?
-* [20210830025609](https://github.com/rwxrob/zet/tree/main/20210830025609) Beginner Boost: Before You Begin
-* [20210830003232](https://github.com/rwxrob/zet/tree/main/20210830003232) Beginner Boost: Start Here
+* [20210830025609](https://github.com/rwxrob/zet/tree/main/20210830025609)
+Boost: You Must Be This 'Tall' to Ride
 * [20210830040933](https://github.com/rwxrob/zet/tree/main/20210830040933) Latest Boost Writing Method: Zettelkasten CYOA
 
 ## Related
