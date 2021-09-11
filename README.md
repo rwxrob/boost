@@ -1,4 +1,4 @@
-# The Beginner Boost™, by Rob Muhlestein
+# The Beginner Boost™ by Rob Muhlestein
 
 Hello friend. Welcome to the Beginner Boost!
 
