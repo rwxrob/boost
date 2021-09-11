@@ -6,6 +6,7 @@ Hello friend. Welcome to the Beginner Boost!
 * Start the 2021 [Boost][2021] (older)
 * Watch videos from 2020 (first) [Boost][2020] (very old)
 
+[Boost]: <https://github.com/rwxrob/zet/tree/main/20210911132728>
 [2021]: <https://github.com/rwxrob/boost/tree/old-20210722>
 [2020]: <https://youtu.be/CI-FE2bKr7c>
 
