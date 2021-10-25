@@ -1,0 +1,5 @@
+prereqs:
+  - [one, 2]
+  - [two, 3]
+  - - [three, 1]
+    - [four, 4]

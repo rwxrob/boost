@@ -1,18 +1,22 @@
 # The Beginner Boost™ by Rob Muhlestein
 
-Hello friend. Welcome to the Beginner Boost!
+Hello friend. Welcome to the Beginner Boost! This is one way I want to
+give back to the stream community that has given me so much. I try to
+kick a Boost off every year on May the 4th and have tried to do "days"
+in the past. Going forward (probably starting in 2022) we'll remove the
+notion of days and have a path/map that you can follow at your own pace.
+Then the AMA sessions every week will be focused on helping people get
+through the content on their own as best they can.
 
-* Start the latest (but unfinished) [Boost]
-* Start the 2021 [Boost][2021] (older)
-* Watch videos from 2020 (first) [Boost][2020] (very old)
+* Start the 2021 [Boost][2021] (but ends abruptly)
+* Watch videos from 2020 (first) [Boost][2020] (older)
 
-[Boost]: <https://github.com/rwxrob/zet/tree/main/20210911132728>
 [2021]: <https://github.com/rwxrob/boost/tree/old-20210722>
 [2020]: <https://youtu.be/CI-FE2bKr7c>
 
 ## Legal
 
-Copyright (c) 2021 Robert S. Muhlestein <rob@rwx.gg>
+Copyright (c) 2022 Robert S. Muhlestein <rob@rwx.gg>
 Content released under the Creative Commons (BY-NC-ND)
 Code released under the Apache 2.0
 
