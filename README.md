@@ -1,39 +1,57 @@
-# The Beginner Boost™ by Rob Muhlestein
+# SKILSTAK Beginner Boost 2022
 
-Hello friend. Welcome to the Beginner Boost! This is one way I want to
-give back to the stream community that has given me so much. I try to
-kick a Boost off every year on May the 4th and have tried to do "days"
-in the past. Going forward (probably starting in 2022) we'll remove the
-notion of days and have a path/map that you can follow at your own pace.
-Then the AMA sessions every week will be focused on helping people get
-through the content on their own as best they can.
+In 2022 the Beginner Boost returns to its roots as a part of the
+SKILSTAK Learning Community curriculum fulfilling the Preparation and
+most of the Programming stages enabling you to complete the Projects
+stage and eventually become a Professional. This years Boost will also
+serve as the basis for the following (free) books and videos (planned
+tentatively for publishing along with the Boost in 2023):
 
-* Start the 2021 [Boost][2021] (but ends abruptly)
-* Watch videos from 2020 (first) [Boost][2020] (older)
+* Activate Your Autodidact, Learn Like the Best
+* Conquer the Command Line, Become a Shell Native
+* Just Enough Networking Knowledge
+* Polyglot Programming: Learn to Code in Go, Python, and Javascript
 
-[2021]: <https://github.com/rwxrob/boost/tree/old-20210722>
-[2020]: <https://youtu.be/CI-FE2bKr7c>
+Before you begin, please make sure you meet the SKILSTAK minimum
+requirements — especially having already installed Docker Desktop onto a
+computer on which you have admin permissions. We are hear to help if you
+have questions about any of these requirements. Check the [FAQ](faq) for
+answers to your questions or ask them in the
+[Discord](https://discord.gg/9wydZXY) server or live during Sunday [AMA
+sessions](https://twitch.tv/rwxrob/schedule).
 
-## Legal
+## Wednesday, May  4, 2022 (week 0)
 
-Copyright (c) 2022 Robert S. Muhlestein <rob@rwx.gg>
-Content released under the Creative Commons (BY-NC-ND)
-Code released under the Apache 2.0
+## Saturday, May  7, 2022 (week 1)
 
-Contributors and project participants implicitly accept the Developer
-Certificate of Authenticity (DCO).
+## Saturday, May 14, 2022 (week 2)
 
-“Beginner Boost” and “Boost” are legal trademarks of Robert S.
-Muhlestein but can be used freely to refer to the this project
-https://github.com/rwxrob/boost without limitation. To avoid potential
-developer confusion, intentionally using these trademarks to refer to
-other projects — free or proprietary — is prohibited.
+## Saturday, May 21, 2022 (week 3)
 
-The reason for “no derivatives” CC requirement is to preserve the
-consistency of opinions throughout the content since attribution is
-required. Without it, forks with changed opinions and resource listings
-could be purposefully or accidentally taken as the opinions of the
-original author. This is simply too dangerous to allow. The “no
-derivatives” clause protects against the inevitable “consensus” problem
-that plagues community-created content. That said, please reach out by
-email if you have questions about contributing and collaborating.
+## Saturday, May 28, 2022 (week 4)
+
+## Saturday, June  4, 2022 (week 5)
+
+## Saturday, June 11, 2022 (week 6)
+
+## Saturday, June 18, 2022 (week 7)
+
+## Saturday, June 25, 2022 (week 8)
+
+## Saturday, July  2, 2022 (week 9)
+
+## Saturday, July  9, 2022 (week 10)
+
+## Saturday, July 16, 2022 (week 11)
+
+## Saturday, July 23, 2022 (week 12)
+
+## Saturday, July 30, 2022 (week 13)
+
+## Saturday, August  6, 2022 (week 14)
+
+## Saturday, August 13, 2022 (week 15)
+
+## Saturday, August 20, 2022 (week 16)
+
+## Saturday, August 27, 2022 (week 17)
