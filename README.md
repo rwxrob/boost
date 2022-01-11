@@ -8,9 +8,11 @@ notion of days and have a path/map that you can follow at your own pace.
 Then the AMA sessions every week will be focused on helping people get
 through the content on their own as best they can.
 
+* Peek at upcoming 2022 [Boost][2022] (in development)
 * Start the 2021 [Boost][2021] (but ends abruptly)
 * Watch videos from 2020 (first) [Boost][2020] (older)
 
+[2022]: <https://github.com/rwxrob/boost/tree/2022>
 [2021]: <https://github.com/rwxrob/boost/tree/old-20210722>
 [2020]: <https://youtu.be/CI-FE2bKr7c>
 
