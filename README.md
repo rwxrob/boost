@@ -7,16 +7,17 @@ stage and eventually become a Professional. This years Boost will also
 serve as the basis for the following (free) books and videos (planned
 tentatively for publishing along with the Boost in 2023):
 
-* **Activate Your Autodidact, Learn Like the Best**
-* **Conquer the Command Line, Become a Shell Native**
-* **Just Enough Networking Knowledge**
-* **Polyglot Programming: Learn to Code in Go, Python, and Javascript**
+* ***Activate Your Autodidact, Learn Like the Best***
+* ***Conquer the Command Line, Become a Shell Native***
+* ***Just Enough Networking Knowledge***
+* ***Polyglot Programming: Learn to Code in Go, Python, and
+  Javascript***
 
 Before you begin, please make sure you meet the SKILSTAK minimum
-requirements — especially having already installed Docker Desktop onto a
-computer on which you have admin permissions. We are hear to help if you
-have questions about any of these requirements. Check the [FAQ](faq) for
-answers to your questions or ask them in the
+[requirements](requirements) — especially installing Docker Desktop onto
+a computer on which you have admin permissions. We are hear to help if
+you have questions about any of these requirements. Check the [FAQ](faq)
+for answers to your questions or ask them in the
 [Discord](https://discord.gg/9wydZXY) server or live during Sunday [AMA
 sessions](https://twitch.tv/rwxrob/schedule).
 
