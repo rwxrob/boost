@@ -1,5 +1,20 @@
 # SKILSTAK Beginner Boost 2022
 
+The Beginner Boost is a part of the following annual SKILSTAK schedule
+of interactive learning sessions taking place every Saturday
+11:00-16:00 (with AMA/"office hours" Sundays 11:00-14:00):
+
+* 6  Weeks (Dec/25-Feb/5):  Head-First C
+* 6  Weeks (Feb/12-Mar/19): Kubernetes Application Developer Boost
+* 6  Weeks (Mar/26-Apr/30): Kubernetes Administrator Boost
+* 18 Weeks (May/4-Aug/27):  Beginner Boost 
+* 4  Weeks (Sep/3-Sep/24):  Get the Gig 
+* 6  Weeks (Oct/1-Nov/5):   Infrastructure Engineering Boost
+* 6  Weeks (Nov/12-Dec/17): Security Analyst Boost
+* 6  Weeks (Dec/24-Jan/28): Head-First C
+* 6  Weeks (Feb/4-Mar/11):  Kubernetes Application Developer Boost
+* 6  Weeks (Mar/18-Apr/22): Kubernetes Administrator Boost
+
 In 2022 the Beginner Boost returns to its roots as a part of the
 SKILSTAK Learning Community curriculum fulfilling the Preparation and
 most of the Programming stages enabling you to complete the Projects
@@ -23,55 +38,66 @@ sessions](https://twitch.tv/rwxrob/schedule).
 
 ## Week 0: Wednesday, May 4, 11:11:11 AM, 2022
 
-1.  🎉 Hello, friends! May the fourth be with you.
-    1. What will you get and why are you here?
-    1. SKILSTAK: "This is the way."
-    1. Meet minimum requirements 
-    1. All content is free forever but sponsors welcome
-    1. Join live weekends on <https://twitch.tv/rwxrob>
-       1. Times always start at 11:00 AM
-       1. Check the <https://twitch.tv/rwxrob/schedule>
-       1. Turn on notifications
-    1. Join Discord <https://discord.gg/9wydZXY>
-    1. Follow <https://github.com/rwxrob/boost> repo
-    1. Follow <https://youtube.com/rwxrob>
-    1. Follow <https://twitter.com/rwxrob>
-2.  ¡Viva la revolución! Defend your right to learn!
-    1. May is a time of new birth and revolution
-    1. Oppressors who would control you learning
-       1. Paulo Friere, Pedagogy of the Oppressed
-       1. Sir Ken Robinson, *Out of Our Minds*
-3.  Activate your autodidact, learn like the best
-    1. Remember how to learn
-        1. When do you remember learning the best?
-        1. Who helped you learn and love learning?
-        1. What obstacles have been in your way?
-        1. How do *you* learn best?
-    2. Start a personal/professional learning network
-        1.  GitHub
-        2.  Discord
-        3.  Slack
-        4.  Twitter
-        5.  Twitch
-        6.  What about the others?
-    1.  Organize your learning
-        1.  Get GitHub
-        2.  Learn CommonMark Markdown
-        3.  Start a Zettelkasten
-    1. Use effective learning techniques
-       1. Keep simple, silly, and fun so you remember
-       1. Use "active recall" and repetition
-       1. Distinguish side quests from main mission
-       1. Consider the RWX Method
-          1. Give yourself `rwx` permissions to learn
-          1. Read, research, and repeat things
-          1. Write about your learning
-          1. Explore, experiment, and experience
-4.  Setup your workstation
-    1.  Install Windows Terminal or iTerm2 for Mac
-    2.  Install free Docker Personal edition
-    3.  Sample and setup a Linux container in Docker
-5.  Why UNIX/Linux, Docker containers, and Kubernetes?
+* Hello, friends! May the fourth be with you. (5m)
+  * What will you get and why you are here (1m)
+    * SKILSTAK: “This is the way.” (2m)
+    * Learn to learn in the real world (1m)
+    * Learn the most powerful tech tool set in the world (1m)
+    * Learn to code in ten languages (1m)
+    * Learn how to get top tech jobs (not just “junior”) (1m)
+    * Learn prescience to survive and thrive in tech (1m)
+  * Meet minimum requirements (2m)
+    * All content is free forever but sponsors welcome (2m)
+    * Join live weekends on https://twitch.tv/rwxrob
+      * Times always start at 11:00 AM (1m)
+      * Check the https://twitch.tv/rwxrob/schedule (1m)
+      * Turn on notifications (2m)
+    * Join Discord https://discord.gg/9wydZXY (5m)
+    * Follow https://github.com/rwxrob/boost repo (5m)
+    * Follow https://youtube.com/rwxrob (5m)
+    * Follow https://twitter.com/rwxrob (5m)
+
+TOTAL MINUTES: 41 + 15 for break
+
+----
+
+*  ¡Viva la revolución! Defend your right to learn!
+   * May is a time of new birth and revolution
+   * Oppressors who would control you learning
+     * Paulo Friere, Pedagogy of the Oppressed
+     * Sir Ken Robinson, *Out of Our Minds*
+* Activate your autodidact, learn like the best
+   * Remember how to learn
+     * You already know everything you need, just remember it
+     * When do you remember learning the best?
+     * Who helped you learn and love learning?
+     * What obstacles have been in your way?
+     * How do *you* learn best?
+   * Start a personal/professional learning network
+     * GitHub
+     * Discord
+     * Slack
+     * Twitter
+     * Twitch
+     * What about the others?
+   * Organize your learning
+     * Get GitHub
+     * Learn CommonMark Markdown
+     * Start a Zettelkasten
+   * Use effective learning techniques
+     * Keep simple, silly, and fun so you remember
+     * Use "active recall" and repetition
+     * Distinguish side quests from main mission
+     * Consider the RWX Method
+       * Give yourself `rwx` permissions to learn
+       * Read, research, and repeat things
+       * Write about your learning
+       * Explore, experiment, and experience
+* Setup your learning workstation
+  * Install Windows Terminal or iTerm2 for Mac
+  * Install free Docker Personal edition
+  * Sample and setup a Linux container in Docker
+* Why UNIX/Linux, Docker containers, and Kubernetes?
 
 ## Week 1: Saturday, May  7, 2022
 
