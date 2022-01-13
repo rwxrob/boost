@@ -1,4 +1,4 @@
-# SKILSTAK Beginner Boost 2022
+# SKILSTAK Community Learning Boost Series
 
 The Beginner Boost is a part of the following annual SKILSTAK schedule
 of interactive learning sessions taking place every Saturday
