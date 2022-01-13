@@ -1,4 +1,4 @@
-# The Beginner Boost™ by Rob Muhlestein
+# SKILSTAK Beginner Boost Series
 
 The Beginner Boost is a part of the following annual SKILSTAK schedule
 of interactive learning sessions taking place every Saturday
