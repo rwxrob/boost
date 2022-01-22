@@ -1,19 +1,13 @@
 # SKILSTAK Community Learning Boost Series
 
-The Beginner Boost is a part of the following annual SKILSTAK schedule
-of interactive learning sessions taking place every Saturday
-11:00-16:00 (with AMA/"office hours" Sundays 11:00-14:00):
+The Boosts follow the annual SKILSTAK schedule of interactive learning
+sessions taking place every Saturday 11:00-16:00 (with AMA/"office
+hours" Sundays 11:00-14:00):
 
-* 6  Weeks (Dec/25-Feb/5):  Head-First C
-* 6  Weeks (Feb/12-Mar/19): Kubernetes Application Developer Boost
-* 6  Weeks (Mar/26-Apr/30): Kubernetes Administrator Boost
-* 18 Weeks (May/4-Aug/27):  Beginner Boost 
-* 4  Weeks (Sep/3-Sep/24):  Get the Gig 
-* 6  Weeks (Oct/1-Nov/5):   Infrastructure Engineering Boost
-* 6  Weeks (Nov/12-Dec/17): Security Analyst Boost
-* 6  Weeks (Dec/24-Jan/28): Head-First C
-* 6  Weeks (Feb/4-Mar/11):  Kubernetes Application Developer Boost
-* 6  Weeks (Mar/18-Apr/22): Kubernetes Administrator Boost
+* 6  Weeks (Feb/12-Apr/30): Containers and Kubernetes Boost
+* 18 Weeks (May/4-Aug/27):  Linux and Coding Beginner Boost 
+* 18 Weeks (Sep/3-Dec/31):  Infrastructure Engineering Boost
+* 10 Weeks (Jan/7-Apr/22):  Containers and Kubernetes Boost
 
 In 2022 the Beginner Boost returns to its roots as a part of the
 SKILSTAK Learning Community curriculum fulfilling the Preparation and
@@ -25,7 +19,11 @@ tentatively for publishing along with the Boost in 2023):
 * ***Activate Your Autodidact, Learn Like the Best***
 * ***Conquer the Command Line, Become a Shell Native***
 * ***Just Enough Networking Knowledge***
-* ***Polyglot Programming: Learn to Code in Go, Python, and
+* ***Linux Scripting in Shell, Bash, Python, Perl, and Ruby***
+
+And eventually, 
+
+* ***Polyglot Programming: Learn to Code in C, Go, Python, and
   Javascript***
 
 Before you begin, please make sure you meet the SKILSTAK minimum
