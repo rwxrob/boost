@@ -4,60 +4,76 @@ The Boosts follow the annual SKILSTAK schedule of interactive learning
 sessions taking place every Saturday 12:00-17:00 (with AMA/"office
 hours" Sundays 12:00-15:00):
 
-* 6  Weeks (Feb/12-Apr/30): Containers and Kubernetes Boost
-* 18 Weeks (May/4-Aug/27):  Linux and Coding Beginner Boost 
-* 18 Weeks (Sep/3-Dec/31):  Infrastructure Engineering Boost
-* 10 Weeks (Jan/7-Apr/22):  Containers and Kubernetes Boost
-
-In 2022 the Beginner Boost returns to its roots as a part of the
-SKILSTAK Learning Community curriculum fulfilling the Preparation and
-most of the Programming stages enabling you to complete the Projects
-stage and eventually become a Professional. This years Boost will also
-serve as the basis for the following (free) books and videos (planned
-tentatively for publishing along with the Boost in 2023):
-
-* ***Activate Your Autodidact, Learn Like the Best***
-* ***Conquer the Command Line, Become a Shell Native***
-* ***Just Enough Networking Knowledge***
-* ***Linux Scripting in Shell, Bash, Python, Perl, and Ruby***
-
-And eventually, 
-
-* ***Polyglot Programming: Learn to Code in C, Go, Python, and
-  Javascript***
+* 6  Weeks (Feb/12-Apr/30): Containers and Kubernetes Boost (III)
+* 18 Weeks (May/4-Aug/27):  **Linux and Coding Beginner Boost (I)**
+* 18 Weeks (Sep/3-Dec/31):  Infrastructure Engineering Boost (II)
+* 10 Weeks (Jan/7-Apr/22):  Containers and Kubernetes Boost (III)
 
 Before you begin, please make sure you meet the SKILSTAK minimum
-[requirements](requirements) — especially installing Docker Desktop onto
-a computer on which you have admin permissions. We are hear to help if
-you have questions about any of these requirements. Check the [FAQ](faq)
-for answers to your questions or ask them in the
+[requirements](requirements) — especially installing VirtualBox onto a
+computer on which you have admin permissions. We are hear to help if you
+have questions about any of these requirements. Check the [FAQ](faq) for
+answers to your questions or ask them in the
 [Discord](https://discord.gg/9wydZXY) server or live during Sunday [AMA
-sessions](https://twitch.tv/rwxrob/schedule).
+sessions](https://twitch.tv/rwxrob/schedule). Videos of sessions are
+always saved to [YouTube](https://youtube.com/rwxrob) and posted to
+[Twitter](https://twitter.com/rwxrob).
+
+> ⏰ We start promptly 11 minutes and 11 seconds after every hour. ☺️
 
 ## Week 0: Wednesday, May 4, 11:11:11 AM, 2022
 
 * Hello, friends! May the fourth be with you. (5m)
-  * What will you get and why you are here (1m)
-    * SKILSTAK: “This is the way.” (2m)
-    * Learn to learn in the real world (1m)
-    * Learn the most powerful tech tool set in the world (1m)
-    * Learn to code in ten languages (1m)
-    * Learn how to get top tech jobs (not just “junior”) (1m)
-    * Learn prescience to survive and thrive in tech (1m)
-  * Meet minimum requirements (2m)
-    * All content is free forever but sponsors welcome (2m)
-    * Join live weekends on https://twitch.tv/rwxrob
-      * Times always start at 11:00 AM (1m)
-      * Check the https://twitch.tv/rwxrob/schedule (1m)
-      * Turn on notifications (2m)
-    * Join Discord https://discord.gg/9wydZXY (5m)
-    * Follow https://github.com/rwxrob/boost repo (5m)
-    * Follow https://youtube.com/rwxrob (5m)
-    * Follow https://twitter.com/rwxrob (5m)
+* Start downloading VirtualBox and Linux Mint (5m)
+* Know who we are and decide to join us (or not)
+  * "Why are you doing this for free?"
+  * Know the history of rwxrob and #SKILSTAK
+  * Decide if this community is for you (1m)
+  * Consider other communities as well (1m)
+* Known what we offer and why you are here (1m)
+  * Learn to love UNIX command line ("this is the way") (1m)
+  * Learn to live Linux as your daily driver
+  * Learn to code in twelve languages:
+    * Markdown, JSON, YAML, TOML (1m)
+    * Bash, Go, Python, Ruby, Perl (1m)
+    * HTML, CSS, JavaScript (1m)
+  * Learn to learn like a hacker(1m)
+  * Learn to self-assess and know your value
+  * Learn prescience and intuition (1m)
+  * Learn to connect and find work (1m)
+* Accept what we require in return
+  * No Sith Lords (2m)
+  * Community over competition (1m)
+  * Take responsibility (1m)
+  * Give credit and benefit of the doubt(1m)
+  * Forgive and forget (1m)
+  * Pay it forward (1m)
+  * Save the world (1m)
+  * Subscribe, sponsor, and share (1m)
+* Setup essential accounts and know why
+  * Get Twitch account (1m)
+    * Do not change your ID/name for duration of Boost (1m)
+  * Get YouTube account (1m)
+  * Get optional Twitter account (1m)
+  * Get optional Discord account (1m)
+  * Get optional ProtonMail account (5m)
+  * Get GitHub account (5m) 
+    * Why not GitLab or other? (1m)
+    * "Don't you hate Microsoft? (1m)
+* Help us know who *you* are (if you want)
+  * <https://boosted.skilstak.io> (1m)
+  * No, it's not a Google form (1m)
+  * Never used for solicitation, just stats (1m)
 
-TOTAL MINUTES: 41 + 15 for break
+TOTAL MINUTES: 49
 
 ----
+
+* Setup your learning workstation
+  * Install Windows Terminal or iTerm2 for Mac
+  * Install free Docker Personal edition
+  * Sample and setup a Linux container in Docker
+* Why UNIX/Linux, Docker containers, and Kubernetes?
 
 *  ¡Viva la revolución! Defend your right to learn!
    * May is a time of new birth and revolution
@@ -91,11 +107,6 @@ TOTAL MINUTES: 41 + 15 for break
        * Read, research, and repeat things
        * Write about your learning
        * Explore, experiment, and experience
-* Setup your learning workstation
-  * Install Windows Terminal or iTerm2 for Mac
-  * Install free Docker Personal edition
-  * Sample and setup a Linux container in Docker
-* Why UNIX/Linux, Docker containers, and Kubernetes?
 
 ## Week 1: Saturday, May  7, 2022
 

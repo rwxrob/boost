@@ -17,7 +17,7 @@ mediums becomes the legal intellectual property of Robert S. Muhlestein.
 6.  Know basic linear algebra and functions
 7.  Be able to type 30 words a minute from home row
 8.  Have full admin access to a computer
-9.  Have Docker Desktop installed
+9.  Have VirtualBox installed
 10. Have an email account that I fully control
 11. Be okay when others use curse words even if I don't
 12. Understand what SKILSTAK is and accept its code of conduct
