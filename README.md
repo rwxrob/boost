@@ -9,7 +9,14 @@ hours" Sundays 12:00-15:00):
 * 18 Weeks (Sep/3-Dec/31):  Infrastructure Engineering Boost (II)
 * 10 Weeks (Jan/7-Apr/22):  Containers and Kubernetes Boost (III)
 
-Before you begin, please make sure you meet the SKILSTAK minimum
+Before you begin, please make sure you have a computer with at least the
+following minimum specs:
+
+* 4 Core (x86)
+* 8 GB Memory (RAM)
+* 500 GB Drive
+
+Also make sure you meet the SKILSTAK minimum
 [requirements](requirements) — especially installing VirtualBox onto a
 computer on which you have admin permissions. We are hear to help if you
 have questions about any of these requirements. Check the [FAQ](faq) for
