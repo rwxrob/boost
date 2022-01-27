@@ -14,7 +14,7 @@ following minimum specs:
 
 * 4 Core (x86)
 * 8 GB Memory (RAM)
-* 500 GB Drive
+* 500 GB Drive (100 GB Free)
 
 Also make sure you meet the SKILSTAK minimum
 [requirements](requirements) — especially installing VirtualBox onto a
