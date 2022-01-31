@@ -1,10 +1,9 @@
 # SKILSTAK Community Learning Boost Series
 
 The Boosts follow the annual SKILSTAK schedule of interactive learning
-sessions taking place every Saturday 12:00-17:00 (with AMA/"office
-hours" Sundays 12:00-15:00):
+sessions taking place every Saturday 12:00-17:00 (New York time) with
+AMA/"office hours" Sundays 12:00-15:00.
 
-* 6  Weeks (Feb/12-Apr/30): Containers and Kubernetes Boost (III)
 * 18 Weeks (May/4-Aug/27):  **Linux and Coding Beginner Boost (I)**
 * 18 Weeks (Sep/3-Dec/31):  Infrastructure Engineering Boost (II)
 * 10 Weeks (Jan/7-Apr/22):  Containers and Kubernetes Boost (III)
@@ -12,9 +11,17 @@ hours" Sundays 12:00-15:00):
 Before you begin, please make sure you have a computer with at least the
 following minimum specs:
 
+* Windows 10
 * 4 Core (x86)
 * 8 GB Memory (RAM)
 * 500 GB Drive (100 GB Free)
+
+These minimum specs are based on the requirements for the most elite
+Offensive Security cybersecurity certification, OSEE. Even if you don't
+plan on getting it, you should be prepared to seek it eventually if you
+wish. You may still get value from the Boost with less than this or from
+a Mac or Linux system (if you have one already installed) but this is my
+assumption.
 
 Also make sure you meet the SKILSTAK minimum
 [requirements](requirements) — especially installing VirtualBox onto a
@@ -27,6 +34,22 @@ always saved to [YouTube](https://youtube.com/rwxrob) and posted to
 [Twitter](https://twitter.com/rwxrob).
 
 > ⏰ We start promptly 11 minutes and 11 seconds after every hour. ☺️
+
+## What changed since 2021?
+
+* Focus on cloud-native infrastructure engineer and security jobs
+* Increased duration to 18 weeks (5 weeks before)
+* No longer daily, now 5-hours on Saturday (usually)
+* Single, long-form video with full coverage of material
+* No homework required (but will have optional "side quests")
+* More project based, even less theory
+* More "hand holding" since we are "pairing" with beginners
+* Multiple programming languages covered 
+* More networking, but still just "How does Internet work?"
+* Certain topics moved to Infrastructure Engineering Boost
+* Light on containers (Docker) and no Kubernetes (moved to own Boost)
+* Coverage of Rancher Desktop (instead of Docker Desktop)
+* Prefer Linux on Windows WSL2 setup
 
 ## Week 0: Wednesday, May 4, 11:11:11 AM, 2022
 
@@ -42,7 +65,7 @@ always saved to [YouTube](https://youtube.com/rwxrob) and posted to
   * Learn to live Linux as your daily driver
   * Learn to code in twelve languages:
     * Markdown, JSON, YAML, TOML (1m)
-    * Bash, Go, Python, Ruby, Perl (1m)
+    * Bash, Python, Ruby, Perl, Go, C (1m)
     * HTML, CSS, JavaScript (1m)
   * Learn to learn like a hacker(1m)
   * Learn to self-assess and know your value
