@@ -1,12 +1,13 @@
-# SKILSTAK Community Learning Boost Series
-
-The Boosts follow the annual SKILSTAK schedule of interactive learning
-sessions taking place every Saturday 12:00-17:00 (New York time) with
-AMA/"office hours" Sundays 12:00-15:00.
+# SKILSTAK Beginner Boost Series
 
 * 18 Weeks (May/4-Aug/27):  **Linux and Coding Beginner Boost (I)**
 * 18 Weeks (Sep/3-Dec/31):  Infrastructure Engineering Boost (II)
 * 10 Weeks (Jan/7-Apr/22):  Containers and Kubernetes Boost (III)
+ 
+Sessions take place every Saturday 12:00-17:00 (New York time) with
+"office hours" Sundays 12:00-15:00. Sometimes they will be moved or
+cancelled depending on personal conflicts and holidays. Check the
+<https://twitch.tv/rwxrob/schedule> for when.
 
 Before you begin, please make sure you have a computer with at least the
 following minimum specs:
