@@ -1,8 +1,8 @@
 # SKILSTAK Beginner Boost Series
 
-* 18 Weeks (May/4-Aug/27):  **Linux and Coding Beginner Boost (I)**
-* 18 Weeks (Sep/3-Dec/31):  Infrastructure Engineering Boost (II)
-* 10 Weeks (Jan/7-Apr/22):  Containers and Kubernetes Boost (III)
+* 18 Weeks (May/4-Aug/27): Coding on Linux (I)
+* 18 Weeks (Sep/3-Dec/31): Infrastructure Engineering (II)
+* 10 Weeks (Jan/7-Apr/22): Containers and Kubernetes (III)
  
 Sessions take place every Saturday 12:00-17:00 (New York time) with
 "office hours" Sundays 12:00-15:00. Sometimes they will be moved or
