@@ -11,3 +11,5 @@ Activities include:
 * structured data formats: json, yaml, toml, ini, csv, xml
 * `img` `iso` and other formats (`file`)
 * https://matrixonline.fandom.com/wiki/Temet_Nosce (know thyself)
+
+* godistbuild
