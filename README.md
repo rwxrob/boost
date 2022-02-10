@@ -19,7 +19,7 @@ To give you an idea, the first Boost focuses on the following:
 * Using Windows WSL2 with Chocolatey
 * Using Mac with Brew and GNU utils
 * Using a Kali Linux GUI virtual machine
-* Using several Rocky (RHEL) Linux server virtual machines
+* Using several Ubuntu Linux server virtual machines
 * Using SSH to create terminal connections and tunnel
 * Using containers (Docker) from terminal on Linux servers
 * Setting up basic networking for virtual machines and containers
