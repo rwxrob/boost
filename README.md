@@ -18,8 +18,7 @@ To give you an idea, the first Boost focuses on the following:
 
 * Using Windows WSL2 with Chocolatey
 * Using Mac with Brew and GNU utils
-* Using a Kali Linux GUI virtual machine
-* Using several Ubuntu Linux server virtual machines
+* Using Ubuntu Linux server VM with Apt
 * Using SSH to create terminal connections and tunnel
 * Using containers (Docker) from terminal on Linux servers
 * Setting up basic networking for virtual machines and containers
@@ -72,7 +71,7 @@ always saved to [YouTube](https://youtube.com/rwxrob) and posted to
 * Multiple programming languages covered 
 * More networking, but still just "How does Internet work?"
 * Certain topics moved to Infrastructure Engineering Boost
-* Focus on Windows WSL2, Mac terminal, Linux VMs (Kali, Rocky)
+* Focus on Windows WSL2, Mac terminal, Linux Ubuntu server VM
 * Light on containers (Docker) and no Kubernetes (moved to own Boost)
 
 ## Week 0: Wednesday, May 4, 11:11:11 AM, 2022
