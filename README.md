@@ -12,17 +12,10 @@ cancelled depending on personal conflicts and holidays. Check the
 Before you begin, please make sure you have a computer with at least the
 following minimum specs:
 
-* Windows 10
+* Windows 10 or Mac x86
 * 4 Core (x86)
 * 8 GB Memory (RAM)
 * 500 GB Drive (100 GB Free)
-
-These minimum specs are based on the requirements for the most elite
-Offensive Security cybersecurity certification, OSEE. Even if you don't
-plan on getting it, you should be prepared to seek it eventually if you
-wish. You may still get value from the Boost with less than this or from
-a Mac or Linux system (if you have one already installed) but this is my
-assumption.
 
 Also make sure you meet the SKILSTAK minimum
 [requirements](requirements) — especially installing VirtualBox onto a
@@ -48,9 +41,8 @@ always saved to [YouTube](https://youtube.com/rwxrob) and posted to
 * Multiple programming languages covered 
 * More networking, but still just "How does Internet work?"
 * Certain topics moved to Infrastructure Engineering Boost
+* Focus on Windows WSL2, Mac terminal, Linux VMs (Kali, Rocky)
 * Light on containers (Docker) and no Kubernetes (moved to own Boost)
-* Coverage of Rancher Desktop (instead of Docker Desktop)
-* Prefer Linux on Windows WSL2 setup
 
 ## Week 0: Wednesday, May 4, 11:11:11 AM, 2022
 
