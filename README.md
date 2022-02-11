@@ -16,21 +16,19 @@ get you a job faster if you do.
 
 To give you an idea, the first Boost focuses on the following:
 
-* Using Windows WSL2 with Chocolatey
-* Using Mac with Brew and GNU utils
-* Using Ubuntu Linux server VM with Apt
+* Use a Mac iTerm2 terminal with brew and WSL2 with Windows terminal
+* Using Ubuntu Linux local virtual server machine with VirtualBox
 * Using SSH to create terminal connections and tunnel
 * Using containers (Docker) from terminal on Linux servers
 * Setting up basic networking for virtual machines and containers
-* Configuring shell interfaces for Windows, Mac, UNIX, and Linux
 * Scripting powerful "one-liner" commands with filters
-* Coding utilities in Bash, Perl, Python, Ruby, PowerShell and Go
+* Coding utilities in Bash, Perl, Python, Ruby, and Go
 * Managing and sharing knowledge and source code
 * Connecting with professional tech communities to seek opportunities
 
 ## When are they?
 
-* 18 Weeks (May/4-Aug/27): Essential Tool, Practices, and Programming (I)
+* 18 Weeks (May/4-Aug/27): Tech Tools, Practices, and Programming (I)
 * 18 Weeks (Sep/3-Dec/31): Infrastructure Engineering (II)
 * 10 Weeks (Jan/7-Apr/22): Containers and Kubernetes (III)
  
@@ -65,33 +63,55 @@ always saved to [YouTube](https://youtube.com/rwxrob) and posted to
 * Increased duration to 18 weeks (5 weeks before)
 * No longer daily, now 5-hours on Saturday (usually)
 * Single, long-form video with full coverage of material
-* No homework required (but will have optional "side quests")
+* Asking to repeat during week what was done to master
 * More project based, even less theory
 * More "hand holding" since we are "pairing" with beginners
 * Multiple programming languages covered 
 * More networking, but still just "How does Internet work?"
 * Certain topics moved to Infrastructure Engineering Boost
-* Focus on Windows WSL2, Mac terminal, Linux Ubuntu server VM
+* Focus on Linux Ubuntu server VM from Windows WSL2/Mac terminal
 * Light on containers (Docker) and no Kubernetes (moved to own Boost)
 
 ## Week 0: Wednesday, May 4, 11:11:11 AM, 2022
 
-* Hello, friends! May the fourth be with you. (5m)
-* Start downloading VirtualBox and Linux Mint (5m)
-* Know who we are and decide to join us (or not)
-  * "Why are you doing this for free?"
-  * Know the history of rwxrob and #SKILSTAK
-  * Decide if this community is for you (1m)
-  * Consider other communities as well (1m)
+*🎉 Let's get this party started! 🎉*
+
+Hour 1:
+
+* Hello, friends. May the fourth be with you! (5m)
+* Dedication to Aaron Swartz (5m)
+  * "The Internet's Own Boy" (watch it this week) (1m)
+* Start downloading VirtualBox and Ubuntu Server (5m)
+* Prepare your computer for command-line terminal work
+  * Windows
+    * Activate WSL2 (5m)
+    * Install Ubuntu from store (5m)
+    * Install and customize Windows Terminal (5m)
+  * Mac
+    * Install and customize iTerm2 (5m)
+    * Install `brew`, coreutils, etc. (5m)
+* Discuss stuff while things are installing (1m)
+* Know who we are and decide to join us (or not) (1m)
+  * "Why are you doing this for free?" (2m)
+  * Know the history of rwxrob and #SKILSTAK (2m)
+  * Decide if this community is for you (2m)
+  * Consider other communities as well (2m)
+
+TOTAL MINUTES: 51
+
+--- 
+
+Hour 2:
+
 * Known what we offer and why you are here (1m)
   * Learn to love UNIX command line ("this is the way") (1m)
-  * Learn to live Linux as your daily driver
+  * Learn to live UNIX/Linux as your daily driver (1m)
   * Learn to code in twelve languages:
     * Markdown, JSON, YAML, TOML (1m)
-    * Bash, Python, Ruby, Perl, Go, C (1m)
+    * Bash, Python, Ruby, Perl, Go (1m)
     * HTML, CSS, JavaScript (1m)
   * Learn to learn like a hacker(1m)
-  * Learn to self-assess and know your value
+  * Learn to self-assess and know your value (1m)
   * Learn prescience and intuition (1m)
   * Learn to connect and find work (1m)
 * Accept what we require in return
@@ -106,6 +126,7 @@ always saved to [YouTube](https://youtube.com/rwxrob) and posted to
 * Setup essential accounts and know why
   * Get Twitch account (1m)
     * Do not change your ID/name for duration of Boost (1m)
+    * Earn rwxrob community "rep" points (2m)
   * Get YouTube account (1m)
   * Get optional Twitter account (1m)
   * Get optional Discord account (1m)
@@ -118,80 +139,123 @@ always saved to [YouTube](https://youtube.com/rwxrob) and posted to
   * No, it's not a Google form (1m)
   * Never used for solicitation, just stats (1m)
 
-TOTAL MINUTES: 49
+TOTAL MINUTES: 41
 
 ----
 
-* Setup your learning workstation
-  * Install Windows Terminal or iTerm2 for Mac
-  * Install free Docker Personal edition
-  * Sample and setup a Linux container in Docker
-* Why UNIX/Linux, Docker containers, and Kubernetes?
+Hour 3:
 
-*  ¡Viva la revolución! Defend your right to learn!
-   * May is a time of new birth and revolution
-   * Oppressors who would control you learning
-     * Paulo Friere, Pedagogy of the Oppressed
-     * Sir Ken Robinson, *Out of Our Minds*
+* ¡Viva la revolución! Defend your right to learn! (2m)
+  * Paulo Friere, Pedagogy of the Oppressed (2m)
+  * Sir Ken Robinson, *Out of Our Minds* (2m)
 * Activate your autodidact, learn like the best
    * Remember how to learn
-     * You already know everything you need, just remember it
-     * When do you remember learning the best?
-     * Who helped you learn and love learning?
-     * What obstacles have been in your way?
-     * How do *you* learn best?
+     * You already know everything you need, just remember it (1m)
+   * Who helped you learn and love learning? (1m)
+     * Mom (4m)
+     * Mr. Poulson (2m)
+     * Mr. Lundquist (2m)
+     * Mr. Bevans (2m)
+   * What obstacles have been in your way? (2m)
+   * How do *you* learn best? (2m)
+   * When do you remember learning the best? (1m)
    * Start a personal/professional learning network
-     * GitHub
-     * Discord
-     * Slack
-     * Twitter
-     * Twitch
-     * What about the others?
+     * GitHub (1m)
+     * Discord (1m)
+     * Slack (1m)
+     * Twitter (1m)
+     * Twitch (1m)
+     * What about the others? (1m)
    * Organize your learning
-     * Get GitHub
-     * Learn CommonMark Markdown
-     * Start a Zettelkasten
+     * Get GitHub (1m)
+     * Learn CommonMark Markdown (1m)
+     * Start a Zettelkasten (5m)
    * Use effective learning techniques
-     * Keep simple, silly, and fun so you remember
-     * Use "active recall" and repetition
-     * Distinguish side quests from main mission
-     * Consider the RWX Method
-       * Give yourself `rwx` permissions to learn
-       * Read, research, and repeat things
-       * Write about your learning
-       * Explore, experiment, and experience
+     * Keep simple, silly, and fun so you remember (2m)
+     * "Repetition is the mother of learning" (1m)
+       * Repeat what we did together during the week (1m)
+     * Distinguish side quests from main mission (1m)
+     * Consider the RWX Method (1m)
+       * Give yourself `rwx` permissions to learn (1m)
+       * Read, research, and repeat things (2m)
+       * Write about your learning (2m)
+       * Explore, experiment, and experience (2m)
+
+TOTAL MINUTES: 49
+
+---
+
+Hour 4:
+
+---
+
+Hour 5:
+
 
 ## Week 1: Saturday, May  7, 2022
 
+*Become a shell native. This is the way, the UNIX way.*
+
 ## Week 2: Saturday, May 14, 2022
+
+*Editing text from Ed/Vi/Vim command line.*
 
 ## Week 3: Saturday, May 21, 2022
 
+*Boosting your command line skills with bash.*
+
 ## Week 4: Saturday, May 28, 2022
+
+*Working with structured data: JSON, YAML, TOML, etc.*
 
 ## Week 5: Saturday, June  4, 2022
 
+*Accessing the Internet from the command line*
+
 ## Week 6: Saturday, June 11, 2022
+
+*Networking, just the essentials: How does the Internet work?*
 
 ## Week 7: Saturday, June 18, 2022
 
+*Secure connections with Secure Shell and GPG*
+
 ## Week 8: Saturday, June 25, 2022
+
+*Getting started with git version management.*
 
 ## Week 9: Saturday, July  2, 2022
 
+*Using containers (Docker)*
+
 ## Week 10: Saturday, July  9, 2022
+
+*Programming fundamentals* 
 
 ## Week 11: Saturday, July 16, 2022
 
+*Programming fundamentals.*
+
 ## Week 12: Saturday, July 23, 2022
+
+*Programming fundamentals.*
 
 ## Week 13: Saturday, July 30, 2022
 
+*Programming fundamentals.*
+
 ## Week 14: Saturday, August  6, 2022
+
+*Programming fundamentals.*
 
 ## Week 15: Saturday, August 13, 2022
 
+*Programming fundamentals.*
+
 ## Week 16: Saturday, August 20, 2022
+
+*Web doc/site development: create a portfolio page*
 
 ## Week 17: Saturday, August 27, 2022
 
+*Connecting with professional community for fun and profit*
