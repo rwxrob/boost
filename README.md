@@ -1,6 +1,36 @@
 # SKILSTAK Beginner Boost Series
 
-* 18 Weeks (May/4-Aug/27): Coding on Linux (I)
+## What's a "Beginner Boost"?
+
+These days the Boost is broken into three parts. The first part focuses
+on upskilling a basic computer user into a entry-level engineer
+proficient and terminal native with strong command-line skills and basic
+programming ability. The second part focuses on the regular tasks asked
+of any professional infrastructure engineer supporting an on-prem
+cloud of Linux servers. The third part specifically focuses on the
+cloud-native approach to infrastructure engineering and applications
+development. Note that the focus is always on building *on-prem*
+infrastructure, not cloud providers. Understanding cloud providers is
+easy after building and maintaining your own cloud at home, plus it will
+get you a job faster if you do.
+
+To give you an idea, the first Boost focuses on the following:
+
+* Using Windows WSL2 with Chocolatey
+* Using Mac with Brew and GNU utils
+* Using Ubuntu Linux server VM with Apt
+* Using SSH to create terminal connections and tunnel
+* Using containers (Docker) from terminal on Linux servers
+* Setting up basic networking for virtual machines and containers
+* Configuring shell interfaces for Windows, Mac, UNIX, and Linux
+* Scripting powerful "one-liner" commands with filters
+* Coding utilities in Bash, Perl, Python, Ruby, PowerShell and Go
+* Managing and sharing knowledge and source code
+* Connecting with professional tech communities to seek opportunities
+
+## When are they?
+
+* 18 Weeks (May/4-Aug/27): Essential Tool, Practices, and Programming (I)
 * 18 Weeks (Sep/3-Dec/31): Infrastructure Engineering (II)
 * 10 Weeks (Jan/7-Apr/22): Containers and Kubernetes (III)
  
@@ -12,17 +42,10 @@ cancelled depending on personal conflicts and holidays. Check the
 Before you begin, please make sure you have a computer with at least the
 following minimum specs:
 
-* Windows 10
+* Windows 10 or Mac x86
 * 4 Core (x86)
 * 8 GB Memory (RAM)
 * 500 GB Drive (100 GB Free)
-
-These minimum specs are based on the requirements for the most elite
-Offensive Security cybersecurity certification, OSEE. Even if you don't
-plan on getting it, you should be prepared to seek it eventually if you
-wish. You may still get value from the Boost with less than this or from
-a Mac or Linux system (if you have one already installed) but this is my
-assumption.
 
 Also make sure you meet the SKILSTAK minimum
 [requirements](requirements) — especially installing VirtualBox onto a
@@ -48,9 +71,8 @@ always saved to [YouTube](https://youtube.com/rwxrob) and posted to
 * Multiple programming languages covered 
 * More networking, but still just "How does Internet work?"
 * Certain topics moved to Infrastructure Engineering Boost
+* Focus on Windows WSL2, Mac terminal, Linux Ubuntu server VM
 * Light on containers (Docker) and no Kubernetes (moved to own Boost)
-* Coverage of Rancher Desktop (instead of Docker Desktop)
-* Prefer Linux on Windows WSL2 setup
 
 ## Week 0: Wednesday, May 4, 11:11:11 AM, 2022
 
