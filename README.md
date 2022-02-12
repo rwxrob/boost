@@ -191,7 +191,6 @@ Hour 4:
 
 Hour 5:
 
-
 ## Week 1: Saturday, May  7, 2022
 
 *Become a shell native. This is the way, the UNIX way.*
@@ -259,3 +258,6 @@ Hour 5:
 ## Week 17: Saturday, August 27, 2022
 
 *Connecting with professional community for fun and profit*
+
+* Find online and offline communities
+
