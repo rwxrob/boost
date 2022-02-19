@@ -13,3 +13,5 @@ Activities include:
 * https://matrixonline.fandom.com/wiki/Temet_Nosce (know thyself)
 
 * godistbuild
+
+* mention formal grammars: EBNF, ABNF, PEG/PEGN
