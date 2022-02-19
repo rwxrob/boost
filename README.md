@@ -1,44 +1,61 @@
 # SKILSTAK Beginner Boost Series
 
-## What's a "Beginner Boost"?
+## "What's a 'Beginner Boost'?"
 
-These days the Boost is broken into three parts. The first part focuses
-on upskilling a basic computer user into a entry-level engineer
-proficient and terminal native with strong command-line skills and basic
-programming ability. The second part focuses on the regular tasks asked
-of any professional infrastructure engineer supporting an on-prem
-cloud of Linux servers. The third part specifically focuses on the
-cloud-native approach to infrastructure engineering and applications
-development. Note that the focus is always on building *on-prem*
-infrastructure, not cloud providers. Understanding cloud providers is
-easy after building and maintaining your own cloud at home, plus it will
-get you a job faster if you do.
-
-To give you an idea, the first Boost focuses on the following:
-
-* Use a Mac iTerm2 terminal with brew and WSL2 with Windows terminal
-* Using Ubuntu Linux local virtual server machine with VirtualBox
-* Using SSH to create terminal connections and tunnel
-* Using containers (Docker) from terminal on Linux servers
-* Setting up basic networking for virtual machines and containers
-* Scripting powerful "one-liner" commands with filters
-* Coding utilities in Bash, Perl, Python, Ruby, and Go
-* Managing and sharing knowledge and source code
-* Connecting with professional tech communities to seek opportunities
-
-## When are they?
+These days the Boost is broken into three parts:
 
 * 18 Weeks (May/4-Aug/27): Tech Tools, Practices, and Programming (I)
 * 18 Weeks (Sep/3-Dec/31): Infrastructure Engineering (II)
 * 10 Weeks (Jan/7-Apr/22): Containers and Kubernetes (III)
- 
+
+The first part focuses on upskilling a basic computer user into
+a entry-level engineer proficient and terminal native with strong
+command-line skills and basic programming ability. 
+
+The second part focuses on the regular tasks asked of any professional
+infrastructure engineer supporting an on-prem cloud of Linux servers.
+
+The third part specifically focuses on the cloud-native approach to
+infrastructure engineering and applications development. Note that the
+focus is always on building *on-prem* infrastructure, not cloud
+providers. Understanding cloud providers is easy after building and
+maintaining your own cloud at home, plus it will get you a job faster if
+you do.
+
+Here's a sample of some specific topics:
+
+* Use a Mac iTerm2 terminal with brew
+* Use Windows terminal with Git Bash on Windows
+* Setup Ubuntu Linux virtual machine with VirtualBox
+* Use SSH to create terminal connections and tunnel
+* Use containers (Docker) from terminal on Linux servers
+* Set up basic networking for virtual machines and containers
+* Script powerful "one-liner" commands with filters
+* Code utilities in Bash, Perl, Python, and Go
+* Manage and share knowledge and source code
+* Connect with professional tech communities to seek opportunities
+
+## "When are they?"
+
 Sessions take place every Saturday 12:00-17:00 (New York time) with
 "office hours" Sundays 12:00-15:00. Sometimes they will be moved or
-cancelled depending on personal conflicts and holidays. Check the
+cancelled depending on personal conflicts and holidays. Sometimes we'll
+go slightly longer depending on the content. Check the
 <https://twitch.tv/rwxrob/schedule> for when.
 
-Before you begin, please make sure you have a computer with at least the
-following minimum specs:
+## "Five hours? Do you take breaks?"
+
+* 12 minutes off
+* 54 minutes on
+
+Yes, we pretty strictly take a 12 minute break ever 54 minutes (which
+happens to be the exact times required by Twitch to ensure we are not
+interrupted with ad breaks by taking them intentionally instead).
+
+## Before You Begin
+
+Please make sure you have a computer with at least the following minimum
+specs:
 
 * Windows 10 or Mac x86
 * 4 Core (x86)
@@ -55,8 +72,6 @@ sessions](https://twitch.tv/rwxrob/schedule). Videos of sessions are
 always saved to [YouTube](https://youtube.com/rwxrob) and posted to
 [Twitter](https://twitter.com/rwxrob).
 
-> ⏰ We start promptly 11 minutes and 11 seconds after every hour. ☺️
-
 ## What changed since 2021?
 
 * Focus on cloud-native infrastructure engineer and security jobs
@@ -69,8 +84,8 @@ always saved to [YouTube](https://youtube.com/rwxrob) and posted to
 * Multiple programming languages covered 
 * More networking, but still just "How does Internet work?"
 * Certain topics moved to Infrastructure Engineering Boost
-* Focus on Linux Ubuntu server VM from Windows WSL2/Mac terminal
-* Light on containers (Docker) and no Kubernetes (moved to own Boost)
+* Focus on Linux Ubuntu server VM on local machine
+* Lighter on containers (Docker) and no Kubernetes (moved to own Boost)
 
 ## Week 0: Wednesday, May 4, 11:11:11 AM, 2022
 
@@ -84,9 +99,8 @@ Hour 1:
 * Start downloading VirtualBox and Ubuntu Server (5m)
 * Prepare your computer for command-line terminal work
   * Windows
-    * Activate WSL2 (5m)
-    * Install Ubuntu from store (5m)
     * Install and customize Windows Terminal (5m)
+    * Install Git Bash (5m)
   * Mac
     * Install and customize iTerm2 (5m)
     * Install `brew`, coreutils, etc. (5m)
@@ -97,7 +111,7 @@ Hour 1:
   * Decide if this community is for you (2m)
   * Consider other communities as well (2m)
 
-TOTAL MINUTES: 51
+TOTAL MINUTES: 46
 
 --- 
 
