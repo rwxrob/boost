@@ -15,3 +15,18 @@ Activities include:
 * godistbuild
 
 * mention formal grammars: EBNF, ABNF, PEG/PEGN
+
+Infrastructure Boost:
+
+* Perl, Python, Ruby, and HCL
+* Enterprise architecture patterns
+* Picking right tool/program for the job (being an architect)
+* Keeping up with industry innovation and identifying trends vs real
+* More Golang (concurrency, messaging, contexts, libraries, etc.)
+* gRPC
+* Networking protocols and configuration
+* Ansible
+* Terraform
+* Installing Linux on hardware
+* Deeper virtualization knowledge (QEMU/KVM)
+* cloud-init

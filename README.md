@@ -31,7 +31,7 @@ Here's a sample of some specific topics:
 * Use containers (Docker) from terminal on Linux servers
 * Set up basic networking for virtual machines and containers
 * Script powerful "one-liner" commands with filters
-* Code utilities in Bash, Perl, Python, and Go
+* Code utilities in Bash and Go
 * Manage and share knowledge and source code
 * Connect with professional tech communities to seek opportunities
 
@@ -120,10 +120,12 @@ Hour 2:
 * Known what we offer and why you are here (1m)
   * Learn to love UNIX command line ("this is the way") (1m)
   * Learn to live UNIX/Linux as your daily driver (1m)
-  * Learn to code in twelve languages:
-    * Markdown, JSON, YAML, TOML (1m)
-    * Bash, Python, Ruby, Perl, Go (1m)
-    * HTML, CSS, JavaScript (1m)
+  * Learn to code in eight languages:
+    * Learn to identify the best tool/language for a give task (1m)
+    * Markdown, JSON, YAML (1m)
+    * Bash, Go (1m),
+    * HTML, CSS, JavaScript for Web documents (not apps) (1m)
+  * Learn to manage knowledge and source code with Git (1m)
   * Learn to learn like a hacker(1m)
   * Learn to self-assess and know your value (1m)
   * Learn prescience and intuition (1m)
