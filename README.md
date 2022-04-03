@@ -74,16 +74,13 @@ always saved to [YouTube](https://youtube.com/rwxrob) and posted to
 
 ## What changed since 2021?
 
+* Many topics pushed to separate Infrastructure Engineering Boost
 * Focus on cloud-native infrastructure engineer and security jobs
-* Increased duration to 18 weeks (5 weeks before)
-* No longer daily, now 5-hours on Saturday (usually)
-* Single, long-form video with full coverage of material
-* Asking to repeat during week what was done to master
-* More project based, even less theory
-* More "hand holding" since we are "pairing" with beginners
-* Multiple programming languages covered 
-* More networking, but still just "How does Internet work?"
-* Certain topics moved to Infrastructure Engineering Boost
+* One five hour video recorded live every week
+* No longer daily, now 5-hours on Saturday
+* Increased total duration to 18 weeks
+* Go programming projects and mentoring
+* More "hand holding"
 * Focus on Linux Ubuntu server VM on local machine
 * Lighter on containers (Docker) and no Kubernetes (moved to own Boost)
 
@@ -221,7 +218,7 @@ Hour 5:
 
 ## Week 4: Saturday, May 28, 2022
 
-*Working with structured data: JSON, YAML, TOML, etc.*
+*Working with structured data: JSON, YAML, TOML, XML, etc.*
 
 ## Week 5: Saturday, June  4, 2022
 
@@ -245,31 +242,31 @@ Hour 5:
 
 ## Week 10: Saturday, July  9, 2022
 
-*Programming fundamentals* 
+*Programming fundamentals in Go* 
 
 ## Week 11: Saturday, July 16, 2022
 
-*Programming fundamentals.*
+*Programming fundamentals in Go.*
 
 ## Week 12: Saturday, July 23, 2022
 
-*Programming fundamentals.*
+*Programming fundamentals in Go.*
 
 ## Week 13: Saturday, July 30, 2022
 
-*Programming fundamentals.*
+*Programming fundamentals in Go.*
 
 ## Week 14: Saturday, August  6, 2022
 
-*Programming fundamentals.*
+*Programming fundamentals in Go.*
 
 ## Week 15: Saturday, August 13, 2022
 
-*Programming fundamentals.*
+*Programming fundamentals in Go.*
 
 ## Week 16: Saturday, August 20, 2022
 
-*Web doc/site development: create a portfolio page*
+*Web site development: just enough for a portfolio*
 
 ## Week 17: Saturday, August 27, 2022
 
