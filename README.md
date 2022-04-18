@@ -2,25 +2,13 @@
 
 ## "What's a 'Beginner Boost'?"
 
-These days the Boost is broken into three parts:
+* 18 Weeks (May/4-Aug/27): Tech Tools, Practices, and Programming
 
-* 18 Weeks (May/4-Aug/27): Tech Tools, Practices, and Programming (I)
-* 18 Weeks (Sep/3-Dec/31): Infrastructure Engineering (II)
-* 10 Weeks (Jan/7-Apr/22): Containers and Kubernetes (III)
-
-The first part focuses on upskilling a basic computer user into
-a entry-level engineer proficient and terminal native with strong
-command-line skills and basic programming ability. 
-
-The second part focuses on the regular tasks asked of any professional
-infrastructure engineer supporting an on-prem cloud of Linux servers.
-
-The third part specifically focuses on the cloud-native approach to
-infrastructure engineering and applications development. Note that the
-focus is always on building *on-prem* infrastructure, not cloud
-providers. Understanding cloud providers is easy after building and
-maintaining your own cloud at home, plus it will get you a job faster if
-you do.
+The Boost focuses on upskilling a basic computer user into a entry-level
+engineer proficient and terminal native with strong Linux bash
+command-line skills and basic programming ability in bash and Go with
+just enough Web development to create and maintain a basic portfolio web
+site.
 
 Here's a sample of some specific topics:
 
@@ -30,9 +18,9 @@ Here's a sample of some specific topics:
 * Use SSH to create terminal connections and tunnel
 * Use containers (Docker) from terminal on Linux servers
 * Set up basic networking for virtual machines and containers
-* Script powerful "one-liner" commands with filters
-* Code utilities in Bash and Go
-* Manage and share knowledge and source code
+* Script powerful "one-liner" bash commands with filters
+* Code utilities in bash and Go Bonzai composite commander
+* Manage and share knowledge, source code, and portfolio
 * Connect with professional tech communities to seek opportunities
 
 ## "When are they?"
@@ -79,10 +67,24 @@ always saved to [YouTube](https://youtube.com/rwxrob) and posted to
 * One five hour video recorded live every week
 * No longer daily, now 5-hours on Saturday
 * Increased total duration to 18 weeks
-* Go programming projects and mentoring
+* Go [Bonzai](https://github.com/rwxrob/bonzai) programming projects and mentoring
 * More "hand holding"
 * Focus on Linux Ubuntu server VM on local machine
 * Lighter on containers (Docker) and no Kubernetes (moved to own Boost)
+
+## Possible Additional Boosts
+
+I'm toying with the idea of having Boosts year round. I'm conflicted
+because we can focus on the main one and create better material --- even
+a book --- or we can cover more stuff.
+
+If I do add more boosts here's the schedule I am considering. I can't
+promise anything on this. The 18 Weeks of the main Beginner Boost is a
+huge commitment to prepare for it *every year* since it is constantly
+changing.
+
+* 18 Weeks (Sep/3-Dec/31): Infrastructure Engineering (II)
+* 10 Weeks (Jan/7-Apr/22): Containers and Kubernetes (III)
 
 ## Week 0: Wednesday, May 4, 11:11:11 AM, 2022
 
@@ -164,7 +166,7 @@ Hour 3:
 * Activate your autodidact, learn like the best
    * Remember how to learn
      * You already know everything you need, just remember it (1m)
-   * Who helped you learn and love learning? (1m)
+   * Story time: Who helped you learn and love learning? (1m)
      * Mom (4m)
      * Mr. Poulson (2m)
      * Mr. Lundquist (2m)
