@@ -2,13 +2,20 @@
 
 ## "What's a 'Beginner Boost'?"
 
+🌟 ***The Boost is not a course.*** I need to make sure everyone
+understands this above all. There's no syllabus, no certificate, no
+credential, no proof you did anything except your own work and
+knowledge. There's barely a schedule and we change that organically as
+we go through it. Most people need to get the old, broken ideas about
+learning out of their heads --- and start learning and thinking like a
+"hacker."
+
 * 18 Weeks (May/4-Aug/27): Tech Tools, Practices, and Programming
 
 The Boost focuses on upskilling a basic computer user into a entry-level
-engineer proficient and terminal native with strong Linux bash
-command-line skills and basic programming ability in bash and Go with
-just enough Web development to create and maintain a basic portfolio web
-site.
+engineer proficient with the Linux terminal, bash scripting, basic Go
+programming, and just enough Git and Web development to create and
+maintain a basic portfolio web site.
 
 Here's a sample of some specific topics:
 
@@ -66,7 +73,7 @@ always saved to [YouTube](https://youtube.com/rwxrob) and posted to
 * Focus on cloud-native infrastructure engineer and security jobs
 * One five hour video recorded live every week
 * No longer daily, now 5-hours on Saturday
-* Increased total duration to 18 weeks
+* Increased total duration to 18 weeks-ish
 * Go [Bonzai](https://github.com/rwxrob/bonzai) programming projects and mentoring
 * More "hand holding"
 * Focus on Linux Ubuntu server VM on local machine
