@@ -1,6 +1,56 @@
 # SKILSTAK Beginner Boost Series
 
-## "What's a 'Beginner Boost'?"
+* 18 Weeks (May/4-Aug/27)
+* [Content outline](outline.md)
+
+## What's a "Beginner Boost"?
+
+You're learning to ride a bike, a beautiful banana seat Schwinn perhaps.
+You love that bike, so sexy and sleek, but you just can't get on it
+without falling on your face. So you get help from someone who knows how
+to ride, they show you, let you try, spot you while you figure out
+balance, and, finally, they give you a big push to give you momentum.
+That boost let's you feel how everything works together. You get it.
+You're riding. You have a lot left to learn (wheelies will have to wait)
+but you are riding. That's what the SKILSTAK Beginner Boost is all about.
+
+I've boosted hundreds at this point. They are doing crazy amazing
+things, perhaps I'll tell you some of their stories someday, but first,
+let's focus on *your* story. Every boost for every person is totally
+different, because every person is different. That is why one-on-one
+mentored learning is the one true human pedagogy, the best way humans
+have been learning since before we had a word for it. But, somehow we've
+forgotten this. Our "educational" systems are focused on everything
+*but* individual, customized learning from mentors who know (but
+God-damn they have a great football team). You probably already sense
+this. You don't have to accept it. Be a part of the rebellion, take back
+your learning, empower yourself, and then learn to empower others. It's
+perhaps the most important social contract every human has with the
+members of their society around them. Hording knowledge is the dark
+side.
+
+After writing that last paragraph, you might be asking, well how does
+one-on-one mentoring happen on Twitch? 
+
+The answer is simple: it doesn't.
+
+Unfortunately, Twitch is the best I can do (at the moment). I taught
+one-on-one for more than three years, but the American socio-economic
+system forced me give it up, literally. If I had the funding, I'd grow
+SKILSTAK back into a multinational company focused on connecting working
+professionals with those needing to learn (masters with
+disciples/padawan) without regard for political boundaries and ideology.
+But so far, no one wants to fund such an effort.
+
+So here I am, using the next best thing I can find. Hopefully, it will
+feel like I'm working with each of you individually, and *you* have a
+responsibility to help the person next to you ("I bulls-eyed Womprats in
+my T16 and they aren't much bigger than two meters.") Let me be clear:
+you are *not* competing with other learners. Get that scarcity mentality
+out of your head. There's more than enough opportunity for *everyone*.
+Fear of scarcity leads to the dark side. It's like establishing trade
+routes in Civ (the game). Trade lifts *everyone*. Sharing lifts
+*everyone*. It's an objective truth.
 
 🌟 ***The Boost is not a course.*** I need to make sure everyone
 understands this above all. There's no syllabus, no certificate, no
@@ -10,14 +60,12 @@ we go through it. Most people need to get the old, broken ideas about
 learning out of their heads --- and start learning and thinking like a
 "hacker."
 
-* 18 Weeks (May/4-Aug/27): Tech Tools, Practices, and Programming
+## What specific skills will I learn?
 
 The Boost focuses on upskilling a basic computer user into a entry-level
 engineer proficient with the Linux terminal, bash scripting, basic Go
 programming, and just enough Git and Web development to create and
-maintain a basic portfolio web site.
-
-Here's a sample of some specific topics:
+maintain a basic portfolio web site. The rest is up to you.
 
 * Use a Mac iTerm2 terminal with brew
 * Use Windows terminal with Git Bash on Windows
@@ -26,11 +74,12 @@ Here's a sample of some specific topics:
 * Use containers (Docker) from terminal on Linux servers
 * Set up basic networking for virtual machines and containers
 * Script powerful "one-liner" bash commands with filters
-* Code utilities in bash and Go Bonzai composite commander
-* Manage and share knowledge, source code, and portfolio
+* Code tools in bash and Bonzai composite commander (Go)
+* Manage and share knowledge with Git
+* Create and maintain source code, a CV, and portfolio on GitHub
 * Connect with professional tech communities to seek opportunities
 
-## "When are they?"
+## When are they?
 
 Sessions take place every Saturday 12:00-17:00 (New York time) with
 "office hours" Sundays 12:00-15:00. Sometimes they will be moved or
@@ -38,16 +87,20 @@ cancelled depending on personal conflicts and holidays. Sometimes we'll
 go slightly longer depending on the content. Check the
 <https://twitch.tv/rwxrob/schedule> for when.
 
-## "Five hours? Do you take breaks?"
+## Five hours? Do you take breaks?
 
 * 12 minutes off
 * 54 minutes on
 
-Yes, we pretty strictly take a 12 minute break ever 54 minutes (which
-happens to be the exact times required by Twitch to ensure we are not
-interrupted with ad breaks by taking them intentionally instead).
+Yes, we pretty strictly take a 12 minute break ever 54 minutes. This
+let's everything sink it, let's people ask questions of one another, and
+allows for biological needs (eating, stretching, bathroom, etc.)
 
-## Before You Begin
+This timing also happens to be the exact times required by Twitch to
+ensure we are not interrupted with ad breaks by taking them
+intentionally instead.
+
+## What can I do to get ready?
 
 Please make sure you have a computer with at least the following minimum
 specs:
@@ -69,17 +122,20 @@ always saved to [YouTube](https://youtube.com/rwxrob) and posted to
 
 ## What changed since 2021?
 
-* Many topics pushed to separate Infrastructure Engineering Boost
-* Focus on cloud-native infrastructure engineer and security jobs
-* One five hour video recorded live every week
-* No longer daily, now 5-hours on Saturday
-* Increased total duration to 18 weeks-ish
-* Go [Bonzai](https://github.com/rwxrob/bonzai) programming projects and mentoring
-* More "hand holding"
-* Focus on Linux Ubuntu server VM on local machine
-* Lighter on containers (Docker) and no Kubernetes (moved to own Boost)
+These changes are designed to empowering people with skills they need to
+*take themselves* to the next level, to pedal on their own (so to speak)
+after getting a good boost, both in ability and motivation.
 
-## Possible Additional Boosts
+* More pair programming
+* Longer, about 18 weeks
+* 5-hours on Saturday (not daily)
+* Prep specifically for cloud native and security jobs (only)
+* Single, unedited YouTube video (no chapters unless you add)
+* Heavy on Go [Bonzai](https://github.com/rwxrob/bonzai) programming
+* Headless Linux Ubuntu server VM on local machine (Mac, Windows, Linux)
+* Lighter on containers (Docker) and no Kubernetes
+
+## Will you be doing Boosts for anything else?
 
 I'm toying with the idea of having Boosts year round. I'm conflicted
 because we can focus on the main one and create better material --- even
@@ -92,194 +148,3 @@ changing.
 
 * 18 Weeks (Sep/3-Dec/31): Infrastructure Engineering (II)
 * 10 Weeks (Jan/7-Apr/22): Containers and Kubernetes (III)
-
-## Week 0: Wednesday, May 4, 11:11:11 AM, 2022
-
-*🎉 Let's get this party started! 🎉*
-
-Hour 1:
-
-* Hello, friends. May the fourth be with you! (5m)
-* Dedication to Aaron Swartz (5m)
-  * "The Internet's Own Boy" (watch it this week) (1m)
-* Start downloading VirtualBox and Ubuntu Server (5m)
-* Prepare your computer for command-line terminal work
-  * Windows
-    * Install and customize Windows Terminal (5m)
-    * Install Git Bash (5m)
-  * Mac
-    * Install and customize iTerm2 (5m)
-    * Install `brew`, coreutils, etc. (5m)
-* Discuss stuff while things are installing (1m)
-* Know who we are and decide to join us (or not) (1m)
-  * "Why are you doing this for free?" (2m)
-  * Know the history of rwxrob and #SKILSTAK (2m)
-  * Decide if this community is for you (2m)
-  * Consider other communities as well (2m)
-
-TOTAL MINUTES: 46
-
---- 
-
-Hour 2:
-
-* Known what we offer and why you are here (1m)
-  * Learn to love UNIX command line ("this is the way") (1m)
-  * Learn to live UNIX/Linux as your daily driver (1m)
-  * Learn to code in eight languages:
-    * Learn to identify the best tool/language for a give task (1m)
-    * Markdown, JSON, YAML (1m)
-    * Bash, Go (1m),
-    * HTML, CSS, JavaScript for Web documents (not apps) (1m)
-  * Learn to manage knowledge and source code with Git (1m)
-  * Learn to learn like a hacker(1m)
-  * Learn to self-assess and know your value (1m)
-  * Learn prescience and intuition (1m)
-  * Learn to connect and find work (1m)
-* Accept what we require in return
-  * No Sith Lords (2m)
-  * Community over competition (1m)
-  * Take responsibility (1m)
-  * Give credit and benefit of the doubt(1m)
-  * Forgive and forget (1m)
-  * Pay it forward (1m)
-  * Save the world (1m)
-  * Subscribe, sponsor, and share (1m)
-* Setup essential accounts and know why
-  * Get Twitch account (1m)
-    * Do not change your ID/name for duration of Boost (1m)
-    * Earn rwxrob community "rep" points (2m)
-  * Get YouTube account (1m)
-  * Get optional Twitter account (1m)
-  * Get optional Discord account (1m)
-  * Get optional ProtonMail account (5m)
-  * Get GitHub account (5m) 
-    * Why not GitLab or other? (1m)
-    * "Don't you hate Microsoft? (1m)
-* Help us know who *you* are (if you want)
-  * <https://boosted.skilstak.io> (1m)
-  * No, it's not a Google form (1m)
-  * Never used for solicitation, just stats (1m)
-
-TOTAL MINUTES: 41
-
-----
-
-Hour 3:
-
-* ¡Viva la revolución! Defend your right to learn! (2m)
-  * Paulo Friere, Pedagogy of the Oppressed (2m)
-  * Sir Ken Robinson, *Out of Our Minds* (2m)
-* Activate your autodidact, learn like the best
-   * Remember how to learn
-     * You already know everything you need, just remember it (1m)
-   * Story time: Who helped you learn and love learning? (1m)
-     * Mom (4m)
-     * Mr. Poulson (2m)
-     * Mr. Lundquist (2m)
-     * Mr. Bevans (2m)
-   * What obstacles have been in your way? (2m)
-   * How do *you* learn best? (2m)
-   * When do you remember learning the best? (1m)
-   * Start a personal/professional learning network
-     * GitHub (1m)
-     * Discord (1m)
-     * Slack (1m)
-     * Twitter (1m)
-     * Twitch (1m)
-     * What about the others? (1m)
-   * Organize your learning
-     * Get GitHub (1m)
-     * Learn CommonMark Markdown (1m)
-     * Start a Zettelkasten (5m)
-   * Use effective learning techniques
-     * Keep simple, silly, and fun so you remember (2m)
-     * "Repetition is the mother of learning" (1m)
-       * Repeat what we did together during the week (1m)
-     * Distinguish side quests from main mission (1m)
-     * Consider the RWX Method (1m)
-       * Give yourself `rwx` permissions to learn (1m)
-       * Read, research, and repeat things (2m)
-       * Write about your learning (2m)
-       * Explore, experiment, and experience (2m)
-
-TOTAL MINUTES: 49
-
----
-
-Hour 4:
-
----
-
-Hour 5:
-
-## Week 1: Saturday, May  7, 2022
-
-*Become a shell native. This is the way, the UNIX way.*
-
-## Week 2: Saturday, May 14, 2022
-
-*Editing text from Ed/Vi/Vim command line.*
-
-## Week 3: Saturday, May 21, 2022
-
-*Boosting your command line skills with bash.*
-
-## Week 4: Saturday, May 28, 2022
-
-*Working with structured data: JSON, YAML, TOML, XML, etc.*
-
-## Week 5: Saturday, June  4, 2022
-
-*Accessing the Internet from the command line*
-
-## Week 6: Saturday, June 11, 2022
-
-*Networking, just the essentials: How does the Internet work?*
-
-## Week 7: Saturday, June 18, 2022
-
-*Secure connections with Secure Shell and GPG*
-
-## Week 8: Saturday, June 25, 2022
-
-*Getting started with git version management.*
-
-## Week 9: Saturday, July  2, 2022
-
-*Using containers (Docker)*
-
-## Week 10: Saturday, July  9, 2022
-
-*Programming fundamentals in Go* 
-
-## Week 11: Saturday, July 16, 2022
-
-*Programming fundamentals in Go.*
-
-## Week 12: Saturday, July 23, 2022
-
-*Programming fundamentals in Go.*
-
-## Week 13: Saturday, July 30, 2022
-
-*Programming fundamentals in Go.*
-
-## Week 14: Saturday, August  6, 2022
-
-*Programming fundamentals in Go.*
-
-## Week 15: Saturday, August 13, 2022
-
-*Programming fundamentals in Go.*
-
-## Week 16: Saturday, August 20, 2022
-
-*Web site development: just enough for a portfolio*
-
-## Week 17: Saturday, August 27, 2022
-
-*Connecting with professional community for fun and profit*
-
-* Find online and offline communities
-
