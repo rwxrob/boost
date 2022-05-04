@@ -13,6 +13,8 @@ sessions most every Saturday with AMA on Sundays recorded to Youtube.
 See [GitHub](https://github.com/rwxrob/boost) for prereqs, outline, and
 previous Boosts.
 
+### The Bike Analogy
+
 You're learning to ride a bike, a beautiful banana seat Schwinn perhaps.
 You love that bike, so sexy and sleek, but you just can't get on it
 without falling on your face. So you get help from someone who knows how
