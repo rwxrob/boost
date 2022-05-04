@@ -77,24 +77,36 @@ engineer proficient with the Linux terminal, bash scripting, basic Go
 programming, and just enough Git and Web development to create and
 maintain a basic portfolio web site. The rest is up to you.
 
-* Use a Mac iTerm2 terminal with brew
-* Use Windows terminal with Git Bash on Windows
-* Setup Ubuntu Linux virtual machine with VirtualBox
-* Use SSH to create terminal connections and tunnel
-* Use containers (Docker) from terminal on Linux servers
-* Set up basic networking for virtual machines and containers
-* Script powerful "one-liner" bash commands with filters
-* Code tools in bash and Bonzai composite commander (Go)
-* Manage and share knowledge with Git
-* Create and maintain source code, a CV, and portfolio on GitHub
-* Connect with professional tech communities to seek opportunities
+Here's a list of our main goals:
+
+* Demonstrate autodidactic learning habits
+* Regularly publish learning, discoveries, and theories
+* Install and maintain an Ubuntu Server virtual machine workstation
+* Setup Secure Shell and GPG for safe remote access
+* Demonstrate commitment to follow the UNIX philosophy and know why
+* Navigate filesystem with standard bash shell commands
+* Understand and manage Linux processes from command line
+* Install and use TMUX effectively from Linux command line
+* Install and use Vim effectively from Linux command line
+* Write safe shell scripts in POSIX and bash from command line
+* Browse and search the Web effectively from the Linux command line
+* Install and use Docker from command line to create container images
+* Create and maintain a Go Bonzai composite command tree
+* Describe how Internet works, specifically DNS, TCP, and HTTP
+* Create and maintain a minimal REST API with Go
+* Create and maintain a minimal IRC/Twitch bot in Go
+* Create and maintain a Web site for a person, project, or organization
+* Use Git and GitHub to create, maintain, and release software
+* Maintain a professional learning network and regularly contribute
+* Find and maintain gainful employment as a technologist
 
 ## When are they?
 
-Sessions take place every Saturday 12:00-17:00 (New York time) with
-"office hours" Sundays 12:00-15:00. Sometimes they will be moved or
-cancelled depending on personal conflicts and holidays. Sometimes we'll
-go slightly longer depending on the content. Check the
+Sessions take place every Saturday 1-5pm (New York time) with "office
+hours" Sundays 1-3pm. Sometimes they will be moved or cancelled
+depending on personal conflicts and holidays. Sometimes I'll do "office
+hours" outside on a walk, or while longboarding. Sometimes we'll go
+slightly longer depending on the content. Check the
 <https://twitch.tv/rwxrob/schedule> for when.
 
 ## Five hours? Do you take breaks?
