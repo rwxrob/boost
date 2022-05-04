@@ -1,8 +1,8 @@
 # SKILSTAK Beginner Boosts
 
-* Peek at upcoming 2022 [Boost][2022] (in development)
-* Start the 2021 [Boost][2021] (but ends abruptly)
-* Watch videos from 2020 (first) [Boost][2020] (older)
+* Join the [2022 Boost][2022] (in progress)
+* Start the [2021 Boost][2021] (somewhat incomplete)
+* Watch videos from first [2020 Boost][2020] (very dated)
 
 [2022]: <https://github.com/rwxrob/boost/tree/2022>
 [2021]: <https://github.com/rwxrob/boost/tree/old-20210722>
