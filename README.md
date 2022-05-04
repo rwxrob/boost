@@ -1,8 +1,7 @@
 # SKILSTAK Beginner Boost Series
 
 * 18 Weeks (May/4-Aug/27)
-* [Goals](goals.md)
-* [Content outline](outline.md)
+* [Goals](#goals)
 
 ## What's a "Beginner Boost"?
 
@@ -70,7 +69,7 @@ we go through it. Most people need to get the old, broken ideas about
 learning out of their heads --- and start learning and thinking like a
 "hacker."
 
-## What specific skills will I learn?
+## What specific skills will I learn? {#goals}
 
 The Boost focuses on upskilling a basic computer user into a entry-level
 engineer proficient with the Linux terminal, bash scripting, basic Go
