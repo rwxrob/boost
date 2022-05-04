@@ -1,6 +1,7 @@
 # SKILSTAK Beginner Boost Series
 
 * 18 Weeks (May/4-Aug/27)
+* [Goals](goals.md)
 * [Content outline](outline.md)
 
 ## What's a "Beginner Boost"?
