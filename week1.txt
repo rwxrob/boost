@@ -1,0 +1,67 @@
+Focus on knowledge management (more than just note taking) and setting
+up first Linux virtual machine.
+
+Zettelkasten Method Adapted from Niklas Luhmann
+
+-   “Slip” “Boxes”
+-   “Second brain” for messy knowledge capture and review
+-   Not the same as a blog, but blogs and books come from
+-   “Personal Knowledge Graph” is popular name today
+-   Beware of non-standard proprietary lockin
+
+Zettel Limits Help You
+
+-   Title less than 50 UNICODE characters
+-   Body of about 25-30 lines
+-   References including URLs section after body
+-   Hashtags on last line after 4-space indent
+-   Use an Isosec identifier because human friendly
+-   Stick with single level lists
+-   Avoid subheadings (which are more for posts)
+
+Why GitHub For Notes?
+
+-   Built in VSCode editor
+-   Built in search
+-   Universal with many connections
+-   Displays Markdown
+
+What is Markdown?
+
+-   Simplify when you can (one best way)
+-   https://rwx.gg/lang/md
+-   Markdown - Wikipedia
+    https://en.wikipedia.org/wiki/Markdown
+
+Install VirtualBox
+
+-   VirtualBox is free
+-   Use VMWare Fusion if you have Mac M1
+
+Install Ubuntu Server Interactively
+
+-   Download from Canonical web site
+-   Make sure “server” since smaller
+-   Server version emulates a cloud on our machine
+-   Find “New” from menus or icons
+-   Pick Linux from OS pull-down
+-   Pick Ubuntu 64-bit from pull-down
+-   Set about 2048 MB RAM
+-   Set about 20GB disk
+
+Boot Ubuntu Server and Look Around
+
+  💥 You might have to enable “hypervisor” in your BIOS. Every BIOS and
+  computer is different. If you need help, consult our Discord helpers
+  or ask in Twitch/IRC chat.
+
+Now we have to actually go through the boot process and do the Server
+configuration. Almost all of the defaults are correct. The only
+difference is that we will enable the SSH server.
+
+-   Navigate around a bit to ensure working
+-   Practice starting, stopping, an saving VM
+-   ls -la
+-   man ls
+-   pwd
+-   shutdown -h now, init 0, poweroff

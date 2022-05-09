@@ -1,7 +1,9 @@
 # SKILSTAK Beginner Boost Series
 
-* 18 Weeks (May/4-Aug/27)
 * [Goals](#what-specific-skills-will-i-learn)
+* 18 Weeks-ish (May/4-Aug/27)
+  * [Week 0](week0.md)
+  * [Week 1](week1.md)
 
 ## What's a "Beginner Boost"?
 
@@ -76,28 +78,29 @@ engineer proficient with the Linux terminal, bash scripting, basic Go
 programming, and just enough Git and Web development to create and
 maintain a basic portfolio web site. The rest is up to you.
 
-Here's a list of our main goals:
+Here's a list of our main goals (which roughly correspond to week
+number):
 
-* Demonstrate autodidactic learning habits
-* Share learning, discoveries, and theories
-* Install and maintain a local Ubuntu Server VM
-* Setup Secure Shell and GPG for safe remote access
-* Follow the UNIX philosophy and know why
-* Navigate filesystem with bash shell commands
-* Manage Linux processes from command line
-* Install and use TMUX from Linux command line
-* Install and use Vim from Linux command line
-* Write safe shell scripts in POSIX and bash
-* Search the Web from the Linux command line
-* Use Docker to use and create container images
-* Create and use a Go Bonzai composite command tree
-* Describe how Internet works (DNS, TCP, and HTTP)
-* Create and maintain a minimal REST API with Go
-* Create and maintain a minimal IRC/Twitch bot in Go
-* Create and maintain a Web site
-* Use Git and GitHub to create and maintain source
-* Build personal/professional learning network
-* Find gainful employment as a technologist
+1.  Demonstrate autodidactic learning habits
+2.  Share learning, discoveries, and theories
+3.  Install and maintain a local Ubuntu Server VM
+4.  Setup Secure Shell and GPG for safe remote access
+5.  Navigate and manage filesystem with bash commands
+7.  Manage Linux processes from command line
+8.  Install and use TMUX from Linux command line
+9.  Install and use Vim from Linux command line
+10. Write safe shell scripts in POSIX and bash
+6.  Follow the UNIX philosophy and know why
+11. Search the Web from the Linux command line
+12. Use Docker to use and create container images
+13. Create and use a Go Bonzai composite command tree
+14. Describe how Internet works (DNS, TCP, and HTTP)
+15. Create and maintain a minimal REST API with Go
+16. Create and maintain a minimal IRC/Twitch bot in Go
+17. Create and maintain a Web site
+18. Use Git and GitHub to create and maintain source
+19. Build personal/professional learning network
+20. Find gainful employment as a technologist
 
 ## When are they?
 
@@ -129,7 +132,7 @@ specs:
 * Windows 10 or Mac x86
 * 4 Core (x86)
 * 8 GB Memory (RAM)
-* 500 GB Drive (100 GB Free)
+* 100 GB Free HD
 
 Also make sure you meet the SKILSTAK minimum
 [requirements](requirements) — especially installing VirtualBox onto a
@@ -140,6 +143,7 @@ answers to your questions or ask them in the
 sessions](https://twitch.tv/rwxrob/schedule). Videos of sessions are
 always saved to [YouTube](https://youtube.com/rwxrob) and posted to
 [Twitter](https://twitter.com/rwxrob).
+://www.youtube.com/watch?v=nGanLUnjoPI&ab_channel=MSNBC
 
 ## What changed since 2021?
 
