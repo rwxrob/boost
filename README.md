@@ -2,8 +2,10 @@
 
 * [Goals](#what-specific-skills-will-i-learn)
 * 18 Weeks-ish (May/4-Aug/27)
-  * [Week 0](week00.md)
-  * [Week 1](week01.md)
+
+* [Week 0](week00.md)
+* [Week 1](week01.md)
+* [Week 2](week02.md)
 
 ## What's a "Beginner Boost"?
 

@@ -1,4 +1,7 @@
-TODO Summarize video here
+Week 2 focuses on UNIX/Linux origins and the terminal, command-line
+interface and basic file system navigation. You should be comfortable
+installing and removing and reinstalling Linux Ubuntu Server VMs and any
+apt packages before next week.
 
 * Primary responsibilities of any mentor
   1. Help you know what to learn
