@@ -2,6 +2,17 @@
 
 ✨ May the fourth be with you. 🌳
 
+TODO add a one paragraph summary of the entire day since first viewed in
+YouTube
+
+## Bookmarks
+
+TODO
+
+---
+
+TODO factor this out later after chapter titles added
+
 Hour 1:
 
 * Hello, friends. Join the rebellion. (5m)
