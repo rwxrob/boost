@@ -11,10 +11,10 @@
 
 The SKILSTAK Beginner Boost™ is an annual free, live, recorded, tech
 series focused on helping people get security and IT operations jobs. We
-start Wednesday May the 4th at 11:11:11 and have weekly live five-hour
-sessions most every Saturday with AMA on Sundays recorded to Youtube.
-See [GitHub](https://github.com/rwxrob/boost) for prereqs, outline, and
-previous Boosts.
+start Wednesday May the 4th at 11:11:11 and have weekly live four-hour
+sessions on Sundays (posted to YouTube 24 hours after recorded due to
+Twitch policy). See https://twitch.tv/rwxrob/schedule for schedule
+changes, etc.
 
 ### The Bike Analogy
 
