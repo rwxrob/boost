@@ -1,11 +1,10 @@
 # SKILSTAK Beginner Boost Series
 
 * [Goals](#what-specific-skills-will-i-learn)
-* 18 Weeks-ish (May/4-Aug/27)
-
 * [Week 0](/00/README.md)
 * [Week 1](/01/README.md)
 * [Week 2](/02/README.md)
+* [Week 3](/02/README.md)
 
 ## What's a "Beginner Boost"?
 
