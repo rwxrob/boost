@@ -138,7 +138,7 @@ specs:
 
 Also make sure you meet the SKILSTAK minimum
 [requirements](requirements) — especially installing VirtualBox onto a
-computer on which you have admin permissions. We are hear to help if you
+computer on which you have admin permissions. We are here to help if you
 have questions about any of these requirements. Check the [FAQ](faq) for
 answers to your questions or ask them in the
 [Discord](https://discord.gg/9wydZXY) server or live during Sunday [AMA
