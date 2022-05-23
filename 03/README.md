@@ -2,6 +2,8 @@ This week is focused on getting connected with Secure Shell and talking
 about the methods and considerations when connecting to a "remote"
 computer even if that computer inside your host computer.
 
+* START (20220522170124)
+
 * Help us with timestamps (20220522171336)
 * Boost sessions moved to Sunday (20220522171712)
 * How to connect to our VM (Secure Shell)? (20220522173234)
