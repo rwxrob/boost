@@ -4,7 +4,7 @@
 * [Week 0](/00/README.md)
 * [Week 1](/01/README.md)
 * [Week 2](/02/README.md)
-* [Week 3](/02/README.md)
+* [Week 3](/03/README.md)
 
 ## What's a "Beginner Boost"?
 

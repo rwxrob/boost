@@ -2,7 +2,7 @@ This week is focused on getting connected with Secure Shell and talking
 about the methods and considerations when connecting to a "remote"
 computer even if that computer inside your host computer.
 
-* START (20220522170124)
+START (20220522170124)
 
 * Help us with timestamps (20220522171336)
 * Boost sessions moved to Sunday (20220522171712)
@@ -11,7 +11,7 @@ computer even if that computer inside your host computer.
 * What is an IP Address? (20220522174927)
 * What is `git-bash` and why would I need it? (20220522175639)
 
-* BREAK (20220522180935)
+BREAK (20220522180935)
 
 * Why can't I use the 127 address? (20220522182241)
 * How can you test ssh connection to localhost? (20220522182905)
@@ -21,14 +21,14 @@ computer even if that computer inside your host computer.
 * What is the correct `ssh` connection address? (20220522190058)
 * What about `cmd` (DOS)? (20220522191246)
 
-* BREAK (20220522191428)
+BREAK (20220522191428)
 
 * What about `putty` for ssh access? (20220522192740)
 * What are your favorite Windows Terminal settings? (20220522194907)
 * Should I use VSCode and how? (20220522200053)
 * What is JSON? (20220522201201)
 
-* BREAK (20220522202837)
+BREAK (20220522202837)
 
 * Remote access considerations? (20220522204355)
 * Hack for "good", honeypots are more fun? (20220522205233)
