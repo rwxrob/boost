@@ -1,0 +1,130 @@
+This week is focused on getting connected with Secure Shell and talking
+about the methods and considerations when connecting to a “remote”
+computer even if that computer inside your host computer.
+
+START (20220522170124)
+
+-   Help us with timestamps (20220522171336)
+-   Boost sessions moved to Sunday (20220522171712)
+-   How to connect to our VM (Secure Shell)? (20220522173234)
+-   What is NAT and Bridged? (20220522174202)
+-   What is an IP Address? (20220522174927)
+-   What is git-bash and why would I need it? (20220522175639)
+
+BREAK (20220522180935)
+
+-   Why can’t I use the 127 address? (20220522182241)
+-   How can you test ssh connection to localhost? (20220522182905)
+-   What is a “user” and “userid”? (20220522183516)
+-   How can see stuff scrolling off screen? (20220522184810)
+-   What package needs to be installed to connect with
+    ssh?(20220522184900)
+-   What is the correct ssh connection address? (20220522190058)
+-   What about cmd (DOS)? (20220522191246)
+
+BREAK (20220522191428)
+
+-   What about putty for ssh access? (20220522192740)
+-   What are your favorite Windows Terminal settings? (20220522194907)
+-   Should I use VSCode and how? (20220522200053)
+-   What is JSON? (20220522201201)
+
+BREAK (20220522202837)
+
+-   Remote access considerations? (20220522204355)
+-   Hack for “good”, honeypots are more fun? (20220522205233)
+-   How can I get a VM on the Internet? (20220522205617)
+    -   DigitalOcean.com
+    -   GCP
+    -   AWS
+    -   Vultr.com
+    -   linode.com
+    -   (be careful out there)
+-   How to start VM “headless”? (20220522211658)
+    -   From the GUI
+    -   From (DOS) command line
+-   What is minimum Vi/m that I need? (20220522212640)
+-   Why is nano the devil? (20220522214104)
+
+Commands
+
+-   ip a - show all IP addresses (ipconfig /all, on Windows)
+-   clear - clears the screen
+-   which ssh - display full path to ssh program
+-   type ssh - display what type of thing it is
+-   who - display who is logged in an how
+-   id - display user and group names and ids for self
+-   w - display logger version of who is logged in
+-   whoami - print effective user name/ID
+-   users - short name of all logged in users
+-   last - summary of last logged in users
+-   exit - exit the current program or login or shell
+-   | less or | more - see scrolled output in terminal (q to quit)
+-   <Ctrl>-c - interrupt whatever (exit)
+-   <Ctrl>-d - send “end of data/file”
+-   sudo apt install openssh-server - install ssh server (if not)
+-   vboxmanage startvm <VMNAME> --type headless - start vm headless
+-   vboxmanage list runningvms - list running vms
+-   vboxmanage list vms - list all vms
+-   vboxmanage controlvm <VMNAME> poweroff - power off headless vm
+-   vim - basic vim https://rwx.gg/visurvive
+-   nano - just so you understand nano editor is a thing
+
+Time Stamps
+00:12:23 Start of Boost -
+00:23:55 Recap for last week
+00:25:55 Get VM running for class
+00:30:10 Connecting to a VM with SSH -
+00:37:54 Getting a connection and getting an IP
+00:41:12 NAT and what is it -
+00:48:04 IP Addresses -
+00:50:00 `ip a` command and getting th ip address -
+00:54:40 SSH from Windows Command Prompt
+00:55:33 GitBash and why I would need it -
+01:01:37 `which ssh` -
+01:02:19 Difference between which and type
+01:07:20 1st Break Begins
+01:19:00 1st Break Ends
+01:20:00 Why Can't I use 127 address?
+01:27:50 How can you test ssh connection to localhost?
+01:30:50 User commands
+01:35:15 Escalating privileges
+01:38:43 Why do we have two connections on computers
+01:42:54 What have we learned so far?
+01:47:40 What package needs to be installed to connect with ssh
+01:51:35 <CTRL>c to interrupt whatever (exit)
+01:58:40 Creating steps and practice on creating VM
+02:00:25 sudo apt install openssh-server command _
+02:02:37 what is the correct ssh connection address _
+02:04:49 Connecting to server with gitbash using ssh
+02:12:46 What about `putty` for ssh access? - come back to it
+02:14:00 2nd Break begins
+02:26:20 2nd Break ends
+02:28:30 Putty
+02:47:43 Favorite Windows Terminal Settings
+02:56:49 What is JSON and JSON crash course
+03:00:45 VS Code installation
+03:10:50 What iS JSON continued
+03:27:50 3rd Break begins
+03:41:03 3rd Break ends
+03:49:05 Good Faith hacking and DOJ
+03:59:40 Get a VM on the internet
+04:04:30 Homework for the week
+04:12:40 Launching in Headless
+04:25:17 What is Vi/m Lesson I need?
+04:39:40 Why is Nano the devil
+
+
+Related
+
+-   https://www.virtualbox.org/manual/ch06.html
+-   https://try.digitalocean.com/freetrialoffer/
+-   https://cloud.google.com/compute/docs/create-linux-vm-instance
+-   https://www.how2shout.com/linux/use-command-line-to-create-list-start-stop-virtualbox-vms/
+
+Thanks sponsors, subs, and followers:
+
+* GitHub: https://github.com/sponsors/rwxrob
+* Twitch: https://www.twitch.tv/subs/rwxrob
+* Twitter: https://twitter.com/rwxrob
+* Discord: https://discord.com/invite/9wydZXY
