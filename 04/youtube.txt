@@ -1,0 +1,73 @@
+All about users, files (organization and permissions) from a user,
+admin, and hacker perspective including “inodes” and “elevating
+privileges”. This is a big topic, so we meander about but cover the main
+stuff needed to get you started (more than any other Boost we’ve done so
+far). We didn’t get to linking or glob expansion. We’ll start with that
+next time and introduce grep, find, and regular expressions.
+
+START (20220605165953)
+
+- How to reconnect to a saved VM session with SSH? (20220605172039)
+- Where are all my files and why are they there? (20220605173317)
+- What is a home directory? (20220605173522)
+- What are permissions and why do I care? (20220605174337)
+- (Don’t bother learning too much octal for now, we will later)
+
+BREAK (20220605180751)
+
+- Change the permissions on a directory or file? (20220605182159)
+- Intro to dangers of ‘setuid’? (20220605190001)
+
+BREAK (20220605191440)
+
+- How do do things as another user? (20220605192826)
+- How do I change user or group of file or directory? (20220605193701)
+- What are user and group IDs? (20220605195407)
+- How do I remove a directory? (20220605201137)
+- How do I recursively change ownership and group?
+
+BREAK (20220605203732)
+
+- How do I move or rename a file or directory?
+- How do I copy a file or directory?
+- How do I copy a file or directory from another computer?
+- What’s the stuff in root (/)? (20220605212327)
+
+Commands
+
+- ip -c a - lookup IP addresses
+- set -o noclobber - stop from blowing away files
+- mv foo other - change file/directory foo name to other (or move)
+- mv -i foo other - change file name but protect against overwrites
+- cp foo other - copy file/directory foo name to other (or move)
+- cp -ar foo other - copy all foo to other keeping timestamp
+- scp foo target: - copy foo from host to remote target home dir (def)
+- ls -ld (or with .) - look directory permission on current directory
+- stat foo - see all the details about the foo inode
+- chmod +x foo - make foo file executable by user, group, other
+- chmod o-r foo - make foo unreadable by other
+- chown rando foo - change ownership of foo to rando
+- chown -R jill:jill olddir - recursively change ownership/group
+- sudo su - - effectively login as root without logging out
+- sudo su - foo effectively login as foo
+- stat -c '%a' - to see octal permissions
+- cd - - change into previous directory
+- echo foo - write foo to standard output
+- cat foo - write content of foo file to standard output
+- which foo - print the full file path to the executable foo
+- ls -l $(which sudo) - list perms for sudo command
+- sudo adduser foo - interactively add a user named foo (not RedHat)
+- sudo deluser foo - interactively delete a user named foo (not RedHat)
+- sudo passwd foo - change the password for foo
+- passwd - change own password
+- touch - create new text file or update last modified time stat
+- rmdir foo - remove an empty foo directory
+- rm -rf foo - remove directory or file foo and everything in it
+- grep jill /etc/passwd - list only line containing jill
+- file foo - tell type of inode
+
+Related
+
+- https://picoctf.org/
+- https://overthewire.org/wargames/bandit
+- man 5 passwd
