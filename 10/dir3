@@ -1,0 +1,17 @@
+#!/bin/bash
+
+# when security is paramount
+#PATH=/usr/sbin:/usr/bin/:/bin
+export PATH=/usr/sbin:/usr/bin/:/bin
+
+# REMOVE ME, just for debugging
+#FIND=$(command -v find)
+#echo "$FIND"
+
+dir3 () {
+  find . -maxdepth 3 -type d
+}
+
+# call the function
+dir3
+

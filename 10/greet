@@ -1,0 +1,17 @@
+#!/bin/bash
+
+declare name='Rob'
+#unset name
+
+greet () {
+  (( $# <1 )) && echo "usage: greet FIRST [LAST]" 1>&2 && return 1
+  local first=$1 last=$2
+  echo "Hello, $first $last"
+}
+
+clear
+greet Rob Muhlestein
+
+echo $?
+
+echo "(The globals name is '$name')"
