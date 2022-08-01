@@ -1,0 +1,45 @@
+#!/bin/bash
+
+set -e
+
+year ()
+{
+  date +%Y
+}
+
+greet ()
+{
+  # option 1 - concise and quick to write
+  #local name=${1:-"there"}
+
+  # option 2 - more easily understood by the people who don't know bash
+  #WRONG: if (( $# == 2 )); then
+  #MEH: if test -n "$1" && test -n "$2"; then
+
+  # option 3 - short-circuit logic
+  #[[ -z "$1" && -z "$2" ]] && echo "usage: greet FIRST [SECOND]" && return 1
+
+  #if [[ -z "$1" && -z "$2" ]];then
+  if [[ -z "$1$2" || $# > 2 ]];then
+    echo "usage: greet FIRST [SECOND]"
+    return 1
+  fi
+
+  if [[ -n "$1" && -n "$2" ]]; then
+    name="$1 $2"
+  elif test -n "$1" ;  then
+    name=$1
+  else
+    name=there
+  fi
+
+  if [[ "${name,,}" =~ ^(rob)[^\ ]* ]]; then
+    echo "everything that matched: ${BASH_REMATCH[0]}"
+    declare -p BASH_REMATCH
+    #name=${}
+  fi
+
+  printf "Hello, %s in $(year)\n" "$name"
+}
+
+greet "$@"
