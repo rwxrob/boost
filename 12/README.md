@@ -2,7 +2,7 @@
 
 Last day of bash boosting:
 
-* compound data types
+* collection data types
 * loops, repeats, recursion
 * read and IFS
 * more special variables
@@ -16,6 +16,15 @@ Alternative terms used to reference bash "arrays":
 * vector
 * `arrayList`
 * tuple
+
+Alternative terms for bash "associative arrays":
+
+* dictionaries
+* maps
+* hash maps
+* hash tables
+* hashes
+* key/value pairs
 
 ## Covered
 

@@ -1,0 +1,18 @@
+#!/bin/bash
+
+declare -A person
+
+person[name]=rob
+person[age]=52
+person[hair]=facial
+person[spouse]=doris
+
+for field in  "${!person[@]}"; do 
+  printf "%10s: %s\n" "${field^}" "${person[$field]^}"
+done
+
+declare max=20
+for (( i=0; i<max; i++)); do 
+  echo $i
+done
+
