@@ -23,6 +23,7 @@ Alternative terms used to reference bash "arrays":
 * `dap` delete current paragraph
 * `:` empty operator
 * `read line` read a user line of input
+* `while IFS= read -r line`
 * difference between `man` sections
 * `exit`
 * `case`

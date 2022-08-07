@@ -6,8 +6,32 @@
 # a question and will continue to wait and prompt for subsequent
 # questions providing essential life advice.
 
-# TODO get the full path to the current working directory no matter
-# where we are on the system.
+black=$'\e[30m'
+red=$'\e[31m'
+green=$'\e[32m'
+yellow=$'\e[33m'
+blue=$'\e[34m'
+magenta=$'\e[35m'
+cyan=$'\e[36m'
+white=$'\e[37m'
+reset=$'\e[0m'
+
+
+declare art=$blue'
+        ____
+    ,dP9CGG88@b,
+  ,IP  _   Y888@@b,
+ dIi  (_)   G8888@b
+dCII  (_)   G8888@@b
+GCCIi     ,GG8888@@@
+GGCCCCCCCGGG88888@@@
+GGGGCCCGGGG88888@@@@...
+Y8GGGGGG8888888@@@@P.....
+ Y88888888888@@@@@P......
+  Y8888888@@@@@@@P......
+    @@@@@@@@@@PP .......
+       """""........
+'$reset
 
 declare dir="${0%%/*}"
 readarray -t answers < "${dir:-.}/answers.txt"
@@ -37,18 +61,22 @@ readarray -t answers < "${dir:-.}/answers.txt"
 
 welcome ()
 {
+	echo "$art"
+  echo "$red"
   cat <<-EOM
 	🎱 Welcome to the magic eight ball. Enter a yes or no question and
 	your answer will be granted.
 	EOM
+  echo "$reset"
 }
 
 8ball ()
 {
 	local $i 
 	welcome
-	while read -p "> " line; do
-		printf "%s\n"  "${answers[RANDOM%${#answers}]}"
+	while IFS= read -p "> " line; do
+    printf "${magenta}Q${reset}: %s\n" "$line"
+		printf "${blue}A${reset}: %s\n"  "${answers[RANDOM%${#answers}]}"
 
 # TODO using match logic comparisons, if statement and RANDOM create
 # random yes, no, maybe answer (no arrays yet)
