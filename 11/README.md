@@ -28,11 +28,3 @@
 * `"$*"` pass arguments squished together as single word
 * short-circuit logic
 * `set -exo pipefail`
-
-## For Next Week
-
-* compound data types
-* loops, repeats, recursion
-* read and IFS
-* more special variables
-

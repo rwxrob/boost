@@ -1,0 +1,81 @@
+#!/bin/bash
+
+# 8ball answers any question with a random answer like the magic eight
+# ball toy. If any argument is passed it assumes the combined arguments
+# are the question, otherwise, it waits and prompts the user to type in
+# a question and will continue to wait and prompt for subsequent
+# questions providing essential life advice.
+
+# TODO get the full path to the current working directory no matter
+# where we are on the system.
+
+declare dir="${0%%/*}"
+readarray -t answers < "${dir:-.}/answers.txt"
+
+# declare -a answers=(
+#    'It is certain'
+# 	 'Reply hazy, try again'
+# 	 'Don’t count on it'
+#    'It is decidedly so'
+# 	 'Ask again later'
+# 	 'My reply is no'
+#    'Without a doubt'
+# 	 'Better not tell you now'
+# 	 'My sources say no'
+#    'Yes definitely'
+# 	 'Cannot predict now'
+# 	 'Outlook not so good'
+#    'You may rely on it'
+# 	 'Concentrate and ask again'
+# 	 'Very doubtful'
+#    'As I see it, yes'
+#    'Most likely'
+#    'Outlook good'
+#    'Yes'
+#    'Signs point to yes'
+# )
+
+welcome ()
+{
+  cat <<-EOM
+	🎱 Welcome to the magic eight ball. Enter a yes or no question and
+	your answer will be granted.
+	EOM
+}
+
+8ball ()
+{
+	local $i 
+	welcome
+	while read -p "> " line; do
+		printf "%s\n"  "${answers[RANDOM%${#answers}]}"
+
+# TODO using match logic comparisons, if statement and RANDOM create
+# random yes, no, maybe answer (no arrays yet)
+#		i=$((RANDOM % 3))
+
+# 		((i==0)) && echo "Yes. 🎱" && continue
+# 		((i==1)) && echo "No. 🎱" && continue
+# 		((i==2)) && echo "Maybe. 🎱" && continue
+# 		echo "Randomization error."
+
+# 		if ((i==0)); then
+# 			printf "Yes. 🎱"
+# 		elif ((i==1)); then
+# 			printf "No. 🎱"
+# 		elif ((i==2)); then
+# 			printf "Maybe. 🎱"
+# 		else
+# 			printf "Randomization error."
+# 		fi
+
+#     case "$i" in
+# 		0) printf "Yes. 🎱" ;;
+# 		1) printf "No. 🎱" ;;
+# 		2) printf "Maybe. 🎱" ;;
+# 		*) printf "What/" ;;
+# 		esac
+	done
+}
+
+8ball
