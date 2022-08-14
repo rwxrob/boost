@@ -1,0 +1,5 @@
+vmrun ()
+{
+    "/c/program files (x86)/vmware/vmware workstation/vmrun.exe" -T ws start "$HOME/documents/virtual machines/$1/$1.vmx" nogui
+}
+
