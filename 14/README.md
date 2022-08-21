@@ -10,6 +10,7 @@ Vim configuration overview. Just an exhaustive review of my personal
 * Why 8.* is plenty good for your `.vimrc`
 
 https://github.com/rwxrob/dot/blob/main/vim/.vimrc
+https://github.com/rwxrob/dot/blob/main/.bashrc
 
 Thanks sponsors, subs, and followers:
 
