@@ -5,15 +5,28 @@
 * [Week 1](/01/README.md)
 * [Week 2](/02/README.md)
 * [Week 3](/03/README.md)
+* [Week 4](/04/README.md)
+* [Week 5](/05/README.md)
+* [Week 6](/06/README.md)
+* [Week 7](/07/README.md)
+* [Week 8](/08/README.md)
+* [Week 9](/09/README.md)
+* [Week 10](/10/README.md)
+* [Week 11](/11/README.md)
+* [Week 12](/12/README.md)
+* [Week 13](/13/README.md)
+* [Week 14](/14/README.md)
+* [Week 15](/15/README.md)
 
 ## What's a "Beginner Boost"?
 
 The SKILSTAK Beginner Boost™ is an annual free, live, recorded, tech
-series focused on helping people get security and IT operations jobs. We
-start Wednesday May the 4th at 11:11:11 and have weekly live four-hour
-sessions on Sundays (posted to YouTube 24 hours after recorded due to
-Twitch policy). See https://twitch.tv/rwxrob/schedule for schedule
-changes, etc.
+series focused on helping people get IT infrastructure engineering,
+security, and cloud-native jobs. We start Wednesday May the 4th at
+11:11:11 and have weekly live four-hour sessions on Sundays (posted to
+YouTube the next day due to Twitch policy). Make sure to join Discord
+and consider adding the calendar (both linked from
+[Twitch](http://rwxrob.tv)).
 
 ### The Bike Analogy
 
@@ -42,7 +55,7 @@ members of their society around them. Hording knowledge is the dark
 side.
 
 After writing that last paragraph, you might be asking, well how does
-one-on-one mentoring happen on Twitch? 
+one-on-one mentoring happen on Twitch?
 
 The answer is simple: it doesn't.
 
@@ -79,26 +92,25 @@ engineer proficient with the Linux terminal, bash scripting, basic Go
 programming, and just enough Git and Web development to create and
 maintain a basic portfolio web site. The rest is up to you.
 
-Here's a list of our main goals (which roughly correspond to week
-number):
+Here's a list of our main goals:
 
 1.  Demonstrate autodidactic learning habits
 2.  Share learning, discoveries, and theories
 3.  Install and maintain a local Ubuntu Server VM
 4.  Setup Secure Shell and GPG for safe remote access
 5.  Navigate and manage filesystem with bash commands
-7.  Manage Linux processes from command line
-8.  Install and use TMUX from Linux command line
-9.  Install and use Vim from Linux command line
-10. Write safe shell scripts in POSIX and bash
-6.  Follow the UNIX philosophy and know why
+6.  Manage Linux processes from command line
+7.  Install and use TMUX from Linux command line
+8.  Install and use Vim from Linux command line
+9.  Write safe shell scripts in POSIX and bash
+10. Follow the UNIX philosophy and know why
 11. Search the Web from the Linux command line
 12. Use Docker to use and create container images
 13. Create and use a Go Bonzai composite command tree
 14. Describe how Internet works (DNS, TCP, and HTTP)
 15. Create and maintain a minimal REST API with Go
 16. Create and maintain a minimal IRC/Twitch bot in Go
-17. Create and maintain a Web site
+17. Create and maintain a personal portfolio Web site
 18. Use Git and GitHub to create and maintain source
 19. Build personal/professional learning network
 20. Find gainful employment as a technologist
