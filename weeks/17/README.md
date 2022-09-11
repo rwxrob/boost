@@ -22,6 +22,9 @@
 * I use default export everything with `internal` when needed
 * Get started now finding great Go projects to study ([`kind`](https://github.com/kubernetes-sigs/kind))
 * Get to know TJ Holowaychuk, [Farewell to Node](https://medium.com/@tjholowaychuk/farewell-node-js-4ba9e7f3e52b)
+* How to look up Go documentation (`go doc`, `? golang ...`)
+* Use Control-n/p for seeing possibilities
+* Use Shift-k to see pop-documentation
 
 ## Covered
 
