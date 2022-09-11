@@ -1,28 +1,5 @@
 # SKILSTAK 2022 Beginner Boost Series
 
-* [Goals](#what-specific-skills-will-i-learn)
-* [Week 0](/00/README.md)
-* [Week 1](/01/README.md)
-* [Week 2](/02/README.md)
-* [Week 3](/03/README.md)
-* [Week 4](/04/README.md)
-* [Week 5](/05/README.md)
-* [Week 6](/06/README.md)
-* [Week 7](/07/README.md)
-* [Week 8](/08/README.md)
-* [Week 9](/09/README.md)
-* [Week 10](/10/README.md)
-* [Week 11](/11/README.md)
-* [Week 12](/12/README.md)
-* [Week 13](/13/README.md)
-* [Week 14](/14/README.md)
-* [Week 15](/15/README.md)
-* [Week 16](/16/README.md)
-* [Week 17](/17/README.md)
-* ...
-
-## What's a "Beginner Boost"?
-
 The SKILSTAK Beginner Boost™ is an annual free, live, recorded, tech
 series focused on helping people get IT infrastructure engineering,
 security, and cloud-native jobs. We start Wednesday May the 4th at
@@ -30,6 +7,28 @@ security, and cloud-native jobs. We start Wednesday May the 4th at
 YouTube the next day due to Twitch policy). Make sure to join Discord
 and consider adding the calendar (both linked from
 [Twitch](http://rwxrob.tv)).
+
+[Goals](#what-specific-skills-will-i-learn)  
+Weeks:
+[0](/00/README.md)
+[1](/01/README.md)
+[2](/02/README.md)
+[3](/03/README.md)
+[4](/04/README.md)
+[5](/05/README.md)
+[6](/06/README.md)
+[7](/07/README.md)
+[8](/08/README.md)
+[9](/09/README.md)
+[10](/10/README.md)
+[11](/11/README.md)
+[12](/12/README.md)
+[13](/13/README.md)
+[14](/14/README.md)
+[15](/15/README.md)
+[16](/16/README.md)
+[17](/17/README.md)
+...
 
 ### The Bike Analogy
 
