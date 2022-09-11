@@ -25,6 +25,15 @@
 * How to look up Go documentation (`go doc`, `? golang ...`)
 * Use Control-n/p for seeing possibilities
 * Use Shift-k to see pop-documentation
+* Why always create top-level libraries with `cmds` for commands
+* Commenting code with `/* */` and `//`.
+* Concatenate operator `+`
+* Strings with double quotes and backticks (but never single quote)
+* Using os.Args to get passed parameter arguments
+* Review lists in Go called "slices"
+* Variadic argument signatures
+* Introduction to panic when reading off end of slice
+* Slicing a slice
 
 ## Covered
 
