@@ -334,7 +334,7 @@ open source content.
    1. `docker run -it --rm opensuse`
    1. `docker run -it --rm nixos/nix`
    1. `docker run -it --rm kalilinux/kali-rolling`
-   1. `docker run -it --rm blackarch/blackarch`
+   1. `docker run -it --rm blackarchlinux/blackarch`
 1. Run Rob's Workspace Linux Container
    1. `docker run -it --rm rwxrob/workspace`
    1. Workspace Means *Not* Small (1.3GB)
