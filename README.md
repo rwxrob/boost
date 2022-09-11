@@ -1,4 +1,4 @@
-# SKILSTAK Beginner Boost Series
+# SKILSTAK 2022 Beginner Boost Series
 
 * [Goals](#what-specific-skills-will-i-learn)
 * [Week 0](/00/README.md)
@@ -17,6 +17,9 @@
 * [Week 13](/13/README.md)
 * [Week 14](/14/README.md)
 * [Week 15](/15/README.md)
+* [Week 16](/16/README.md)
+* [Week 17](/17/README.md)
+* ...
 
 ## What's a "Beginner Boost"?
 
@@ -29,6 +32,8 @@ and consider adding the calendar (both linked from
 [Twitch](http://rwxrob.tv)).
 
 ### The Bike Analogy
+
+*Skip if you are in a hurry, this is just fun.*
 
 You're learning to ride a bike, a beautiful banana seat Schwinn perhaps.
 You love that bike, so sexy and sleek, but you just can't get on it
@@ -88,9 +93,13 @@ learning out of their heads --- and start learning and thinking like a
 ## What specific skills will I learn?
 
 The Boost focuses on upskilling a basic computer user into a entry-level
-engineer proficient with the Linux terminal, bash scripting, basic Go
-programming, and just enough Git and Web development to create and
-maintain a basic portfolio web site. The rest is up to you.
+engineer who is proficient with the Linux terminal, bash scripting, Git
+source management, basic Go programming, containers, and just enough Web
+development to create and maintain a basic portfolio web site. The rest
+is up to you. Most will continue learning on their own to become
+software developers with a "devops" or "backend" API focus,
+infrastructure engineers, cloud-native professionals, or hackers of some
+kind.
 
 Here's a list of our main goals:
 
@@ -117,72 +126,54 @@ Here's a list of our main goals:
 
 ## When are they?
 
-Sessions take place every Saturday 1-5pm (New York time) with "office
-hours" Sundays 1-3pm. Sometimes they will be moved or cancelled
-depending on personal conflicts and holidays. Sometimes I'll do "office
-hours" outside on a walk, or while longboarding. Sometimes we'll go
-slightly longer depending on the content. Check the
-<https://twitch.tv/rwxrob/schedule> for when.
+The [calendar](https://bit.ly/rwxrobsched) has the times, which
+sometimes change and can be cancelled due to other conflicts. Use `!cal`
+to get this link anytime from the Twitch chat.
 
-## Five hours? Do you take breaks?
+## Four hours? Do you take breaks?
 
-* 12 minutes off
-* 54 minutes on
-
-Yes, we pretty strictly take a 12 minute break ever 54 minutes. This
-let's everything sink it, let's people ask questions of one another, and
-allows for biological needs (eating, stretching, bathroom, etc.)
-
-This timing also happens to be the exact times required by Twitch to
-ensure we are not interrupted with ad breaks by taking them
-intentionally instead.
+Yes. When they make sense. If you need longer breaks then re-watch the
+videos and pause them.
 
 ## What can I do to get ready?
 
 Please make sure you have a computer with at least the following minimum
 specs:
 
-* Windows 10 or Mac x86
+* Windows 10 or Mac x86 (Linux is fine if you know how already)
 * 4 Core (x86)
 * 8 GB Memory (RAM)
 * 100 GB Free HD
 
 Also make sure you meet the SKILSTAK minimum
-[requirements](requirements) — especially installing VirtualBox onto a
+[requirements](requirements) — especially installing VMWare onto a
 computer on which you have admin permissions. We are here to help if you
-have questions about any of these requirements. Check the [FAQ](faq) for
-answers to your questions or ask them in the
-[Discord](https://discord.gg/9wydZXY) server or live during Sunday [AMA
-sessions](https://twitch.tv/rwxrob/schedule). Videos of sessions are
-always saved to [YouTube](https://youtube.com/rwxrob) and posted to
-[Twitter](https://twitter.com/rwxrob).
-://www.youtube.com/watch?v=nGanLUnjoPI&ab_channel=MSNBC
+have questions about any of these requirements.
+
+Check [Discord](https://discord.gg/9wydZXY) and the
+[calendar](https://bit.ly/rwxrobsched) for questions sessions. Videos of
+sessions are always saved to [YouTube](https://youtube.com/rwxrob) and
+posted to [Twitter](https://twitter.com/rwxrob).
 
 ## What changed since 2021?
 
-These changes are designed to empowering people with skills they need to
-*take themselves* to the next level, to pedal on their own (so to speak)
-after getting a good boost, both in ability and motivation.
-
-* More pair programming
-* Longer, about 18 weeks
-* 5-hours on Saturday (not daily)
+* I do everything with you (instead of telling you what to do)
+* A lot longer, both sessions and total hours (100+)
+* 4-hours on Saturday (not daily)
 * Prep specifically for cloud native and security jobs (only)
 * Single, unedited YouTube video (no chapters unless you add)
-* Heavy on Go [Bonzai](https://github.com/rwxrob/bonzai) programming
+* Includes Go programming and [Bonzai](https://github.com/rwxrob/bonzai)
 * Headless Linux Ubuntu server VM on local machine (Mac, Windows, Linux)
-* Lighter on containers (Docker) and no Kubernetes
+* Lighter on containers (Docker)
 
 ## Will you be doing Boosts for anything else?
 
-I'm toying with the idea of having Boosts year round. I'm conflicted
-because we can focus on the main one and create better material --- even
-a book --- or we can cover more stuff.
+No. It's hard enough doing one a year --- especially now that they take
+so much longer. However, I do have other regular, tech-themed live
+streams including the following:
 
-If I do add more boosts here's the schedule I am considering. I can't
-promise anything on this. The 18 Weeks of the main Beginner Boost is a
-huge commitment to prepare for it *every year* since it is constantly
-changing.
+* [Linux Homelab init](https://youtube.com/playlist?list=PLrK9UeDMcQLpjUGg5z9Z6Un-axVx06-2J)
+* [HackTheBox](https://youtube.com/playlist?list=PLrK9UeDMcQLpiEpzeh3SyeTTW7GRk1OAV)
+* [Questions, Conversations, Advice](https://youtube.com/playlist?list=PLrK9UeDMcQLqpsODBnT6mRebNNNRnFDwQ)
 
-* 18 Weeks (Sep/3-Dec/31): Infrastructure Engineering (II)
-* 10 Weeks (Jan/7-Apr/22): Containers and Kubernetes (III)
+Also, other stuff posted on the [calendar](https://bit.ly/rwxrobsched)
