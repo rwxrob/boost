@@ -28,7 +28,7 @@ Weeks:
 [15](/weeks/15/README.md)
 [16](/weeks/16/README.md)
 [17](/weeks/17/README.md)
-[18](/weeks/1/README.md)
+[18](/weeks/18/README.md)
 ...
 
 ### The Bike Analogy
