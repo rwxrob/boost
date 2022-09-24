@@ -1,5 +1,6 @@
 # ⚡ SKILSTAK Beginner Boost 2022 - Week 18
 
+* Golang programming with more than one way to read input
 * Now (back) on Saturdays for our Eurasian friends
 
 ## Covered
@@ -23,6 +24,8 @@
 * Don't forget to use Printf("%q",thing)
 * Comment function documentation
 * Checking documentation with go doc -all .
+* Adding multiple commands to a single module repo
+* English tends to be goto language even for coding in other countries
 
 ## Related
 

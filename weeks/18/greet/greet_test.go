@@ -9,3 +9,9 @@ func ExampleGreet_with_Arguments() {
 	// Output:
 	// Hi, Rob, nice to meet you!
 }
+
+func ExampleSalut_with_Arguments() {
+	greet.Salut("Rob")
+	// Output:
+	// Salut, Rob, ravi de faire votre connaissance!
+}

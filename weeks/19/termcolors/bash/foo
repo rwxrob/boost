@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+
+black=$'\e[30m'
+red=$'\e[31m'
+
+echo "this is ${black}darker"
