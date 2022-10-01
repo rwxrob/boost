@@ -18,6 +18,13 @@ ways including a `termcolors` reusable library.
 * Constants and mutability
 * Import package aliases
 * Use %q when testing escape output
+* Infinite looping (`for`-ever looping)
+* Control-C (interrupt signal) to stop things
+* time.Sleep
+* bash trap command (for restoring cursor)
+* Seeding and randomization
+* Remember setterm --cursor on if you get stuck without a cursor
+* Have a look at https://github.com/rwxrob/cpick for rgb colors
 
 ## Related
 

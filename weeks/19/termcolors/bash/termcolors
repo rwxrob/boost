@@ -1,12 +1,32 @@
 #!/usr/bin/env bash
 
+randcolor() {
+  printf "\e[3$((RANDOM%8))m"
+}
+
+export CUROFF="\e[?25l"
+export CURON="\e[?25h"
+
 if test -t 1; then
   BLACK=$'\e[30m'
   RED=$'\e[31m'
+  GREEN=$'\e[32m'
+  YELLOW=$'\e[33m'
+  BLUE=$'\e[34m'
+  MAGENTA=$'\e[35m'
+  CYAN=$'\e[36m'
+  WHITE=$'\e[37m'
   RESET=$'\e[0m'
   CLEAR=$'\e[H\e[2J'
 fi
 
 printf "${BLACK}black=$'\\\\e[30m'\n$RESET"
 printf "${RED}red=$'\\\\e[31m'\n$RESET"
+printf "${GREEN}green=$'\\\\e[31m'\n$RESET"
+printf "${YELLOW}yellow=$'\\\\e[31m'\n$RESET"
+printf "${BLUE}blue=$'\\\\e[31m'\n$RESET"
+printf "${CYAN}cyan=$'\\\\e[31m'\n$RESET"
+printf "${MAGENTA}magenta=$'\\\\e[31m'\n$RESET"
+printf "${WHITE}white=$'\\\\e[31m'\n$RESET"
+printf "$(randcolor)random\n$RESET"
 

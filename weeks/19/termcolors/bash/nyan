@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+
+source ./termcolors
+
+printf $CLEAR$CUROFF
+trap "printf \"$CLEAR${CURON}Interrupt detected\n\"; exit; trap -- - SIGINT SIGTERM" SIGTERM SIGINT
+
+while true; do
+  printf $CLEAR
+  printf "$(randcolor)nyan\n"
+  sleep 0.001
+done
+
+printf $RESET

@@ -29,3 +29,7 @@ func ExampleBlack() {
 	// "\x1b[36mcyan\x1b[0m"
 	// "\x1b[37mwhite\x1b[0m"
 }
+
+func ExampleRand() {
+	fmt.Printf("%q", C.Rand())
+}
