@@ -1,4 +1,4 @@
-# SKILSTAK 2022 Beginner Boost Series
+# SKILSTAK 2023 Beginner Boost Series
 
 The SKILSTAK Beginner Boost™ is an annual free, live, recorded, tech
 series focused on helping people get IT infrastructure engineering,
@@ -29,6 +29,8 @@ Weeks:
 [16](/weeks/16/README.md)
 [17](/weeks/17/README.md)
 [18](/weeks/18/README.md)
+[19](/weeks/19/README.md)
+[20](/weeks/20/README.md)
 ...
 
 ### The Bike Analogy
