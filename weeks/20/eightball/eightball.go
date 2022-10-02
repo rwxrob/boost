@@ -3,7 +3,10 @@ package eightball
 import (
 	"fmt"
 	"math/rand"
+	"os"
 	"time"
+
+	"github.com/rwxrob/boost/weeks/20/cli"
 )
 
 const art = `
@@ -29,21 +32,20 @@ var Responses = [...]string{
 	"Never",
 }
 
-// Prompt prints the optional prompt (> by default) and returns the
-// string entered by the user.
-func Prompt(args ...string) string {
-	var val string
-	p := "> "
-	if len(args) > 0 {
-		p = args[0]
-	}
-	fmt.Print(p)
-	val = greet.ReadLine()
-	return val
-}
-
 // Respond will return a random response from list of Responses.
 func Respond() string {
 	rand.Seed(time.Now().UnixNano())
 	return Responses[rand.Intn(len(Responses))]
+}
+
+// Run starts an interactive eightball session prompting the user for
+// input and answering and then repeating until interrupted.
+func Run() {
+	fmt.Println(art)
+	fmt.Println("Welcome to the magic eightball!")
+	fmt.Println("(Enter your yes or no question)\n")
+	for {
+		cli.Prompt(os.Stdin, "🎱 ")
+		fmt.Println(Respond())
+	}
 }

@@ -1,7 +1,5 @@
 package main
 
-import "fmt"
+import "github.com/rwxrob/boost/weeks/20/eightball"
 
-func main() {
-	fmt.Println("Welcome to the magic eightball!")
-}
+func main() { eightball.Run() }
