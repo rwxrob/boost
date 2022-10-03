@@ -1,4 +1,4 @@
-# SKILSTAK 2023 Beginner Boost Series
+# SKILSTAK 2022 Beginner Boost Series
 
 The SKILSTAK Beginner Boost™ is an annual free, live, recorded, tech
 series focused on helping people get IT infrastructure engineering,
