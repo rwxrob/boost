@@ -19,7 +19,7 @@ we go through it. Most people need to get the old, broken ideas about
 learning out of their heads --- and start learning and thinking like a
 "hacker."
 
-## What specific skills will I learn?
+## "What specific skills will I learn?"
 
 The Boost focuses on upskilling a basic computer user into a entry-level
 UNIX/Linux power user and all that requires. Here's a high-level outline
@@ -38,18 +38,18 @@ of the skills and topics covered:
 11. Manage source files with git
 12. Identify UNIX/Linux career opportunities
 
-## When are Boost sessions?
+## "When are Boost sessions?"
 
 The [calendar](https://bit.ly/rwxrobsched) has the times, which
 sometimes change and can be cancelled due to other conflicts. Use `!cal`
 to get this link anytime from the Twitch chat.
 
-## Four hours? Do you take breaks?
+## "Four hours? Do you take breaks?"
 
 Yes. When they make sense. If you need longer breaks then re-watch the
 videos and pause them.
 
-## What can I do to get ready?
+## "What can I do to get ready?"
 
 Please make sure you have a computer with at least the following minimum
 specs:
@@ -69,7 +69,7 @@ Check [Discord](https://discord.gg/9wydZXY) and the
 sessions are always saved to [YouTube](https://youtube.com/rwxrob) and
 posted to [Twitter](https://twitter.com/rwxrob).
 
-## What changed since 2022?
+## "What changed since 2022?"
 
 * Changed focus to UNIX over Linux (but still including Linux)
 * Moved Go programming into own series
