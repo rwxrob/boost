@@ -25,18 +25,20 @@ The Boost focuses on upskilling a basic computer user into a entry-level
 UNIX/Linux power user and all that requires. Here's a high-level outline
 of the skills and topics covered:
 
-1.  Follow the RWX and UNIX philosophies and know why
-2.  Setup UNIX/Linux and access with secure shell and GPG
-3.  Edit text with nano, ed, vi, vim, neovim, and emacs
-4.  Save source to GitHub with gh from command line
-5.  Manage terminal windows with screen and TMUX
-6.  Navigate and manage files from command line
-7.  Manage processes from command line
-8.  Write safe shell scripts in bash and ash with shellcheck
-9.  Understand how the Internet works (basic networking)
-10. Do effective research from command line with lynx and w3m
-11. Manage source files with git
-12. Identify UNIX/Linux career opportunities
+1.  Follow the RWX and UNIX philosophies and know why (1)
+2.  Setup UNIX/Linux and access with secure shell and GPG (4)
+3.  Edit text with nano, ed, vi, vim, neovim, and emacs (2)
+4.  Save source to GitHub with gh from command line (1)
+5.  Manage terminal windows with screen and TMUX (1)
+6.  Navigate and manage files from command line (1)
+7.  Manage processes from command line (1)
+8.  Write safe shell scripts in bash and ash with shellcheck (4)
+9.  Understand how the Internet works (basic networking) (1)
+10. Do effective research from command line with lynx and w3m (1)
+11. Manage source files with git (2)
+12. Identify UNIX/Linux career opportunities (1)
+
+(approximately 20 weeks of 4 hour interactive sessions)
 
 ## "When are Boost sessions?"
 
