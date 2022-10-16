@@ -1,8 +1,0 @@
-#!/bin/bash
-
-set -exo pipefail
-
-echo "starting"
-test -e gret
-echo "ending"
-
