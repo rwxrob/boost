@@ -1,4 +1,4 @@
-# SKILSTAK 2023 UNIX Beginner Boost
+# ⚡ SKILSTAK 2023 UNIX Beginner Boost™
 
 The SKILSTAK UNIX Beginner Boost™ is an annual free, live, recorded,
 tech series focused on helping people get started with the world's most
