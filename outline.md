@@ -31,6 +31,8 @@ research.
 
 ## Manage source files with git
 
+* Include secrets safely with git-crypt
+
 ## Identify UNIX/Linux career opportunities
 
 ## "What should I learn next?"
