@@ -11,13 +11,4 @@
 * Discovered github.com/x/term deprecates crypto/ssh/... version
 * Discovered complexities dealing with terminal in Go (or any language)
 * Reiterated decision to focus on Linux Terminal Beginner Boost
-
-Potential Additional Boosts
-
-Python
-
-
-Related:
-
-* https://cs.opensource.google/go/x/crypto/+/56aed061:ssh/terminal/terminal.go;l=9
-
+* Decided to keep going with Go (but assume previous coding experience)
