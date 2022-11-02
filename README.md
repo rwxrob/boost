@@ -45,7 +45,7 @@ of the skills and topics covered:
 9.  Customize Vim text editing sessions
 10. Manage terminal windows with screen and TMUX
 11. Do effective research from command line with lynx and w3m
-12. Create simple command-line tools in Python and Go
+12. Create simple commands in Bash, Python, C, Go, and Rust
 13. Organize your scripts and tools for portability
 
 ## "When are Boost sessions?"
@@ -90,3 +90,4 @@ posted to [Twitter](https://twitter.com/rwxrob).
 * No virtual machines (even)
 * Added nano, emacs, and even neovim (so you can choose for yourself)
 * Should finish much sooner
+* Adding creating simple commands in Bash, Python, C, Go, and Rust
