@@ -1,4 +1,4 @@
-# ⚡ SKILSTAK 2023 Terminal Velocity Boost™
+# ⚡ 2023 Terminal Velocity Boost™
 
 The SKILSTAK Terminal Velocity Beginner Boost™ is an annual free, live,
 recorded, tech series focused on helping people get fast and proficient
