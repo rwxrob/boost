@@ -2,17 +2,17 @@
 
 The SKILSTAK Terminal Velocity Beginner Boost™ is an annual free, live,
 recorded, tech series focused on helping people get fast and proficient
-with Bash terminal Mac, Windows, Linux, or UNIX. The video series is
+with Bash terminal on Mac, Windows, Linux, or UNIX. The video series is
 meant to accompany the book that goes with it (also free):
 
-**[Terminal Velocity: Mastering the Fastest Human-Computer
-Interface](https://github.com/rwxrob/book-terminal-velocity)**
+*[Terminal Velocity: Mastering the Fastest Human-Computer
+Interface](https://github.com/rwxrob/book-terminal-velocity)*
 
 Careers in IT infrastructure engineering, security, software
 development, machine learning, data science, academia and cloud-native
 computing all depend heavily on good terminal skills.
 
-## "What does it start?"
+## "When does it start?"
 
 We start Wednesday May the 4th at 11:11:11 and have weekly live
 four-hour sessions on Saturdays (posted to YouTube the next day due to
