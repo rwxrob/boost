@@ -1,7 +1,7 @@
 # SKILSTAK Beginner Boosts
 
 * Preview [2023 Boost][2023] (being planned)
-* Join [2022 Boost][2022] (in progress)
+* Join [2022 Boost][2022]
 * Start the [2021 Boost][2021] (somewhat incomplete)
 * Watch videos from first [2020 Boost][2020] (very dated)
 
