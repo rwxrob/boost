@@ -46,7 +46,7 @@ of the skills and topics covered:
 10. Manage terminal windows with screen and TMUX
 11. Do effective research from command line with lynx and w3m
 12. Create simple commands in Bash, Python, C, Go, and Rust
-13. Organize your scripts and tools for portability
+13. Organize your commands for portability
 
 ## "When are Boost sessions?"
 
