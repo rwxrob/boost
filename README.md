@@ -22,27 +22,23 @@ Since 2020 SKILSTAK has moved from a physical location to a Twitch/YouTube/Disco
 
 ## "When does it start?"
 
-We start Wednesday May the 4th at 11:11:11 and have weekly live
-three-hour sessions on Saturdays (posted to YouTube the next day due to
-Twitch policy). Make sure to join Discord and consider adding the
-calendar (both linked from [Twitch](http://rwxrob.tv)).
+We start Wednesday May the 4th at 11:11:11 and have weekly live three-hour sessions on Saturdays (posted to YouTube the next day due to Twitch policy). Make sure to join Discord and consider adding the calendar (both linked from [Twitch](http://rwxrob.tv)).
 
 ## "So is this a course?"
 
-🌟 ***The Boost is not a course.*** There's no syllabus, no certificate,
-no credential, no proof you did anything except your own work and
-knowledge. There's barely a schedule and we change that organically as
-we go through it. Most people need to get the old, broken ideas about
-learning out of their heads --- and start learning and thinking like a
-"hacker."
+🌟 ***The Boost is not a course.*** There's no syllabus, no certificate, no credential, no proof you did anything except your own work and knowledge. There's barely a schedule and we change that organically as we go through it. Most people need to get the old, broken ideas about learning out of their heads --- and start learning and thinking like a "hacker."
 
 ## "What specific skills will I learn?"
 
-The boost focuses on upskilling a basic computer user into a entry-level
-terminal power user and all that requires. Here's a high-level outline
-of the skills and topics covered:
+The boost focuses on upskilling a basic computer user into a entry-level terminal power user and all that requires. Here's a high-level outline of the skills and topics covered:
 
-1.  Setup a terminal with bash in it.
+0.  Welcome! Why tech? Learning to learn the RWX way (becoming an autodidact).
+1.  Setup Ubuntu Linux Server VMware Virtual Machine and ssh connect into it.
+    1. Install terminal application
+       1. Win: Windows Terminal Preview
+       1. Mac: iTerm2
+    1. VMWare
+    1. Connecting with Secure Shell (ssh)
 2.  Navigate and manage files from command line.
 3.  Manage processes from command line.
 4.  Edit text with nano, ed, vi, vim.
@@ -59,13 +55,28 @@ of the skills and topics covered:
 15. Organize commands for portability.
 16. Create and maintain a consumable, sustainable resume.
 17. Learn just enough Web development to create a personal profile page.
-18. Network and foster a professional learning network.
+18. Network and foster a professional learning network/community.
 19. Know when and how to certify.
 20. Get a good starting tech job.
 
 !!! note
 
     Many of the above will take more than one week to cover.
+
+## "What is *not* going to be included?"
+
+The Boost is already going to take several weeks to get through so some of the other things won't be covered even though they might be essential for a specific job. The Boost does, however, contain essential skills that allow the following achievements to be unlocked.
+
+* Installing Linux onto hardware
+* Networking fundamentals
+* Containers, Docker, podman, LXC
+* Kubernetes
+* DevOps
+* How to hack
+
+!!! tip
+
+    Many of these things are covered in the **Homelab init** series and is separate.
 
 ## "When are Boost sessions?"
 
@@ -88,12 +99,13 @@ specs:
 * 8 GB Memory (RAM)
 * 100 GB Free HD
 
-Also make sure you meet the SKILSTAK minimum
-[requirements](requirements) — especially installing VMWare onto a
-computer on which you have admin permissions. We are here to help if you
-have questions about any of these requirements.
+Also make sure you meet the SKILSTAK minimum [requirements](requirements) — especially installing VMWare onto a computer on which you have admin permissions. We are here to help if you have questions about any of these requirements.
 
-Check [Discord](https://discord.gg/9wydZXY) and the
-[calendar](https://bit.ly/rwxrobsched) for questions sessions. Videos of
-sessions are always saved to [YouTube](https://youtube.com/rwxrob) and
+## "What is different in 2023?"
+
+* Better, searchable, MkDocs-driven documentation and examples.
+* Moderator/Assistant to field questions and comments from Discord and Twitch.
+* 2-3 people in Discord for interactive conversational mentoring.
+
+Check [Discord](https://discord.gg/9wydZXY) and the [calendar](https://bit.ly/rwxrobsched) for questions sessions. Videos of sessions are always saved to [YouTube](https://youtube.com/rwxrob) and
 posted to [Twitter](https://twitter.com/rwxrob).
