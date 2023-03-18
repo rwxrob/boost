@@ -33,12 +33,7 @@ We start Wednesday May the 4th at 11:11:11 and have weekly live three-hour sessi
 The boost focuses on upskilling a basic computer user into a entry-level terminal power user and all that requires. Here's a high-level outline of the skills and topics covered:
 
 0.  Welcome! Why tech? Learning to learn the RWX way (becoming an autodidact).
-1.  Setup Ubuntu Linux Server VMware Virtual Machine and ssh connect into it.
-    1. Install terminal application
-       1. Win: Windows Terminal Preview
-       1. Mac: iTerm2
-    1. VMWare
-    1. Connecting with Secure Shell (ssh)
+1.  Install terminal application, `podman` and Ubuntu Linux container.
 2.  Navigate and manage files from command line.
 3.  Manage processes from command line.
 4.  Edit text with nano, ed, vi, vim.
@@ -69,7 +64,6 @@ The Boost is already going to take several weeks to get through so some of the o
 
 * Installing Linux onto hardware
 * Networking fundamentals
-* Containers, Docker, podman, LXC
 * Kubernetes
 * DevOps
 * How to hack
@@ -84,7 +78,7 @@ The [calendar](https://bit.ly/rwxrobsched) has the times, which
 sometimes change and can be cancelled due to other conflicts. Use `!cal`
 to get this link anytime from the Twitch chat.
 
-## "Three hours? Do you take breaks?"
+## "Do you take breaks?"
 
 Yes. When they make sense. If you need longer breaks then re-watch the
 videos and pause them.
@@ -94,15 +88,18 @@ videos and pause them.
 Please make sure you have a computer with at least the following minimum
 specs:
 
-* Windows 10 or Mac x86 (Linux is fine if you know how already)
-* 4 Core (x86)
+* Win/Mac/Linux
+* 4 Core (CPU)
 * 8 GB Memory (RAM)
 * 100 GB Free HD
+
+You will need administrator access to your computer in order to install software.
 
 Also make sure you meet the SKILSTAK minimum [requirements](requirements) — especially installing VMWare onto a computer on which you have admin permissions. We are here to help if you have questions about any of these requirements.
 
 ## "What is different in 2023?"
 
+* Use of `podman` container engine (QEMU) instead of VMs or Docker (like 2021, sort of)
 * Better, searchable, MkDocs-driven documentation and examples.
 * Moderator/Assistant to field questions and comments from Discord and Twitch.
 * 2-3 people in Discord for interactive conversational mentoring.
