@@ -22,7 +22,7 @@ Since 2020 SKILSTAK has moved from a physical location to a Twitch/YouTube/Disco
 
 ## "When does it start?"
 
-We start Wednesday May the 4th at 11:11:11 and have weekly live three-hour sessions on Saturdays (posted to YouTube the next day due to Twitch policy). Make sure to join Discord and consider adding the calendar (both linked from [Twitch](http://rwxrob.tv)).
+We start Wednesday May the 4th at 11:11:11 and have weekly live two-hour sessions on Saturdays (posted to YouTube the next day due to Twitch policy). Make sure to join Discord and consider adding the calendar (both linked from [Twitch](http://rwxrob.tv)).
 
 ## "So is this a course?"
 
