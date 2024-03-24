@@ -1,0 +1,12 @@
+This content (source and releases) is covered by the following Creative Common license with specific exceptions for code in examples:
+
+    SPDX-License-Identifier: CC-BY-ND-4.0 WITH Apache-2.0
+
+Being under the "no derivatives" terms means that all content including the distributed artifacts may be freely used and distributed without change. All changes must come through the PR process and be approved after contributors attest to the project Contributor Agreement.
+
+The one exception to the above license terms is for any and all code included in any examples which is released under the more permissive terms of the Apache-2.0 license. Copies of both licenses can be found in the LICENSES directory:
+
+    LICENSES/cc-by-nd-4-0.txt
+    LICENSES/apache-2-0.txt
+
+
