@@ -1,11 +1,9 @@
-# SKILSTAK Beginner Boosts
+---
+author: Rob Muhlestein <rob@rwx.gg>
+something: here
+---
+# Beginner Boost: Learn Universal, Employable Tech Skills
 
-🛑***This content is now maintained on <https://skilstak.io> where it is more easily read and searched. The old content here is being incrementally deleted as it is migrated.***
+This repo contains the source of the "open content" book as named in the title. This book is designed to accompany the annual Beginner Boost live-streamed video series from [Rob Muhlestein (rwxrob)](https://linktr.ee/rwxrob).
 
-* Join [2022 Boost][2022]
-* Start the [2021 Boost][2021] (somewhat incomplete)
-* Watch videos from first [2020 Boost][2020] (very dated)
-
-[2022]: <https://github.com/rwxrob/boost/tree/2022#readme>
-[2021]: <https://github.com/rwxrob/boost/tree/old-20210722#readme>
-[2020]: <https://youtu.be/CI-FE2bKr7c>
+* https://rwxrob.github.io/ocms
