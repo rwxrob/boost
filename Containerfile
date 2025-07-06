@@ -28,7 +28,7 @@ USER ubuntu
 WORKDIR /home/ubuntu
 
 ENV PATH="/home/ubuntu/.local/bin:/home/ubuntu/.local/go/bin:$PATH"
-ENV PATH="GOBIN=/home/ubuntu/.local/bin"
+ENV GOBIN="/home/ubuntu/.local/bin"
 RUN install-gh
 RUN install-go
 RUN go install github.com/rwxrob/bonzai/cmds/sunrise/cmd/sunrise@latest

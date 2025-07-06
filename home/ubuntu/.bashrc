@@ -225,6 +225,7 @@ alias ls='ls -h --color=auto'
 alias free='free -h'
 alias tree='tree -a'
 alias df='df -h'
+alias neo="neo -D -c gold"
 alias diff='diff --color'
 alias grep='grep --color=auto'
 alias view='vi -R' # which is usually linked to vim
