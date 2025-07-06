@@ -24,4 +24,4 @@ mkdir -p "$install_dir"
 mv src/neo "$install_dir"
 rm -rf "$tmpdir"
 echo "✅ Installed."
-"$install_dir"/neo --version
+#"$install_dir"/neo --version

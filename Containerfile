@@ -8,7 +8,7 @@ ENV DEBIAN_FRONTEND=noninteractive
 
 RUN --mount=type=cache,target=/var/cache/apt,sharing=locked apt-get update -q
 RUN apt-get install -yq --no-install-recommends \
-  git ed nvi vim neovim emacs nano sudo man jq \
+  ssh git ed nvi vim neovim emacs nano sudo man jq \
   shfmt shellcheck nodejs npm pandoc curl w3m lynx entr pip \
   bash-completion gpg nmap tree tmux screen \
   make uidmap ruby python3 python-is-python3 \
@@ -31,6 +31,8 @@ ENV PATH="/home/ubuntu/.local/bin:/home/ubuntu/.local/go/bin:$PATH"
 ENV GOBIN="/home/ubuntu/.local/bin"
 RUN install-gh
 RUN install-go
+RUN install-neo
+RUN install-yq
 RUN go install github.com/rwxrob/bonzai/cmds/sunrise/cmd/sunrise@latest
 
 RUN nvim --headless +PlugInstall +qall

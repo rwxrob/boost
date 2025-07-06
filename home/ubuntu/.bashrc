@@ -47,6 +47,7 @@ export LANG=en_US.UTF-8
 export HRULEWIDTH=73
 export TZ=America/New_York
 export TERMINAL_BROWSER=w3m # lynx
+export TERM=xterm-256color
 export PYTHONDONTWRITEBYTECODE=2
 export LC_COLLATE=C
 export CFLAGS="-Wall -Wextra -Werror -O0 -g -fsanitize=address -fno-omit-frame-pointer -finstrument-functions"
