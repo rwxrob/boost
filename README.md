@@ -2,6 +2,7 @@
 
 1. Install a terminal (preferably WezTerm)
 1. Install Podman (or Docker if you must)
+1. Start the container engine machine
 1. Build and run the `boost` container locally
 
 ```sh
