@@ -9,7 +9,8 @@ ENV DEBIAN_FRONTEND=noninteractive
 RUN --mount=type=cache,target=/var/cache/apt,sharing=locked apt-get update -q
 RUN apt-get install -yq --no-install-recommends \
   git ed vim neovim emacs nano sudo man ca-certificates jq \
-  shfmt shellcheck nodejs
+  shfmt shellcheck nodejs npm && \
+  apt clean && rm -rf /var/lib/apt/lists/*
 
 COPY . /
 
