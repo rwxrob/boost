@@ -1,14 +1,27 @@
 #!/bin/sh
+set -e
 
-test -z "$(command -v gh)" && echo "gh required" && exit
-latest=$(
-	curl -sSL "https://api.github.com/repos/st3w/neo/releases/latest" |
-		jq -r .tag_name
-)
-gh release download --repo st3w/neo "$latest"
+install_dir="${HOME}/.local/bin"
+repo="st3w/neo"
 
-tar xzf neo*.tar.gz
-cd neo-* || exit
+# Get latest release tag from GitHub API
+tag=$(curl -s https://api.github.com/repos/$repo/releases/latest | jq -r .tag_name)
+
+# Build target archive name
+name="neo-${tag#v}"
+tar="$name.tar.gz"
+url="https://github.com/$repo/releases/download/$tag/$tar"
+
+# Download and extract
+tmpdir=$(mktemp -d)
+curl -L "$url" | tar -xz -C "$tmpdir"
+cd "$tmpdir/$name" || exit
+
+# Build and install
 ./configure
 make
-
+mkdir -p "$install_dir"
+mv src/neo "$install_dir"
+rm -rf "$tmpdir"
+echo "✅ Installed."
+"$install_dir"/neo --version
