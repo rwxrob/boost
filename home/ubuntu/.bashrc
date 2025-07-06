@@ -21,7 +21,20 @@ export curoff="[?25h"
 export curon="[?25h"
 export top="[H"
 
-# ------------------------ detect os and arch ------------------------
+# ------------------------ detect architecture -----------------------
+
+case "$(uname -m)" in
+x86_64) GOARCH="amd64" ;;
+aarch64) GOARCH="arm64" ;;
+*)
+	echo "Unsupported architecture"
+	exit 1
+	;;
+esac && export GOARCH
+
+export GOBIN="$HOME/.local/bin"
+export GOPROXY=direct
+export CGO_ENABLED=0
 
 # ---------------------- local utility functions ---------------------
 
@@ -34,9 +47,6 @@ export LANG=en_US.UTF-8
 export HRULEWIDTH=73
 export TZ=America/New_York
 export TERMINAL_BROWSER=w3m # lynx
-export GOBIN="$HOME/.local/bin"
-export GOPROXY=direct
-export CGO_ENABLED=0
 export PYTHONDONTWRITEBYTECODE=2
 export LC_COLLATE=C
 export CFLAGS="-Wall -Wextra -Werror -O0 -g -fsanitize=address -fno-omit-frame-pointer -finstrument-functions"

@@ -11,10 +11,13 @@ RUN apt-get install -yq --no-install-recommends \
   git ed nvi vim neovim emacs nano sudo man jq \
   shfmt shellcheck nodejs npm pandoc curl w3m lynx entr pip \
   bash-completion gpg nmap tree tmux screen \
-  make uidmap ruby python-is-python3 libcurses-perl build-essential \
+  make uidmap ruby python3 python-is-python3 \
+  perl libcurses-perl build-essential \
   libncurses-dev autoconf fio sqlite3 \
   apt-transport-https ca-certificates \
   && apt-get clean && rm -rf /var/lib/apt/lists/*
+
+RUN cpan -I Term::Animation
 
 COPY . /
 
@@ -24,8 +27,11 @@ RUN chown -R ubuntu:ubuntu /home/ubuntu
 USER ubuntu
 WORKDIR /home/ubuntu
 
-RUN install-hyperfine
+ENV PATH="/home/ubuntu/.local/bin:/home/ubuntu/.local/go/bin:$PATH"
+ENV PATH="GOBIN=/home/ubuntu/.local/bin"
 RUN install-gh
 RUN install-go
+RUN go install github.com/rwxrob/bonzai/cmds/sunrise/cmd/sunrise@latest
+
 RUN nvim --headless +PlugInstall +qall
 RUN nvim --headless +'CocInstall -sync coc-json coc-tsserver' +qa

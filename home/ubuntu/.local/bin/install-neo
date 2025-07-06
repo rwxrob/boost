@@ -1,0 +1,14 @@
+#!/bin/sh
+
+test -z "$(command -v gh)" && echo "gh required" && exit
+latest=$(
+	curl -sSL "https://api.github.com/repos/st3w/neo/releases/latest" |
+		jq -r .tag_name
+)
+gh release download --repo st3w/neo "$latest"
+
+tar xzf neo*.tar.gz
+cd neo-* || exit
+./configure
+make
+

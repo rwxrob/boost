@@ -1,10 +1,37 @@
 #!/bin/sh
 
-curl -fsSL https://cli.github.com/packages/githubcli-archive-keyring.gpg | \
-  sudo dd of=/etc/apt/trusted.gpg.d/githubcli-archive-keyring.gpg
+set -e
 
-echo "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/trusted.gpg.d/githubcli-archive-keyring.gpg] https://cli.github.com/packages stable main" | \
-  sudo tee /etc/apt/sources.list.d/github-cli.list > /dev/null
+export GOOS=linux
+case "$(uname -m)" in
+x86_64) GOARCH="amd64" ;;
+aarch64) GOARCH="arm64" ;;
+*)
+	echo "Unsupported architecture"
+	exit 1
+	;;
+esac && export GOARCH
 
-sudo apt-get update
-sudo apt-get install -yq --no-install-recommends gh
+INSTALL_DIR="${HOME}/.local/bin"
+REPO="cli/cli"
+
+# Get latest release tag from GitHub API
+TAG=$(curl -s https://api.github.com/repos/${REPO}/releases/latest | jq -r .tag_name)
+
+# Build target archive name
+TAR="gh_${TAG#v}_${GOOS}_${GOARCH}.tar.gz"
+URL="https://github.com/${REPO}/releases/download/${TAG}/${TAR}"
+
+# Download and extract
+TMPDIR=$(mktemp -d)
+curl -L "$URL" | tar -xz -C "$TMPDIR"
+
+# Copy binary
+mkdir -p "$INSTALL_DIR"
+cp "$TMPDIR/gh_${TAG#v}_${GOOS}_${GOARCH}/bin/gh" "$INSTALL_DIR/gh"
+
+# Clean up
+rm -rf "$TMPDIR"
+
+# Confirm
+echo "✅ Installed: $("$INSTALL_DIR"/gh --version)"
