@@ -1,4 +1,0 @@
-#!/bin/bash
-set -e
-image="ghcr.io/rwxrob/boost:v0.0.1"
-podman build -t "$image" --format docker .
