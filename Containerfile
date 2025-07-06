@@ -8,9 +8,13 @@ ENV DEBIAN_FRONTEND=noninteractive
 
 RUN --mount=type=cache,target=/var/cache/apt,sharing=locked apt-get update -q
 RUN apt-get install -yq --no-install-recommends \
-  git ed vim neovim emacs nano sudo man ca-certificates jq \
-  shfmt shellcheck nodejs npm && \
-  apt clean && rm -rf /var/lib/apt/lists/*
+  git ed nvi vim neovim emacs nano sudo man jq \
+  shfmt shellcheck nodejs npm pandoc curl w3m lynx entr pip \
+  bash-completion gpg nmap tree tmux screen \
+  make uidmap ruby python-is-python3 libcurses-perl build-essential \
+  libncurses-dev autoconf fio sqlite3 \
+  apt-transport-https ca-certificates \
+  && apt-get clean && rm -rf /var/lib/apt/lists/*
 
 COPY . /
 
@@ -20,5 +24,8 @@ RUN chown -R ubuntu:ubuntu /home/ubuntu
 USER ubuntu
 WORKDIR /home/ubuntu
 
+RUN install-hyperfine
+RUN install-gh
+RUN install-go
 RUN nvim --headless +PlugInstall +qall
 RUN nvim --headless +'CocInstall -sync coc-json coc-tsserver' +qa

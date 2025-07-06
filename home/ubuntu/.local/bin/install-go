@@ -1,0 +1,52 @@
+#!/usr/bin/env bash
+
+# Installs the latest Go release into $TARGETDIR (default: ~/.local)
+# without requiring root access. Assumes the following suggested
+# environment variables (which need to be set or changed in this script
+# or after install completes):
+#
+#     PATH="~/.local/bin:~/.local/bin/go/bin:$PATH"
+#     GOOS=linux
+#     GOARCH=amd64
+#     GOPATH="~/.local/go"
+#     GOBIN="~/.local/go/bin"
+#
+# Note that the downloaded tar file is not removed and can be found in
+# either $DOWNLOADS or /tmp.
+
+true "${TARGETDIR:="$HOME/.local"}"
+
+# change this to your target (detecting not always reliable)
+declare GOOS=linux
+declare GOARCH=amd64
+
+lookup_file() {
+	curl -sSL "https://go.dev/dl/?mode=json" |
+		jq -r '.[0].files[]
+       | select(.os == "'"$GOOS"'")
+       | select(.arch == "'"$GOARCH"'")
+       | .filename'
+}
+
+fetch() {
+	local filename
+	filename="$(lookup_file)"
+	[[ -z "$filename" ]] && echo "unable to fetch filename" 1>&2 && return 1
+	local path="/tmp/$filename"
+	[[ -n "$DOWNLOADS" ]] && [[ -d "$DOWNLOADS" ]] && path="$DOWNLOADS/$filename"
+	curl -L "https://go.dev/dl/$filename" -o "$path"
+	echo "$path"
+}
+
+install_latest_go() {
+	local dir="$1" path
+	[[ -z "$dir" ]] && dir="$TARGETDIR"
+	[[ -z "$dir" ]] && dir="$HOME/.local"
+	mkdir -p "$dir" 2>/dev/null
+	path="$(fetch)"
+	[[ -z "$path" ]] && echo "unable to fetch go tarball" 1>&2 && return 1
+	rm -rf "$dir/go" && tar -C "$dir" -xzf "$path" # rm is required by instructions
+	echo "Add $dir/go/bin to your path and optionally set GOBIN=~/.local/bin" 1>&2
+}
+
+install_latest_go "$@"

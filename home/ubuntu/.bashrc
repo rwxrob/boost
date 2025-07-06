@@ -21,6 +21,8 @@ export curoff="[?25h"
 export curon="[?25h"
 export top="[H"
 
+# ------------------------ detect os and arch ------------------------
+
 # ---------------------- local utility functions ---------------------
 
 _have() { type "$1" &>/dev/null; }
@@ -29,10 +31,11 @@ _source_if() { [[ -r "$1" ]] && source "$1"; }
 # ----------------------- environment variables ----------------------
 
 export LANG=en_US.UTF-8
+export HRULEWIDTH=73
 export TZ=America/New_York
+export TERMINAL_BROWSER=w3m # lynx
 export GOBIN="$HOME/.local/bin"
 export GOPROXY=direct
-export NVIM_SCREENKEY=1
 export CGO_ENABLED=0
 export PYTHONDONTWRITEBYTECODE=2
 export LC_COLLATE=C
@@ -55,21 +58,7 @@ export LESS_TERMCAP_se=$'\e[0m'          # end standout
 export LESS_TERMCAP_us=$'\e[4m'          # start underline
 export LESS_TERMCAP_ue=$'\e[0m'          # end underline
 
-export ANSIBLE_CONFIG="$HOME/.config/ansible/config.ini"
-export ANSIBLE_INVENTORY="$HOME/.config/ansible/inventory.yaml"
-export ANSIBLE_LOAD_CALLBACK_PLUGINS=1
-#export ANSIBLE_STDOUT_CALLBACK=json
-
-export K8SAPP_CLUSTER=dev
-
 [[ -d /.vim/spell ]] && export VIMSPELL=("$HOME/.vim/spell/*.add")
-
-# ----------------------------- PostgreSQL ----------------------------
-
-export PGPASS=~/.pgpass
-# export PGHOST=localhost
-# export PGUSER=myuser
-# export PGDATABASE=mydatabase
 
 # -------------------------------- gpg -------------------------------
 
@@ -120,7 +109,6 @@ pathprepend() {
 pathprepend \
 	"$HOME/.local/bin" \
 	"$HOME/.local/go/bin" \
-	"$GHREPOS/cmd-"* \
 	/usr/local/go/bin \
 	/usr/local/opt/openjdk/bin \
 	/usr/local/bin \
@@ -141,10 +129,6 @@ pathappend \
 	/snap/bin \
 	/sbin \
 	/bin
-
-# ------------------------------ cdpath ------------------------------
-
-export CDPATH=".:$GHREPOS:$DOTFILES:$REPOS:/media/$USER:$HOME"
 
 # ------------------------ bash shell options ------------------------
 
@@ -220,34 +204,19 @@ wd() {
 
 PROMPT_COMMAND="__ps1"
 
-# ----------------------------- keyboard -----------------------------
-
-# only works if you have X and are using graphic Linux desktop
-
-_have setxkbmap && test -n "$DISPLAY" &&
-	setxkbmap -option caps:escape &>/dev/null
-
 # ------------------------------ aliases -----------------------------
 #      (use exec scripts instead, which work from vim and subprocs)
 
 unalias -a
-alias todo='vi ~/.todo'
 alias ip='ip -c'
-alias '?'=gpt
-alias '??'=duck
-alias '???'=google
-alias '????'=bing
-alias dot='cd $DOTFILES'
-alias scripts='cd $SCRIPTS'
-alias snippets='cd $SNIPPETS'
+alias '?'=duck
+alias '??'=google
 alias ls='ls -h --color=auto'
 alias free='free -h'
 alias tree='tree -a'
 alias df='df -h'
-alias chmox='chmod +x'
 alias diff='diff --color'
-alias sshh='sshpass -f $HOME/.sshpass ssh '
-alias temp='cd $(mktemp -d)'
+alias grep='grep --color=auto'
 alias view='vi -R' # which is usually linked to vim
 alias clear='printf "\e[H\e[2J"'
 alias c='printf "\e[H\e[2J"'
@@ -255,21 +224,6 @@ alias env='env -u LESS_TERMCAP_mb -u LESS_TERMCAP_md -u LESS_TERMCAP_me -u LESS_
 alias neo="neo -D -c gold"
 alias more="less -R"
 alias gitl="git log -n 5 --graph --decorate --oneline"
-alias gp="git push"
-alias gptags="git push origin --tags"
-alias km="kimono"
-alias s=wee
-alias x=clip
-alias chan=twitch-channel
-alias status=twitch-status
-alias lurk=twitch-view
-alias cur="vi ~/.currently"
-alias het="twitch-view het_tanis"
-alias prime="twitch-view theprimeagen"
-alias lastmiles="twitch-view lastmiles"
-alias pookie="twitch-view pookiebutt"
-alias emily="twitch-view emilymcvicker"
-alias contexts="kubectl config get-contexts"
 
 set-editor() {
 	export EDITOR="$1"
@@ -281,118 +235,8 @@ set-editor() {
 _have "vim" && set-editor vi
 _have "nvim" && set-editor nvim
 
-# ----------------------------- functions ----------------------------
-
-envx() {
-	local envfile="${1:-"$HOME/.env"}"
-	[[ ! -e "$envfile" ]] && echo "$envfile not found" && return 1
-	while IFS= read -r line; do
-		name=${line%%=*}
-		value=${line#*=}
-		[[ -z "${name}" || $name =~ ^# ]] && continue
-		export "$name"="$value"
-	done <"$envfile"
-} && export -f envx
-
-[[ -e "$HOME/.env" ]] && envx "$HOME/.env"
-
-new-from() {
-	local template="$1"
-	local name="$2"
-	! _have gh && echo "gh command not found" && return 1
-	[[ -z "$name" ]] && echo "usage: $0 <name>" && return 1
-	[[ -z "$GHREPOS" ]] && echo "GHREPOS not set" && return 1
-	[[ ! -d "$GHREPOS" ]] && echo "Not found: $GHREPOS" && return 1
-	cd "$GHREPOS" || return 1
-	[[ -e "$name" ]] && echo "exists: $name" && return 1
-	gh repo create -p "$template" --public "$name"
-	gh repo clone "$name"
-	cd "$name" || return 1
-} && export -f new-from
-
-clone() {
-	local repo="$1" user
-	local repo="${repo#https://github.com/}"
-	local repo="${repo#git@github.com:}"
-	if [[ $repo =~ / ]]; then
-		user="${repo%%/*}"
-	else
-		user="$GITUSER"
-		[[ -z "$user" ]] && user="$USER"
-	fi
-	local name="${repo##*/}"
-	local userd="$REPOS/github.com/$user"
-	local path="$userd/$name"
-	[[ -d "$path" ]] && cd "$path" && return
-	mkdir -p "$userd"
-	cd "$userd"
-	echo gh repo clone "$user/$name" -- --recurse-submodule
-	gh repo clone "$user/$name" -- --recurse-submodule
-	cd "$name"
-} && export -f clone
-
 # ------------- source external dependencies / completion ------------
 
-# for mac
-if [[ "$OSTYPE" == "darwin"* ]]; then
-	brew_prefix="$(brew --prefix)"
-	if [[ -r "$brew_prefix/etc/profile.d/bash_completion.sh" ]]; then
-		source "$brew_prefix/etc/profile.d/bash_completion.sh"
-	fi
-fi
-
-owncomp=(
-	pdf zet keg kn yt gl auth pomo config live iam sshkey ws x clip
-	./build build b ./k8sapp k8sapp ./setup ./cmd run ./run
-	foo ./foo cmds ./cmds z bon openapi obs vault var sunrise multicall
-	kimono tag cm ytwee
-)
-
-for i in "${owncomp[@]}"; do complete -C "$i" "$i"; done
-
 _have gh && . <(gh completion -s bash)
-_have glow && . <(glow completion bash)
-_have goreleaser && . <(goreleaser completion bash 2>/dev/null)
-_have klogin && . <(klogin completion bash 2>/dev/null)
 _have pandoc && . <(pandoc --bash-completion)
-_have kubectl && . <(kubectl completion bash 2>/dev/null)
-_have kubeadm && . <(kubeadm completion bash 2>/dev/null)
-_have k && complete -o default -F __start_kubectl k
-_have istioctl && . <(istioctl completion bash 2>/dev/null)
-_have kind && . <(kind completion bash)
-_have kompose && . <(kompose completion bash)
-_have helm && . <(helm completion bash)
-_have minikube && . <(minikube completion bash)
-_have conftest && . <(conftest completion bash)
 _have yq && . <(yq completion bash)
-_have mk && complete -o default -F __start_minikube mk
-_have podman && _source_if "$HOME/.local/share/podman/completion" # d
-
-_have ansible && _have register-python-argcomplete3 && . <(register-python-argcomplete3 ansible)
-_have ansible-config && _have register-python-argcomplete3 && . <(register-python-argcomplete3 ansible-config)
-_have ansible-console && _have register-python-argcomplete3 && . <(register-python-argcomplete3 ansible-console)
-_have ansible-doc && _have register-python-argcomplete3 && . <(register-python-argcomplete3 ansible-doc)
-_have ansible-galaxy && _have register-python-argcomplete3 && . <(register-python-argcomplete3 ansible-galaxy)
-_have ansible-inventory && _have register-python-argcomplete3 && . <(register-python-argcomplete3 ansible-inventory)
-_have ansible-playbook && _have register-python-argcomplete3 && . <(register-python-argcomplete3 ansible-playbook)
-_have ansible-pull && _have register-python-argcomplete3 && . <(register-python-argcomplete3 ansible-pull)
-_have ansible-vault && _have register-python-argcomplete3 && . <(register-python-argcomplete3 ansible-vault)
-#_have ssh-agent && test -z "$SSH_AGENT_PID" && . <(ssh-agent)
-
-# -------------------- personalized configuration --------------------
-
-_source_if "$HOME/.bash_personal"
-_source_if "$HOME/.bash_private"
-_source_if "$HOME/.bash_work"
-
-_have terraform && complete -C /usr/bin/terraform terraform
-_have terraform && complete -C /usr/bin/terraform tf
-
-# ------------------------- NVM trash ahead ------------------------
-# (keep as is or nvm idiotic installer will re-add to bashrc next time)
-export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"                   # This loads nvm
-[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion" # This loads nvm bash_completion
-
-export NAME=Rob
-export PATH=$PATH:/Users/rwxrob/Repos/github.com/rwxrob/lab-sample
