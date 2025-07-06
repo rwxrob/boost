@@ -10,6 +10,5 @@ COPY . /
 
 RUN --mount=type=cache,target=/var/cache/apt,sharing=locked apt-get update -q
 RUN apt-get install -yq --no-install-recommends git
-RUN useradd -m -u 1000 -s /bin/bash user
 
-USER user
+USER ubuntu
