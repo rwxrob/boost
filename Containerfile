@@ -8,7 +8,7 @@ ENV DEBIAN_FRONTEND=noninteractive
 
 RUN --mount=type=cache,target=/var/cache/apt,sharing=locked apt-get update -q
 RUN apt-get install -yq --no-install-recommends \
-  ssh git ed nvi vim neovim emacs nano sudo man jq \
+  ssh git ed nvi vim neovim emacs nano sudo man jq less \
   shfmt shellcheck nodejs npm pandoc curl w3m lynx entr pip \
   bash-completion gpg nmap tree tmux screen \
   make uidmap ruby python3 python-is-python3 \
@@ -29,6 +29,9 @@ WORKDIR /home/ubuntu
 
 ENV PATH="/home/ubuntu/.local/bin:/home/ubuntu/.local/go/bin:$PATH"
 ENV GOBIN="/home/ubuntu/.local/bin"
+ENV GOPATH="/home/ubuntu/.local/share"
+ENV GOPROXY="direct"
+
 RUN install-gh
 RUN install-go
 RUN install-neo

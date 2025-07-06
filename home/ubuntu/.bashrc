@@ -21,21 +21,6 @@ export curoff="[?25h"
 export curon="[?25h"
 export top="[H"
 
-# ------------------------ detect architecture -----------------------
-
-case "$(uname -m)" in
-x86_64) GOARCH="amd64" ;;
-aarch64) GOARCH="arm64" ;;
-*)
-	echo "Unsupported architecture"
-	exit 1
-	;;
-esac && export GOARCH
-
-export GOBIN="$HOME/.local/bin"
-export GOPROXY=direct
-export CGO_ENABLED=0
-
 # ---------------------- local utility functions ---------------------
 
 _have() { type "$1" &>/dev/null; }
@@ -57,6 +42,7 @@ export BAT_THEME=gruvbox-dark
 export XDG_STATE_HOME="$HOME/.local/state"
 export XDG_CACHE_HOME="$HOME/.cache"
 export XDG_CONFIG_HOME="$HOME/.config"
+export XDG_DATA_HOME="${XDG_DATA_HOME:-$HOME/.local/share}"
 
 # gruvbox-material
 export LS_COLORS="di=38;5;245:fi=38;5;223:ln=38;5;179:ex=38;5;108:*.txt=38;5;223"
@@ -70,6 +56,21 @@ export LESS_TERMCAP_us=$'\e[4m'          # start underline
 export LESS_TERMCAP_ue=$'\e[0m'          # end underline
 
 [[ -d /.vim/spell ]] && export VIMSPELL=("$HOME/.vim/spell/*.add")
+
+# ----------------------------- go stuff  ----------------------------
+
+case "$(uname -m)" in
+x86_64) GOARCH="amd64" ;;
+aarch64) GOARCH="arm64" ;;
+*)
+	echo "Unsupported architecture"
+	exit 1
+	;;
+esac && export GOARCH
+export GOBIN="$HOME/.local/bin"
+export GOPATH="$XDG_DATA_HOME/go"
+export GOPROXY=direct
+export CGO_ENABLED=0
 
 # -------------------------------- gpg -------------------------------
 
