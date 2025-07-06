@@ -402,6 +402,7 @@ map <F7> :set spell!<CR>
 map <F12> :set fdm=indent<CR>
 
 set cursorline
+highlight CursorLine cterm=NONE ctermbg=8
 
 nmap <leader>2 :set paste<CR>i
 

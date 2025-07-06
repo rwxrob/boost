@@ -29,31 +29,7 @@ _source_if() { [[ -r "$1" ]] && source "$1"; }
 # ----------------------- environment variables ----------------------
 
 export LANG=en_US.UTF-8
-export USER="${USER:-$(whoami)}"
-export GITUSER="$USER"
 export TZ=America/New_York
-export REPOS="$HOME/Repos"
-export GHREPOS="$REPOS/github.com/$GITUSER"
-export DOTFILES="$GHREPOS/dot"
-export HELP_BROWSER=w3m
-export DESKTOP="$HOME/Desktop"
-export DOCUMENTS="$HOME/Documents"
-export DOWNLOADS="$HOME/Downloads"
-export TEMPLATES="$HOME/Templates"
-export SCRIPTS="$HOME/Scripts"
-export PUBLIC="$HOME/Public"
-export PRIVATE="$HOME/Private"
-export PICTURES="$HOME/Pictures"
-export MUSIC="$HOME/Music"
-export VIDEOS="$HOME/Movies"
-export PDFS="$HOME/usb/pdfs"
-export VIRTUALMACHINES="$HOME/VirtualMachines"
-export CLIP_DIR="$VIDEOS/clips"
-export CLIP_DATA="$GHREPOS/clip/data"
-export CLIP_VOLUME=0
-export CLIP_SCREEN=0
-export CLICOLOR=1
-export HRULEWIDTH=73
 export GOBIN="$HOME/.local/bin"
 export GOPROXY=direct
 export NVIM_SCREENKEY=1
