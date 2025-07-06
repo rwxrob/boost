@@ -1,0 +1,4 @@
+#!/bin/bash
+set -e
+podman run --rm -it ghcr.io/rwxrob/boost:v0.0.1
+
