@@ -1,0 +1,7 @@
+#!/bin/sh
+cmd=$(command -v "$1")
+if test -n "$TMUX"; then
+	test -n "$cmd" && tmux rename-window "$1" && exec "$EDITOR" "$cmd"
+else
+	test -n "$TMUX" && test -n "$cmd" && exec "$EDITOR" "$cmd"
+fi
