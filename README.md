@@ -2,8 +2,8 @@
 
 The *Linux Beginner Boost* is a quick start into the Linux world for absolute beginners with little or no Linux, terminal, or coding experience. This repo contains a Linux [Containerfile](Containerfile) that has a bit of everything to have fun while sampling and learning. Check in with [Rob's socials](https://linktr.ee/rwxrob) to see when where he's live and come say hello.
 
-1. Install a terminal (preferably [WezTerm](home/ubuntu/.wezterm.lua))
-1. Install Podman (or Docker if you must)
+1. Install a terminal (preferably [WezTerm](https://wezterm.org))
+1. Install [Podman](https://podman.io/) (or [Docker](https://docker.com) if you must)
 1. Build and run the `boost` container locally
 
 ```sh
