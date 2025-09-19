@@ -6,7 +6,10 @@ LABEL org.opencontainers.image.source="https://github.com/rwxrob/boost"
 
 ENV DEBIAN_FRONTEND=noninteractive
 
-RUN --mount=type=cache,target=/var/cache/apt,sharing=locked apt-get update -q
+RUN apt-get update -q && \
+    apt-get upgrade -y && \
+    apt-get clean && \
+    rm -rf /var/lib/apt/lists/*
 RUN apt-get install -yq --no-install-recommends \
   ssh git ed nvi vim neovim emacs nano sudo man jq less \
   shfmt shellcheck nodejs npm pandoc curl w3m lynx entr pip \
