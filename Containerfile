@@ -20,10 +20,8 @@ RUN apt-get install -yq --no-install-recommends \
   make uidmap ruby python3 python-is-python3 \
   perl libcurses-perl build-essential \
   libncurses-dev autoconf fio sqlite3 \
-  apt-transport-https \
+  apt-transport-https libterm-animation-perl\
   && apt-get clean && rm -rf /var/lib/apt/lists/*
-
-RUN cpan -I Term::Animation
 
 COPY . /
 
