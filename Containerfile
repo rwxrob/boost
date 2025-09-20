@@ -14,7 +14,7 @@ RUN ls -l /etc/ssl/certs/ca-certificates.crt \
  && grep -c 'END CERTIFICATE' /etc/ssl/certs/ca-certificates.crt || true
 
 RUN apt-get install -yq --no-install-recommends \
-  ssh git ed nvi vim neovim emacs nano sudo man jq less \
+  ssh git ed nvi vim neovim nano sudo man jq less \
   shfmt shellcheck nodejs npm pandoc w3m lynx entr pip \
   bash-completion gpg nmap tree tmux screen \
   make uidmap ruby python3 python-is-python3 \
