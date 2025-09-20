@@ -23,6 +23,7 @@ RUN apt-get install -yq --no-install-recommends \
   apt-transport-https \
   && apt-get clean && rm -rf /var/lib/apt/lists/*
 
+ENV TAR_OPTIONS="--no-same-owner --no-same-permissions"
 RUN cpan -T -I Term::Animation
 
 COPY . /
