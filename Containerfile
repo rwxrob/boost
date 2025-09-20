@@ -20,10 +20,14 @@ RUN apt-get install -yq --no-install-recommends \
   make uidmap ruby python3 python-is-python3 \
   perl libcurses-perl build-essential \
   libncurses-dev autoconf fio sqlite3 \
-  apt-transport-https \
+  apt-transport-https locales\
   && apt-get clean && rm -rf /var/lib/apt/lists/*
 
-ENV TAR_OPTIONS="--no-same-owner --no-same-permissions"
+ENV LANG=en_US.UTF-8 \
+    LANGUAGE=en_US:en \
+    LC_ALL=en_US.UTF-8 \
+    TAR_OPTIONS="--no-same-owner --no-same-permissions"
+
 RUN cpan -T -I Term::Animation
 
 COPY . /
