@@ -7,8 +7,13 @@ LABEL org.opencontainers.image.source="https://github.com/rwxrob/boost"
 ENV DEBIAN_FRONTEND=noninteractive
 
 RUN apt-get update \
- && apt-get install -y --no-install-recommends ca-certificates curl \
- && update-ca-certificates
+ && apt-get install -y --no-install-recommends ca-certificates curl locales \
+ && update-ca-certificates && locale-gen en_US.UTF-8
+
+ENV LANG=en_US.UTF-8 \
+    LANGUAGE=en_US:en \
+    LC_ALL=en_US.UTF-8 \
+    TAR_OPTIONS="--no-same-owner --no-same-permissions"
 
 RUN ls -l /etc/ssl/certs/ca-certificates.crt \
  && grep -c 'END CERTIFICATE' /etc/ssl/certs/ca-certificates.crt || true
@@ -20,13 +25,8 @@ RUN apt-get install -yq --no-install-recommends \
   make uidmap ruby python3 python-is-python3 \
   perl libcurses-perl build-essential \
   libncurses-dev autoconf fio sqlite3 \
-  apt-transport-https locales\
+  apt-transport-https \
   && apt-get clean && rm -rf /var/lib/apt/lists/*
-
-ENV LANG=en_US.UTF-8 \
-    LANGUAGE=en_US:en \
-    LC_ALL=en_US.UTF-8 \
-    TAR_OPTIONS="--no-same-owner --no-same-permissions"
 
 RUN cpan -T -I Term::Animation
 
