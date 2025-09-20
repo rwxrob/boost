@@ -1,4 +1,4 @@
-FROM ubuntu
+FROM ubuntu:24.04
 
 LABEL maintainer="rob@rwx.gg"
 LABEL io.k8s.description="Linux Beginner Boost (made with ❤️ by rwxrob)"
@@ -6,18 +6,21 @@ LABEL org.opencontainers.image.source="https://github.com/rwxrob/boost"
 
 ENV DEBIAN_FRONTEND=noninteractive
 
-RUN apt-get update -q && \
-    apt-get upgrade -y && \
-    apt-get clean && \
-    rm -rf /var/lib/apt/lists/*
+RUN apt-get update \
+ && apt-get install -y --no-install-recommends ca-certificates curl \
+ && update-ca-certificates
+
+RUN ls -l /etc/ssl/certs/ca-certificates.crt \
+ && grep -c 'END CERTIFICATE' /etc/ssl/certs/ca-certificates.crt || true
+
 RUN apt-get install -yq --no-install-recommends \
   ssh git ed nvi vim neovim emacs nano sudo man jq less \
-  shfmt shellcheck nodejs npm pandoc curl w3m lynx entr pip \
+  shfmt shellcheck nodejs npm pandoc w3m lynx entr pip \
   bash-completion gpg nmap tree tmux screen \
   make uidmap ruby python3 python-is-python3 \
   perl libcurses-perl build-essential \
   libncurses-dev autoconf fio sqlite3 \
-  apt-transport-https ca-certificates \
+  apt-transport-https \
   && apt-get clean && rm -rf /var/lib/apt/lists/*
 
 RUN cpan -I Term::Animation
