@@ -1,27 +1,71 @@
 # Boost Your Beginner Tech Career
 
-The *Beginner Boost* is a quick start into the tech world for absolute beginners with little or no experience in tech. All you need is a computer (we assume Mac or Windows since you are just starting out), a terminal (we prefer WezTerm), and a container engine (like Podman or Docker). The Boost is organized as follows:
+The *Beginner Boost* is a quick start into the tech world for absolute beginners with little or no experience in tech. All you need is a computer, a terminal emulator, and a container engine. Getting these is described in sections below and in [our videos](https://youtube.com/playlist?list=PLrK9UeDMcQLrf-bVcwlx8lbOtXtgk4Nsr&si=Aeshy2nqmpzhfbb7) (which are constantly updated as we go).
 
-1. Understand yourself (interests, strengths, challenges)
-2. Understand the tech industry (culture, lifestyle, companies, jobs)
-3. Identify jobs that specifically match you
-4. Understand what the job requires and how to prove you have what it takes
-5. Develop skills, knowledge, and abilities required by the job
-6. Manage and maintain your tech career and life effectively
+The content of the Boost itself is organized as follows:
 
-Check in with [Rob's socials](https://linktr.ee/rwxrob) to see when where he's live and come say hello.
+1. Understand the tech industry (culture, lifestyle, companies, jobs)
+2. Understand yourself (interests, strengths, challenges)
+3. Discover your ideal job and companies that have it
+4. Learn what your ideal job requires and how to prove you can do it
+5. Develop the specific skills, knowledge, and abilities required by the job
+6. Start managing and maintaining your tech career and life effectively
 
-## Start using a Linux terminal as fast as possible
+Check in with [Rob's socials](https://linktr.ee/rwxrob) to see when and where he's live and come say hello.
 
-This repo contains a Linux [Containerfile](Containerfile) that contains a pre-configured Ubuntu Linux OS for sampling and learning. Here's the process to get started:
+## Common technologies relevant to most tech jobs
 
-1. Install [WezTerm](https://wezterm.org) (or another) terminal
-1. Install [Podman](https://podman.io/) (or another) OCI container engine
-1. Build and run this `boost` container locally
+What if you are still figuring out what your ideal job is? Consider learning any of the following right now while you figure it out. These apply universally to pretty much any tech job these days.
+
+- AI prompting and web research
+- Linux/Unix terminal (not desktop)
+- Git (git) and GitHub (gh)
+- Markdown and static web site creation
+- Coding fundamentals (bash, Python, Go, JavaScript, AI vibing)
+- Virtualisation (containers, virtual machines)
+- Network fundamentals
+
+Enterprise specific:
+
+- Kubernetes
+- Ansible
+- Slurm
+
+## Get started exploring Linux terminal
+
+This repo allows you to immediately start exploring the Linux operating system and terminal command line interface (CLI) by running it safely in a container (configured in the [Containerfile](Containerfile)). When combined with a laptop, once you are setup, you can explore and learn anywhere — even without an Internet connection. Here's how to get started:
+
+1. Get admin rights on your computer
+2. Learn to install software on your computer
+3. Install [WezTerm](https://wezterm.org) or another terminal emulator
+4. Install [Podman](https://podman.io/) or another OCI container engine
+5. Build and run this `boost` container locally
+
+These steps are discussed below.
+
+### Get admin rights on your computer
+
+Even though Linux is contained and separated from your host computer, you still need to be able to install a few things on it as described in the following sections. This requires something called _admin rights_. If you did the setup on your computer yourself when you bought it then you likely already have these rights and don't necessarily need another account created. If not, you'll need to have the person who did setup your computer change your rights or add a new account with those rights on the computer that has them. There's no way around this.
+
+> [!NOTE]
+> If you cannot get admin rights because you are using a computer you do not control, say at work or school, you can find the person who can install things and only need to install two things for this Boost: a terminal emulator (i.e. WezTerm) and an OCI container engine (i.e. Podman). The Boost has been designed to only require these two things to make it easier for schools to use the Boost without violating school computer security policies.
+
+### Learn to install software on your computer
+
+Installing software is a basic computing skill, yet unfortunately very few people learn it because it isn't formally taught anywhere. Thankfully, there are many videos on how to do it (including ours).
+
+There are two general ways to install stuff:
+
+1) The point and click way (beginners)
+2) The software package manager way (pros)
+
+Most of the time just going to the web page of the thing you want to install and following the directions does the trick. This means downloading a thing and then clicking on it or clicking through the buttons that pop up. Pretty much everyone can do this once they have admin access. For now this is enough to install the stuff you need to get going, but you might want to take the time now to learn about the more professional method of software installation.
+
+However, learning to use a software package manager is easier, more common, and preferred for professional work. The overall winner for Mac systems is `brew` and for Windows (these days) is `winget` (but Windows has many).
 
 ### Install WezTerm
 
-The easiest method is to just go to <https://wezterm.org> and click on your computer operating system to download the regular installer and run it. Note that you will need admin rights on your computer to install anything. If you know of other ways (including `brew` for Mac or `winget` for Windows) go for it.
+The easiest method is to just go to <https://wezterm.org> and click on your computer operating system to download the regular installer and run it.
 
 The Wezterm default configuration is pretty good, but if you want a head start at your own configuration (which requires knowing a bit of Lua language) [here's one](home/ubuntu/.wezterm.lua) that will work on any OS. Read the WezTerm help and instructions to know where to put the file.
 
@@ -56,20 +100,3 @@ podman rm boost
 ```
 
 You are now able to create a fresh new `boost` container using the latest from this repo.
-
-## Common technologies relevant to most tech jobs
-
-- AI prompting and web research
-- Linux/Unix terminal (not desktop)
-- Git (git) and GitHub (gh)
-- Markdown and basic web docs
-- Coding fundamentals (bash, Python, Go, JavaScript)
-- Virtualisation (containers, virtual machines)
-- Network fundamentals
-
-Enterprise specific:
-
-- Kubernetes
-- Ansible
-- Slurm
-
