@@ -3,7 +3,7 @@
 The *Beginner Boost* is a quick start into the tech world for absolute beginners with little or no experience in tech. All you need is a computer (we assume Mac or Windows since you are just starting out), a terminal (we prefer WezTerm), and a container engine (like Podman or Docker). The Boost is organized as follows:
 
 1. Understand yourself (interests, strengths, challenges)
-2. Understand the tech industry (culture, companies, jobs)
+2. Understand the tech industry (culture, lifestyle, companies, jobs)
 3. Identify jobs that specifically match you
 4. Understand what the job requires and how to prove you have what it takes
 5. Develop skills, knowledge, and abilities required by the job
@@ -55,3 +55,20 @@ podman rm boost
 ```
 
 You are now able to create a fresh new `boost` container using the latest from this repo.
+
+## Common technologies relevant to most tech jobs
+
+- AI prompting and web research
+- Linux/Unix terminal (not desktop)
+- Git (git) and GitHub (gh)
+- Markdown and basic web docs
+- Coding fundamentals (bash, Python, Go, JavaScript)
+- Virtualisation (containers, virtual machines)
+- Network fundamentals
+
+Enterprise specific:
+
+- Kubernetes
+- Ansible
+- Slurm
+
