@@ -1,11 +1,11 @@
 # Boost Your Beginner Tech Career
 
-The *Beginner Boost* is a quick start into the tech world for absolute beginners with little or no experience in tech. All you need is a computer (we assume Mac or Windows since you are just starting out), a terminal (we use WezTerm), and a container engine (like Podman or Docker). The Boost is organized as follows:
+The *Beginner Boost* is a quick start into the tech world for absolute beginners with little or no experience in tech. All you need is a computer (we assume Mac or Windows since you are just starting out), a terminal (we prefer WezTerm), and a container engine (like Podman or Docker). The Boost is organized as follows:
 
 1. Understand yourself (interests, strengths, challenges)
 2. Understand the tech industry (culture, companies, jobs)
-3. Decide the job(s) you want to target
-4. Understand what is required to do the job and prove you can do it
+3. Identify jobs that specifically match you
+4. Understand what the job requires and how to prove you have what it takes
 5. Develop skills, knowledge, and abilities required by the job
 6. Manage and maintain your tech career and life effectively
 
