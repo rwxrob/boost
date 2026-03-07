@@ -100,3 +100,7 @@ podman rm boost
 ```
 
 You are now able to create a fresh new `boost` container using the latest from this repo.
+
+## Old beginner boost content
+
+- https://rwxrob.github.io/skilstak/boost
