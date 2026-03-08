@@ -1,0 +1,3 @@
+#!/bin/sh
+url="https://google.com/search?q=$(urlencode "$*")"
+exec "$TERMINAL_BROWSER" "https://google.com/search?q=$url"
