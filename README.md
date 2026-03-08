@@ -4,6 +4,9 @@ The *Beginner Boost* is a quick start into the tech world for absolute beginners
 
 Check in with [Rob's socials](https://linktr.ee/rwxrob) to see when and where he's live and come say hello or stop by out forum here on GitHub.
 
+>[!IMPORTANT]
+>Remember to help me out any way you can. Financially [GitHub sponsorship](https://github.com/sponsors/rwxrob) is best, but Twitch cheers, subs, etc. are always welcome. You can also help by just providing positive comments with useful chapter markers on YouTube videos that need them. You can also just help people in the [discussion forum](https://github.com/rwxrob/boost/discussions).
+
 ## Overview
 
 The content of the Boost itself is organized as follows:
