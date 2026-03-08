@@ -1,0 +1,4 @@
+- Create a GitHub account
+- Star and follow https://github.com/rwxrob/boost
+- Write and edit GitHub Flavored Markdown
+- Contribute to Beginner Boost project
