@@ -4,10 +4,10 @@ The *Beginner Boost* is a quick start into the tech world for absolute beginners
 
 ## Get started
 
-- [Follow Rob's socials](https://linktr.ee/rwxrob) and say hello
+- [Follow Rob's socials](https://linktr.ee/rwxrob) (specifically Twitch, YouTube, GitHub) and say hello
 - Like, subscribe, and follow the [YouTube playlist](https://youtube.com/playlist?list=PLrK9UeDMcQLrf-bVcwlx8lbOtXtgk4Nsr&si=1BWQLzroh_ltTSmW)
 - Introduce yourself in our [discussion forum](https://github.com/rwxrob/boost/discussions/54) (no Discord)
-- Dive into the content covered starting with [the overview](docs/README.md)
+- Dive into the content starting with [the overview](docs/README.md)
 - Review the list of [revelant technologies](docs/relevant-tech.md) most tech jobs require
 - Explore the Linux terminal by [setting up the `boost` container](docs/setup-boost-container.md)
 - Create a GitHub account
