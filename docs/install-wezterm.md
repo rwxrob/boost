@@ -1,3 +1,11 @@
+# Install WezTerm
+
+The easiest method is to just go to <https://wezterm.org> and click on your computer operating system to download the regular installer and run it.
+
+The Wezterm default configuration is pretty good, but if you want a head start at your own configuration (which requires knowing a bit of Lua language) Below is a `.wezterm.lua` that will work on any OS. Read the WezTerm help and instructions to know where to put the file.
+
+
+```lua
 local wezterm = require("wezterm")
 local mux = wezterm.mux
 
@@ -67,7 +75,7 @@ return {
   animation_fps = 1,
   max_fps = 1,
 
-  ----------- rwxrob streaming stuff, fyi --------------
+  ———-- rwxrob streaming stuff, fyi ————--
 
   --font_size = 41,
   --initial_cols = 74,
@@ -86,7 +94,7 @@ end),
   --hide_tab_bar_if_only_one_tab = true,
 
 }
-
+```
 
 
 
