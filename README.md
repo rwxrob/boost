@@ -1,11 +1,11 @@
 # Boost Your Beginner Tech Career
 
-The *Beginner Boost* is a quick start into the tech world for absolute beginners with little or no experience in tech. All you need is a computer, a terminal emulator, and a container engine. Getting these is described in sections below and in [our videos](https://youtube.com/playlist?list=PLrK9UeDMcQLrf-bVcwlx8lbOtXtgk4Nsr&si=Aeshy2nqmpzhfbb7) (which are constantly updated as we go).
+The *Beginner Boost* is a quick start into the tech world for absolute beginners with little or no experience in tech. All you need is a computer, a terminal emulator, and a container engine. Getting these is described in sections below and in [the videos](https://youtube.com/playlist?list=PLrK9UeDMcQLrf-bVcwlx8lbOtXtgk4Nsr&si=Aeshy2nqmpzhfbb7) (which are constantly updated).
 
-Check in with [Rob's socials](https://linktr.ee/rwxrob) to see when and where he's live and come say hello or stop by out forum here on GitHub.
+Check in with [Rob's socials](https://linktr.ee/rwxrob) to see when and where he's live and come say hello or stop by the [forum here on GitHub](https://github.com/rwxrob/boost/discussions).
 
 >[!IMPORTANT]
->Remember to help me out any way you can. Financially [GitHub sponsorship](https://github.com/sponsors/rwxrob) is best, but Twitch cheers, subs, etc. are always welcome. You can also help by just providing positive comments with useful chapter markers on YouTube videos that need them. You can also just help people in the [discussion forum](https://github.com/rwxrob/boost/discussions).
+>Please help and contribute any way you can. Financially [GitHub sponsorship](https://github.com/sponsors/rwxrob) is best, but Twitch cheers, subs, etc. are always welcome. You can also help by just providing positive comments with useful chapter markers on YouTube videos that need them. You can also just help people in the [discussion forum](https://github.com/rwxrob/boost/discussions).
 
 ## Overview
 
