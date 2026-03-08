@@ -13,7 +13,8 @@ The *Beginner Boost* is a quick start into the tech world for absolute beginners
 - Create a GitHub account
 - Star and follow this [repo](https://github.com/rwxrob/boost)
 - Learn to write and edit GitHub Flavored Markdown
-- Start [contributing](docs/contributing.md)
+- Create your own GitHub repo and start taking notes
+- [Contribute](docs/contributing.md)
 
 ## Old beginner boost content
 
