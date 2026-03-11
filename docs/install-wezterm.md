@@ -56,6 +56,8 @@ return {
   color_scheme = 'Gruvbox Material (Gogh)',
   font = detect_font(),
   font_size = 26,
+  config.send_composed_key_when_left_alt_is_pressed = true,
+  config.send_composed_key_when_right_alt_is_pressed = true,
 
   default_domain =  myos:match('windows') and "WSL:Ubuntu" or "",
 
