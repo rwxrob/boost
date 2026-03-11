@@ -1,5 +1,7 @@
 " designed for vim 8+
 
+set background=dark
+
 if has("eval")                               " vim-tiny lacks 'eval'
   let skip_defaults_vim = 1
 endif
@@ -175,17 +177,17 @@ if filereadable(expand("~/.vim/autoload/plug.vim"))
  
   call plug#begin('~/.local/share/vim/plugins')
     Plug 'conradirwin/vim-bracketed-paste'
-    Plug 'sainnhe/gruvbox-material'
+   Plug 'sainnhe/gruvbox-material'
     Plug 'fatih/vim-go' " GoInstallBinaries separately
     Plug 'vim-pandoc/vim-pandoc'
-    Plug 'hashivim/vim-terraform'
+    "Plug 'hashivim/vim-terraform'
     Plug 'rwxrob/vim-pandoc-syntax-simple'
-    Plug 'habamax/vim-asciidoctor'
-    "Plug 'kana/vim-textobj-user'
-    Plug 'mjakl/vim-asciidoc'
+    "Plug 'habamax/vim-asciidoctor'
+    "Plug 'mjakl/vim-asciidoc'
     Plug 'dense-analysis/ale'
     if has('nvim-0.8')
-      Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
+      Plug 'nvim-treesitter/nvim-treesitter'
+      Plug 'rwxrob/nvim-treesitter-textobjects', {'do': ':TSUpdate'}
       Plug 'neoclide/coc.nvim', {'branch': 'release'}
       if exists('$NVIM_SCREENKEY')
         Plug 'NStefan002/screenkey.nvim'
@@ -195,7 +197,7 @@ if filereadable(expand("~/.vim/autoload/plug.vim"))
       Plug 'xolox/vim-misc'
       Plug 'xolox/vim-lua-ftplugin'
     else
-      Plug 'dahu/vim-asciidoc'
+      "Plug 'dahu/vim-asciidoc'
     endif
   call plug#end()
 
@@ -399,7 +401,9 @@ au BufReadPost * if line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g
 " functions keys
 map <F1> :set number!<CR> :set relativenumber!<CR>
 nmap <F2> :call <SID>SynStack()<CR>
-set pastetoggle=<F3>
+if ! has('nvim')
+  set pastetoggle=<F3>
+endif
 map <F4> :set list!<CR>
 map <F5> :set cursorline!<CR>
 map <F7> :set spell!<CR>
