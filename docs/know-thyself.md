@@ -23,6 +23,7 @@ If your answer to any of these is no then take immediate steps to make all the a
 - What activities do I really enjoy?
 - What would I be shocked to learn someone would pay me to do?
 - What are my hobbies and would I want to be paid for them?
+- What would I consider my "bliss" (Joseph Campbell).
 
 Be as general or specific as you feel like.
 
@@ -31,15 +32,18 @@ Be as general or specific as you feel like.
 - "I cannot learn enough about people and their stories."
 - "I can't be in an office."
 
-If you struggle with what you like start with what you don't like.
-
-- "I hate working with kids." (Had a teacher once realize this after year of teaching.)
-- "I cannot deal with office politics."
-
 ## What am I naturally good at?
 
 - What have sincere people told me I'm good at in the past?
+- What does it feel like I have been put on Earth to do? My _dharma_.
 
 ## What are my challenges?
 
-- 
+Challenges can be opportunities for growth or things to simply avoid.
+
+- "I am terrified of heights."
+* "Have can't use my legs."
+* "I have a hard time focusing on anything for more than a few minutes."
+- "I cannot deal with office politics."
+- "I hate working with kids." (Had a teacher once realize this after year of teaching.)
+- "Open spaces make me uncomfortable."
