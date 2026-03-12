@@ -122,6 +122,11 @@ vi
 vim
 tr
 cut
+ln
+column
 w3m
+nano
+join
+split
 wget
 yq
