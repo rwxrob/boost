@@ -4,7 +4,6 @@ For the Boost, we start exploring the Linux operating system and terminal comman
 
 1. [Get admin](get-admin.md) rights on your computer
 2. Learn to [install software](install-software.md) on your computer
-3. [Install WezTerm](install-wezterm.md) or another terminal emulator
-4. [Install Podman](install-podman.md) or another OCI container engine
-5. [Build and run](build-run-boost.md) `boost` container locally
+3. [Install Podman](install-podman.md) or another OCI container engine
+4. [Build and run](build-run-boost.md) `boost` container locally
 
