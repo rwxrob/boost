@@ -5,9 +5,29 @@ Containers are everywhere in IT these days. You must understand them. What bette
 > [!CAUTION]
 > Containers are designed to be _ephemeral_ meaning they get recreated all the time and anything on them is reset. It's good to get into the mindset now when thinking about them. Nothing is saved. Source code is pulled dynamically from GitHub and other repos. Configuration is passed through environment variable and mounting things into the container. This property of containers is essential to understand when working with them in an enterprise IT setting.
 
+## Install WSLv2 on Windows
+
+If you have Windows you likely need to install WSLv2 in order to use podman and containers. This is an extra step but is actually a good thing since WSL is _actually_ Linux and not Linux running inside a container. This will be useful later when you want to use Linux from your Windows computer without 
+throwing it away and running Linux at the same time.
+
+> [!NOTE]
+> Mac users do not need to do anything like this because macOS is already UNIX (which some consider far superior to Linux in general).
+
+1. [Open a terminal](open-a-terminal)
+2. `wsl --install`
+
+## Initialize podman virtual machine
+
+This creates a tiny version of Linux in which to run containers like the `boost` container. [Open a terminal](open-a-terminal) and run the following:
+
+```sh
+podman machine init
+podman machine start
+```
+
 ## Build the boost container
 
-[Open a terminal](open-a-terminal) on your computer and run the following commands. The first command pulls down the boost container source and builds it locally on your computer.
+Now we need to build the boost container from the source pulled from `github.com/rwxrob/boost`.
 
 ```sh
 podman build -t boost https://github.com/rwxrob/boost.git
