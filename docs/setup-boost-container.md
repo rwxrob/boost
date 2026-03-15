@@ -4,5 +4,5 @@ For the Boost, we start exploring the Linux operating system and terminal comman
 
 1. [Get admin](get-admin.md) rights on your computer
 2. [Install Podman](podman.md) or another OCI container engine
-3. [Build, run, remove](build-run-remove-boost.md) `boost` container locally
+3. [Build, run, remove](build-run-remove-boost-container.md) `boost` container locally
 
