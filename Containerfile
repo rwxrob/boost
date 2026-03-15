@@ -1,7 +1,7 @@
 FROM ubuntu:24.04
 
 LABEL maintainer="rob@rwx.gg"
-LABEL io.k8s.description="Linux Beginner Boost (made with ❤️ by rwxrob)"
+LABEL io.k8s.description="Linux Beginner Boost Container (made with ❤️ by rwxrob)"
 LABEL org.opencontainers.image.source="https://github.com/rwxrob/boost"
 
 ENV DEBIAN_FRONTEND=noninteractive
@@ -19,7 +19,7 @@ RUN ls -l /etc/ssl/certs/ca-certificates.crt \
  && grep -c 'END CERTIFICATE' /etc/ssl/certs/ca-certificates.crt || true
 
 RUN apt-get install -yq --no-install-recommends \
-  ssh git ed nvi vim neovim nano sudo man jq less \
+  ssh git ed nvi vim nano sudo man jq yq less \
   shfmt shellcheck nodejs npm pandoc w3m lynx entr pip \
   bash-completion gpg nmap tree tmux screen \
   make uidmap ruby python3 python-is-python3 \
@@ -49,5 +49,4 @@ RUN install-neo
 RUN install-yq
 RUN go install github.com/rwxrob/bonzai/cmds/sunrise/cmd/sunrise@latest
 
-RUN nvim --headless +PlugInstall +qall
-RUN nvim --headless +'CocInstall -sync coc-json coc-tsserver' +qa
+RUN vim --headless +PlugInstall +qall
