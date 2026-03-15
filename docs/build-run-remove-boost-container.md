@@ -14,7 +14,7 @@ throwing it away and running Linux at the same time.
 > Mac users do not need to do anything like this because macOS is already UNIX (which some consider far superior to Linux in general).
 
 1. [Open a terminal](open-a-terminal)
-2. `wsl --install`
+2. `wsl --update` (or `wsl --install` if required)
 
 ## Initialize podman virtual machine
 
