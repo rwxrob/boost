@@ -1,132 +1,139 @@
-apt
-awk
-bash
-cat
-cd
-sftp
-telnet
-rsync
-chmod
-chown
-curl
-cwd
-date
-df
-diff
-dmesg
-dnf
-du
-dd
-echo
-write
-wall
-xargs
-ed
-file
-rm
-unlink
-type
-command
-which
-w
-ntalk
-talk
-whence
-set
-ss
-fsck
-fstat
-journalctl
-tee
-awk
-netstat
-ifstat
-memstat
-vmstat
-env
-exec
-find
-free
-gdb
-git
-grep
-head
-htop
-ifconfig
-npm
-go
-python
-setpci
-make
-autoconf
-lvm
-mem
-mv
-cp
-lsusb
-lspci
-ip
-cron
-dmidecode
-uuencode
-ssh
-scp
-ipconfig
-jq
-kill
-ldd
-less
-lolcat
-ls
-lscpu
-lsof
-lynx
-man
-more
-mount
-nc
-paste
-perl
-pgrep
-ping
-pkill
-printf
-ps
-pwd
-reboot
-script
-shutdown
-sort
-ssh
-strace
-struss
-stty
-sudo
-systemctl
-tac
-tail
-tar
-time
-tmux
-screen
-whoami
-who
-users
-top
-touch
-tree
-uname
-uncompress
-uniq
-vi
-vim
-tr
-cut
-ln
-column
-w3m
-nano
-join
-split
-wget
-yq
+- apt
+- awk
+- bash
+- cat
+- cd
+- sftp
+- telnet
+- rsync
+- chmod
+- chown
+- passwd
+- curl
+- cwd
+- timedatectl
+- chronyc
+- date
+- df
+- diff
+- dmesg
+- dnf
+- du
+- dd
+- echo
+- write
+- wall
+- xargs
+- ed
+- file
+- rm
+- unlink
+- type
+- command
+- which
+- w
+- ntalk
+- talk
+- whence
+- set
+- ss
+- fsck
+- fstat
+- journalctl
+- tee
+- awk
+- netstat
+- ifstat
+- memstat
+- vmstat
+- env
+- exec
+- find
+- free
+- gdb
+- git
+- grep
+- head
+- htop
+- ifconfig
+- npm
+- go
+- python
+- setpci
+- make
+- autoconf
+- lvm
+- mem
+- mv
+- cp
+- lsusb
+- lspci
+- ip
+- cron
+- dmidecode
+- uuencode
+- ssh
+- scp
+- ipconfig
+- jq
+- kill
+- ldd
+- less
+- lolcat
+- ls
+- lscpu
+- lsof
+- lynx
+- man
+- more
+- mount
+- nc
+- paste
+- perl
+- pgrep
+- ping
+- pkill
+- printf
+- ps
+- pwd
+- reboot
+- script
+- shutdown
+- sort
+- ssh
+- strace
+- struss
+- stty
+- sudo
+- systemctl
+- tac
+- tail
+- tar
+- time
+- tmux
+- screen
+- whoami
+- who
+- users
+- top
+- touch
+- tree
+- uname
+- uncompress
+- uniq
+- vi
+- vim
+- tr
+- cut
+- ln
+- test
+- clear
+- column
+- tset
+- entr
+- w3m
+- nano
+- join
+- split
+- wget
+- yq
