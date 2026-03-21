@@ -49,4 +49,4 @@ RUN install-neo
 RUN install-yq
 RUN go install github.com/rwxrob/bonzai/cmds/sunrise/cmd/sunrise@latest
 
-RUN vim --headless +PlugInstall +qall
+#RUN vim --headless +PlugInstall +qall

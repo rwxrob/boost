@@ -87,7 +87,7 @@
 	4. Install `git` Source Management Tool
 	5. Install `gh` GitHub Command Line Tool
 	6. Install `podman` Container Engine
-	7. Build and run `boost` container locally
+	7. [Build and run `boost` container locally](https://github.com/rwxrob/boost)
 6. Create your first web site
 	1. Create your special profile repo: `username`
 	2. Learn GitHub Flavored Markdown

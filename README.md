@@ -1,6 +1,6 @@
 # Boost Your Beginner Tech Career
 
-The *Beginner Boost* is a quick start into the tech world for absolute beginners with little or no experience in tech. All you need is a computer, an Internet connection, and the time, motivation, and patience to learn it (most simply lack the latter). Soon you'll be moving at [_terminal velocity_™](docs/terminal-velocity). There's actually a shortage of qualified technologists in the world, which is why they continue to command such high salaries. Here's how you can become one of them.
+The *Beginner Boost* is a quick start into the tech world for absolute beginners with little or no experience in tech. All you need is a computer, an Internet connection, and the time, motivation, and patience to learn it. Soon you'll be moving at [_terminal velocity_™](docs/terminal-velocity). There's actually a shortage of qualified technologists in the world, which is why they continue to command high salaries and great benefits. Here's how you can become one of them.
 
 ## Quick start
 
