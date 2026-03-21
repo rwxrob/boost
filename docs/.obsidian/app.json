@@ -1,0 +1,7 @@
+{
+  "useMarkdownLinks": true,
+  "showUnsupportedFiles": true,
+  "alwaysUpdateLinks": true,
+  "newLinkFormat": "relative",
+  "vimMode": false
+}

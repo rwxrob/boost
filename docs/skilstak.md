@@ -14,15 +14,15 @@ TODO
 
 ## Scoring Current/Target Mastery Level
 
-01. - I have heard of the term
-02. - I can define the term but have never really worked with substantially
-03. - I understand the term foundationally and have experimented with it
-04. - I can work with the thing if I have to but am not confident
-05. - I can use it professionally with confidence
-06. - I an locally considered the SME for my team
-07. - I am an SME for the enterprise or local community
-08. - I am regional authority
-09. - I am a world authority
+1. - I have heard of the term
+2. - I can define the term but have never really worked with substantially
+3. - I understand the term and have experimented with it
+4. - I can work with the thing if I have to but am not confident
+5. - I can use it professionally with confidence
+6. - I an locally considered the SME for my team
+7. - I am an SME for the enterprise or local community
+8. - I am regional authority
+9. - I am a world authority
 10. - I created the thing
 
 ## How to Score

@@ -7,5 +7,4 @@
     - Books
 - Capture knowledge effectively
     - Create a personal knowledge base (Markdown on GitHub)
-- Recall knowledge quickly ([just in time](jit-learing.md))
-
+- Recall knowledge quickly ([just in time](jit-learning.md))
