@@ -2,7 +2,7 @@
 
 The *Beginner Boost* is a quick start into the tech world for absolute beginners with little or no experience in tech.
 
-[Join Us](docs)
+[Join Us](docs/README.md)
 
 ## Legal
 

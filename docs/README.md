@@ -1,4 +1,4 @@
-1. Be welcome in our community
+1. Welcome to our community
 	1. Hello friends
 	2. What's a Beginner Boost?
 		1. Why was the Beginner Boost created?
