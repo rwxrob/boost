@@ -1,3 +1,5 @@
+_Best read using an editor that allows collapsing the outline such as Obsidian, Vim, or Emacs._
+
 1. Welcome to our community
 	1. Hello friends
 	2. What's a Beginner Boost?
