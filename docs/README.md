@@ -90,11 +90,16 @@ _Best read using an editor that allows collapsing the outline such as Obsidian, 
 	5. Install `gh` GitHub Command Line Tool
 	6. Install `podman` Container Engine
 	7. [Build and run `boost` container locally](https://github.com/rwxrob/boost)
-6. Create your first web site
+6. Understanding the terminal
+	1. What is a Terminal User Interface TUI?
+	2. What is a Command Line Interface CLI?
+	3. What is a Graphical User Interface GUI?
+	4. What is Conversational User Interface CUI?
+7. Create your first web site
 	1. Create your special profile repo: `username`
 	2. Learn GitHub Flavored Markdown
 	3. Create your personal website repo: `username.github.io`
-7. Create your own `dotfiles` GitHub repo
-8. Learn to read and sometimes write code
-9. Learn AI context engineering
+8. Create your own `dotfiles` GitHub repo
+9. Learn to read and sometimes write code
+10. Learn AI context engineering
 	1. Install `gh-copilot` plugin with `claude-opus-4.6` model
