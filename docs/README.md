@@ -110,11 +110,15 @@ _Best read using an editor that allows collapsing the outline such as Obsidian, 
 		3. "Everything is a file"
 		4. Lookup current working directory
 		5. List everything in a directory
-		6. Work with permissions
-		7. Move files and/or directories
-		8. Link one file/directory to another
-		9. Rename a file/directory
-		10. Remove a file/directory
+			1. Understand hidden files
+			2. Current directory: .
+			3. Parent directory: ..
+		6. Create a file
+		7. Work with permissions
+		8. Move files and/or directories
+		9. Link one file/directory to another
+		10. Rename a file/directory
+		11. Remove a file/directory
 	4. Work with UNIX/linux processes
 		1. What is a _process_?
 		2. Understand input and output (stdin, stdout, stderr)
