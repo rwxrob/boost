@@ -115,10 +115,11 @@ _Best read using an editor that allows collapsing the outline such as Obsidian, 
 			3. Parent directory: ..
 		6. Create a file
 		7. Work with permissions
-		8. Move files and/or directories
-		9. Link one file/directory to another
-		10. Rename a file/directory
-		11. Remove a file/directory
+		8. Renaming files/directories
+		9. Move files and/or directories
+		10. Link one file/directory to another
+		11. Rename a file/directory
+		12. Remove a file/directory
 	4. Work with UNIX/linux processes
 		1. What is a _process_?
 		2. Understand input and output (stdin, stdout, stderr)
