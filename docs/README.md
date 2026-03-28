@@ -90,11 +90,37 @@ _Best read using an editor that allows collapsing the outline such as Obsidian, 
 	5. Install `gh` GitHub Command Line Tool
 	6. Install `podman` Container Engine
 	7. [Build and run `boost` container locally](https://github.com/rwxrob/boost)
-6. Understanding the terminal
-	1. What is a Terminal User Interface TUI?
-	2. What is a Command Line Interface CLI?
-	3. What is a Graphical User Interface GUI?
-	4. What is Conversational User Interface CUI?
+6. Learn to move at _terminal velocity_
+	1. Understand what a terminal is and why it matters
+		1. What is a "user interface"?
+			1. Terminal User Interface (TUI)
+			2. Command Line Interface (CLI)
+			3. Graphical User Interface (GUI)
+			4. Conversational User Interface (CUI)
+		2. Decipher the symbols in the CLI prompt
+		3. User of terminal with modern agentic AI
+	2. Work with the UNIX/Linux filesystem from terminal
+		1. What is a _file_? (inode, file descriptor)
+		2. What is a _directory_?
+		3. "Everything is a file"
+		4. Lookup current working directory
+		5. List everything in a directory
+		6. Work with permissions
+		7. Move files and/or directories
+		8. Link one file/directory to another
+		9. Rename a file/directory
+		10. Remove a file/directory
+	3. Work with UNIX/linux processes
+		1. What is a _process_?
+		2. Understand input and output (stdin, stdout, stderr)
+	4. Edit text files from terminal
+		1. Simple stdin/out/err redirection
+		2. Best interactive terminal text editor for the job
+			1. ed/ex - the official editor of UNIX
+			2. vi - visual mode of ed/ex
+			3. vim - improved vi
+			4. nvim - fatter version of vim in Lua
+			5. emacs - not vim
 7. Create your first web site
 	1. Create your special profile repo: `username`
 	2. Learn GitHub Flavored Markdown
