@@ -10,6 +10,7 @@
 - chown
 - passwd
 - curl
+- clear
 - cwd
 - timedatectl
 - chronyc
