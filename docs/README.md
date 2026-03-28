@@ -99,7 +99,12 @@ _Best read using an editor that allows collapsing the outline such as Obsidian, 
 			4. Conversational User Interface (CUI)
 		2. Decipher the symbols in the CLI prompt
 		3. User of terminal with modern agentic AI
-	2. Work with the UNIX/Linux filesystem from terminal
+	2. Look up help docs for commands
+		1. man - RTFM
+		2. help
+		3. info
+		4. Just use your AI
+	3. Work with the UNIX/Linux filesystem from terminal
 		1. What is a _file_? (inode, file descriptor)
 		2. What is a _directory_?
 		3. "Everything is a file"
@@ -110,10 +115,10 @@ _Best read using an editor that allows collapsing the outline such as Obsidian, 
 		8. Link one file/directory to another
 		9. Rename a file/directory
 		10. Remove a file/directory
-	3. Work with UNIX/linux processes
+	4. Work with UNIX/linux processes
 		1. What is a _process_?
 		2. Understand input and output (stdin, stdout, stderr)
-	4. Edit text files from terminal
+	5. Edit text files from terminal
 		1. Simple stdin/out/err redirection
 		2. Best interactive terminal text editor for the job
 			1. ed/ex - the official editor of UNIX
