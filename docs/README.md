@@ -123,7 +123,8 @@ _Best read using an editor that allows collapsing the outline such as Obsidian, 
 	4. Work with UNIX/linux processes
 		1. What is a _process_?
 		2. Understand input and output (stdin, stdout, stderr)
-	5. Edit text files from terminal
+	5. 
+	6. Edit text files from terminal
 		1. Simple stdin/out/err redirection
 		2. Best interactive terminal text editor for the job
 			1. ed/ex - the official editor of UNIX
