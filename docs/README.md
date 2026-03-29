@@ -98,7 +98,7 @@ _Best read using an editor that allows collapsing the outline such as Obsidian, 
 			3. Graphical User Interface (GUI)
 			4. Conversational User Interface (CUI)
 		2. Decipher the symbols in the CLI prompt
-		3. User of terminal with modern agentic AI
+		3. Use terminal with modern agentic AI
 	2. Look up help for commands
 		1. Just use your AI
 		2. `man`, `help`, `info`, `-h`
@@ -122,7 +122,9 @@ _Best read using an editor that allows collapsing the outline such as Obsidian, 
 	4. Work with UNIX/linux processes from terminal
 		1. What is a _process_?
 		2. Understand input and output (stdin, stdout, stderr)
-			1. Simple stdin/out/err redirection
+			1. Scroll through output with a pager
+			2. Simple stdin/out/err redirection
+			3. `less`, `more`
 	5. Work with text in UNIX/Linux terminal
 		1. Work with text streams using pipes and filters
 			1. Understand the _Unix Way_
@@ -146,9 +148,16 @@ _Best read using an editor that allows collapsing the outline such as Obsidian, 
 				1. Understand [original keyboard layout](img/unix-keyboard.jpg)
 		3. Work with structured data formats
 			1. Delimited, CSV, JSON, YAML, TOML (INI)
-	6. Fully leverage bash shell
+	6. Work with terminal command shells
+		1. What is a _shell_?
+		2. Pick the best command shell for the job
+			1. `bash`,`zsh`,`pwsh`, etc.
+		3. Work with bash shell
+		4. Write bash shell scripts
+			1. What is a _script_?
+			2. `shellcheck`,`shfmt`
 	7. Use tmux/screen for terminal window management and safety
-7. Create your own `dotfiles` GitHub repo
+7. Create your own `dot` GitHub repo with common configs and scripts
 8. Create your first web site
 	1. Create your special profile repo: `username`
 	2. Learn GitHub Flavored Markdown
