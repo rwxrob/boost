@@ -190,7 +190,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -206,7 +207,27 @@
   },
   "active": "0f0fcd61c202b242",
   "lastOpenFiles": [
-    "origname",
+    "img/unix-keyboard.jpg",
+    "img/Photos Library.photoslibrary/private/com.apple.photoanalysisd/caches/graph/PhotosGraph/photosgraph-tmp.kgdb-wal",
+    "img/Photos Library.photoslibrary/private/com.apple.photoanalysisd/caches/graph/PhotosGraph/photosgraph.kgdb-shm",
+    "img/Photos Library.photoslibrary/private/com.apple.photoanalysisd/caches/graph/PhotosGraph/photosgraph.kgdb.lock",
+    "img/Photos Library.photoslibrary/private/com.apple.photoanalysisd/caches/graph/PhotosGraph/photosgraph.kgdb-wal",
+    "img/Photos Library.photoslibrary/private/com.apple.photoanalysisd/caches/graph/PhotosGraph/photosgraph.kgdb",
+    "img/Photos Library.photoslibrary/private/com.apple.photoanalysisd/caches/graph/PhotosGraph/photosgraph-tmp.kgdb-shm",
+    "img/Photos Library.photoslibrary/private/com.apple.photoanalysisd/caches/graph/PhotosGraph/photosgraph-tmp.kgdb",
+    "img/Photos Library.photoslibrary/private/com.apple.photoanalysisd/caches/graph/PhotosGraph/construction-photosgraph.kgdb.lock",
+    "img/Photos Library.photoslibrary/private/com.apple.photoanalysisd/caches/graph/PhotosGraph/construction-photosgraph.kgdb-wal",
+    "img/Photos Library.photoslibrary/private/com.apple.photoanalysisd/caches/graph/PhotosGraph/construction-photosgraph.kgdb-shm",
+    "img/Photos Library.photoslibrary/resources/derivatives/masters/8/8AEEDDB1-5D47-4C4B-B71F-CCCF8F5E4271_4_5005_c.jpeg",
+    "img/Photos Library.photoslibrary/resources/derivatives/masters/8/88BC9521-C4EF-4DEB-9697-8BF7465BA005_4_5005_c.jpeg",
+    "img/Photos Library.photoslibrary/resources/derivatives/masters/8/883A0869-5262-4DE4-9851-4D344F8E6DC5_4_5005_c.jpeg",
+    "img/Photos Library.photoslibrary/resources/derivatives/masters/8/87B9B552-0A1F-4F6F-B6A5-D4251AA43AD6_4_5005_c.jpeg",
+    "img/Photos Library.photoslibrary/resources/derivatives/masters/8/8763F16F-1601-4A57-B286-B34C5FDF0C56_4_5005_c.jpeg",
+    "img/Photos Library.photoslibrary/resources/derivatives/masters/8/86EFF284-CFAB-4D54-97C5-A6FEBE0E78F7_4_5005_c.jpeg",
+    "img/Photos Library.photoslibrary/resources/derivatives/masters/8/86E3C3C1-6C76-414F-8711-936F5BD1192E_4_5005_c.jpeg",
+    "img/Photos Library.photoslibrary/resources/derivatives/masters/E/EE3740EF-2B6C-478D-886E-C842A50233AE_4_5005_c.jpeg",
+    "img/Photos Library.photoslibrary/resources/derivatives/masters/E/EE18BD48-A7C5-4503-87A8-F34A31A6110A_4_5005_c.jpeg",
+    "img/Photos Library.photoslibrary/resources/derivatives/masters/E/EC9D1F52-DF6D-4520-9E61-D240B15954D5_4_5005_c.jpeg",
     "get-admin.md",
     "README.md",
     "old README.md",
@@ -214,9 +235,7 @@
     "know-thyself.md",
     "news/2026-03-15.md",
     "build-run-remove-boost-container.md",
-    "news",
     "knowledge-management.md",
-    "github",
     "install-software.md",
     "github/github.md",
     "contributing.md",
@@ -232,7 +251,6 @@
     "skilstak.md",
     "some-other-file.md",
     "jit-learning.md",
-    "education",
     "jit-learing.md"
   ]
 }

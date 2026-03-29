@@ -99,11 +99,9 @@ _Best read using an editor that allows collapsing the outline such as Obsidian, 
 			4. Conversational User Interface (CUI)
 		2. Decipher the symbols in the CLI prompt
 		3. User of terminal with modern agentic AI
-	2. Look up help docs for commands
-		1. man - RTFM
-		2. help
-		3. info
-		4. Just use your AI
+	2. Look up help for commands
+		1. Just use your AI
+		2. `man`, `help`, `info`, `-h`
 	3. Work with the UNIX/Linux filesystem from terminal
 		1. What is a _file_? (inode, file descriptor)
 		2. What is a _directory_?
@@ -120,23 +118,40 @@ _Best read using an editor that allows collapsing the outline such as Obsidian, 
 		10. Link one file/directory to another
 		11. Rename a file/directory
 		12. Remove a file/directory
-	4. Work with UNIX/linux processes
+		13. `pwd`, `ls`, `cd`, `.`, `..`, `/`, `~`, `-`, `touch`, `mv`, `cp`, `chmod`, `chown`, `ln`, `rm`, `mkdir`, `rmdir`
+	4. Work with UNIX/linux processes from terminal
 		1. What is a _process_?
 		2. Understand input and output (stdin, stdout, stderr)
-	5. 
-	6. Edit text files from terminal
-		1. Simple stdin/out/err redirection
-		2. Best interactive terminal text editor for the job
-			1. ed/ex - the official editor of UNIX
-			2. vi - visual mode of ed/ex
-			3. vim - improved vi
-			4. nvim - fatter version of vim in Lua
-			5. emacs - not vim
-7. Create your first web site
+			1. Simple stdin/out/err redirection
+	5. Work with text in UNIX/Linux terminal
+		1. Work with text streams using pipes and filters
+			1. Understand the _Unix Way_
+				1. Build **small tools**
+				2. Each tool does **one job really well**
+				3. Then you **chain them together**
+			2. What is map/filter/reduce?
+		2. Edit text file interactively from the terminal
+			1. Pick best method to edit text files for the job
+				1. Are you just adding output to a file?
+				2. Are you just filtering the output of a command?
+				3. Is an interactive terminal editor available?
+			2. Understand interactive terminal editor options
+				1. ed/ex - the official editor of UNIX
+				2. vi - visual mode of ed/ex
+				3. vim - improved vi
+				4. nvim - fatter version of vim in Lua
+				5. emacs - not vim
+			3. Learn to edit text files from terminal with nano
+			4. Learn do edit text files from terminal with vim
+				1. Understand [original keyboard layout](img/unix-keyboard.jpg)
+		3. Work with structured data formats
+			1. Delimited, CSV, JSON, YAML, TOML (INI)
+	6. Fully leverage bash shell
+	7. Use tmux/screen for terminal window management and safety
+7. Create your own `dotfiles` GitHub repo
+8. Create your first web site
 	1. Create your special profile repo: `username`
 	2. Learn GitHub Flavored Markdown
 	3. Create your personal website repo: `username.github.io`
-8. Create your own `dotfiles` GitHub repo
 9. Learn to read and sometimes write code
 10. Learn AI context engineering
-	1. Install `gh-copilot` plugin with `claude-opus-4.6` model
