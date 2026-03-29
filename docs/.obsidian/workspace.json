@@ -30,8 +30,33 @@
               "icon": "lucide-file",
               "title": "README"
             }
+          },
+          {
+            "id": "5a3517b58e2ca248",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "essential-irl-livestreaming-gear.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "essential-irl-livestreaming-gear"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -205,8 +230,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "0f0fcd61c202b242",
+  "active": "5a3517b58e2ca248",
   "lastOpenFiles": [
+    "README.md",
+    "essential-irl-livestreaming-gear.md",
     "img/unix-keyboard.jpg",
     "img/Photos Library.photoslibrary/private/com.apple.photoanalysisd/caches/graph/PhotosGraph/photosgraph-tmp.kgdb-wal",
     "img/Photos Library.photoslibrary/private/com.apple.photoanalysisd/caches/graph/PhotosGraph/photosgraph.kgdb-shm",
@@ -227,9 +254,7 @@
     "img/Photos Library.photoslibrary/resources/derivatives/masters/8/86E3C3C1-6C76-414F-8711-936F5BD1192E_4_5005_c.jpeg",
     "img/Photos Library.photoslibrary/resources/derivatives/masters/E/EE3740EF-2B6C-478D-886E-C842A50233AE_4_5005_c.jpeg",
     "img/Photos Library.photoslibrary/resources/derivatives/masters/E/EE18BD48-A7C5-4503-87A8-F34A31A6110A_4_5005_c.jpeg",
-    "img/Photos Library.photoslibrary/resources/derivatives/masters/E/EC9D1F52-DF6D-4520-9E61-D240B15954D5_4_5005_c.jpeg",
     "get-admin.md",
-    "README.md",
     "old README.md",
     "are-there-still-jobs-in-tech.md",
     "know-thyself.md",
