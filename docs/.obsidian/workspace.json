@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "essential-irl-livestreaming-gear.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,11 +52,35 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "essential-irl-livestreaming-gear"
+              "title": "README"
+            }
+          },
+          {
+            "id": "3eacd53ad2736483",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "yoga-personal-practice-lab.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "yoga-personal-practice-lab"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -230,9 +254,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "5a3517b58e2ca248",
+  "active": "3eacd53ad2736483",
   "lastOpenFiles": [
     "README.md",
+    "yoga-personal-practice-lab.md",
     "essential-irl-livestreaming-gear.md",
     "img/unix-keyboard.jpg",
     "img/Photos Library.photoslibrary/private/com.apple.photoanalysisd/caches/graph/PhotosGraph/photosgraph-tmp.kgdb-wal",
