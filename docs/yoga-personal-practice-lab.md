@@ -1,18 +1,19 @@
 # Personal Practice Lab
 
-Regular personal practice is the goal of all yoga. Sometimes it's easy to forget. At home or studio or on the road, the practice is your guru, always with you. Our bodies are the most precious gifts we have.  We know our own better than anyone, or at least we should. In Lab we learn to love it, listen to it, and follow where it guides us, not against it.
+Regular personal practice is the heart of yoga. It’s easy to forget. At home, in the studio, or on the road—the practice is your guru, always with you. Your body is your most valuable gift and guide. In the Lab, we learn to listen to it, trust it, and follow where it leads.
 
-Personal Practice Lab is not a traditional class, but a quiet, Mysore-style workshop where you explore and build your own home practice at your own pace. We are your sangha, your community, here to support one another with the help of an experienced guide and mentor when you need one.
+Personal Practice Lab is not a traditional class, but a quiet, Mysore-style workshop where you explore and build your own practice at your own pace. This is your sangha—a supportive community where you can practice independently, with guidance available when you need it.
 
-We begin with a simple, shared intention to set the vibe, then move into a warm, calm, mostly silent space for an hour of self-led movement, breath, or meditation—whatever your body needs. (BYOMusic and headphones if you like.)
+We begin with a simple, shared intention to set the vibe, then settle into a calm, mostly silent space for an hour of self-led movement, breath, or meditation—whatever your body needs. You’re invited to soak in the warmth and the feeling of being together while on your own path. (BYO music and headphones if you like.)
 
-Inspired by Dave Swenson’s open approach to Yoga, all styles, bodies, and levels are welcome, but Ashtanga is recommended for its focus on Tristhana (breath, gaze, and locks) to achieve that euphoric Yoga high to calm the mind and empower our lives. Dave Swenson's Ashtanga Yoga Practice Manual is strongly recommended for those starting out. (We have copies in the library you can check out for free.)
+Inspired by Dave Swenson’s open approach, all styles, bodies, and levels are welcome. Ashtanga is encouraged for its focus on tristhana (breath, gaze, and locks), but not required. Dave Swenson’s Ashtanga Yoga Practice Manual is a great resource for those getting started, and copies are available to borrow from the studio library.
 
-Need to talk? Go ahead, but let's keep our voices soft. Since the format is open you are also welcome to leave the room at any time to continue a conversation. Be mindful of the markers indicating someone does not wish to be disturbed.
+This is also a bit like a practitioners’ support space. Quiet connection is welcome—please keep voices soft and be mindful of others. You’re always free to step outside for conversation. Optional markers can indicate whether you prefer focus or interaction.
+
+Above all, the goal is to help you establish a regular—perhaps even daily—practice that fits your life and a supportive community to help you stay informed and motivated.
 
 Please follow the Four Agreements while in the Lab:
-
-1. Be impeccable with your word
-2. Don't take anything personally
-3. Don't make assumptions
-4. Do your best
+- Be impeccable with your word
+- Don’t take anything personally 
+- Don’t make assumptions 
+- Do your best
