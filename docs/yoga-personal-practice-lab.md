@@ -6,7 +6,7 @@ Personal Practice Lab is not a traditional class, but a quiet, Mysore-style work
 
 We begin with a simple, shared intention to set the vibe, then move into a warm, calm, mostly silent space for an hour of self-led movement, breath, or meditation—whatever your body needs. (BYOMusic and headphones if you like.)
 
-Inspired by Dave Swenson’s open approach to Yoga, all styles, bodies, and levels are welcome, but Ashtanga is recommended for its focus on Tristhana (breath, gaze, and locks) to achieve that euphoric Yoga high to calm the mind and empower our lives. Dava Swenson's Ashtanga Yoga Practice Manual is strongly recommended for those starting out. (We have copies in the library you can check out for free.)
+Inspired by Dave Swenson’s open approach to Yoga, all styles, bodies, and levels are welcome, but Ashtanga is recommended for its focus on Tristhana (breath, gaze, and locks) to achieve that euphoric Yoga high to calm the mind and empower our lives. Dave Swenson's Ashtanga Yoga Practice Manual is strongly recommended for those starting out. (We have copies in the library you can check out for free.)
 
 Need to talk? Go ahead, but let's keep our voices soft. Since the format is open you are also welcome to leave the room at any time to continue a conversation. Be mindful of the markers indicating someone does not wish to be disturbed.
 
