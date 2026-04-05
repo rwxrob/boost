@@ -173,3 +173,8 @@ Notice that almost everything in this outline starts with a verb, a call to acti
 	2. Learn GitHub Flavored Markdown
 	3. Create your personal website repo: `username.github.io`
 9. Learn to read and sometimes write code
+10. [Harness the power of AI](harness-ai-power.md)
+	1. Don't fear AI, use it
+	2. Your ideas don't need permission — build them yourself
+	3. Become impossible to ignore
+	4. Make yourself valuable to companies
