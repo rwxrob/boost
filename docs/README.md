@@ -1,6 +1,19 @@
 _Best read using an editor that allows collapsing the outline such as Obsidian, Vim, or Emacs._
+## Get ready
 
-1. Welcome to our community
+Don't even bother with the Boost until you have achieved the following:
+
+1. Get a basic computer (preferably laptop) ($250)
+2. Get GitHub Copilot subscription ($10/month)
+3. Plan an hour per day of AI-assisted learning
+## What to do
+
+Knowing what to learn is the hardest part of achieving any goal, tech job or otherwise. All the motivation and intelligence in the world won't help until you know this. So, this outline is primarily designed to outline exactly that, not so much teach it to you. You can learn it yourself once you know what to focus on.
+
+>![NOTE]
+Notice that almost everything in this outline starts with a verb, a call to action, just as would be listed on a job description or resume.
+
+1. Join the Beginner Boost community
 	1. Hello friends
 	2. What's a Beginner Boost?
 		1. Why was the Beginner Boost created?
@@ -39,7 +52,7 @@ _Best read using an editor that allows collapsing the outline such as Obsidian, 
 		7. Pay it forward
 		8. [Say something nice](https://github.com/rwxrob/nice)
 2. Start managing your knowledge
-	1. Create your first private GitHub repo: `notes-boost`
+	1. Create your first GitHub repo: `notes-boost`
 	2. Follow the `rwxrob/boost` repo
 		1. Star the boost repo
 		2. Follow the boost repo
@@ -53,10 +66,10 @@ _Best read using an editor that allows collapsing the outline such as Obsidian, 
 	4. Install free version of [Obsidian](https://obsidian.md/) (optional)
 3. Connect and practice working with others
 	1. Manage your fear of people
-	2. Aggressively seek out friendships and mentoring opportunities
+	2. Aggressively seek out friendships and mentoring 
 	3. Build your professional learning community
 4. Learn how to learn
-	1. Start daily physical journaling today
+	1. Write in journal every day
 		1. Proven to reduce stress, increase dopamine
 		2. Promotes personal accountability
 		3. Provides a place to vent that doesn't harm others
@@ -71,8 +84,7 @@ _Best read using an editor that allows collapsing the outline such as Obsidian, 
 	5. Use real tools of the trade
 	6. Gain experience building stuff you want
 	7. Learn from those who have experience
-	8. Start using ChatGPT for learning
-	9. Focus on creativity, ideas, and solutions
+	8. Focus on creativity, ideas, and solutions
 5. Setup your technical learning lab
 	1. Install free version of [VS Code](https://code.visualstudio.com/)
 		1. Pick your favorite theme
