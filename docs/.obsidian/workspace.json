@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "ab06a8d5e060985c",
+        "id": "922410682975bfec",
         "type": "tabs",
         "children": [
           {
-            "id": "75e95e418e6972bc",
+            "id": "e425450c8cc7c56f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "conferences-and-job-fairs.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "conferences-and-job-fairs"
             }
           }
         ]
@@ -206,13 +206,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "75e95e418e6972bc",
+  "active": "e425450c8cc7c56f",
   "lastOpenFiles": [
+    "README.md",
     "conferences-and-job-fairs.md",
     "hiring-your-agent-army.md",
     "become-a-startup.md",
     "harness-ai-power.md",
-    "README.md",
     "news/2026-04-04.md",
     "news/2026-03-15.md",
     "relevant-tech.md",

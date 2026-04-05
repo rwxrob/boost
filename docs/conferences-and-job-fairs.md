@@ -4,11 +4,11 @@ Getting in the room matters. These events are worth your time and money whether 
 
 ## 2026
 
-| Event | Dates | Location | Focus |
-|---|---|---|---|
-| KubeCon + CloudNativeCon Europe | March 23–26 | Amsterdam, Netherlands | Kubernetes, cloud native |
-| SouthEast LinuxFest (SELF) | June 12–14 | Charlotte, NC | Linux, open source, FOSS |
-| KubeCon + CloudNativeCon North America | November 9–12 | Salt Lake City, Utah | Kubernetes, cloud native |
+| Event                                  | Dates         | Location               | Focus                    |
+| -------------------------------------- | ------------- | ---------------------- | ------------------------ |
+| KubeCon + CloudNativeCon Europe        | March 23–26   | Amsterdam, Netherlands | Kubernetes, cloud native |
+| SouthEast LinuxFest (SELF)             | June 12–14    | Charlotte, NC          | Linux, open source, FOSS |
+| KubeCon + CloudNativeCon North America | November 9–12 | Salt Lake City, Utah   | Kubernetes, cloud native |
 
 ## 2027
 
