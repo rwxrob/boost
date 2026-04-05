@@ -178,3 +178,8 @@ Notice that almost everything in this outline starts with a verb, a call to acti
 	2. Your ideas don't need permission — build them yourself
 	3. Become impossible to ignore
 	4. Make yourself valuable to companies
+11. [Become a startup](become-a-startup.md)
+	1. Operate like a founder, hired or not
+	2. Actually starting a startup
+	3. Acting like a startup inside a company (intrapreneurship)
+	4. Why this is the way to get a job in tech today
