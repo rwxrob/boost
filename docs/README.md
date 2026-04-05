@@ -9,11 +9,15 @@ _Best read using an editor that allows collapsing the outline such as Obsidian, 
 		4. What will I get from the Boost?
 		5. Why is there a Boost every year?
 		6. What about previous Boosts?
+		7. [Follow Rob for updates](https://link.tr/rwxrob)
 	3. What do I need before starting the Boost?
 		1. Mac or Windows Computer
 			1. Why not a Linux Desktop?
-		2. Time, about one hour per day
-		3. Physical journal
+		2. GitHub account with Copilot subscription
+			1. Why GitHub?
+			2. Pick a good username for work
+			3. Manage public perception
+		3. Time, an hour per day minimum
 		4. Motivation and commitment
 	4. Be supportive
 		1. Follow The Four Agreements in life as best you can
@@ -35,24 +39,18 @@ _Best read using an editor that allows collapsing the outline such as Obsidian, 
 		7. Pay it forward
 		8. [Say something nice](https://github.com/rwxrob/nice)
 2. Start managing your knowledge
-	1. [Follow Rob for updates](https://link.tr/rwxrob)
-	2. Create a GitHub account
-		1. Why GitHub?
-		2. Pick a good username for work
-		3. Manage public perception
-	3. Follow the boost repo
+	1. Create your first private GitHub repo: `notes-boost`
+	2. Follow the `rwxrob/boost` repo
 		1. Star the boost repo
 		2. Follow the boost repo
 		3. Submit issue when fix needed
 		4. Clone if you already know how
-	4. Join the boost discussion group
-		1. Introduce yourself
-		2. Follow each others socials
-		3. Ask questions when you need to
-	5. Create your first private repo: `notes`
-		1. Learn to take notes using just GitHub
-	6. Install free version of [Obsidian](https://obsidian.md/)
-		1. Eventually `notes` can be edited from Obsidian as well
+		5. Join the boost discussion group
+			1. Introduce yourself
+			2. Follow each others socials
+			3. Ask questions when you need to
+	3. Take notes using just GitHub
+	4. Install free version of [Obsidian](https://obsidian.md/) (optional)
 3. Connect and practice working with others
 	1. Manage your fear of people
 	2. Aggressively seek out friendships and mentoring opportunities
@@ -163,4 +161,3 @@ _Best read using an editor that allows collapsing the outline such as Obsidian, 
 	2. Learn GitHub Flavored Markdown
 	3. Create your personal website repo: `username.github.io`
 9. Learn to read and sometimes write code
-10. Learn AI context engineering
