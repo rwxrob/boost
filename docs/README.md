@@ -166,11 +166,11 @@ Notice that almost everything in this outline starts with a verb, a call to acti
 		4. Write bash shell scripts
 			1. What is a _script_?
 			2. `shellcheck`,`shfmt`
-	7. [Use tmux/screen for terminal window management and safety](tmux-for-multi-agent-development.md)
+	7. Use tmux/screen for terminal window management and safety
 		1. screen compatibility and why C-a is the right prefix
 		2. C-a w is the only window manager you need
 		3. Why tmux beats GUI multi-agent tools like Conductor and T3 Chat
-		4. Scripting and automating agents with tmux send-keys
+		4. [Scripting and automating agents with tmux send-keys](tmux-for-multi-agent-development.md)
 7. Create your own `dot` GitHub repo with common configs and scripts
 8. Create your first web site
 	1. Create your special profile repo: `username`
