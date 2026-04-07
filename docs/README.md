@@ -187,3 +187,4 @@ Notice that almost everything in this outline starts with a verb, a call to acti
 	1. What it includes and why it is minimal
 	2. How to create a new repo from the template
 	3. Keep AGENTS.md up to date so every session picks up where the last left off
+	4. [Your agentic AI template is the new dotfiles](agentic-template-is-the-new-dotfiles.md)
