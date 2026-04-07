@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "conferences-and-job-fairs.md",
+                "file": "yoga-personal-practice-lab.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "conferences-and-job-fairs"
+              "title": "yoga-personal-practice-lab"
             }
           }
         ]
@@ -208,9 +208,10 @@
   },
   "active": "e425450c8cc7c56f",
   "lastOpenFiles": [
-    "README.md",
-    "conferences-and-job-fairs.md",
+    "you-are-now-a-startup.md",
     "hiring-your-agent-army.md",
+    "conferences-and-job-fairs.md",
+    "README.md",
     "become-a-startup.md",
     "harness-ai-power.md",
     "news/2026-04-04.md",
@@ -252,7 +253,6 @@
     "ptp.md",
     "open-a-terminal.md",
     "mandatory-commands.md",
-    "().md",
-    "something.md"
+    "().md"
   ]
 }
