@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "yoga-personal-practice-lab.md",
+                "file": "agentic-template-is-the-new-dotfiles.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "yoga-personal-practice-lab"
+              "title": "agentic-template-is-the-new-dotfiles"
             }
           }
         ]
@@ -208,6 +208,8 @@
   },
   "active": "e425450c8cc7c56f",
   "lastOpenFiles": [
+    "yoga-personal-practice-lab.md",
+    "agentic-template-is-the-new-dotfiles.md",
     "use-agentic-ai-template.md",
     "you-are-now-a-startup.md",
     "hiring-your-agent-army.md",
@@ -218,7 +220,6 @@
     "news/2026-04-04.md",
     "news/2026-03-15.md",
     "relevant-tech.md",
-    "yoga-personal-practice-lab.md",
     "essential-irl-livestreaming-gear.md",
     "img/unix-keyboard.jpg",
     "img/Photos Library.photoslibrary/private/com.apple.photoanalysisd/caches/graph/PhotosGraph/photosgraph-tmp.kgdb-wal",
@@ -252,7 +253,6 @@
     "setup-boost-container.md",
     "remove-boost.md",
     "ptp.md",
-    "open-a-terminal.md",
-    "mandatory-commands.md"
+    "open-a-terminal.md"
   ]
 }
