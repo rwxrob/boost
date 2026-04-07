@@ -183,3 +183,7 @@ Notice that almost everything in this outline starts with a verb, a call to acti
 	2. Actually starting a startup
 	3. Acting like a startup inside a company (intrapreneurship)
 	4. Why this is the way to get a job in tech today
+12. [Use rwxrob/agentic-ai-template for new projects](use-agentic-ai-template.md)
+	1. What it includes and why it is minimal
+	2. How to create a new repo from the template
+	3. Keep AGENTS.md up to date so every session picks up where the last left off
