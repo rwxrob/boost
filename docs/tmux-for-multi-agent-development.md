@@ -56,6 +56,12 @@ Because tmux is just a terminal multiplexer, every agent interaction is scriptab
 
 Try doing any of that with a dashboard.
 
+## Just ask
+
+Because tmux is scriptable and agents can run shell commands, you can simply ask an agent to open a new window and run something for you. "Open a new tmux window called logs and tail the app log" is a valid instruction. The agent issues the `tmux new-window` and `tmux send-keys` commands, the window appears, and it is running — without you touching a keyboard. You stay in the conversation while your environment reconfigures itself around you.
+
+This is what it looks like when your tools are composable. A GUI cannot be instructed. A terminal can.
+
 ## Get the config
 
 The tmux config at [rwxrob/dot](https://github.com/rwxrob/dot/tree/main/tmux) is public domain. Clone it, study it, make it yours. It uses `C-a` as prefix, vi keys for navigation and copy mode, minimal status bar, screen-compatible splits, and synchronized panes on demand. It is the result of years of real use and is optimized for exactly this kind of work.
