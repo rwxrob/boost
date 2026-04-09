@@ -1,5 +1,7 @@
 # Agent Instructions
 
+Keep this file as agent-agnostic as possible.
+
 ## Rule: Commits
 
 - Always use conventional commits (e.g. `feat:`, `fix:`, `docs:`, `chore:`)
@@ -8,7 +10,7 @@
 
 ## Rule: Context Maintenance
 
-At the end of every significant task or session, summarize the current state, architectural decisions made, and pending todo items into AGENTS.md. Always ensure this file reflects the ground truth of the project so future sessions can resume without friction.
+At the end of every significant task or session, summarize the current state, architectural decisions made, and pending todo items into AGENTS.md. Always ensure this file reflects the ground truth of the project so future sessions can resume without friction. Overwrite it so the next session starts with current state.
 
 ## Rule: Environment
 
@@ -24,6 +26,10 @@ At the end of every significant task or session, summarize the current state, ar
 - Single-line paragraphs in all markdown files — no multi-line wrapped paragraphs
 - No underscores or spaces in filenames; use hyphens
 - No extensions on executable scripts, ever
+
+## Rule: Agent specific
+
+- Always use `gh copilot` not `copilot`
 
 ## Current architecture
 
