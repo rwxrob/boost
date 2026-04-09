@@ -29,6 +29,14 @@ At the end of every significant task or session, summarize the current state, ar
 
 This repo is the rwxrob Beginner Boost — a beginner tech career guide published as a docs vault in `docs/` using Obsidian-compatible markdown. The outline lives in `docs/README.md`. Individual topic pages live as separate markdown files in `docs/`.
 
-## Current tags / versions
+## Current state
 
-TODO
+The outline in `docs/README.md` covers sections 1–12. Recent additions include:
+
+- `docs/build-mcp-servers.md` — article on building MCP servers as a modern tech skill, linked under section 10 (Harness the power of AI) as item 10.5
+- `docs/tmux-for-multi-agent-development.md` — linked under section 6.7.4
+- `docs/use-agentic-ai-template.md` and `docs/agentic-template-is-the-new-dotfiles.md` — linked under section 12
+
+## Pending todos
+
+- Fill in `## Current tags / versions` section once versioning is established
