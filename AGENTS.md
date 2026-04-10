@@ -31,6 +31,7 @@ At the end of every significant task or session, summarize the current state, ar
 ## Rule: Agent specific
 
 - Always use `gh copilot` not `copilot`
+- When renaming a tmux window, always prefix the name with an emoji reflecting current state: `🚀` starting, `⏳` in progress, `🔍` researching, `🔨` building, `🧪` testing, `✅` done, `🔴` error, `💬` waiting for input, `🛑` blocked
 
 ## Current architecture
 
