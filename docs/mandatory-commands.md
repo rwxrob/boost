@@ -115,6 +115,7 @@
 - touch
 - tr
 - tree
+- truncate
 - tset
 - type
 - uname
