@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "9ff49effb0059506",
+        "id": "a0f235a95a460648",
         "type": "tabs",
         "children": [
           {
-            "id": "7fbd9dcc04d2f815",
+            "id": "00da05e857b29e28",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "build-mcp-servers.md",
+                "file": "tmux-for-multi-agent-development.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "build-mcp-servers"
+              "title": "tmux-for-multi-agent-development"
             }
           }
         ]
@@ -206,8 +206,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "7fbd9dcc04d2f815",
+  "active": "00da05e857b29e28",
   "lastOpenFiles": [
+    "build-mcp-servers.md",
     "README.md",
     "tmux-for-multi-agent-development.md",
     "agentic-template-is-the-new-dotfiles.md",
@@ -252,7 +253,6 @@
     "github/github.md",
     "contributing.md",
     "setup-boost-container.md",
-    "remove-boost.md",
-    "ptp.md"
+    "remove-boost.md"
   ]
 }
