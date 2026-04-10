@@ -26,6 +26,7 @@ At the end of every significant task or session, summarize the current state, ar
 - Single-line paragraphs in all markdown files — no multi-line wrapped paragraphs
 - No underscores or spaces in filenames; use hyphens
 - No extensions on executable scripts, ever
+- Always use sentence case for all titles and headings
 
 ## Rule: Agent specific
 
