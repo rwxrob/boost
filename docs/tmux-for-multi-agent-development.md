@@ -14,6 +14,27 @@ The single most important keybinding for multi-agent development is `C-a w` — 
 
 When you have six agents running in parallel — one per feature branch, one watching tests, one tailing logs — `C-a w` is how you stay oriented. Nothing in Conductor or T3 Chat comes close to the speed and clarity of that single interaction.
 
+## Emojis in window names make the list a status board
+
+Add emojis to your window names and `C-a w` becomes a live dashboard. A list like `🟢 api  ⏳ tests  ✅ deploy  🔴 review` tells you everything in under a second — no reading, no guessing.
+
+Press `C-a ,` to rename the current window. A simple set of conventions to start with:
+
+- `🟢` — running normally
+- `🔴` — error or needs attention
+- `✅` — task complete
+- `⏳` — in progress
+- `💤` — idle or waiting
+
+Agents can update their own window name as they work. Ask an agent to rename its window when it finishes or hits an error, or drive it from a script:
+
+```sh
+tmux rename-window -t agents:tests "✅ tests"
+tmux rename-window -t agents:backend "🔴 backend"
+```
+
+The window list becomes self-updating and the status board maintains itself.
+
 ## The fundamental problem with GUI-based multi-agent tools
 
 When you use a GUI to orchestrate multiple agents, you are putting a layer of abstraction between you and your agents that costs you in every direction — visibility, control, speed, and portability.
