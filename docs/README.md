@@ -183,6 +183,7 @@ Notice that almost everything in this outline starts with a verb, a call to acti
 	3. Become impossible to ignore
 	4. Make yourself valuable to companies
 	5. [Build MCP servers to connect AI agents to real systems](build-mcp-servers.md)
+	6. (Optional) [Add live voice input to GitHub Copilot with Superwhisper](voice-input-with-superwhisper.md)
 11. [Become a startup](become-a-startup.md)
 	1. Operate like a founder, hired or not
 	2. Actually starting a startup
