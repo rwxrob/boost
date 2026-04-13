@@ -172,6 +172,7 @@ Notice that almost everything in this outline starts with a verb, a call to acti
 		3. Why tmux beats GUI multi-agent tools like Conductor and T3 Chat
 		4. [Scripting and automating agents with tmux send-keys](tmux-for-multi-agent-development.md)
 		5. [Git worktrees for parallel agentic development](git-worktrees-for-agentic-development.md)
+		6. [Gas Town: multi-agent workspace manager worth knowing](gas-town-multi-agent-orchestration.md)
 7. Create your own `dot` GitHub repo with common configs and scripts
 8. Create your first web site
 	1. Create your special profile repo: `username`
