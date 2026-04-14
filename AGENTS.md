@@ -10,27 +10,36 @@ Keep this file as agent-agnostic as possible.
 
 ## Rule: Context Maintenance
 
-At the end of every significant task or session, summarize the current state, architectural decisions made, and pending todo items into AGENTS.md. Always ensure this file reflects the ground truth of the project so future sessions can resume without friction. Overwrite it so the next session starts with current state.
+At the end of every significant task or session, summarize the current state, architectural decisions made, and pending todo items into AGENTS.md. Always ensure this file reflects the ground truth of the project so future sessions can resume without friction. Use the writeFile tool to overwrite it so the next session starts with current state.
 
 ## Rule: Environment
 
 - Use `/usr/bin/open` (full path) to open files or URLs on macOS — never plain `open`
 - Open markdown files using the Obsidian URL scheme: `/usr/bin/open "obsidian://open?path=URL_ENCODED_ABSOLUTE_PATH"`
+- Always pipe URLs or other text to be pasted into `pbcopy` when suggesting them
 
 ## Rule: Secrets
 
 - Never commit secrets, config files, or database files
 
-## Rule: Code Style
+## Rule: Code style
 
 - Single-line paragraphs in all markdown files — no multi-line wrapped paragraphs
 - No underscores or spaces in filenames; use hyphens
 - No extensions on executable scripts, ever
 - Always use sentence case for all titles and headings
 
+## Rule: GitHub repos
+
+- Always enable branch protection on `main` when creating a new GitHub repo so a PR is always required
+- Require zero reviews (PRs required but no approvals needed)
+- Enable automatic branch deletion after a PR is merged
+- After merging a PR, pull the latest changes into the current branch and delete any leftover worktrees
+
 ## Rule: Agent specific
 
 - Always use `gh copilot` not `copilot`
+- Use Claude Opus 4.6 (high) for all new projects
 - When renaming a tmux window, always prefix the name with an emoji reflecting current state: `🚀` starting, `⏳` in progress, `🔍` researching, `🔨` building, `🧪` testing, `✅` done, `🔴` error, `💬` waiting for input, `🛑` blocked
 
 ## Current architecture
