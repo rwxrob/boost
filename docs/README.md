@@ -18,6 +18,7 @@ Notice that almost everything in this outline starts with a verb, a call to acti
 	2. What's a Beginner Boost?
 		1. Why was the Beginner Boost created?
 		2. Who is it for and who should skip?
+		3. [Getting into tech with AI: still worth it?](getting-into-tech-with-ai.md)
 		3. How long will the Boost take?
 		4. What will I get from the Boost?
 		5. Why is there a Boost every year?
