@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "09047e9bbf678056",
+        "id": "bb6695a7829922df",
         "type": "tabs",
         "children": [
           {
-            "id": "449433c3f0676442",
+            "id": "b5a2af9373515021",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -192,7 +192,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "449433c3f0676442",
+  "active": "b5a2af9373515021",
   "lastOpenFiles": [
     "gas-town-multi-agent-orchestration.md",
     "tmux-for-multi-agent-development.md",
