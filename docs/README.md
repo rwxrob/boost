@@ -186,9 +186,10 @@ Notice that almost everything in this outline starts with a verb, a call to acti
 	2. Your ideas don't need permission — build them yourself
 	3. Become impossible to ignore
 	4. Make yourself valuable to companies
-	5. [Build MCP servers to connect AI agents to real systems](build-mcp-servers.md)
-	6. (Optional) [Add live voice input to GitHub Copilot with Superwhisper](voice-input-with-superwhisper.md)
-	7. (Optional) [Using AI for writing with a custom style and literary voice](ai-writing-with-custom-style.md)
+	5. [Worst mistakes when learning to use AI and how to avoid them](ai-mistakes-and-safe-usage.md)
+	6. [Build MCP servers to connect AI agents to real systems](build-mcp-servers.md)
+	7. (Optional) [Add live voice input to GitHub Copilot with Superwhisper](voice-input-with-superwhisper.md)
+	8. (Optional) [Using AI for writing with a custom style and literary voice](ai-writing-with-custom-style.md)
 11. [Become a startup](become-a-startup.md)
 	1. Operate like a founder, hired or not
 	2. Actually starting a startup
