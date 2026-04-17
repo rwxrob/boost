@@ -33,6 +33,7 @@ Notice that almost everything in this outline starts with a verb, a call to acti
 			3. Manage public perception
 		3. Time, an hour per day minimum
 		4. Motivation and commitment
+		5. (Optional) [Typing speed matters much less than you think](typing-matters-less-now.md)
 	4. Be supportive
 		1. Follow The Four Agreements in life as best you can
 			1. Be impeccable with your word
