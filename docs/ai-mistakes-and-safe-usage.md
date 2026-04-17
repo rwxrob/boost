@@ -62,6 +62,23 @@ AI models are trained to sound confident. A wrong answer and a right answer ofte
 
 The fix: verify independently anything that matters. Use the AI to find the answer, then check it. For code: run it. For facts: look them up. For plans: think through them yourself before executing.
 
+## Not sandboxing agents that touch real systems
+
+When an agentic AI can run shell commands, write files, or talk to a network, it can cause real damage — not through malice, but through misunderstanding. An agent that thinks it should "clean up" a directory can delete things you needed. An agent exploring a codebase can accidentally trigger a build, send a test email, or modify a config it shouldn't touch.
+
+A virtual machine or OCI-compliant container puts a hard boundary around what the agent can reach. If something goes wrong, you throw it away and start over. Nothing on your host system is at risk.
+
+Practical options:
+
+- **OCI containers** (Podman, etc.) — spin up a clean Linux environment with only the files and tools the agent needs; destroy it when done
+- **Lima or Multipass** — lightweight Linux VMs on macOS, easy to snapshot and restore
+- **GitHub Codespaces or Gitpod** — cloud-based dev environments isolated by default; ideal for agent work on a repo without touching your local machine
+- **Devcontainers** — define the entire dev environment in the repo itself; editors like VS Code run everything inside the container
+
+The tradeoff is setup time and resource overhead. For exploratory or destructive tasks — refactoring, batch file operations, anything touching infrastructure — the overhead is worth it. For small, well-understood tasks in a repo you control, working locally with a clean git state is usually sufficient.
+
+The general rule: the more an agent can affect things outside the repo, the more isolation you want around it.
+
 ## The underlying skill to develop
 
 Safe AI usage is really one skill: **calibrated skepticism**. Trust the output enough to move fast, but verify enough to catch mistakes before they matter. That calibration comes from experience — from catching AI errors, from understanding what kinds of mistakes models tend to make, and from building the habit of reading before running.

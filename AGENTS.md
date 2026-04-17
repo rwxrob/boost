@@ -28,6 +28,11 @@ At the end of every significant task or session, summarize the current state, ar
 - No underscores or spaces in filenames; use hyphens
 - No extensions on executable scripts, ever
 - Always use sentence case for all titles and headings
+- Always use `----` for horizontal rules in markdown (not `---`) to avoid em-dash creation by pandoc and similar tools
+
+## Rule: Containers
+
+- Never refer to Docker specifically; always refer to OCI-compliant containers
 
 ## Rule: GitHub repos
 
