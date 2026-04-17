@@ -18,7 +18,7 @@ Notice that almost everything in this outline starts with a verb, a call to acti
 	2. What's a Beginner Boost?
 		1. Why was the Beginner Boost created?
 		2. Who is it for and who should skip?
-		3. [Getting into tech with AI: still worth it?](getting-into-tech-with-ai.md)
+		3. (Optional) [Getting into tech with AI: still worth it?](getting-into-tech-with-ai.md)
 		3. How long will the Boost take?
 		4. What will I get from the Boost?
 		5. Why is there a Boost every year?
@@ -174,7 +174,7 @@ Notice that almost everything in this outline starts with a verb, a call to acti
 		3. Why tmux beats GUI multi-agent tools like Conductor and T3 Chat
 		4. [Scripting and automating agents with tmux send-keys](tmux-for-multi-agent-development.md)
 		5. [Git worktrees for parallel agentic development](git-worktrees-for-agentic-development.md)
-		6. [Gas Town: multi-agent workspace manager worth knowing](gas-town-multi-agent-orchestration.md)
+		6. (Optional) [Gas Town: multi-agent workspace manager worth knowing](gas-town-multi-agent-orchestration.md)
 7. Create your own `dot` GitHub repo with common configs and scripts
 8. Create your first web site
 	1. Create your special profile repo: `username`
@@ -186,7 +186,7 @@ Notice that almost everything in this outline starts with a verb, a call to acti
 	2. Your ideas don't need permission — build them yourself
 	3. Become impossible to ignore
 	4. Make yourself valuable to companies
-	5. [Worst mistakes when learning to use AI and how to avoid them](ai-mistakes-and-safe-usage.md)
+	5. (Optional) [Worst mistakes when learning to use AI and how to avoid them](ai-mistakes-and-safe-usage.md)
 	6. [Build MCP servers to connect AI agents to real systems](build-mcp-servers.md)
 	7. (Optional) [Add live voice input to GitHub Copilot with Superwhisper](voice-input-with-superwhisper.md)
 	8. (Optional) [Using AI for writing with a custom style and literary voice](ai-writing-with-custom-style.md)
