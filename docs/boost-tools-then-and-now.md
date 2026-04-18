@@ -4,6 +4,16 @@ The Beginner Boost has been running since 2020, and SKILSTAK has been teaching t
 
 Here is an honest evaluation of every major tool and skill the Boost and SKILSTAK have traditionally covered, how important each one is today, and what you should prioritize instead when something has shifted.
 
+## Tech is now like medicine
+
+Before anything else, understand what has changed about the career itself. AI has eliminated most junior and mid-level tech jobs. The entry-level positions where you could learn on the job — writing CRUD endpoints, building simple UIs, maintaining straightforward infrastructure — are being handled by AI agents now. What remains are senior roles that require deep understanding across multiple technologies and the ability to architect systems, not just implement them.
+
+This means approaching a career in tech is now more like a decision to become a doctor. You are committing to mastering multiple disciplines at a meaningful depth — not because it is fun to collect skills, but because the work that still needs a human requires someone who can guide AI across complex systems with confidence. An AI agent can generate a Kubernetes deployment manifest, but it takes a person who understands networking, storage, security, and application architecture to know whether that manifest will actually work in production. An AI agent can write a database migration, but it takes someone who understands data modeling, consistency guarantees, and the specific business domain to know whether that migration is safe.
+
+The good news is that AI itself is the biggest boost to your learning. AI *is* the Boost. You are not studying from textbooks alone anymore. You can use AI to teach yourself interactively, build real things as you learn, and reach working competence in a new technology faster than any previous generation of engineers. The depth that used to take years of on-the-job experience can now be reached in months of focused, AI-assisted study and building. But you have to actually do the learning. There are no shortcuts to understanding — only faster paths to it.
+
+One critical tip: tell the AI that you are learning. Put it in your AGENTS.md file for every project. Something like "The person working on this project is actively learning these technologies. Explain decisions thoroughly, call out potential pitfalls, and prefer safe, well-understood approaches over clever shortcuts." When the AI knows you are a learner, it explains *why* it made a choice instead of just making it. It warns you about things a senior engineer would catch on their own. It teaches you as it builds. Without that context, the AI optimizes for speed and assumes you already understand the tradeoffs. The difference in what you learn from each session is enormous.
+
 ## The most important skill now
 
 The single most important skill you can develop right now is learning how to use AI to teach yourself what you want to learn, and then using AI to deliver the things you have learned to build.

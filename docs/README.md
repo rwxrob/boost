@@ -6,6 +6,9 @@ Don't even bother with the Boost until you have achieved the following:
 1. Get a basic computer (preferably laptop) ($250)
 2. Get GitHub Copilot subscription ($10/month)
 3. Plan an hour per day of AI-assisted learning
+
+📖 **[Boost tools then and now](boost-tools-then-and-now.md)** — Tech careers now require medical-school depth. Junior roles are disappearing. AI is both the reason and the solution. Read this first to understand what skills matter now and why AI-assisted learning is the most important skill you can develop.
+
 ## What to do
 
 Knowing what to learn is the hardest part of achieving any goal, tech job or otherwise. All the motivation and intelligence in the world won't help until you know this. So, this outline is primarily designed to outline exactly that, not so much teach it to you. You can learn it yourself once you know what to focus on.
@@ -34,7 +37,6 @@ Notice that almost everything in this outline starts with a verb, a call to acti
 		3. Time, an hour per day minimum
 		4. Motivation and commitment
 		5. (Optional) [Typing speed matters much less than you think](typing-matters-less-now.md)
-		6. (Optional) [Boost tools then and now](boost-tools-then-and-now.md)
 	4. Be supportive
 		1. Follow The Four Agreements in life as best you can
 			1. Be impeccable with your word
