@@ -200,3 +200,4 @@ Notice that almost everything in this outline starts with a verb, a call to acti
 	2. How to create a new repo from the template
 	3. Keep AGENTS.md up to date so every session picks up where the last left off
 	4. [Your agentic AI template is the new dotfiles](agentic-template-is-the-new-dotfiles.md)
+	5. (Optional) [Keep repos small so you can fire bad agent sessions fast](keep-repos-small-for-agents.md)
