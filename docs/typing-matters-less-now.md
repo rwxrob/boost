@@ -12,7 +12,7 @@ Three things happened at roughly the same time:
 
 **Autocomplete fills in the rest.** Even when you are typing, tools like GitHub Copilot complete your thoughts before you finish them. The actual number of keystrokes required to produce working code has dropped by an order of magnitude.
 
-**Voice input works now.** Tools like Superwhisper transcribe speech to text accurately enough that many prompts, messages, and even code comments are faster to speak than type. A 200-word prompt takes about 90 seconds to speak and several minutes to type.
+**Voice input works now.** Tools like [Superwhisper](https://superwhisper.com) transcribe speech to text accurately enough that many prompts, messages, and even code comments are faster to speak than type. A 200-word prompt takes about 90 seconds to speak and several minutes to type.
 
 ## What typing is still good for
 
@@ -42,7 +42,7 @@ None of these require fast typing. All of them require clear thinking.
 
 The typing speed trap has a close cousin: spending weeks configuring NeoVim, chasing the perfect `.vimrc`, watching YouTube videos about someone else's Lua plugin setup, and endlessly tweaking keybindings. The same pattern shows up with Emacs, shell prompts, and terminal color schemes.
 
-None of this is building anything. It feels productive because you are learning and making decisions, but the output is a config file that helps you edit text marginally faster. Meanwhile, the person next to you with a stock VS Code install and Superwhisper is shipping features by talking to their AI agent.
+None of this is building anything. It feels productive because you are learning and making decisions, but the output is a config file that helps you edit text marginally faster. Meanwhile, the person next to you with a stock VS Code install and [Superwhisper](https://superwhisper.com) is shipping features by talking to their AI agent.
 
 Editor configuration is a form of procrastination that disguises itself as professionalism. It signals depth to other enthusiasts, but employers don't care how many plugins you have. They care whether you can deliver working software.
 
@@ -50,7 +50,7 @@ This doesn't mean editors don't matter. Pick one that works, learn it well enoug
 
 ## Learn tools that multiply your output instead
 
-Superwhisper is a good example of a tool that actually changes how fast you work. Speaking a 200-word prompt takes about 90 seconds. Typing it takes several minutes. Over the course of a day spent working with AI agents, voice input saves hours — not because it is a novelty, but because it removes a genuine bottleneck between your brain and the machine.
+[Superwhisper](https://superwhisper.com) is a good example of a tool that actually changes how fast you work. Speaking a 200-word prompt takes about 90 seconds. Typing it takes several minutes. Over the course of a day spent working with AI agents, voice input saves hours — not because it is a novelty, but because it removes a genuine bottleneck between your brain and the machine. Consider grabbing the [lifetime license](https://superwhisper.com) ($249 direct from the site, not the App Store) while it is still available — once voice input becomes mainstream, deals like that tend to disappear.
 
 The same logic applies to learning `git` deeply, understanding containers, writing good prompts, and knowing how to read code. These are tools that compound. A faster NeoVim config does not compound. It plateaus almost immediately.
 
