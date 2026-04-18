@@ -208,6 +208,7 @@
   },
   "active": "d82962cfcd32bb29",
   "lastOpenFiles": [
+    "boost-tools-then-and-now.md",
     "hiring-your-agent-army.md",
     "README.md",
     "getting-into-tech-with-ai.md",
@@ -252,7 +253,6 @@
     "build-run-remove-boost-container.md",
     "knowledge-management.md",
     "install-software.md",
-    "github/github.md",
-    "contributing.md"
+    "github/github.md"
   ]
 }
