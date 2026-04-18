@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "typing-matters-less-now.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "typing-matters-less-now"
+              "title": "README"
             }
           }
         ]
@@ -88,8 +88,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "6369c1c8fff9de90",
@@ -209,8 +208,9 @@
   "active": "d82962cfcd32bb29",
   "lastOpenFiles": [
     "boost-tools-then-and-now.md",
-    "hiring-your-agent-army.md",
     "README.md",
+    "typing-matters-less-now.md",
+    "hiring-your-agent-army.md",
     "getting-into-tech-with-ai.md",
     "become-a-startup.md",
     "harness-ai-power.md",
@@ -252,7 +252,6 @@
     "know-thyself.md",
     "build-run-remove-boost-container.md",
     "knowledge-management.md",
-    "install-software.md",
-    "github/github.md"
+    "install-software.md"
   ]
 }
