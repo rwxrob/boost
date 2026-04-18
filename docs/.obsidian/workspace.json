@@ -4,17 +4,31 @@
     "type": "split",
     "children": [
       {
-        "id": "bb6695a7829922df",
+        "id": "bc2df2b615940be1",
         "type": "tabs",
         "children": [
           {
-            "id": "b5a2af9373515021",
+            "id": "d82962cfcd32bb29",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "typing-matters-less-now.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "typing-matters-less-now"
             }
           }
         ]
@@ -192,20 +206,21 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "b5a2af9373515021",
+  "active": "d82962cfcd32bb29",
   "lastOpenFiles": [
-    "gas-town-multi-agent-orchestration.md",
-    "tmux-for-multi-agent-development.md",
-    "build-mcp-servers.md",
+    "hiring-your-agent-army.md",
     "README.md",
+    "getting-into-tech-with-ai.md",
+    "become-a-startup.md",
+    "harness-ai-power.md",
+    "tmux-for-multi-agent-development.md",
+    "gas-town-multi-agent-orchestration.md",
+    "build-mcp-servers.md",
     "agentic-template-is-the-new-dotfiles.md",
     "yoga-personal-practice-lab.md",
     "use-agentic-ai-template.md",
     "you-are-now-a-startup.md",
-    "hiring-your-agent-army.md",
     "conferences-and-job-fairs.md",
-    "become-a-startup.md",
-    "harness-ai-power.md",
     "news/2026-04-04.md",
     "news/2026-03-15.md",
     "relevant-tech.md",
@@ -238,7 +253,6 @@
     "knowledge-management.md",
     "install-software.md",
     "github/github.md",
-    "contributing.md",
-    "setup-boost-container.md"
+    "contributing.md"
   ]
 }
