@@ -41,3 +41,29 @@ That is what this whole thing is about. Not just getting a job, but becoming gen
 - Keep learning, keep building, keep shipping
 
 The fear of AI is understandable, but it is also a choice. Choose differently. Pick it up, learn how it works, and let it amplify everything you are already capable of.
+
+## Know where the industry is heading
+
+The agentic AI era has its own open infrastructure — and you should know what it is.
+
+In December 2025, the Linux Foundation announced the [Agentic AI Foundation (AAIF)](https://aaif.io), a neutral, vendor-neutral home for the open standards and tools that underpin modern agentic AI development. Its founding projects are the ones you are already using or will be soon:
+
+- **Model Context Protocol (MCP)** — the universal standard for connecting AI agents to tools, data, and applications, now adopted by Claude, GitHub Copilot, VS Code, ChatGPT, Gemini, and thousands of enterprises
+- **goose** — an open source, local-first agent framework built on MCP for building and running agentic workflows
+- **AGENTS.md** — the open standard (now used in over 60,000 repos) for giving AI coding agents consistent, project-specific instructions
+
+Founding Platinum members include AWS, Anthropic, Block, Bloomberg, Cloudflare, Google, Microsoft, and OpenAI. This is not a side project — this is the Linux Foundation doing for agentic AI what the CNCF did for cloud native. The same way knowing Kubernetes and containers became essential for modern ops, knowing MCP and agentic workflows is becoming essential for modern development and operations.
+
+Being associated with the AAIF — following its projects, understanding its standards, contributing to repos in its ecosystem — signals that you are operating at the frontier, not catching up to it.
+
+## Go to the conferences
+
+The AAIF runs in-person events including MCP Dev Summits and AGNTCon + MCPCon. These are the events where the people building the infrastructure of agentic AI show up. Going to them, even once, gives you:
+
+- Real conversations with practitioners who are solving the same problems you are
+- A network of people who are hiring and looking to work with people who show up
+- Direct exposure to what is actually being built and deployed, not just talked about online
+
+You do not need a company sponsoring you to attend. You need to decide it matters and make it happen.
+
+Showing up at an agentic AI conference and being able to say "I attended, I talked to people, I learned X" is the kind of proof-of-work that makes you stand out. It is concrete evidence that you are someone who takes modern development and operations seriously — not just someone who watched a few tutorials.

@@ -189,10 +189,12 @@ Notice that almost everything in this outline starts with a verb, a call to acti
 	2. Your ideas don't need permission — build them yourself
 	3. Become impossible to ignore
 	4. Make yourself valuable to companies
-	5. (Optional) [Worst mistakes when learning to use AI and how to avoid them](ai-mistakes-and-safe-usage.md)
-	6. [Build MCP servers to connect AI agents to real systems](build-mcp-servers.md)
-	7. (Optional) [Add live voice input to GitHub Copilot with Superwhisper](voice-input-with-superwhisper.md)
-	8. (Optional) [Using AI for writing with a custom style and literary voice](ai-writing-with-custom-style.md)
+	5. Know where the industry is heading — the Agentic AI Foundation (AAIF)
+	6. Go to the conferences: AGNTCon, MCPCon, MCP Dev Summits
+	7. (Optional) [Worst mistakes when learning to use AI and how to avoid them](ai-mistakes-and-safe-usage.md)
+	8. [Build MCP servers to connect AI agents to real systems](build-mcp-servers.md)
+	9. (Optional) [Add live voice input to GitHub Copilot with Superwhisper](voice-input-with-superwhisper.md)
+	10. (Optional) [Using AI for writing with a custom style and literary voice](ai-writing-with-custom-style.md)
 11. [Become a startup](become-a-startup.md)
 	1. Operate like a founder, hired or not
 	2. Actually starting a startup

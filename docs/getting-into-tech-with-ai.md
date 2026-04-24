@@ -39,6 +39,10 @@ The Boost exists to give you those foundations — not the old-school "memorize 
 
 There's a new category of work emerging: agentic development. Running multiple AI agents, giving them tasks, reviewing their output, stitching together workflows. This is real work that pays well and that almost nobody knows how to do yet.
 
+The infrastructure for this work now has an open, neutral home: the [Agentic AI Foundation (AAIF)](https://aaif.io), a Linux Foundation project launched in December 2025. Its founding projects — Model Context Protocol (MCP), goose, and AGENTS.md — are already the de facto standards for connecting AI agents to tools, running local agent workflows, and giving agents consistent project instructions. Backing comes from AWS, Anthropic, Google, Microsoft, OpenAI, and others. This is the open source layer that agentic AI is being built on, the same way Linux and Kubernetes are the layer that cloud infrastructure is built on.
+
+Knowing the AAIF exists and following its projects puts you ahead of the large majority of people entering tech right now. Attending AAIF events like AGNTCon and MCP Dev Summits is how you show employers you are not just learning about this space — you are in it.
+
 It looks a lot like what this Boost teaches. You need to know:
 
 - How to use a terminal
