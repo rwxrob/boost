@@ -60,6 +60,7 @@ The outline in `docs/README.md` covers sections 1–12. Recent additions include
 - `docs/voice-input-with-superwhisper.md` — article on using Superwhisper for live voice input with GitHub Copilot CLI, linked under section 10 as item 10.6
 - `docs/tmux-for-multi-agent-development.md` — linked under section 6.7.4
 - `docs/use-agentic-ai-template.md` and `docs/agentic-template-is-the-new-dotfiles.md` — linked under section 12
+- `docs/digital-nomad-tech-career.md` — comprehensive learning plan for becoming a remote digital nomad tech worker, covering target companies, required skills, an incremental portfolio of seven projects, GitHub/recruiter visibility tips, and a full interview prep guide with common technical and behavioral questions; linked under section 1.2 as item 1.2.4
 
 ## Pending todos
 
