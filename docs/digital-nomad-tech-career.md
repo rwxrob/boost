@@ -38,6 +38,41 @@ These are the categories of companies that routinely hire fully remote engineers
 
 The companies worth targeting are the ones where the job description reads like a list of skills you are actively building. If you are following this Boost and building the skills here, you will recognize them immediately.
 
+## Companies that are genuinely okay with expats
+
+There is an important difference between a company that allows remote work and a company that is actually okay with you living in a different country, paying taxes there, and never asking where you are. Most "remote" job listings still implicitly assume you are a resident or citizen of the country where the company is incorporated. Saying you are calling in from Bangkok will end some conversations that started fine. Knowing which companies have already solved this problem — and how — is worth understanding before you apply.
+
+**The legal reality of international employment** — companies that want to hire you legally in a country where they do not have a corporate entity have two main options. First, they can engage you as a contractor rather than an employee — you invoice them, you handle your own taxes, and the company avoids employment law complexity entirely. This is common in the open source and DevOps world and is completely legitimate if structured correctly. Second, they can use an Employer of Record (EOR) service like Deel, Remote.com, Oyster HR, or Rippling Global. These companies become your legal employer on paper in your country of residence, handle payroll and taxes locally, and let the actual company you work for pay a flat monthly fee instead of setting up a legal entity. EOR coverage now extends to 80–150 countries depending on the provider. If a company uses one of these services, "we don't have an entity in your country" is not a blocker.
+
+**Companies with a track record of genuine global hiring:**
+
+Automattic (the company behind WordPress.com, WooCommerce, and Tumblr) has been fully distributed since it was founded and has hired in over 90 countries. It is one of the oldest and most credible examples of a company that actually means it when it says location does not matter. They pay fairly for senior technical roles and their engineering culture values async communication and written clarity — both essential expat survival skills.
+
+Canonical (Ubuntu) has been hiring globally for longer than most tech companies have existed. Canonical employees have always worked from home, from everywhere, and the company has employment infrastructure in a large number of countries built up over 20 years. The work is deeply technical (Linux kernel, cloud infrastructure, snaps, Juju) and the pay is competitive.
+
+GitLab is a fully distributed company of over 1,500 people in more than 65 countries. They publish their entire employee handbook publicly, including compensation calculator details, and their remote work practices are among the most documented in the industry. GitLab uses a combination of direct employment entities and EOR services. Their job listings specify which countries are excluded (usually due to sanctions or lack of banking infrastructure) but the list of countries they actively hire in is long.
+
+Elastic (the company behind Elasticsearch, Kibana, and the ELK stack) has been remote-first since its founding. Their engineering and operations teams are spread across Europe, the Americas, and Asia. They use a mix of direct employment in major markets and EOR in others.
+
+Grafana Labs (the company behind the Grafana observability platform) is a fully remote company that has grown fast while maintaining a genuinely global team. They have hired in over 40 countries and use EOR services to cover markets where they do not have direct entities.
+
+Fly.io, Supabase, Tailscale, Linear, and similar next-generation developer infrastructure companies tend to be async-first, documentation-heavy, and genuinely global from day one — because their founders built them distributed from the start and never had a headquarters culture to undo.
+
+The Wikimedia Foundation, Mozilla, and the Free Software Foundation are non-profit exceptions worth knowing about. They hire globally, pay reasonably for technical roles, and have strong remote cultures. The work is mission-driven and technically interesting. Not the highest pay but worth knowing exist.
+
+**The contractor path** — for many nomads, the cleanest arrangement is working as an independent contractor directly for a foreign company. You are paid as a vendor, not an employee. No EOR needed. You handle your own taxes in your country of residence (or under the tax treaty rules between your home and host countries). This is how a significant portion of senior DevOps and infrastructure consultants operate internationally. Platforms like Toptal, Upwork, and Gun.io can generate initial contracts, but direct relationships built through GitHub visibility, conference networking, and community presence are the ones that pay the most and treat you best.
+
+**What to look for in job listings** — job descriptions that use the phrase "anywhere in the world," list salaries without a country qualifier, mention Deel or Remote.com explicitly, or show team pages with flagged employee locations from many different countries are the ones worth pursuing. Listings that say "remote (US only)" or "must be authorized to work in [country]" are not what you are looking for.
+
+**Questions to ask in the interview** — before accepting any offer, ask directly:
+
+- Do you use an Employer of Record service, and which one?
+- Are there any countries where this role cannot be based?
+- What countries does your current EOR or employment infrastructure cover?
+- Am I being hired as an employee or as a contractor?
+
+These are professional questions that every legitimate globally-distributed company answers without hesitation. If the answer is vague or the recruiter does not know, that is a signal worth taking seriously.
+
 ## What a digital nomad tech salary actually looks like
 
 Fully remote, location-independent tech work pays well — but there is a range. Understanding where you are likely to land and how to move up that range is important before you start.
