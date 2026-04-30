@@ -9,7 +9,7 @@
 - chown
 - chronyc
 - clear
-- column
+- column -t
 - command
 - cp
 - cron

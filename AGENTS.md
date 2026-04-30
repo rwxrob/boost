@@ -11,6 +11,7 @@ Keep this file as agent-agnostic as possible.
 ## Rule: Context Maintenance
 
 At the end of every significant task or session, summarize the current state, architectural decisions made, and pending todo items into AGENTS.md. Always ensure this file reflects the ground truth of the project so future sessions can resume without friction. Use the writeFile tool to overwrite it so the next session starts with current state.
+Regularly check the `rwxrob/agentic-ai-template` repo's AGENTS.md and ensure any updated rules have been merged into this file.
 
 ## Rule: Environment
 
@@ -21,6 +22,11 @@ At the end of every significant task or session, summarize the current state, ar
 ## Rule: Secrets
 
 - Never commit secrets, config files, or database files
+
+## Rule: Writing tone
+
+- Avoid hyperbolic and superlative language; state facts plainly
+- Reference current events and concrete examples whenever possible
 
 ## Rule: Code style
 
@@ -50,17 +56,38 @@ At the end of every significant task or session, summarize the current state, ar
 
 ## Current architecture
 
-This repo is the rwxrob Beginner Boost — a beginner tech career guide published as a docs vault in `docs/` using Obsidian-compatible markdown. The outline lives in `docs/README.md`. Individual topic pages live as separate markdown files in `docs/`.
+This repo is the Tech Career Boost — a comprehensive tech career guide for everyone: absolute beginners, mid-career professionals, and veterans.
+
+**Scope:** Not just for first-time learners, but anyone who needs a boost in their tech career — including latest industry releases (e.g., Gravano), advanced patterns, agentic development, and cutting-edge tools.
+
+**Structure:** `docs/` organized into three tracks:
+- `docs/beginner/` — foundational path (career exploration, setup, core skills)
+- `docs/advanced/` — next-level content (MCP, agents, orchestration, git workflows)
+- `docs/shared/` — cross-track resources (infrastructure, community, contribution)
+- `docs/shared/definitions/` — searchable, hotlinkable term definitions (one file per definition, "what-is-" naming)
+
+**Navigation:** Main `docs/README.md` is a hub directing readers to Beginner, Advanced, or Shared resources.
 
 ## Current state
 
-The outline in `docs/README.md` covers sections 1–12. Recent additions include:
+### Phase 1: Restructure complete
 
-- `docs/build-mcp-servers.md` — article on building MCP servers as a modern tech skill, linked under section 10 (Harness the power of AI) as item 10.5
-- `docs/voice-input-with-superwhisper.md` — article on using Superwhisper for live voice input with GitHub Copilot CLI, linked under section 10 as item 10.6
-- `docs/tmux-for-multi-agent-development.md` — linked under section 6.7.4
-- `docs/use-agentic-ai-template.md` and `docs/agentic-template-is-the-new-dotfiles.md` — linked under section 12
+Reorganized 40+ existing markdown files into three tracks. Created:
+- `docs/beginner/README.md` — guided path emphasizing "know thyself" first
+- `docs/advanced/README.md` — MCP servers, multi-agent, CI/CD patterns
+- `docs/shared/README.md` — tools, infrastructure, community
+- `docs/shared/definitions-index.md` — index of searchable definitions
+- `docs/shared/definitions/what-is-*.md` — individual definition files (pipeline, pipefail, POSIX, shebang, etc.)
+
+### Recent changes
+
+- Added `docs/mcp-servers-cloud-and-local.md` — practical MCP deployment patterns with Jira example
+- Updated `docs/mandatory-commands.md` — added `column -t` flag
+- Scope shift: dual-track for all career levels, not just beginners
 
 ## Pending todos
 
-- Fill in `## Current tags / versions` section once versioning is established
+- Migrate remaining git-basics Q&A content into individual definition files with "what-is-" titles
+- Link all definitions hotlinkably from reference docs
+- Test cross-reference links work in Obsidian, on GitHub, and in rendered markdown
+- Create advanced definitions (pipeline, serverless, container, IaC, AAIF, MCP, etc.)
