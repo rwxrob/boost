@@ -4,31 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "5f0ab35342f70ee0",
+        "id": "6179fe94d32af40d",
         "type": "tabs",
         "children": [
           {
-            "id": "f048a837740976fb",
+            "id": "1b08de526838a870",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "advanced/grafana-upgrades-and-migrations.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "grafana-upgrades-and-migrations"
+              "title": "New tab"
             }
           }
         ]
@@ -206,8 +192,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "f048a837740976fb",
+  "active": "1b08de526838a870",
   "lastOpenFiles": [
+    "advanced/grafana-upgrades-and-migrations.md",
     "hiring-your-agent-army.md",
     "getting-into-tech-with-ai.md",
     "README.md",
@@ -252,7 +239,6 @@
     "are-there-still-jobs-in-tech.md",
     "know-thyself.md",
     "build-run-remove-boost-container.md",
-    "knowledge-management.md",
-    "install-software.md"
+    "knowledge-management.md"
   ]
 }
