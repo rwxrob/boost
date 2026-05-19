@@ -1,6 +1,6 @@
 # Boost — Your Tech Career
 
-A collection of tips, tricks, ideas, and wisdom to help move your technical career forward. Drawing from personal experience in HPC/ML systems development, this repo shares discoveries that may be relevant to your goals. Join the community forums to share your own insights and learn from others.
+A collection of tips, tricks, ideas, and wisdom to help move your technical career forward. Drawing from personal experience in systems development and operations, this repo shares discoveries that may be relevant to your goals. Join the community forums to share your own insights and learn from others.
 
 [Start Here](docs/README.md)
 
