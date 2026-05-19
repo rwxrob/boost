@@ -56,9 +56,11 @@ Regularly check the `rwxrob/agentic-ai-template` repo's AGENTS.md and ensure any
 
 ## Current architecture
 
-This repo is the Tech Career Boost — a comprehensive tech career guide for everyone: absolute beginners, mid-career professionals, and veterans.
+This repo is the Tech Career Boost — a collection of tips, tricks, ideas, and wisdom to help move your technical career forward.
 
-**Scope:** Not just for first-time learners, but anyone who needs a boost in their tech career — including latest industry releases (e.g., Gravano), advanced patterns, agentic development, and cutting-edge tools.
+**Core perspective:** Content is primarily influenced by the author's goal of becoming a fully remote digital nomad. This shapes the emphasis on remote-first tools, distributed workflows, location independence, and career strategies that enable geographic freedom.
+
+**Scope:** For all career levels (absolute beginners, mid-career professionals, veterans). Drawing from personal experience in systems development and operations, sharing discoveries that may be relevant to your goals. Community members can share insights through forums.
 
 **Structure:** `docs/` organized into three tracks:
 - `docs/beginner/` — foundational path (career exploration, setup, core skills)
