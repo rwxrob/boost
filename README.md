@@ -1,6 +1,6 @@
-# Boost — Your Tech Career Guide
+# Boost — Your Tech Career
 
-A comprehensive resource for boosting your technical career at any level — from absolute beginner to advanced professional. This repository contains practical discoveries and advice from personal experience (primarily HPC/ML systems development), though results and relevance will vary depending on your specific career goals. Share your own insights and learn from the community through our forums.
+A collection of tips, tricks, ideas, and wisdom to help move your technical career forward. Drawing from personal experience in HPC/ML systems development, this repo shares discoveries that may be relevant to your goals. Join the community forums to share your own insights and learn from others.
 
 [Start Here](docs/README.md)
 
