@@ -1,8 +1,8 @@
-# Boost Your Beginner Tech Career
+# Boost — Your Tech Career Guide
 
-The *Beginner Boost* is a quick start into the tech world for absolute beginners with little or no experience in tech.
+A comprehensive resource for boosting your technical career at any level — from absolute beginner to advanced professional. This repository contains practical discoveries and advice from personal experience (primarily HPC/ML systems development), though results and relevance will vary depending on your specific career goals. Share your own insights and learn from the community through our forums.
 
-[Join Us](docs/README.md)
+[Start Here](docs/README.md)
 
 ## Legal
 
