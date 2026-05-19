@@ -6,6 +6,7 @@ This track covers MCP servers, multi-agent orchestration, advanced git workflows
 
 ## Core advanced skills
 
+- [Interactive AI sessions vs. long-running PR sessions](interactive-sessions-vs-pr-sessions.md) — when to steer live and when to let the AI run unattended
 - [Build MCP servers to connect AI agents to real systems](build-mcp-servers.md) — designing tools for agents to use reliably
 - [MCP servers: cloud vs local deployment and practical Jira integration](mcp-servers-cloud-and-local.md) — deployment patterns, Jira example, career impact
 - [Hiring your agent army](hiring-your-agent-army.md) — orchestrating subagents at scale
