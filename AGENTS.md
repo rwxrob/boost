@@ -87,6 +87,13 @@ Reorganized 40+ existing markdown files into three tracks. Created:
 - Updated `docs/mandatory-commands.md` — added `column -t` flag
 - Scope shift: dual-track for all career levels, not just beginners
 
+## 2027 rewrite
+
+- The next beginner boost is being built on the `2027` branch, with a draft pull request into `main`
+- The plan, open decisions, and checklists are in `docs/2027-plan.md`
+- `main` stays the public version until launch and only gets small fixes, merged into `2027` weekly
+- At launch, tag `main` as `2026-final`, then merge `2027` with a merge commit (not squash)
+
 ## Pending todos
 
 - Migrate remaining git-basics Q&A content into individual definition files with "what-is-" titles
